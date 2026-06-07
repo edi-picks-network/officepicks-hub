@@ -8,18 +8,18 @@ module.exports = {
     extend: {
       colors: {
         deep: {
-          DEFAULT: '#0A140A',
-          100: '#1A2A1A',
-          200: '#2A4A2A',
-          300: '#3A5A2A',
-          400: '#4A6A3A',
-          500: '#22C55E',
+          DEFAULT: '#0A1628',
+          100: '#0F1D32',
+          200: '#162440',
+          300: '#1E3A5F',
+          400: '#2A5080',
+          500: '#3B82F6',
         },
         muted: {
-          DEFAULT: '#6D5FA0',
-          light: '#A99BD6',
+          DEFAULT: '#4A6380',
+          light: '#8BA3BE',
         },
-        surface: '#EDE9FE',
+        surface: '#F0F4F8',
       },
       fontFamily: {
         sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'sans-serif'],
