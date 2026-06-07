@@ -49,7 +49,6 @@ export default function ToolDetailPage() {
 
   const IconComponent = tool.icon;
 
-  // Related tools — same category excluding current
   const relatedTools = ALL_TOOLS.filter(
     (t) => t.category === tool.category && t.id !== tool.id
   ).slice(0, 4);
@@ -58,7 +57,6 @@ export default function ToolDetailPage() {
     <div className="min-h-screen bg-[#0A0A14]">
       <div className="relative pt-28 pb-20 px-6">
         <div className="max-w-4xl mx-auto">
-          {/* ========== Back Link ========== */}
           <Link
             href="/"
             className="inline-flex items-center text-[#8A7DBF] hover:text-[#22C55E] transition-colors mb-8 text-sm"
@@ -66,7 +64,6 @@ export default function ToolDetailPage() {
             <ArrowLeft className="w-4 h-4 mr-2" /> Back to Hub
           </Link>
 
-          {/* ========== Header ========== */}
           <header className="mb-10">
             <div className="flex items-center gap-4 mb-4">
               <div className="w-14 h-14 rounded-xl bg-[#1A1740] border border-[#3A5A2A] flex items-center justify-center">
@@ -106,7 +103,6 @@ export default function ToolDetailPage() {
             </p>
           </header>
 
-          {/* ========== AdSense Placeholder ========== */}
           <div className="mb-10">
             <div className="bg-[#12102A] border border-dashed border-[#3A5A2A] rounded-xl p-6 text-center">
               <p className="text-xs text-[#5FA06D] uppercase tracking-wider mb-1">
@@ -118,7 +114,6 @@ export default function ToolDetailPage() {
             </div>
           </div>
 
-          {/* ========== Quick Stats ========== */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
             <div className="bg-[#12102A] border border-[#3A5A2A] rounded-xl p-4">
               <DollarSign className="w-5 h-5 text-[#22C55E] mb-2" />
@@ -158,7 +153,6 @@ export default function ToolDetailPage() {
             </div>
           </div>
 
-          {/* ========== Score Breakdown ========== */}
           <div className="mb-10">
             <h2 className="text-2xl font-bold text-[#ECFDE8] mb-6 flex items-center gap-2">
               <TrendingUp className="w-6 h-6 text-[#22C55E]" />
@@ -188,7 +182,6 @@ export default function ToolDetailPage() {
             </div>
           </div>
 
-          {/* ========== Pros & Cons ========== */}
           <div className="grid md:grid-cols-2 gap-6 mb-10">
             <div className="bg-[#12102A] border border-[#3A5A2A] rounded-xl p-6">
               <h3 className="font-bold text-green-400 mb-4 flex items-center text-base">
@@ -224,7 +217,6 @@ export default function ToolDetailPage() {
             </div>
           </div>
 
-          {/* ========== Pricing Detail ========== */}
           <div className="mb-10">
             <h2 className="text-2xl font-bold text-[#ECFDE8] mb-6 flex items-center gap-2">
               <DollarSign className="w-6 h-6 text-[#22C55E]" />
@@ -237,7 +229,6 @@ export default function ToolDetailPage() {
             </div>
           </div>
 
-          {/* ========== Features ========== */}
           <div className="mb-10">
             <h2 className="text-2xl font-bold text-[#ECFDE8] mb-6 flex items-center gap-2">
               <Sparkles className="w-6 h-6 text-[#22C55E]" />
@@ -256,7 +247,6 @@ export default function ToolDetailPage() {
             </div>
           </div>
 
-          {/* ========== AdSense Placeholder 2 ========== */}
           <div className="mb-10">
             <div className="bg-[#12102A] border border-dashed border-[#3A5A2A] rounded-xl p-6 text-center">
               <p className="text-xs text-[#5FA06D] uppercase tracking-wider mb-1">
@@ -268,7 +258,6 @@ export default function ToolDetailPage() {
             </div>
           </div>
 
-          {/* ========== Use Case ========== */}
           <div className="mb-10">
             <h2 className="text-2xl font-bold text-[#ECFDE8] mb-6 flex items-center gap-2">
               <Zap className="w-6 h-6 text-[#22C55E]" />
@@ -281,7 +270,6 @@ export default function ToolDetailPage() {
             </div>
           </div>
 
-          {/* ========== Alternatives ========== */}
           {tool.alternatives.length > 0 && (
             <div className="mb-10">
               <h2 className="text-2xl font-bold text-[#ECFDE8] mb-6 flex items-center gap-2">
@@ -312,7 +300,6 @@ export default function ToolDetailPage() {
             </div>
           )}
 
-          {/* ========== Related Tools ========== */}
           {relatedTools.length > 0 && (
             <div className="mb-10">
               <h2 className="text-2xl font-bold text-[#ECFDE8] mb-6 flex items-center gap-2">
@@ -358,7 +345,6 @@ export default function ToolDetailPage() {
             </div>
           )}
 
-          {/* ========== Footer Note ========== */}
           <div className="mt-10 text-center">
             <p className="text-xs text-[#5FA06D]">
               Information on this page is based on publicly available data and

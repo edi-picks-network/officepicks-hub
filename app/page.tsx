@@ -5,9 +5,6 @@ import { Search, Star, ArrowRight, BookOpen, Layers, Sparkles, Calendar, Trendin
 import Link from "next/link";
 
 // ============================================================
-// 模板A：导航式企业软件首页（含搜索+分类+行业方案+评测）
-// 适用于：b2b-software.net, 或任何需要B2B企业软件目录的站点
-// 布局：Hero搜索 + 公司规模筛选 + 热门分类 + 行业方案 + 工具网格 + 评价 + 对比CTA + 博客 + 统计
 // ============================================================
 
 const SITE_NAME = "Office Picks";
@@ -89,10 +86,8 @@ export default function HomePage(props?: HomePageProps) {
 
   const totalRatingSum = useMemo(() => tools.reduce((sum: number, t: any) => sum + t.rating, 0), []);
 
-  // Featured tool of the month (top rated)
   const featuredTool = useMemo(() => [...tools].sort((a: any, b: any) => b.rating - a.rating)[0], []);
 
-  // Vendor comparison pairs
   const vendorPairs = useMemo(() => {
     const cats = [...new Set(tools.map((t: any) => t.category))].slice(0, 3);
     return cats.map(cat => {
@@ -101,7 +96,6 @@ export default function HomePage(props?: HomePageProps) {
     });
   }, []);
 
-  // Testimonials
   const testimonials = useMemo(() => {
     const results: { quote: string; toolName: string; category: string }[] = [];
     for (const tool of tools) {
@@ -136,7 +130,6 @@ export default function HomePage(props?: HomePageProps) {
 
   return (
     <div className="relative">
-      {/* ========== HERO — Two-column layout ========== */}
       <section className="relative pt-32 pb-16 md:pt-40 md:pb-20 px-6">
         <div className="max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
           <div className="lg:col-span-2">
@@ -171,7 +164,6 @@ export default function HomePage(props?: HomePageProps) {
             </div>
           </div>
 
-          {/* Right: Featured Tool Card */}
           <div className="lg:col-span-1">
             <div className="bg-gradient-to-br from-[#0F1D32] to-[#162440] border border-[#1E3A5F] rounded-2xl p-6 hover:border-[#65A30D]/50 transition-all">
               <div className="flex items-center gap-2 mb-3">
@@ -238,7 +230,6 @@ export default function HomePage(props?: HomePageProps) {
         </div>
       </section>
 
-      {/* ========== HOT CATEGORIES — 5-column compact cards ========== */}
       <section className="relative pb-16 px-6">
         <div className="max-w-[1200px] mx-auto">
           <div className="flex items-center gap-2 mb-6">

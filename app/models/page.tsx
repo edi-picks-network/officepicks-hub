@@ -23,7 +23,6 @@ export default function ModelsPage() {
         <h1 className="text-3xl font-bold text-[#ECFDE8] mb-2">Model Resource Library</h1>
         <p className="text-[#9BD69B] mb-8">Curated Stable Diffusion model collection, all available for free download.</p>
 
-        {/* Filter */}
         <div className="flex items-center gap-3 mb-8 flex-wrap">
           <button onClick={() => setActiveStyle(null)}
             className={`px-4 py-1.5 rounded-full text-sm font-medium transition-all ${
