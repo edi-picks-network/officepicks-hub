@@ -1,22 +1,8 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import { Search, Star, ArrowRight, BookOpen, Layers, Sparkles, Calendar, TrendingUp, Building2, Users, Briefcase } from "lucide-react";
+import { Search, Star, ArrowRight, BookOpen, Layers, Sparkles, Calendar, TrendingUp, Building2, Users, Briefcase, CheckCircle, ChevronRight } from "lucide-react";
 import Link from "next/link";
-
-// ============================================================
-// ============================================================
-
-const SITE_NAME = "Office Picks";
-const ACCENT_COLOR = "#65A30D";
-const SECONDARY_COLOR = "#22C55E";
-const DARK_BG = "#0A1628";
-const CARD_BG = "#0F1D32";
-const BORDER_COLOR = "#1E3A5F";
-const TEXT_PRIMARY = "#F0F4F8";
-const TEXT_SECONDARY = "#8BA3BE";
-const TEXT_MUTED = "#4A6380";
-
 import { ALL_TOOLS } from "@/data/tools";
 import { BLOG_POSTS } from "@/data/blog-posts";
 
@@ -29,8 +15,6 @@ export default function HomePage(props?: HomePageProps) {
   const tools = props?.tools || ALL_TOOLS;
   const posts = props?.posts || BLOG_POSTS;
   const [searchQuery, setSearchQuery] = useState("");
-  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
-  const [companySize, setCompanySize] = useState<string | null>(null);
 
   const CATEGORIES = Array.from(new Set(tools.map((t: any) => t.category)));
 
@@ -39,8 +23,7 @@ export default function HomePage(props?: HomePageProps) {
       tool.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
       tool.category.toLowerCase().includes(searchQuery.toLowerCase()) ||
       tool.description.toLowerCase().includes(searchQuery.toLowerCase());
-    const matchesCategory = !selectedCategory || tool.category === selectedCategory;
-    return matchesSearch && matchesCategory;
+    return matchesSearch;
   });
 
   const latestPosts = useMemo(
@@ -61,195 +44,70 @@ export default function HomePage(props?: HomePageProps) {
     return Object.entries(stats).sort((a, b) => b[1].count - a[1].count).slice(0, 8);
   }, []);
 
-  const industrySolutions = useMemo(() => {
-    const stats: Record<string, { count: number; avgRating: number; tools: typeof tools }> = {};
-    for (const t of tools) {
-      if (!stats[t.category]) stats[t.category] = { count: 0, avgRating: 0, tools: [] };
-      stats[t.category].count++;
-      stats[t.category].avgRating += t.rating;
-      stats[t.category].tools.push(t);
-    }
-    for (const key of Object.keys(stats)) {
-      stats[key].avgRating = Math.round((stats[key].avgRating / stats[key].count) * 10) / 10;
-      stats[key].tools.sort((a, b) => b.rating - a.rating);
-    }
-    return Object.entries(stats)
-      .sort((a, b) => b[1].count - a[1].count)
-      .slice(0, 3)
-      .map(([name, data]) => ({ name, toolCount: data.count, avgRating: data.avgRating, top3: data.tools.slice(0, 3) }));
-  }, []);
-
-  const getCategoryIcon = (cat: string) => {
-    const tool = tools.find((t: any) => t.category === cat);
-    return tool?.icon || Layers;
-  };
-
-  const totalRatingSum = useMemo(() => tools.reduce((sum: number, t: any) => sum + t.rating, 0), []);
-
   const featuredTool = useMemo(() => [...tools].sort((a: any, b: any) => b.rating - a.rating)[0], []);
 
-  const vendorPairs = useMemo(() => {
-    const cats = [...new Set(tools.map((t: any) => t.category))].slice(0, 3);
-    return cats.map(cat => {
-      const toolsInCat = tools.filter((t: any) => t.category === cat).sort((a: any, b: any) => b.rating - a.rating).slice(0, 3);
-      return { category: cat, tools: toolsInCat };
-    });
-  }, []);
-
-  const testimonials = useMemo(() => {
-    const results: { quote: string; toolName: string; category: string }[] = [];
-    for (const tool of tools) {
-      if (tool.userQuotes && tool.userQuotes.length > 0) {
-        for (const q of tool.userQuotes) {
-          results.push({
-            quote: q.quote.length > 120 ? q.quote.slice(0, 120) + "..." : q.quote,
-            toolName: tool.name,
-            category: tool.category,
-          });
-          if (results.length >= 3) break;
-        }
-      }
-      if (results.length >= 3) break;
-    }
-    if (results.length < 3) {
-      for (const tool of tools) {
-        if (!results.some((r) => r.toolName === tool.name)) {
-          results.push({
-            quote: tool.description.length > 100 ? tool.description.slice(0, 100) + "..." : tool.description,
-            toolName: tool.name,
-            category: tool.category,
-          });
-          if (results.length >= 3) break;
-        }
-      }
-    }
-    return results.slice(0, 3);
-  }, []);
+  const totalRatingSum = useMemo(() => tools.reduce((sum: number, t: any) => sum + t.rating, 0), []);
 
   const FeaturedIcon = featuredTool?.icon || Star;
 
   return (
-    <div className="relative">
-      <section className="relative pt-32 pb-16 md:pt-40 md:pb-20 px-6">
-        <div className="max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
-          <div className="lg:col-span-2">
-            <h1 className="text-4xl md:text-5xl lg:text-[3.5rem] font-extrabold text-[#F0F4F8] tracking-tight leading-[1.05] mb-6">
-              Find Office Products That{" "}
-              <span className="text-[#65A30D]" style={{ textShadow: `0 0 40px ${ACCENT_COLOR}4d` }}>
-                Work
-              </span>
-            </h1>
-            <p className="text-lg md:text-xl text-[#8BA3BE] max-w-2xl mb-8 leading-relaxed">
-              Compare, evaluate, and choose the right {SITE_NAME} solutions for your workspace.
-              {" "}We&apos;ve curated <span className="text-[#65A30D] font-bold">{tools.length}</span> products across{" "}
-              <span className="text-[#65A30D] font-bold">{CATEGORIES.length}</span> categories
-            </p>
-            <div className="w-full flex items-center relative max-w-[640px]">
-              <div className="w-full flex items-center rounded-full border border-[#1E3A5F] bg-[#0F1D32] transition-all duration-300">
-                <Search className="ml-5 w-5 h-5 text-[#4A6380] flex-shrink-0" />
-                <input
-                  type="search"
-                  placeholder="Search office products by name, category or function..."
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  className="flex-1 py-4 px-3 bg-transparent text-[#F0F4F8] placeholder:text-[#4A6380] outline-none text-base"
-                />
-                <Link
-                  href={filteredTools.length > 0 ? `/tools/${filteredTools[0].id}` : "/"}
-                  className="mr-2 px-6 py-2.5 bg-[#65A30D] hover:bg-[#4D8C0A] text-white text-sm font-medium rounded-full transition-colors flex-shrink-0"
-                >
-                  Search
-                </Link>
-              </div>
-            </div>
-          </div>
+    <div>
+      {/* Hero Section */}
+      <section className="py-20 md:py-28 px-6 bg-gradient-to-b from-white to-slate-50">
+        <div className="max-w-4xl mx-auto text-center">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight leading-[1.1] mb-6">
+            Find Office Products That{" "}
+            <span className="text-lime-500">Work</span>
+          </h1>
+          <p className="text-lg md:text-xl text-slate-500 max-w-2xl mx-auto mb-10 leading-relaxed">
+            Compare, evaluate, and choose the right home office solutions for your workspace.
+            We&apos;ve curated <span className="text-lime-600 font-semibold">{tools.length}</span> products across{" "}
+            <span className="text-lime-600 font-semibold">{CATEGORIES.length}</span> categories.
+          </p>
 
-          <div className="lg:col-span-1">
-            <div className="bg-gradient-to-br from-[#0F1D32] to-[#162440] border border-[#1E3A5F] rounded-2xl p-6 hover:border-[#65A30D]/50 transition-all">
-              <div className="flex items-center gap-2 mb-3">
-                <Sparkles className="w-4 h-4 text-[#F59E0B]" />
-                <span className="text-xs font-semibold uppercase tracking-wider text-[#F59E0B]">Featured Product</span>
-              </div>
-              <div className="flex items-center gap-3 mb-3">
-                <div className="w-12 h-12 rounded-xl bg-[#162440] flex items-center justify-center">
-                  <FeaturedIcon className="w-6 h-6 text-[#65A30D]" />
-                </div>
-                <div>
-                  <p className="text-base font-bold text-[#F0F4F8]">{featuredTool?.name}</p>
-                  <p className="text-xs text-[#4A6380]">{featuredTool?.category}</p>
-                </div>
-              </div>
-              <p className="text-sm text-[#8BA3BE] leading-relaxed line-clamp-2 mb-4">
-                {featuredTool?.description}
-              </p>
-              <div className="flex items-center gap-2">
-                <div className="flex items-center gap-1 bg-[#162440] px-2.5 py-1.5 rounded-md">
-                  <Star className="w-4 h-4 text-[#F59E0B] fill-[#F59E0B]" />
-                  <span className="text-sm font-bold text-[#F0F4F8]">{featuredTool?.rating}</span>
-                </div>
-                <Link
-                  href={`/tools/${featuredTool?.id}`}
-                  className="ml-auto text-sm text-[#65A30D] hover:text-[#22C55E] transition-colors flex items-center gap-1"
-                >
-                  View Details <ArrowRight className="w-3.5 h-3.5" />
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ========== COMPANY SIZE FILTER ========== */}
-      <section className="relative pb-8 px-6">
-        <div className="max-w-[1200px] mx-auto">
-          <div className="flex items-center gap-2 mb-4">
-            <Building2 className="w-5 h-5 text-[#22C55E]" />
-            <h2 className="text-sm font-bold text-[#F0F4F8]">Filter by Company Size</h2>
-          </div>
-          <div className="flex flex-wrap gap-2">
-            {[
-              { key: null, label: "All Companies", icon: Briefcase },
-              { key: "startup", label: "Startup (< 50)", icon: Users },
-              { key: "mid", label: "Mid-Market (50-1000)", icon: Building2 },
-              { key: "enterprise", label: "Enterprise (1000+)", icon: Building2 },
-            ].map(({ key, label, icon: Icon }) => (
-              <button
-                key={key || "all"}
-                onClick={() => setCompanySize(key)}
-                className={`px-4 py-2 rounded-full border text-sm transition-colors flex items-center gap-2 ${
-                  companySize === key
-                    ? "bg-[#22C55E] text-[#0A1628] border-[#22C55E] font-semibold"
-                    : "bg-[#0F1D32] text-[#8BA3BE] border-[#1E3A5F] hover:text-[#F0F4F8] hover:border-[#2A5080]"
-                }`}
+          <div className="max-w-xl mx-auto">
+            <div className="flex items-center rounded-full border border-slate-300 bg-white transition-all duration-300 focus-within:border-lime-500 focus-within:ring-2 focus-within:ring-lime-500/20">
+              <Search className="ml-5 w-5 h-5 text-slate-400 flex-shrink-0" />
+              <input
+                type="search"
+                placeholder="Search office products by name, category or function..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="flex-1 py-4 px-3 bg-transparent text-slate-900 placeholder:text-slate-400 outline-none text-base"
+              />
+              <Link
+                href={filteredTools.length > 0 ? `/tools/${filteredTools[0].id}` : "/"}
+                className="mr-2 px-6 py-2.5 bg-lime-500 hover:bg-lime-600 text-white text-sm font-medium rounded-full transition-colors flex-shrink-0"
               >
-                <Icon className="w-4 h-4" />
-                {label}
-              </button>
-            ))}
+                Search
+              </Link>
+            </div>
           </div>
         </div>
       </section>
 
-      <section className="relative pb-16 px-6">
-        <div className="max-w-[1200px] mx-auto">
-          <div className="flex items-center gap-2 mb-6">
-            <Layers className="w-5 h-5 text-[#65A30D]" />
-            <h2 className="text-lg font-bold text-[#F0F4F8]">Popular Categories</h2>
+      {/* Popular Categories */}
+      <section className="py-16 px-6">
+        <div className="max-w-6xl mx-auto">
+          <div className="flex items-center gap-2 mb-8">
+            <Layers className="w-5 h-5 text-lime-500" />
+            <h2 className="text-xl font-bold text-slate-900">Popular Categories</h2>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-3">
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
             {topCategories.map(([cat, stats]) => {
-              const CatIcon = getCategoryIcon(cat);
+              const tool = tools.find((t: any) => t.category === cat);
+              const CatIcon = tool?.icon || Layers;
               return (
                 <Link
                   key={cat}
                   href={`/category/${cat.toLowerCase().replace(/\s+/g, "-")}`}
-                  className="group bg-[#0F1D32] border border-[#1E3A5F] rounded-xl p-4 hover:shadow-lg hover:shadow-[#65A30D]/10 hover:border-[#2A5080] transition-all text-center"
+                  className="group border border-slate-200 rounded-xl p-5 hover:border-lime-500 hover:shadow-sm transition-all text-center bg-white"
                 >
-                  <div className="w-10 h-10 rounded-lg bg-[#162440] flex items-center justify-center mx-auto mb-2 group-hover:scale-110 transition-transform">
-                    <CatIcon className="w-5 h-5 text-[#65A30D]" />
+                  <div className="w-10 h-10 rounded-lg bg-lime-50 flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform">
+                    <CatIcon className="w-5 h-5 text-lime-600" />
                   </div>
-                  <p className="text-sm font-bold text-[#F0F4F8] group-hover:text-[#65A30D] transition-colors truncate">{cat}</p>
-                  <p className="text-xs text-[#4A6380] mt-1">{stats.count} products · ★ {stats.avgRating}</p>
+                  <p className="text-sm font-semibold text-slate-900 group-hover:text-lime-600 transition-colors truncate">{cat}</p>
+                  <p className="text-xs text-slate-400 mt-1">{stats.count} products · ★ {stats.avgRating}</p>
                 </Link>
               );
             })}
@@ -257,89 +115,66 @@ export default function HomePage(props?: HomePageProps) {
         </div>
       </section>
 
-      {/* ========== INDUSTRY SOLUTIONS ========== */}
-      <section className="relative pb-16 px-6">
-        <div className="max-w-[1200px] mx-auto">
-          <div className="flex items-center gap-2 mb-6">
-            <Sparkles className="w-5 h-5 text-[#22C55E]" />
-            <h2 className="text-lg font-bold text-[#F0F4F8]">Office Solutions</h2>
-          </div>
-          <div className="space-y-4">
-            {industrySolutions.map((solution) => (
-              <div key={solution.name} className="bg-[#0F1D32] border border-[#1E3A5F] rounded-xl p-6 hover:border-[#2A5080] transition-all">
-                <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-                  <div className="min-w-0 flex-1">
-                    <h3 className="text-xl font-bold text-[#F0F4F8] mb-1">{solution.name}</h3>
-                    <p className="text-sm text-[#8BA3BE] mb-3">{solution.toolCount} products · Avg rating: {solution.avgRating}</p>
-                    <div className="flex flex-wrap items-center gap-2">
-                      {solution.top3.map((tool: any) => (
-                        <Link
-                          key={tool.id}
-                          href={`/tools/${tool.id}`}
-                          className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-[#162440] border border-[#1E3A5F] rounded-full text-xs font-medium text-[#F0F4F8] hover:text-[#65A30D] hover:border-[#65A30D] transition-colors"
-                        >
-                          <Star className="w-3 h-3 text-[#F59E0B] fill-[#F59E0B]" />
-                          <span>{tool.name}</span>
-                          <span className="text-[#4A6380]">{tool.rating}</span>
-                        </Link>
-                      ))}
+      {/* Featured Product */}
+      {featuredTool && (
+        <section className="py-16 px-6 bg-slate-50">
+          <div className="max-w-6xl mx-auto">
+            <div className="flex items-center gap-2 mb-8">
+              <Sparkles className="w-5 h-5 text-amber-500" />
+              <h2 className="text-xl font-bold text-slate-900">Featured Product</h2>
+            </div>
+            <div className="border border-slate-200 rounded-2xl p-8 bg-white">
+              <div className="flex flex-col md:flex-row gap-6 items-start">
+                <div className="w-16 h-16 rounded-2xl bg-lime-50 flex items-center justify-center flex-shrink-0">
+                  <FeaturedIcon className="w-8 h-8 text-lime-600" />
+                </div>
+                <div className="flex-1 min-w-0">
+                  <div className="flex items-start justify-between gap-4">
+                    <div>
+                      <h3 className="text-xl font-bold text-slate-900">{featuredTool.name}</h3>
+                      <span className="inline-block text-xs font-semibold uppercase tracking-wider text-lime-600 bg-lime-50 px-2.5 py-1 rounded-md mt-1">
+                        {featuredTool.category}
+                      </span>
+                    </div>
+                    <div className="flex items-center gap-1 bg-slate-100 px-3 py-1.5 rounded-lg flex-shrink-0">
+                      <Star className="w-4 h-4 text-amber-500 fill-amber-500" />
+                      <span className="text-sm font-bold text-slate-900">{featuredTool.rating}</span>
                     </div>
                   </div>
+                  <p className="text-sm text-slate-500 leading-relaxed mt-3 line-clamp-2">{featuredTool.description}</p>
                   <Link
-                    href={`/category/${solution.name.toLowerCase().replace(/\s+/g, "-")}`}
-                    className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#65A30D] hover:bg-[#4D8C0A] text-white text-sm font-medium rounded-full transition-colors flex-shrink-0 whitespace-nowrap"
+                    href={`/tools/${featuredTool.id}`}
+                    className="inline-flex items-center gap-1.5 mt-4 text-sm font-semibold text-lime-600 hover:text-lime-700 transition-colors"
                   >
-                    View Products <ArrowRight className="w-4 h-4" />
+                    View Details <ArrowRight className="w-4 h-4" />
                   </Link>
                 </div>
               </div>
-            ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
 
-      {/* ========== TOOLS FILTER GRID ========== */}
-      <section className="relative pb-20 px-6" id="all-tools">
-        <div className="max-w-[1200px] mx-auto">
+      {/* All Products */}
+      <section className="py-16 px-6" id="all-tools">
+        <div className="max-w-6xl mx-auto">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-8 gap-4">
             <div>
-              <h2 className="text-2xl md:text-[2rem] font-bold text-[#F0F4F8] tracking-tight">
-                {selectedCategory ? `${selectedCategory} Products` : "All Office Products"}
+              <h2 className="text-2xl md:text-3xl font-bold text-slate-900 tracking-tight">
+                All Office Products
               </h2>
-              <p className="text-[#8BA3BE] mt-1 text-base">{filteredTools.length} product{filteredTools.length !== 1 ? "s" : ""} found</p>
+              <p className="text-slate-400 mt-1 text-base">{filteredTools.length} product{filteredTools.length !== 1 ? "s" : ""} found</p>
             </div>
-            <div className="w-full md:w-72 flex items-center rounded-full border border-[#1E3A5F] bg-[#0F1D32]">
-              <Search className="ml-4 w-4 h-4 text-[#4A6380] flex-shrink-0" />
+            <div className="w-full md:w-72 flex items-center rounded-full border border-slate-300 bg-white focus-within:border-lime-500 focus-within:ring-2 focus-within:ring-lime-500/20">
+              <Search className="ml-4 w-4 h-4 text-slate-400 flex-shrink-0" />
               <input
                 type="search"
                 placeholder="Filter products..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="flex-1 py-2.5 px-2 bg-transparent text-[#F0F4F8] placeholder:text-[#4A6380] outline-none text-sm"
+                className="flex-1 py-2.5 px-2 bg-transparent text-slate-900 placeholder:text-slate-400 outline-none text-sm"
               />
             </div>
-          </div>
-
-          <div className="flex flex-wrap gap-2 mb-8">
-            <button
-              onClick={() => { setSelectedCategory(null); setSearchQuery(""); }}
-              className={`px-4 py-1.5 rounded-full border text-sm transition-colors ${
-                !selectedCategory
-                  ? "bg-[#65A30D] text-white border-[#65A30D]"
-                  : "bg-[#0F1D32] text-[#8BA3BE] border-[#1E3A5F] hover:text-[#F0F4F8] hover:border-[#2A5080]"
-              }`}
-            >All</button>
-            {CATEGORIES.map((cat: string) => (
-              <button
-                key={cat}
-                onClick={() => setSelectedCategory(selectedCategory === cat ? null : cat)}
-                className={`px-4 py-1.5 rounded-full border text-sm transition-colors ${
-                  selectedCategory === cat
-                    ? "bg-[#65A30D] text-white border-[#65A30D]"
-                    : "bg-[#0F1D32] text-[#8BA3BE] border-[#1E3A5F] hover:text-[#F0F4F8] hover:border-[#2A5080]"
-                }`}
-              >{cat}</button>
-            ))}
           </div>
 
           {filteredTools.length > 0 ? (
@@ -348,23 +183,23 @@ export default function HomePage(props?: HomePageProps) {
                 const Icon = tool.icon;
                 return (
                   <Link href={`/tools/${tool.id}`} key={tool.id} className="group">
-                    <article className="bg-[#0F1D32] border border-[#1E3A5F] rounded-xl p-5 hover:shadow-lg hover:shadow-[#65A30D]/5 hover:border-[#2A5080] transition-all h-full flex flex-col">
+                    <article className="border border-slate-200 rounded-xl p-5 bg-white hover:border-lime-500 hover:shadow-sm transition-all h-full flex flex-col">
                       <div className="flex items-center gap-3 mb-3">
-                        <div className="w-10 h-10 rounded-lg bg-[#162440] flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                          <Icon className="w-5 h-5 text-[#65A30D]" />
+                        <div className="w-10 h-10 rounded-lg bg-lime-50 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                          <Icon className="w-5 h-5 text-lime-600" />
                         </div>
                         <div className="min-w-0 flex-1">
-                          <h3 className="text-base font-bold text-[#F0F4F8] group-hover:text-[#65A30D] transition-colors truncate">{tool.name}</h3>
-                          <span className="inline-block text-[10px] font-semibold uppercase tracking-wider text-[#65A30D]">{tool.category}</span>
+                          <h3 className="text-base font-semibold text-slate-900 group-hover:text-lime-600 transition-colors truncate">{tool.name}</h3>
+                          <span className="inline-block text-[10px] font-semibold uppercase tracking-wider text-lime-600">{tool.category}</span>
                         </div>
-                        <div className="flex items-center gap-1 bg-[#162440] px-2 py-1 rounded-md flex-shrink-0">
-                          <Star className="w-3.5 h-3.5 text-[#F59E0B] fill-[#F59E0B]" />
-                          <span className="text-xs font-bold text-[#F0F4F8]">{tool.rating}</span>
+                        <div className="flex items-center gap-1 bg-slate-100 px-2 py-1 rounded-md flex-shrink-0">
+                          <Star className="w-3.5 h-3.5 text-amber-500 fill-amber-500" />
+                          <span className="text-xs font-bold text-slate-900">{tool.rating}</span>
                         </div>
                       </div>
-                      <p className="text-sm text-[#8BA3BE] leading-relaxed line-clamp-1 flex-grow mb-4">{tool.description}</p>
-                      <div className="flex items-center justify-between pt-3 border-t border-[#1E3A5F]">
-                        <span className="text-xs text-[#65A30D] font-semibold group-hover:text-[#22C55E] transition-colors flex items-center">
+                      <p className="text-sm text-slate-500 leading-relaxed line-clamp-1 flex-grow mb-4">{tool.description}</p>
+                      <div className="flex items-center justify-between pt-3 border-t border-slate-100">
+                        <span className="text-xs text-lime-600 font-semibold group-hover:text-lime-700 transition-colors flex items-center">
                           View Details <ArrowRight className="ml-1 w-3.5 h-3.5" />
                         </span>
                       </div>
@@ -375,103 +210,41 @@ export default function HomePage(props?: HomePageProps) {
             </div>
           ) : (
             <div className="text-center py-20">
-              <p className="text-lg text-[#8BA3BE]">No products found matching your search.</p>
+              <p className="text-lg text-slate-400">No products found matching your search.</p>
               <button
-                onClick={() => { setSearchQuery(""); setSelectedCategory(null); }}
-                className="mt-4 px-5 py-2 text-sm font-medium text-white bg-[#65A30D] rounded-lg hover:bg-[#4D8C0A] transition-colors"
-              >Clear Filters</button>
+                onClick={() => setSearchQuery("")}
+                className="mt-4 px-5 py-2 text-sm font-medium text-white bg-lime-500 rounded-lg hover:bg-lime-600 transition-colors"
+              >
+                Clear Filters
+              </button>
             </div>
           )}
         </div>
       </section>
 
-      {/* ========== CUSTOMER TESTIMONIALS ========== */}
-      <section className="relative pb-16 px-6">
-        <div className="max-w-[1200px] mx-auto">
-          <div className="flex items-center gap-2 mb-8">
-            <TrendingUp className="w-5 h-5 text-[#F59E0B]" />
-            <h2 className="text-lg font-bold text-[#F0F4F8]">What Teams Are Saying</h2>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {testimonials.map((item, idx) => (
-              <div key={idx} className="bg-[#0F1D32] border border-[#1E3A5F] rounded-xl p-6 flex flex-col">
-                <svg className="w-8 h-8 text-[#65A30D]/30 mb-3" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10H14.017zM0 21v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151C7.563 6.068 6 8.789 6 11h4v10H0z" />
-                </svg>
-                <p className="text-sm text-[#8BA3BE] leading-relaxed flex-grow mb-4 italic">&ldquo;{item.quote}&rdquo;</p>
-                <div className="pt-3 border-t border-[#1E3A5F]">
-                  <p className="text-sm font-semibold text-[#F0F4F8]">{item.toolName}</p>
-                  <p className="text-xs text-[#4A6380]">{item.category}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ========== VENDOR COMPARISON CTA ========== */}
-      <section className="relative pb-16 px-6">
-        <div className="max-w-[1200px] mx-auto">
-          <div className="flex items-center gap-2 mb-6">
-            <Sparkles className="w-5 h-5 text-[#F59E0B]" />
-            <h2 className="text-lg font-bold text-[#F0F4F8]">Compare Top Products</h2>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {vendorPairs.map(({ category, tools }) => (
-              <Link key={category} href={`/category/${category.toLowerCase().replace(/\s+/g, "-")}`} className="group">
-                <div className="bg-gradient-to-br from-[#0F1D32] to-[#162440] border border-[#1E3A5F] rounded-xl p-6 hover:border-[#65A30D]/50 transition-all">
-                  <p className="text-xs font-semibold uppercase tracking-wider text-[#65A30D] mb-3">{category}</p>
-                  <div className="space-y-2">
-                    {tools.map((tool: any, i: number) => {
-                      const TIcon = tool.icon;
-                      return (
-                        <div key={tool.id} className="flex items-center gap-3 p-2 rounded-lg bg-[#162440]/50">
-                          <span className="w-5 h-5 rounded-full bg-[#1E3A5F] flex items-center justify-center text-[10px] font-bold text-[#8BA3BE]">#{i + 1}</span>
-                          <TIcon className="w-4 h-4 text-[#65A30D]" />
-                          <span className="text-sm font-medium text-[#F0F4F8] flex-1">{tool.name}</span>
-                          <div className="flex items-center gap-1">
-                            <Star className="w-3 h-3 text-[#F59E0B] fill-[#F59E0B]" />
-                            <span className="text-xs text-[#8BA3BE]">{tool.rating}</span>
-                          </div>
-                        </div>
-                      );
-                    })}
-                  </div>
-                  <div className="mt-4 pt-3 border-t border-[#1E3A5F] text-center">
-                    <span className="text-sm text-[#65A30D] group-hover:text-[#22C55E] transition-colors flex items-center justify-center gap-1">
-                      Compare All {category} Products <ArrowRight className="w-3.5 h-3.5" />
-                    </span>
-                  </div>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ========== LATEST BLOG ========== */}
-      <section className="relative pb-16 px-6">
-        <div className="max-w-[1200px] mx-auto">
+      {/* Latest Blog Posts */}
+      <section className="py-16 px-6 bg-slate-50">
+        <div className="max-w-6xl mx-auto">
           <div className="flex items-center justify-between mb-8">
             <div className="flex items-center gap-2">
-              <BookOpen className="w-5 h-5 text-[#F59E0B]" />
-              <h2 className="text-lg font-bold text-[#F0F4F8]">Latest Insights</h2>
+              <BookOpen className="w-5 h-5 text-lime-500" />
+              <h2 className="text-xl font-bold text-slate-900">Latest Insights</h2>
             </div>
-            <Link href="/blog" className="hidden md:flex items-center gap-1 text-sm text-[#65A30D] hover:text-[#22C55E] transition-colors">
+            <Link href="/blog" className="hidden md:flex items-center gap-1 text-sm font-medium text-lime-600 hover:text-lime-700 transition-colors">
               View All Posts <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {latestPosts.map((post: any) => (
               <Link key={post.slug} href={`/blog/${post.slug}`} className="group">
-                <article className="bg-[#0F1D32] border border-[#1E3A5F] rounded-xl p-5 hover:shadow-lg hover:shadow-[#65A30D]/5 hover:border-[#2A5080] transition-all h-full flex flex-col">
+                <article className="border border-slate-200 rounded-xl p-6 bg-white hover:border-lime-500 hover:shadow-sm transition-all h-full flex flex-col">
                   <div className="flex items-center justify-between mb-3">
-                    <span className="text-[10px] font-semibold uppercase tracking-wider text-[#65A30D] bg-[#162440] px-2.5 py-1 rounded-md">{post.category}</span>
-                    <span className="text-xs text-[#4A6380]">{post.readTime} min read</span>
+                    <span className="text-[10px] font-semibold uppercase tracking-wider text-lime-600 bg-lime-50 px-2.5 py-1 rounded-md">{post.category}</span>
+                    <span className="text-xs text-slate-400">{post.readTime} min read</span>
                   </div>
-                  <h3 className="font-bold text-[#F0F4F8] mb-2 group-hover:text-[#65A30D] transition-colors leading-snug line-clamp-2 text-base">{post.title}</h3>
-                  <p className="text-sm text-[#8BA3BE] leading-relaxed flex-grow line-clamp-3">{post.excerpt}</p>
-                  <div className="flex items-center gap-2 mt-3 pt-3 border-t border-[#1E3A5F] text-xs text-[#4A6380]">
+                  <h3 className="font-semibold text-slate-900 mb-2 group-hover:text-lime-600 transition-colors leading-snug line-clamp-2 text-base">{post.title}</h3>
+                  <p className="text-sm text-slate-500 leading-relaxed flex-grow line-clamp-3">{post.excerpt}</p>
+                  <div className="flex items-center gap-2 mt-3 pt-3 border-t border-slate-100 text-xs text-slate-400">
                     <Calendar className="w-3.5 h-3.5" />
                     {new Date(post.date).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}
                     <span className="mx-1">·</span>
@@ -482,33 +255,33 @@ export default function HomePage(props?: HomePageProps) {
             ))}
           </div>
           <div className="mt-6 text-center md:hidden">
-            <Link href="/blog" className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#0F1D32] border border-[#1E3A5F] rounded-full text-sm text-[#65A30D] hover:text-[#22C55E] transition-colors">
+            <Link href="/blog" className="inline-flex items-center gap-2 px-5 py-2.5 border border-slate-300 rounded-full text-sm font-medium text-lime-600 hover:text-lime-700 transition-colors">
               View All Posts <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
         </div>
       </section>
 
-      {/* ========== BOTTOM STATS ========== */}
-      <section className="relative pb-20 px-6">
-        <div className="max-w-[1200px] mx-auto">
-          <div className="bg-gradient-to-r from-[#0F1D32] to-[#162440] border border-[#1E3A5F] rounded-2xl p-8 md:p-10">
+      {/* Stats */}
+      <section className="py-16 px-6">
+        <div className="max-w-6xl mx-auto">
+          <div className="border border-slate-200 rounded-2xl p-8 md:p-10 bg-white">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
               <div>
-                <p className="text-3xl md:text-4xl font-extrabold text-[#F0F4F8]">{tools.length}</p>
-                <p className="text-sm text-[#8BA3BE] mt-1">Products Reviewed</p>
+                <p className="text-3xl md:text-4xl font-extrabold text-lime-600">{tools.length}</p>
+                <p className="text-sm text-slate-500 mt-1">Products Reviewed</p>
               </div>
               <div>
-                <p className="text-3xl md:text-4xl font-extrabold text-[#F0F4F8]">{posts.length}</p>
-                <p className="text-sm text-[#8BA3BE] mt-1">Expert Guides</p>
+                <p className="text-3xl md:text-4xl font-extrabold text-lime-600">{posts.length}</p>
+                <p className="text-sm text-slate-500 mt-1">Expert Guides</p>
               </div>
               <div>
-                <p className="text-3xl md:text-4xl font-extrabold text-[#F0F4F8]">{CATEGORIES.length}</p>
-                <p className="text-sm text-[#8BA3BE] mt-1">Categories</p>
+                <p className="text-3xl md:text-4xl font-extrabold text-lime-600">{CATEGORIES.length}</p>
+                <p className="text-sm text-slate-500 mt-1">Categories</p>
               </div>
               <div>
-                <p className="text-3xl md:text-4xl font-extrabold text-[#F0F4F8]">{totalRatingSum.toFixed(0)}</p>
-                <p className="text-sm text-[#8BA3BE] mt-1">Total Rating Score</p>
+                <p className="text-3xl md:text-4xl font-extrabold text-lime-600">{totalRatingSum.toFixed(0)}</p>
+                <p className="text-sm text-slate-500 mt-1">Total Rating Score</p>
               </div>
             </div>
           </div>
