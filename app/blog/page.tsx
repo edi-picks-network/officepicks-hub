@@ -21,11 +21,10 @@ export default function BlogListPage() {
       <div className="max-w-[1200px] mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-extrabold text-[#ECFDE8] tracking-tight mb-4">
-            AI Tools Blog
+            Office & Productivity Blog
           </h1>
           <p className="text-lg text-[#9BD69B] max-w-2xl mx-auto">
-            In-depth comparisons, reviews, and guides for the latest AI tools and platforms.
-            Expert analysis to help you make smarter AI investments.
+            In-depth reviews and guides for office furniture, home office setups, and productivity tools. Expert advice to help you create your ideal workspace.
           </p>
         </div>
 

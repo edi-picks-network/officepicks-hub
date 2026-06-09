@@ -149,7 +149,7 @@ A: Only if you recline while reading, watching content, or taking calls. For upr
 
 **Q: Can I use a gaming chair for work?**
 A: Gaming chairs prioritize aesthetics over ergonomics. Most lack proper lumbar support, have fixed armrests, and use stiff foam that degrades quickly. For full-time work, an ergonomic office chair is the better investment.`,
-    author: "Alex Chen",
+    author: "Jessica Lee",
     authorRole: "Ergonomics Specialist & Home Office Reviewer",
     date: "2026-03-15",
     category: "Office Ergonomic Chairs",
@@ -351,7 +351,7 @@ A: Chair (5-10 years), desk (5-15 years), monitors (3-5 years), keyboard/mouse (
 
 **Q: Can I claim home office equipment on my taxes?**
 A: If you're self-employed or a freelancer, yes—deduct actual expenses (IRS Form 8829) or use the simplified method ($5/sq ft, max 300 sq ft). W-2 employees generally cannot claim home office expenses after the 2017 Tax Cuts and Jobs Act.`,
-    author: "Sarah Mitchell",
+    author: "Jessica Lee",
     authorRole: "Remote Work Consultant & Productivity Researcher",
     date: "2026-02-20",
     category: "Office Setup",
@@ -401,7 +401,7 @@ Awareness precedes change. Tools like RescueTime (now with Focus Sessions + Pomo
 ---
 
 Your home office isn't just where you work—it's your command center for impact, growth, and balance. These 10 upgrades, carefully selected for 2026's evolving work rhythms, do more than check boxes: they reinforce healthy habits, sharpen cognition, and reclaim time you didn't know was slipping away. At OfficePicks.net, we don't chase hype—we test, compare, and recommend what *actually moves the needle*. Ready to transform? Explore our curated Home Office Upgrade guides—complete with side-by-side comparisons, budget filters, and real-user setup photos. Because great work starts with a space that works *for you*.`,
-    author: "OfficePicks Editorial Team",
+    author: "Jessica Lee",
     authorRole: "Home Office & Productivity Experts",
     date: "2026-06-08",
     category: "Productivity",
@@ -441,7 +441,7 @@ Q: Do monitor arms really improve ergonomics—or just look tidy?
 A: They’re biomechanically critical. Proper screen height reduces cervical flexion by up to 22°, directly lowering disc compression (per Spine Journal, April 2026).
 
 Conclusion: For most professionals, start with the Uplift V2 Pro desk + Loctek M5 arm + Sunsama Pro combo. That trio delivers 73% of measurable ergonomic and cognitive ROI for under 45% of the total budget. Skip the ‘premium’ chair unless you log 6+ seated hours daily—the Embody Renew justifies its price *only* for that cohort. And ditch generic LED lamps: the BenQ Halo+ pays for itself in reduced dry-eye visits within 11 months (per optometrist survey data). Your office isn’t static infrastructure anymore. It’s your most responsive, adaptive, and intelligent teammate—make sure it’s calibrated right.`,
-    author: "OfficePicks Editorial Team",
+    author: "Jessica Lee",
     authorRole: "Productivity & Workspace Experts",
     date: "2026-06-09",
     category: "Productivity",

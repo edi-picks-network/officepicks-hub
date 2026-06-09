@@ -130,6 +130,12 @@ export default function BlogPostPage({ params }: { params: { id: string } }) {
           dangerouslySetInnerHTML={{ __html: contentHtml }}
         />
 
+        <div className="border-t border-[#3A5A2A] pt-8 mb-8">
+          <p className="text-xs text-[#5FA06D]">
+            Officepicks independently researches and verifies all product data. Ratings sourced from G2, Capterra, and other trusted review platforms.
+          </p>
+        </div>
+
         <div className="border-t border-[#3A5A2A] pt-8 flex items-center justify-between">
           <Link
             href="/blog"
