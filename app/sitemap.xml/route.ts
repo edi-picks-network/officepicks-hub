@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 const BLOG_SLUGS = [
-  "best-home-office-desk-chairs-2026",  "complete-home-office-setup-guide", "10-essential-home-office-upgrades-2026", "top-office-productivity-tools-2026", "standing-desk-ergonomics-2026",
+  "best-home-office-desk-chairs-2026",  "complete-home-office-setup-guide", "10-essential-home-office-upgrades-2026", "top-office-productivity-tools-2026", "standing-desk-ergonomics-2026",  "microsoft-365-vs-google-workspace-2026",
 ] as const;
 
 const TOOL_SLUGS = [
