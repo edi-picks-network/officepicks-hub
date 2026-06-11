@@ -210,44 +210,6 @@ export const ALL_TOOLS: ToolData[] = [
   },
 
 
-  {
-    id: "humanscale-freedom",
-    name: "Humanscale Freedom",
-    category: "Office Ergonomic Chairs",
-    rating: 4.5,
-    reviewCount: 6780,
-    icon: ArmchairIcon,
-    description: "A self-adjusting ergonomic chair with weight-sensing recline and intuitive, knob-free operation.",
-    longDescription: `The Humanscale Freedom chair eliminates complexity with its ingenious weight-sensing recline mechanism — simply sit, and it automatically calibrates resistance to your body weight. Its Dynamic Variable Lumbar Support adjusts continuously as you move, providing firm yet responsive lower back support without dials or levers. The seat edge is softly sculpted to relieve pressure behind the knees, and the entire chair is crafted with high-resilience foam and premium mesh for lasting comfort. Certified Level 3 BIFMA and Cradle to Cradle Silver, it’s built for both people and planet.`,
-    pros: [
-      "Truly knob-free operation — ideal for non-technical users",
-      "Dynamic Variable Lumbar adapts in real time",
-      "Cradle to Cradle certified and highly sustainable",
-      "Smooth, silent recline with minimal maintenance",
-    ],
-    cons: [
-      "Less seat depth adjustment than competitors",
-      "Mesh back lacks vertical segmentation of top-tier models",
-      "Base design is functional but not visually distinctive",
-    ],
-    pricing: "1095",
-    pricingDetail: "Includes 15-year warranty and standard casters; premium leather seat upgrade +$295.",
-    features: [
-      "Weight-sensing recline",
-      "Dynamic Variable Lumbar",
-      "Waterfall seat edge",
-      "4D adjustable arms",
-      "Height- and depth-adjustable seat",
-      "Cradle to Cradle Silver certified",
-    ],
-    useCase: "Best for executives, legal professionals, and non-technical remote workers who value simplicity, reliability, and quiet elegance while less ideal for users needing maximum customization or ultra-modern visual flair.",
-    alternatives: ["steelcase-leap-v2", "hm-mirra-2", "x-chair-x4"],
-    scoreBreakdown: { features: 88, reviews: 94, momentum: 80, popularity: 91 },
-    userQuotes: [
-      { role: "General Counsel", company: "Stratford Holdings", quote: "I’ve used Freedom for 8 years — no adjustments, no squeaks, no fatigue. It’s the only chair I’ve owned longer than my laptop." },
-      { role: "Executive Assistant", company: "Horizon Capital", quote: "My boss switches between calls, documents, and spreadsheets all day. Freedom handles every posture change silently and instantly — no fiddling mid-conversation." },
-    ],
-  },
 
   {
     id: "autonomous-ergochair-pro",
@@ -288,44 +250,6 @@ export const ALL_TOOLS: ToolData[] = [
     ],
   },
 
-  {
-    id: "branch-ergonomic-chair",
-    name: "Branch Ergonomic Chair",
-    category: "Office Ergonomic Chairs",
-    rating: 4.1,
-    reviewCount: 5430,
-    icon: ArmchairIcon,
-    description: "A modular, American-made ergonomic chair focused on sustainability, repairability, and straightforward adjustability.",
-    longDescription: `The Branch Ergonomic Chair stands out for its commitment to transparency and longevity: every part is replaceable, it’s assembled in the USA using FSC-certified wood and recycled aluminum, and its modular design allows for easy upgrades or repairs. Featuring a flexible mesh back, adjustable lumbar, 4D arms, and seat depth, it delivers core ergonomic functionality without over-engineering. Branch offers a lifetime warranty on the frame and 5 years on components, backed by responsive customer service and an active community forum.`,
-    pros: [
-      "Fully modular and repairable — extends product lifespan",
-      "Made in USA with ethical labor and sustainable materials",
-      "Lifetime frame warranty and strong customer support",
-      "Clean, contemporary aesthetic fits residential and creative spaces",
-    ],
-    cons: [
-      "Slightly firmer seat than plush alternatives",
-      "Fewer micro-adjustments than Steelcase or Herman Miller",
-      "Longer lead times for custom configurations",
-    ],
-    pricing: "845",
-    pricingDetail: "Includes lifetime frame warranty and free shipping; wood base upgrade +$120.",
-    features: [
-      "Modular, repairable construction",
-      "4D adjustable arms",
-      "Adjustable lumbar and seat depth",
-      "Breathable mesh back",
-      "FSC-certified wood and recycled aluminum",
-      "Made in USA",
-    ],
-    useCase: "Best for designers, educators, and values-driven remote workers who prioritize ethics, longevity, and clean aesthetics while less ideal for users needing ultra-responsive dynamic support or immediate stock availability.",
-    alternatives: ["autonomous-ergochair-pro", "haworth-fern", "hm-mirra-2"],
-    scoreBreakdown: { features: 80, reviews: 87, momentum: 85, popularity: 86 },
-    userQuotes: [
-      { role: "Interior Designer", company: "Studio Terra", quote: "I specify Branch for clients who want sustainability without sacrificing ergo. They love swapping parts instead of replacing whole chairs — it’s design thinking in action." },
-      { role: "University Librarian", company: "Riverside College", quote: "We bought 12 for our remote reference team. After 3 years, only one armrest needed replacement — and Branch shipped it free." },
-    ],
-  },
 
   {
     id: "x-chair-x4",
@@ -924,44 +848,6 @@ export const ALL_TOOLS: ToolData[] = [
     ],
   },
 
-  {
-    id: "workpro-single-arm",
-    name: "WorkPro Single Monitor Arm",
-    category: "Monitor Arms & Mounts",
-    rating: 3.9,
-    reviewCount: 5020,
-    icon: Monitor,
-    description: "A functional, entry-level monitor arm designed for basic ergonomics and straightforward setup.",
-    longDescription: `The WorkPro delivers essential monitor elevation and positioning at an accessible price point. Supporting displays from 4.4–22 lbs and up to 32 inches, it features simple gas-spring height adjustment, ±90° tilt, and 360° rotation. Its black powder-coated steel frame and compact clamp design suit modest home offices and call centers. While lacking advanced features like cable concealment or ultra-smooth articulation, its consistent performance, clear instructions, and low failure rate make it a pragmatic choice for first-time buyers and volume deployments.`,
-    pros: [
-      "Most affordable single-arm option with solid metal build",
-      "Simple, intuitive setup",
-      "Reliable for standard 24–27\" monitors",
-      "Lightweight and easy to ship",
-    ],
-    cons: [
-      "Limited tilt/swivel range vs. premium arms",
-      "Basic cable management (exposed routing)",
-      "Tension degrades noticeably after ~18 months",
-    ],
-    pricing: "$59.99",
-    pricingDetail: "Includes clamp mount and VESA 75/100mm plates; 1-year warranty.",
-    features: [
-      "Gas-spring height adjustment",
-      "Tilt: ±90°",
-      "Rotation: 360°",
-      "VESA 75/100mm compatible",
-      "Desk clamp only (no grommet)",
-      "Max monitor size: 32 inches",
-    ],
-    useCase: "Best for students, administrative staff, and startups provisioning basic ergonomic upgrades while less ideal for creative professionals or users needing long-term precision and polish.",
-    alternatives: ["amazonbasics-monitor-arm", "north-bayou-g60", "loctek-d7d"],
-    scoreBreakdown: { features: 72, reviews: 82, momentum: 80, popularity: 88 },
-    userQuotes: [
-      { role: "Administrative Assistant", company: "City Municipal Office", quote: "We deployed 30 units across departments. Easy to install, looks clean, and everyone says their shoulders feel better." },
-      { role: "College Freshman", company: "Riverside Community College", quote: "Fits perfectly on my IKEA desk, holds my 24\" HP tight, and left me $40 to buy noise-canceling headphones." },
-    ],
-  },
 
   {
     id: "wali-dual-arm",
@@ -1160,44 +1046,6 @@ export const ALL_TOOLS: ToolData[] = [
   },
 
 
-  {
-    id: "anker-powerwave-stand",
-    name: "Anker PowerWave Wireless Charger",
-    category: "Desk Accessories",
-    rating: 4.1,
-    reviewCount: 5870,
-    icon: MousePointer2,
-    description: "A sleek, dual-coil wireless charging stand with 15W fast charging, LED status indicator, and optimized phone/laptop accessory positioning.",
-    longDescription: `Combining Qi-certified charging efficiency with thoughtful ergonomics, the PowerWave Stand features angled dual-coil technology that maintains full-speed charging even when phones are slightly misaligned or in cases up to 5mm thick. Its weighted aluminum base ensures stability during notifications or calls, and the 60° viewing angle supports hands-free video chats and navigation. Integrated LED feedback confirms connection and charge status, while the compact footprint preserves precious desk real estate.`,
-    pros: [
-      "15W fast charging compatible with Samsung and newer iPhones",
-      "60° ergonomic tilt for comfortable viewing",
-      "Stable weighted base prevents tipping",
-      "Qi 1.3 certified with foreign object detection",
-    ],
-    cons: [
-      "Does not charge laptops or tablets (designed for smartphones only)",
-      "LED light cannot be disabled—may disturb low-light workspaces",
-      "Plastic housing feels less premium than aluminum competitors",
-    ],
-    pricing: "$49.99",
-    pricingDetail: "Includes USB-C cable; wall adapter sold separately. Compatible with iPhone 8+, Galaxy S9+, and AirPods Pro (with case).",
-    features: [
-      "15W max output (10W for iPhone, 15W for Samsung)",
-      "Dual-coil alignment technology",
-      "60° viewing angle",
-      "LED status indicator",
-      "Overheat & foreign object protection",
-      "Compact 3.5\" × 3.5\" footprint",
-    ],
-    useCase: "Best for smartphone-centric professionals needing reliable, hands-free charging and video-call readiness while less ideal for users requiring multi-device charging or laptop integration.",
-    alternatives: ["roost-laptop-stand", "rain-design-i-level", "felixking-desk-organizer"],
-    scoreBreakdown: { features: 79, reviews: 83, momentum: 87, popularity: 89 },
-    userQuotes: [
-      { role: "Customer Success Manager", company: "Nimbus CRM", quote: "I answer 60+ calls a day—the stand keeps my phone charged *and* upright so I can share screens without fumbling." },
-      { role: "Digital Marketing Analyst", company: "Lumeo Group", quote: "No more dead-phone panic before client demos. And the angle? Perfect for watching TikTok ads during lunch breaks." },
-    ],
-  },
 
   {
     id: "twelve-south-bookshelf",
@@ -1277,44 +1125,6 @@ export const ALL_TOOLS: ToolData[] = [
     ],
   },
 
-  {
-    id: "logitech-mx-master-3s",
-    name: "Logitech MX Master 3S",
-    category: "Desk Accessories",
-    rating: 4.9,
-    reviewCount: 7630,
-    icon: MousePointer2,
-    description: "A precision wireless mouse with silent clicks, customizable thumb wheel, and cross-computer flow control for power users.",
-    longDescription: `Engineered for creators and multitaskers, the MX Master 3S delivers best-in-class tracking on any surface—including glass—with its Darkfield 8000 DPI sensor. Its near-silent click mechanism reduces auditory fatigue during long sessions, while the hyper-fast scroll wheel toggles between ratcheted and free-spin modes instantly. Logitech Flow enables seamless cursor and clipboard sharing across up to three computers, and the ergonomic shape—contoured for right-handed users—reduces muscle strain. Rechargeable USB-C battery lasts up to 70 days on a single charge.`,
-    pros: [
-      "Industry-leading silent clicking (90% quieter than standard mice)",
-      "DarkField 8000 DPI sensor works on glass and uneven surfaces",
-      "Logitech Flow for multi-computer control",
-      "70-day battery life with USB-C fast charging",
-    ],
-    cons: [
-      "Right-hand only design excludes left-handed users",
-      "Slightly heavier than entry-level mice (141g), may feel bulky to some",
-      "Advanced features require Logitech Options software (macOS/Windows only)",
-    ],
-    pricing: "$99.99",
-    pricingDetail: "Includes USB-C charging cable; batteries not required. Software download required for full customization.",
-    features: [
-      "DarkField 8000 DPI sensor",
-      "SilentClick technology",
-      "Customizable thumb wheel",
-      "Logitech Flow cross-computer control",
-      "Ergonomic right-hand contour",
-      "USB-C rechargeable battery (70-day life)",
-    ],
-    useCase: "Best for designers, engineers, and analysts managing complex multi-monitor, multi-machine workflows while less ideal for left-handed users or those preferring ultra-lightweight or minimalist input devices.",
-    alternatives: ["logitech-ergo-k860", "felixking-desk-organizer", "roost-laptop-stand"],
-    scoreBreakdown: { features: 95, reviews: 93, momentum: 90, popularity: 95 },
-    userQuotes: [
-      { role: "UI/UX Designer", company: "Nexus Studio", quote: "I switch between my Mac, Windows dev machine, and iPad Pro—all with one swipe. And the silence? My team no longer hears my ‘click rage’ during critiques." },
-      { role: "Data Scientist", company: "Quantum Insights", quote: "Tracking on my marble desk? Flawless. Scrolling through 10K-row CSVs? The hyper-fast wheel saves me 20 minutes a day. This mouse pays for itself." },
-    ],
-  },
 
     {
     id: "obsidian",
@@ -1495,44 +1305,6 @@ export const ALL_TOOLS: ToolData[] = [
   },
 
 
-  {
-    id: "forest-app",
-    name: "Forest",
-    category: "Productivity Software",
-    rating: 4.3,
-    reviewCount: 5670,
-    icon: LayoutDashboard,
-    description: "A gamified focus timer that grows virtual trees when you stay off your phone—and plants real trees when you succeed.",
-    longDescription: `Forest transforms focus into a tangible, rewarding ritual: set a timer, and a virtual tree begins growing—if you leave the app, the tree dies. Over time, users cultivate lush forests representing focused hours. With real-world impact, Forest partners with Trees for the Future to plant actual trees when users earn coins through streaks and achievements. Its simplicity, gentle visuals, and positive reinforcement make it especially effective for teens, designers, and anyone rebuilding attention stamina.`,
-    pros: [
-      "Highly engaging gamification with real-world impact",
-      "Beautiful, calming UI with ambient sound options",
-      "Cross-platform sync (iOS/Android/Web/Desktop)",
-      "Team challenges and shared forests for accountability",
-    ],
-    cons: [
-      "No task management or calendar integration",
-      "Limited customization of focus intervals",
-      "Free version shows ads and restricts tree species",
-    ],
-    pricing: "Free with ads; Pro $1.99 one-time (mobile); $2.99/mo or $19.99/yr (web/desktop)",
-    pricingDetail: "Pro unlocks ad-free experience, unlimited tree species, statistics, and custom sounds. Web/desktop plans include team features and advanced analytics.",
-    features: [
-      "Visual focus timer with growing trees",
-      "Real-tree planting partnerships",
-      "Statistics dashboard and streak tracking",
-      "Ambient soundscapes (rain, café, etc.)",
-      "Team challenges and shared forests",
-      "Chrome extension for web blocking",
-    ],
-    useCase: "Best for students, creatives, and mindfulness practitioners seeking joyful, low-pressure focus training while less ideal for professionals needing integrated task or time-tracking workflows.",
-    alternatives: ["freedom-app", "ticktick", "rescue-time"],
-    scoreBreakdown: { features: 82, reviews: 87, momentum: 84, popularity: 86 },
-    userQuotes: [
-      { role: "High School Teacher", company: "Denver Public Schools", quote: "I use Forest with my AP Bio class—we grow ‘mitochondria forests’ during study blocks. Attendance and quiz scores improved 18% after introducing it." },
-      { role: "UI Illustrator", company: "Adobe (Contractor)", quote: "When I’m sketching, Forest’s visual feedback keeps me grounded. Watching a sequoia grow while I nail a tricky icon? That dopamine hit beats any notification." },
-    ],
-  },
 
   {
     id: "toggl-track",
@@ -1848,44 +1620,6 @@ export const ALL_TOOLS: ToolData[] = [
     ],
   },
 
-  {
-    id: "nanolight-leaf",
-    name: "NanoLeaf Shapes",
-    category: "Lighting & Ambiance",
-    rating: 4.7,
-    reviewCount: 3260,
-    icon: Lightbulb,
-    description: "Modular, touch-responsive smart light panels that snap together to create custom ambient wall art and interactive lighting scenes.",
-    longDescription: `NanoLeaf Shapes are hexagonal, triangular, and rectangular LED panels that magnetically connect to form scalable, artistic lighting installations — ideal for accent walls, room dividers, or above-desk backdrops. Each panel is individually addressable, supporting smooth gradients, reactive touch gestures, and deep integrations with Apple Home, Matter, and popular smart home platforms. Their ultra-thin profile (under 1cm), energy efficiency (<1W per panel), and intuitive Snap Kit app make setup accessible — and their tactile interactivity (tap, hold, swipe) adds playful, human-centered control to the home office environment.`,
-    pros: [
-      "Truly modular — mix shapes, sizes, and layouts freely",
-      "Touch-responsive interaction adds intuitive physical control",
-      "Lowest power consumption in category (<1W/panel)",
-      "Apple HomeKey and Matter 1.2 certified",
-    ],
-    cons: [
-      "Requires starter kit (minimum 9 panels) to begin — upfront cost barrier",
-      "Wall mounting requires drilling or heavy-duty adhesive",
-      "No built-in speaker or mic — reactive audio needs external source",
-    ],
-    pricing: "$199.99",
-    pricingDetail: "Starter kit includes 9 panels, power supply, controller, and mounting tape; expansion packs sold separately.",
-    features: [
-      "Magnetic snap-together modularity",
-      "Multi-touch gesture control (tap/swipe/hold)",
-      "Matter-over-Thread for secure local control",
-      "Custom shape editor in NanoLeaf app",
-      "Music sync via microphone or AirPlay",
-      "Scene sharing and community gallery integration",
-    ],
-    useCase: "Best for designers, architects, and expressive remote workers who treat their workspace as a living canvas while less ideal for renters with strict lease terms or users preferring subtle, non-intrusive ambiance.",
-    alternatives: ["philips-hue-play", "lifx-z-strip", "govee-flow-plus"],
-    scoreBreakdown: { features: 90, reviews: 92, momentum: 89, popularity: 74 },
-    userQuotes: [
-      { role: "Interior Designer", company: "Aether Studio", quote: "I spec NanoLeaf for clients’ home offices — it’s the only lighting that doubles as bespoke wall art and adapts to their mood or meeting type." },
-      { role: "Music Producer", company: "EchoLab", quote: "My Shapes react to my DAW’s master bus. When the chorus hits, the wall pulses gold. It’s not decoration — it’s part of the instrument." },
-    ],
-  },
 
   {
     id: "govee-flow-plus",
@@ -1926,44 +1660,6 @@ export const ALL_TOOLS: ToolData[] = [
     ],
   },
 
-  {
-    id: "amazon-smart-lamp-for-bedroom",
-    name: "Amazon Smart Lamp",
-    category: "Lighting & Ambiance",
-    rating: 3.9,
-    reviewCount: 7850,
-    icon: Lightbulb,
-    description: "Entry-level smart lamp with warm-dim white light, Alexa voice control, and simple scheduling — optimized for desk or nightstand use.",
-    longDescription: `The Amazon Smart Lamp is a no-frills, plug-in smart lamp designed for effortless voice-first control and consistent, warm-dim lighting in home offices and bedroom workspaces. It offers smooth dimming from 2700K (cozy amber) to 5000K (crisp daylight) without RGB distractions — focusing on circadian rhythm support and simplicity. Fully integrated with Alexa (no hub needed), it responds to natural-language commands like 'Alexa, set my desk light to morning focus' and supports Routines, timers, and Away Mode. Its fabric shade diffuses light evenly, and its compact base fits neatly beside laptops or notebooks.`,
-    pros: [
-      "Fully Alexa-native — zero app setup required",
-      "Warm-dim (no RGB) reduces visual clutter and decision fatigue",
-      "Fabric shade provides soft, glare-free diffusion",
-      "Reliable performance with minimal firmware issues",
-    ],
-    cons: [
-      "No manual controls — entirely voice/app dependent",
-      "Limited third-party ecosystem (no Google/Apple native support)",
-      "Base lacks USB ports or charging — purely lighting-focused",
-    ],
-    pricing: "$49.99",
-    pricingDetail: "Includes lamp, fabric shade, and power cord; bulb is integrated and non-replaceable (25,000 hr lifespan).",
-    features: [
-      "Warm-dim white only (2700K–5000K)",
-      "Alexa Built-in (no hub or app needed)",
-      "Routines, schedules, and Away Mode",
-      "Fabric shade for optimal diffusion",
-      "Energy-efficient 9W LED (replaces 60W incandescent)",
-      "Physical reset button for troubleshooting",
-    ],
-    useCase: "Best for Alexa-centric households, beginners to smart home tech, and hybrid workers seeking calming, low-cognition lighting while less ideal for power users needing granular automation, multi-platform control, or RGB creativity.",
-    alternatives: ["yeelight-smart-bulb", "quntis-screenbar", "benq-screenbar-pro"],
-    scoreBreakdown: { features: 68, reviews: 79, momentum: 73, popularity: 95 },
-    userQuotes: [
-      { role: "Administrative Assistant", company: "MetroHealth Systems", quote: "I say 'Alexa, good morning' and my lamp wakes up warm — no tapping apps, no remembering passwords. It just works." },
-      { role: "Retired Teacher", company: "Sunset Learning Co-op", quote: "At 72, I don’t want 17 apps. This lamp listens, remembers my 'reading time' setting, and never glitches." },
-    ],
-  },
 
   {
     id: "logitech-brio-4k",
@@ -2515,44 +2211,6 @@ export const ALL_TOOLS: ToolData[] = [
     ],
   },
 
-  {
-    id: "iottie-aivo-wireless",
-    name: "iOttie Aivo Wireless",
-    category: "Cable & Power Management",
-    rating: 4.1,
-    reviewCount: 5940,
-    icon: Cable,
-    description: "Smart voice-controlled wireless charging stand with integrated Google Assistant and ambient LED display.",
-    longDescription: `The iOttie Aivo combines Qi-certified 15W wireless charging with Google Assistant integration, allowing hands-free control of smart home devices, calendar checks, and message dictation—all while your phone charges vertically. Its adjustable aluminum arm supports phones from iPhone SE to Galaxy S23 Ultra, and the ambient OLED display shows time, weather, and notifications without unlocking your screen. Powered by a 30W USB-C input, it includes night mode (auto-dimming), multi-device pairing, and a non-slip silicone cradle. Firmware updates via the iOttie app add new Assistant capabilities quarterly.`,
-    pros: [
-      "Voice-first interface reduces screen dependency",
-      "Ambient OLED display enhances glanceable productivity",
-      "Adjustable arm accommodates large phones and cases",
-      "Google Assistant deep integration (e.g., 'Hey Google, start my focus timer')",
-    ],
-    cons: [
-      "Requires Google account and internet for full functionality",
-      "OLED display can be distracting in dark home offices",
-      "Charging efficiency drops slightly with thick MagSafe cases",
-    ],
-    pricing: "$119.99",
-    pricingDetail: "Includes 2-year warranty and free access to iOttie’s ‘Focus Mode’ firmware suite (launches Q3 2024).",
-    features: [
-      "Qi-certified 15W charging",
-      "Google Assistant integration",
-      "Adjustable aluminum arm",
-      "Ambient OLED display",
-      "Night mode + auto-brightness",
-      "Multi-device pairing",
-    ],
-    useCase: "Best for knowledge workers leveraging voice assistants for calendar, notes, and smart home control—while less ideal for privacy-focused users, iOS-only environments, or minimalists avoiding ambient lighting.",
-    alternatives: ["belkin-boostcharge-pro", "anker-powerport-6", "nomad-base-station-pro"],
-    scoreBreakdown: { features: 83, reviews: 84, momentum: 77, popularity: 82 },
-    userQuotes: [
-      { role: "Project Coordinator", company: "BridgeWorks Consulting", quote: "I say ‘Hey Google, add client call to my calendar’ while charging—no picking up my phone. The time/weather display saves me from checking my watch constantly." },
-      { role: "Accessibility Specialist", company: "Inclusive Tech Labs", quote: "Voice-first charging reduced wrist strain for my team with repetitive strain injuries. The OLED is bright enough for low-vision users but dims automatically at night." },
-    ],
-  },
 
   {
     id: "nomad-base-station-pro",
