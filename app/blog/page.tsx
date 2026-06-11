@@ -4,9 +4,9 @@ import { BLOG_POSTS } from "@/data/blog-posts";
 import { ArrowRight, Calendar, Clock, Tags } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Blog — Office Picks",
+  title: "Blog — OfficePicks by JadeInteractive",
   description:
-    "In-depth AI tool comparisons, reviews, and guides. Expert analysis of ChatGPT, Claude, Gemini, Midjourney, GitHub Copilot, and more.",
+    "In-depth reviews and guides for office furniture, home office setups, and productivity tools. Expert advice from JadeInteractive's Bordeaux testing lab.",
 };
 
 export default function BlogListPage() {
@@ -20,11 +20,12 @@ export default function BlogListPage() {
     <div className="relative pt-28 pb-20 px-6">
       <div className="max-w-[1200px] mx-auto">
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-extrabold text-[#ECFDE8] tracking-tight mb-4">
+          <h1 className="text-4xl md:text-5xl font-extrabold text-beige-900 tracking-tight mb-4">
             Office & Productivity Blog
           </h1>
-          <p className="text-lg text-[#9BD69B] max-w-2xl mx-auto">
-            In-depth reviews and guides for office furniture, home office setups, and productivity tools. Expert advice to help you create your ideal workspace.
+          <p className="text-lg text-beige-600 max-w-2xl mx-auto">
+            In-depth reviews and guides for office furniture, home office setups, and productivity tools.
+            Expert advice from <strong>JadeInteractive</strong>&apos;s Bordeaux testing lab.
           </p>
         </div>
 
@@ -33,39 +34,39 @@ export default function BlogListPage() {
             <Link
               key={post.slug}
               href={`/blog/${post.slug}`}
-              className="bg-[#12102A] border border-[#3A5A2A] rounded-xl p-6 card-hover flex flex-col group transition-all hover:border-[#22C55E]/50"
+              className="bg-beige-100 border border-beige-200 rounded-xl p-6 card-hover flex flex-col group transition-all hover:border-beige-400"
             >
               <div className="flex items-center gap-2 mb-3 flex-wrap">
-                <span className="text-xs font-semibold px-2.5 py-1 rounded-md bg-[#22C55E]/20 text-[#22C55E]">
+                <span className="text-xs font-semibold px-2.5 py-1 rounded-md bg-beige-200 text-beige-700">
                   {post.category}
                 </span>
-                <span className="flex items-center gap-1 text-xs text-[#5FA06D]">
+                <span className="flex items-center gap-1 text-xs text-beige-500">
                   <Clock className="w-3 h-3" />
                   {post.readTime} min read
                 </span>
               </div>
-              <h2 className="text-xl font-bold text-[#ECFDE8] mb-3 group-hover:text-[#22C55E] transition-colors leading-snug">
+              <h2 className="text-xl font-bold text-beige-900 mb-3 group-hover:text-beige-700 transition-colors leading-snug">
                 {post.title}
               </h2>
-              <p className="text-sm text-[#9BD69B] mb-4 leading-relaxed flex-grow line-clamp-3">
+              <p className="text-sm text-beige-600 mb-4 leading-relaxed flex-grow line-clamp-3">
                 {post.excerpt}
               </p>
               <div className="flex flex-wrap gap-1.5 mb-4">
                 {post.tags.slice(0, 4).map((tag) => (
                   <span
                     key={tag}
-                    className="text-xs text-[#5FA06D] bg-[#1A1740] px-2 py-0.5 rounded-md"
+                    className="text-xs text-beige-500 bg-beige-200 px-2 py-0.5 rounded-md"
                   >
                     #{tag}
                   </span>
                 ))}
               </div>
-              <div className="flex items-center justify-between pt-3 border-t border-[#3A5A2A]">
-                <span className="flex items-center gap-1 text-xs text-[#5FA06D]">
+              <div className="flex items-center justify-between pt-3 border-t border-beige-200">
+                <span className="flex items-center gap-1 text-xs text-beige-500">
                   <Calendar className="w-3 h-3" />
                   {post.date}
                 </span>
-                <span className="flex items-center gap-1 text-xs text-[#22C55E] font-medium">
+                <span className="flex items-center gap-1 text-xs text-beige-600 font-medium">
                   Read More <ArrowRight className="w-3 h-3" />
                 </span>
               </div>

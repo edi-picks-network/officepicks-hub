@@ -19,7 +19,7 @@ export function generateMetadata({
   if (!post) return undefined;
 
   return {
-    title: `${post.title} — Office Picks`,
+    title: `${post.title} — OfficePicks`,
     description: post.excerpt,
     openGraph: {
       title: post.title,
@@ -50,13 +50,13 @@ export default function BlogPostPage({ params }: { params: { id: string } }) {
     post.title,
     post.author,
     post.date,
-    'Office Picks',
+    'OfficePicks by JadeInteractive',
     post.excerpt
   );
   const orgJsonLd = organizationSchema(
-    'Office Picks',
+    'OfficePicks by JadeInteractive',
     'https://officepicks.net',
-    'Curated AI resources, models, and tools for the AI community.'
+    'Expert-curated home office equipment reviews by JadeInteractive, a Bordeaux-based engineering studio.'
   );
 
   return (
@@ -76,48 +76,48 @@ export default function BlogPostPage({ params }: { params: { id: string } }) {
       <div className="max-w-3xl mx-auto">
         <Link
           href="/blog"
-          className="inline-flex items-center text-[#8A7DBF] hover:text-[#22C55E] transition-colors mb-8 text-sm"
+          className="inline-flex items-center text-beige-500 hover:text-beige-600 transition-colors mb-8 text-sm"
         >
           <ArrowLeft className="w-4 h-4 mr-2" /> Back to Blog
         </Link>
 
         <header className="mb-10">
           <div className="flex items-center gap-2 mb-4 flex-wrap">
-            <span className="text-xs font-semibold px-2.5 py-1 rounded-md bg-[#22C55E]/20 text-[#22C55E]">
+            <span className="text-xs font-semibold px-2.5 py-1 rounded-md bg-beige-200 text-beige-700">
               {post.category}
             </span>
-            <span className="flex items-center gap-1 text-xs text-[#5FA06D]">
+            <span className="flex items-center gap-1 text-xs text-beige-500">
               <Calendar className="w-3 h-3" />
               {post.date}
             </span>
-            <span className="flex items-center gap-1 text-xs text-[#5FA06D]">
+            <span className="flex items-center gap-1 text-xs text-beige-500">
               <Clock className="w-3 h-3" />
               {post.readTime} min read
             </span>
           </div>
 
-          <h1 className="text-3xl md:text-4xl font-extrabold text-[#ECFDE8] mb-4 tracking-tight leading-tight">
+          <h1 className="text-3xl md:text-4xl font-extrabold text-beige-900 mb-4 tracking-tight leading-tight">
             {post.title}
           </h1>
 
-          <p className="text-base text-[#9BD69B] mb-4 leading-relaxed">
+          <p className="text-base text-beige-600 mb-4 leading-relaxed">
             {post.excerpt}
           </p>
 
-          <div className="flex items-center gap-2 mb-4 text-sm text-[#8A7DBF]">
+          <div className="flex items-center gap-2 mb-4 text-sm text-beige-500">
             <User className="w-4 h-4" />
             <span>
-              By <strong className="text-[#ECFDE8]">{post.author}</strong>
+              By <strong className="text-beige-900">{post.author}</strong>
               {post.authorRole ? ` — ${post.authorRole}` : ""}
             </span>
           </div>
 
           <div className="flex flex-wrap gap-1.5">
-            <Tags className="w-4 h-4 text-[#5FA06D] mr-1 self-center" />
+            <Tags className="w-4 h-4 text-beige-400 mr-1 self-center" />
             {post.tags.map((tag) => (
               <span
                 key={tag}
-                className="text-xs text-[#5FA06D] bg-[#1A1740] px-2 py-0.5 rounded-md"
+                className="text-xs text-beige-500 bg-beige-200 px-2 py-0.5 rounded-md"
               >
                 #{tag}
               </span>
@@ -130,16 +130,16 @@ export default function BlogPostPage({ params }: { params: { id: string } }) {
           dangerouslySetInnerHTML={{ __html: contentHtml }}
         />
 
-        <div className="border-t border-[#3A5A2A] pt-8 mb-8">
-          <p className="text-xs text-[#5FA06D]">
-            Officepicks independently researches and verifies all product data. Ratings sourced from G2, Capterra, and other trusted review platforms.
+        <div className="border-t border-beige-200 pt-8 mb-8">
+          <p className="text-xs text-beige-400">
+            OfficePicks independently researches and verifies all product data. Tested by <strong>JadeInteractive</strong> in Bordeaux, France.
           </p>
         </div>
 
-        <div className="border-t border-[#3A5A2A] pt-8 flex items-center justify-between">
+        <div className="border-t border-beige-200 pt-8 flex items-center justify-between">
           <Link
             href="/blog"
-            className="inline-flex items-center text-[#22C55E] hover:text-[#6D28D9] transition-colors text-sm"
+            className="inline-flex items-center text-beige-500 hover:text-beige-600 transition-colors text-sm"
           >
             <ArrowLeft className="w-4 h-4 mr-2" /> All Articles
           </Link>
