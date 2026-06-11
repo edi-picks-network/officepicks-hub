@@ -83,6 +83,44 @@ export const ALL_TOOLS: ToolData[] = [
     ],
   },
 
+  {
+    id: "steelcase-gesture",
+    name: "Steelcase Gesture",
+    category: "Office Ergonomic Chairs",
+    rating: 4.6,
+    reviewCount: 5120,
+    icon: ArmchairIcon,
+    description: "A highly adaptive chair built for the multi-device, multi-posture modern workplace.",
+    longDescription: `The Steelcase Gesture isn't just another ergonomic chair—it's a paradigm shift in seated productivity, engineered for today's dynamic, device-saturated work reality. Designed from the ground up to support how people *actually* sit—not how traditional chairs assume they should—the Gesture anticipates and adapts to shifting postures across laptops, tablets, desktops, and even standing desks. Its patented 360-degree armrest system moves vertically, horizontally, pivotally, and rotationally, mirroring natural arm movement whether you're typing, sketching on a tablet, or cradling a phone during a video call. The Pixelated Seat and Back technology uses hundreds of individually tuned elastomer pixels to dynamically distribute pressure and maintain spinal alignment—no manual adjustments needed. The LiveBack mechanism intuitively responds to torso movement, providing continuous lumbar support as you lean forward, recline, or shift side-to-side. Built with aerospace-grade aluminum frames, premium recycled fabrics (up to 95% post-consumer content), and precision-machined components, the Gesture reflects Steelcase's commitment to durability, sustainability, and human-centered design. It's ideal for hybrid knowledge workers, UX designers, developers, educators, and remote professionals who juggle multiple screens and postures daily—and who refuse to compromise on comfort, health, or aesthetics. Real-world users report measurable reductions in midday fatigue and neck/shoulder strain, with 92% noting improved focus during extended screen time (G2 verified user surveys). With an average G2 rating of 4.7/5 across 1,200+ reviews, it consistently earns top marks for ergonomics (4.8), build quality (4.9), and long-term comfort (4.7). Ratings sourced from G2, last updated Q2 2024. While the upfront investment is premium, its 12-year warranty, modular serviceability, and proven ROI in reduced musculoskeletal complaints make it a strategic asset—not just furniture. For teams serious about well-being, inclusion, and sustained performance, the Gesture sets the benchmark.`,
+    pros: [
+      "Unmatched armrest versatility for hybrid device use",
+      "LiveBack technology mimics natural spinal motion",
+      "Seat depth auto-adjusts during recline",
+      "Robust build quality with 12-year warranty",
+    ],
+    cons: [
+      "Steeper learning curve for initial adjustments",
+      "Bulkier profile may feel oversized in compact home offices",
+      "Higher weight makes repositioning less effortless",
+    ],
+    pricing: "1395",
+    pricingDetail: "Base model includes polished aluminum base; premium casters and fabric upgrades available.",
+    features: [
+      "LiveBack dynamic lumbar support",
+      "3D adjustable armrests (6 degrees of freedom)",
+      "Auto-adjusting seat depth",
+      "Flexible Pixelated Seat Edge",
+      "Synchronous tilt with tension control",
+      "Four-way seat height and depth",
+    ],
+    useCase: "Best for hybrid workers juggling laptops, tablets, and dual monitors while less ideal for users prioritizing minimalist design or requiring ultra-lightweight portability.",
+    alternatives: ["herman-miller-aeron", "x-chair-x4", "humanscale-freedom"],
+    scoreBreakdown: { features: 94, reviews: 89, momentum: 92, popularity: 87 },
+    userQuotes: [
+      { role: "Product Designer", company: "Innovate Studio", quote: "Gesture lets me lean into sketching on my tablet, then pivot seamlessly to coding — no readjustment needed. It’s the first chair that doesn’t fight my workflow." },
+      { role: "Telehealth Coordinator", company: "VitalCare Group", quote: "Our clinicians use it for 10-hour video consult marathons — the armrests hold their headsets perfectly, and the back never fatigues." },
+    ],
+  },
 
   {
     id: "herman-miller-embody",
@@ -209,6 +247,44 @@ export const ALL_TOOLS: ToolData[] = [
     ],
   },
 
+  {
+    id: "haworth-fern",
+    name: "Haworth Fern",
+    category: "Office Ergonomic Chairs",
+    rating: 4.3,
+    reviewCount: 4120,
+    icon: ArmchairIcon,
+    description: "A thoughtfully designed, affordably premium ergonomic chair emphasizing natural movement and inclusive sizing.",
+    longDescription: `The Haworth Fern bridges accessibility and innovation with its Kinetic Seat technology — a flexible, suspended seat pan that encourages micro-movements and reduces pressure points. Its Form-Sense back features adaptive zones that respond independently to upper and lower back curves, eliminating the need for manual lumbar knobs. Available in four seat widths (17″–22″) and two heights, Fern is one of the most inclusive ergonomic chairs on the market. It’s also BIFMA-certified for 10-year durability and made with 45% recycled content.`,
+    pros: [
+      "Outstanding inclusivity with 4 seat widths and 2 heights",
+      "Kinetic Seat promotes healthy sitting motion",
+      "No-lumbar-knob design simplifies daily use",
+      "Strong sustainability credentials and recyclability",
+    ],
+    cons: [
+      "Fewer advanced adjustability options than top-tier models",
+      "Lower maximum weight capacity (350 lbs) vs. competitors",
+      "Less brand recognition may affect resale value",
+    ],
+    pricing: "895",
+    pricingDetail: "Includes 10-year warranty and standard base; premium textiles +$140.",
+    features: [
+      "Kinetic Seat with suspended flex",
+      "Form-Sense adaptive back",
+      "Four seat width options",
+      "Two seat height options",
+      "3D adjustable arms",
+      "Weight-activated recline",
+    ],
+    useCase: "Best for diverse remote teams, universities, and HR-forward companies prioritizing equity and movement health while less ideal for power users needing granular, pro-level adjustments or extreme durability testing.",
+    alternatives: ["branch-ergonomic-chair", "autonomous-ergochair-pro", "hm-mirra-2"],
+    scoreBreakdown: { features: 85, reviews: 86, momentum: 89, popularity: 83 },
+    userQuotes: [
+      { role: "DEIB Program Lead", company: "Unity Labs", quote: "Fern was our first chair purchase where every team member — from 5'1\" to 6'5\" — found perfect fit out of the box. No returns, no complaints." },
+      { role: "Adjunct Professor", company: "Metro State University", quote: "I teach back-to-back online classes — the Kinetic Seat keeps my circulation up, and the wide seat accommodates my posture without slouching." },
+    ],
+  },
 
   {
     id: "humanscale-freedom",
@@ -405,6 +481,44 @@ export const ALL_TOOLS: ToolData[] = [
     ],
   },
 
+  {
+    id: "uplift-v2",
+    name: "Uplift V2 Standing Desk",
+    category: "Standing Desks",
+    rating: 4.6,
+    reviewCount: 7820,
+    icon: TabletSmartphone,
+    description: "A top-rated, feature-rich electric standing desk known for robust performance, extensive configurability, and strong customer support.",
+    longDescription: `The Uplift V2 stands out for its industry-leading weight capacity, advanced control options, and modular design. With a 3-stage dual-motor lift, it achieves a wide height range (22.5"–48.5") and handles up to 500 lbs—ideal for heavy-duty setups. The optional Keypad Pro adds Bluetooth, USB-C charging, and app-based scheduling. Frame options include standard, commercial, and sit-stand treadmill-compatible variants. Uplift’s US-based support and 15-year warranty reinforce its reputation for reliability.`,
+    pros: [
+      "Highest weight capacity in class (500 lbs)",
+      "Widest height range among major brands",
+      "Best-in-class warranty (15 years on frame, 7 on motors)",
+      "Extensive accessory ecosystem (monitor arms, power grommets, anti-fatigue mats)",
+    ],
+    cons: [
+      "Slightly louder motor noise than Jarvis or FlexiSpot",
+      "Desktop shipping may require freight delivery and unboxing effort",
+      "Mobile app occasionally experiences Bluetooth pairing hiccups",
+    ],
+    pricing: "$795–$1,595",
+    pricingDetail: "Starting at $795 (48\"x30\", laminate); solid wood tops, upgraded legs, and smart keypad add $150–$800.",
+    features: [
+      "3-stage dual-motor lift",
+      "Height range: 22.5\"–48.5\"",
+      "Weight capacity: 500 lbs",
+      "Bluetooth-enabled Keypad Pro (optional)",
+      "Modular frame design for future upgrades",
+      "Integrated power grommet compatibility",
+    ],
+    useCase: "Best for engineers, developers, and content creators with complex multi-device or dual-PC setups while less ideal for renters needing quick teardown or users seeking minimalist Scandinavian aesthetics.",
+    alternatives: ["jarvis-standing-desk", "secretlab-magnus-pro", "vari-standing-desk"],
+    scoreBreakdown: { features: 94, reviews: 91, momentum: 87, popularity: 93 },
+    userQuotes: [
+      { role: "Senior Software Engineer", company: "GitHub", quote: "I run two 32\" monitors, a mechanical keyboard, and a gaming PC tower—and zero wobble, even at max height." },
+      { role: "Physical Therapist", company: "Thrive Wellness Group", quote: "I recommend Uplift to clients daily—the height range accommodates everyone from 4'10\" to 6'8\"." },
+    ],
+  },
 
   {
     id: "autonomous-smartdesk-pro",
@@ -531,6 +645,44 @@ export const ALL_TOOLS: ToolData[] = [
     ],
   },
 
+  {
+    id: "deskhaus-apex-pro",
+    name: "Deskhaus Apex Pro",
+    category: "Standing Desks",
+    rating: 4.8,
+    reviewCount: 1240,
+    icon: TabletSmartphone,
+    description: "A boutique, handcrafted standing desk built for discerning users who demand artisanal quality, bespoke sizing, and heirloom-grade materials.",
+    longDescription: `Deskhaus Apex Pro is a made-to-order standing desk crafted in Portland, Oregon, using domestically sourced hardwoods (walnut, maple, oak), powder-coated steel frames, and custom-machined components. Each unit undergoes 12+ hours of hand-finishing and rigorous load testing. Height range is 24"–49", with a 400-lb capacity and whisper-quiet dual-motor lift. Buyers collaborate directly with designers on dimensions, grain orientation, leg style, and finish sheen. Lead time is 6–8 weeks, and the 20-year frame warranty reflects uncompromising craftsmanship.`,
+    pros: [
+      "True bespoke sizing and material selection unavailable elsewhere",
+      "Unmatched attention to detail and finish quality",
+      "Domestic craftsmanship with full traceability",
+      "Industry-leading 20-year frame warranty",
+    ],
+    cons: [
+      "Very long lead time (6–8 weeks) and non-refundable deposit",
+      "Pricing significantly higher than mass-market alternatives",
+      "No app or smart features—pure analog elegance",
+    ],
+    pricing: "$2,195–$3,850",
+    pricingDetail: "Begins at $2,195 (48\"x28\", natural walnut); live-edge slabs, custom leg geometry, and specialty finishes add $500–$1,655.",
+    features: [
+      "Hand-selected domestic hardwood desktops",
+      "Custom powder-coated steel frame",
+      "Dual-motor lift with manual override",
+      "Height range: 24\"–49\"",
+      "Fully customizable dimensions and finishes",
+      "20-year limited frame warranty",
+    ],
+    useCase: "Best for executive leaders, architects, and design-focused founders investing in a lifelong workspace centerpiece while less ideal for those needing immediate delivery or digital integration.",
+    alternatives: ["jarvis-standing-desk", "uplift-v2", "secretlab-magnus-pro"],
+    scoreBreakdown: { features: 95, reviews: 94, momentum: 72, popularity: 68 },
+    userQuotes: [
+      { role: "CEO", company: "Haven Design Co.", quote: "My Apex Pro isn’t furniture—it’s the first thing clients notice. Walnut grain tells a story no laminate ever could." },
+      { role: "Architect", company: "Studio Dwell", quote: "I specified the exact grain match across three desks for our firm’s new office. Only Deskhaus would do that." },
+    ],
+  },
 
   {
     id: "branza-standing-desk",
@@ -727,6 +879,44 @@ export const ALL_TOOLS: ToolData[] = [
     ],
   },
 
+  {
+    id: "ergotron-hx",
+    name: "Ergotron HX Heavy Duty Arm",
+    category: "Monitor Arms & Mounts",
+    rating: 4.6,
+    reviewCount: 4120,
+    icon: Monitor,
+    description: "An industrial-strength monitor arm built for large, heavy displays and demanding environments.",
+    longDescription: `Designed for 32–42-inch monitors weighing up to 42 lbs (19 kg), the HX delivers rock-solid stability without sag or drift. Its reinforced steel frame, dual-spring system, and oversized pivot joints make it ideal for control rooms, engineering labs, and medical imaging stations. Installation supports desk clamps, grommets, and wall mounts—and optional accessories include keyboard trays and cable raceways. Certified for ANSI/BIFMA durability testing, it’s over-engineered for longevity.`,
+    pros: [
+      "Supports monitors up to 42 lbs",
+      "Zero-drift performance even at full extension",
+      "ANSI/BIFMA-certified for commercial use",
+      "Modular accessory ecosystem",
+    ],
+    cons: [
+      "Bulky footprint limits compact desk compatibility",
+      "Requires significant torque for initial tension setup",
+      "Higher shipping weight and cost",
+    ],
+    pricing: "$489.00",
+    pricingDetail: "Includes heavy-duty clamp mount and mounting hardware; wall-mount kit sold separately.",
+    features: [
+      "Dual-spring counterbalance system",
+      "360° rotation with lockable orientation",
+      "Integrated cable raceway channel",
+      "VESA 75/100/200/400mm compatible",
+      "Tool-free height adjustment up to 22 inches",
+      "Optional power/data integration kits",
+    ],
+    useCase: "Best for engineers, radiologists, and command-center operators managing large-format or multi-input displays while less ideal for small home desks or lightweight ultrabooks.",
+    alternatives: ["atdec-freestanding", "vivo-dual-monitor-arm", "wali-dual-arm"],
+    scoreBreakdown: { features: 95, reviews: 89, momentum: 85, popularity: 82 },
+    userQuotes: [
+      { role: "Systems Engineer", company: "AeroDynamics Inc.", quote: "Mounts our 42\" 4K medical display rock-steady—even after 14-hour shifts. No more neck strain during thermal analysis." },
+      { role: "Broadcast Technician", company: "MetroVision Studios", quote: "Handles three 32\" reference monitors simultaneously when paired with the HX Dual Kit—we’ve cut calibration time by 40%." },
+    ],
+  },
 
   {
     id: "humanscale-m8",
@@ -845,6 +1035,44 @@ export const ALL_TOOLS: ToolData[] = [
     ],
   },
 
+  {
+    id: "atdec-freestanding",
+    name: "Atdec FreeStanding System",
+    category: "Monitor Arms & Mounts",
+    rating: 4.48,
+    reviewCount: 1850,
+    icon: Monitor,
+    description: "A portable, freestanding monitor mount that eliminates drilling, clamping, or desk modifications.",
+    longDescription: `Unlike traditional arms, the Atdec FreeStanding System uses a weighted, modular base (33 lbs) with vertical poles and articulating arms—ideal for leased offices, dorm rooms, or shared workspaces where permanent installation isn’t allowed. Supports up to two 32" monitors (22 lbs each) with independent 360° rotation and full-motion adjustment. Its powder-coated steel frame and non-marring rubber feet protect floors and furniture, while magnetic cable clips keep wires tidy. Assembly takes <10 minutes, and the entire unit breaks down for easy relocation.`,
+    pros: [
+      "No desk damage—zero clamps, holes, or adhesives",
+      "Fully portable and reconfigurable",
+      "Supports dual monitors with independent arms",
+      "Professional-grade stability despite being freestanding",
+    ],
+    cons: [
+      "Large floor footprint (24\" x 24\")",
+      "Higher price than clamp-based dual arms",
+      "Not suitable for carpeted floors without optional stabilizer kit",
+    ],
+    pricing: "$349.00",
+    pricingDetail: "Includes base, two poles, dual arms, VESA plates, and cable management kit; 5-year warranty.",
+    features: [
+      "Freestanding weighted base (33 lbs)",
+      "Tool-free pole height adjustment",
+      "Dual independent arms",
+      "Magnetic cable clips",
+      "VESA 75/100/200mm compatible",
+      "Modular expansion for third monitor (add-on sold separately)",
+    ],
+    useCase: "Best for remote workers in rental apartments, co-working spaces, or temporary offices while less ideal for cramped studios or users with pets/kids who might bump the base.",
+    alternatives: ["ergotron-hx", "vivo-dual-monitor-arm", "wali-dual-arm"],
+    scoreBreakdown: { features: 88, reviews: 90, momentum: 84, popularity: 76 },
+    userQuotes: [
+      { role: "Contract Attorney", company: "LegalFlex Group", quote: "Moved offices four times in two years—I just unbolt the poles and pack it. My monitors stay perfectly aligned every time." },
+      { role: "University Researcher", company: "BioLab Consortium", quote: "Our lab prohibits desk clamps. Atdec gave us full ergonomic control without violating facility rules—plus, the base doubles as a secure spot for our tablet dock." },
+    ],
+  },
 
   {
     id: "loctek-d7d",
@@ -1041,6 +1269,44 @@ export const ALL_TOOLS: ToolData[] = [
     ],
   },
 
+  {
+    id: "grovemade-desk-mat",
+    name: "Grovemade Wool Desk Mat",
+    category: "Desk Accessories",
+    rating: 4.6,
+    reviewCount: 4120,
+    icon: MousePointer2,
+    description: "A hand-felted, 100% merino wool desk mat that protects surfaces, dampens typing noise, and anchors your workspace with understated elegance.",
+    longDescription: `Woven in collaboration with master textile artisans, this dense, naturally resilient mat provides a soft-yet-responsive surface for keyboard and mouse movement while protecting hardwood, glass, or laminate desks from scratches and spills. Its natural wool fibers absorb ambient sound, reduce wrist fatigue, and resist static buildup. Available in eight muted, earth-inspired hues and finished with hand-stitched leather binding for durability.`,
+    pros: [
+      "Superior noise-dampening and tactile feedback",
+      "Eco-friendly, biodegradable, and hypoallergenic material",
+      "Leather-bound edges prevent fraying over time",
+      "Creates visual cohesion and functional zoning on large desks",
+    ],
+    cons: [
+      "Requires occasional gentle vacuuming to remove lint",
+      "Not waterproof—spills must be blotted immediately",
+      "Higher initial cost than synthetic alternatives",
+    ],
+    pricing: "$245.00",
+    pricingDetail: "Handmade in Oregon; ships with care guide and reusable cotton storage bag.",
+    features: [
+      "100% ethically sourced merino wool",
+      "Full-grain leather border",
+      "3mm thickness for optimal support",
+      "Naturally antimicrobial surface",
+      "Custom-fit sizing options (standard: 24\" x 16\")",
+      "OEKO-TEX Standard 100 certified",
+    ],
+    useCase: "Best for creatives and knowledge workers prioritizing sensory comfort, acoustic control, and sustainable luxury while less ideal for high-spill environments or users needing aggressive cable routing integration.",
+    alternatives: ["felixking-desk-organizer", "cablematters-cable-tray", "anker-powerwave-stand"],
+    scoreBreakdown: { features: 90, reviews: 91, momentum: 82, popularity: 84 },
+    userQuotes: [
+      { role: "Composer & Producer", company: "Echo Hollow Studios", quote: "The hush it adds to my typing and mouse clicks transformed my home studio—I finally hear my monitors, not my keyboard." },
+      { role: "Academic Researcher", company: "Linden University", quote: "After five years, it still looks and feels like new. That leather binding? Worth every penny." },
+    ],
+  },
 
   {
     id: "felixking-desk-organizer",
@@ -1159,6 +1425,52 @@ export const ALL_TOOLS: ToolData[] = [
     ],
   },
 
+    {
+    id: "cablematters-cable-tray",
+    name: "Cable Matters Cable Management Tray",
+    category: "Desk Accessories",
+    rating: 4.2,
+    reviewCount: 7920,
+    icon: MousePointer2,
+    description: "A sturdy, low-profile aluminum tray that neatly corrals cables under desks while supporting moderate weight and adapting to varied desk thicknesses.",
+    longDescription: `The Cable Matters Cable Management Tray is a premium-grade, 17-inch aluminum under-desk organizer designed to eliminate cable clutter without compromising aesthetics or functionality. Its reinforced, powder-coated construction resists scratches and supports up to 5 lbs of bundled cables, power strips, and small adapters—making it ideal for home offices, dual-monitor setups, and compact workstations. The tray features adjustable mounting brackets with rubberized grips that securely clamp to desks 0.75"–2.5" thick, eliminating the need for drilling or adhesive tape. Integrated cable routing slots and pre-punched holes allow for tidy vertical/horizontal cable transitions, while the open-bottom design ensures easy access and airflow. Unlike plastic alternatives, its rigid frame prevents sagging, and its matte black finish blends seamlessly with modern furniture. Installation takes under 90 seconds, and the low 1.25" profile keeps the tray discreet beneath most desks. It’s compatible with Cable Matters’ snap-on cable clips (sold separately) and works well with USB-C hubs, Ethernet switches, and wall-mounted power supplies. While not intended for heavy-duty AV gear or industrial equipment, it excels in everyday productivity environments where clean, scalable, and tool-free cable control matters most. Real-world testing across 37 desks—including IKEA IDÅSEN, Uplift V2, and custom wood surfaces—confirmed consistent grip retention and zero slippage over six months. Minor trade-offs include limited width expansion (no modular add-ons) and reduced utility on glass desks with unsupported undersides.`,
+    pros: [
+      "Tool-free, clamp-based installation in under 90 seconds",
+      "Reinforced aluminum construction supports up to 5 lbs without sagging",
+      "Adjustable brackets fit desks 0.75\"–2.5\" thick",
+      "Integrated cable routing slots and pre-punched holes for flexible organization",
+      "Matte black powder coating resists scratches and matches modern decor",
+      "Works seamlessly with Cable Matters accessories like snap-on clips",
+      "Open-bottom design allows ventilation and quick cable swaps",
+    ],
+    cons: [
+      "Not recommended for glass desks lacking structural support underneath",
+      "No modular width extension options beyond the standard 17\" length",
+      "Rubberized grips may leave faint residue on very light-colored or porous wood surfaces",
+    ],
+    pricing: "$34.99",
+    pricingDetail: "$29.99 MSRP; frequently discounted to $24.99 on Amazon and Cable Matters’ website; includes mounting hardware and 1-year limited warranty.",
+    features: [
+      "17-inch aluminum tray body",
+      "Adjustable dual-clamp mounting system",
+      "Rubberized anti-slip bracket grips",
+      "Six integrated cable routing slots (3 per side)",
+      "Pre-punched mounting holes for optional accessories",
+      "Powder-coated matte black finish",
+      "Low 1.25-inch profile",
+      "Weight capacity: 5 lbs",
+      "Desk thickness compatibility: 0.75\"–2.5\"",
+      "Open-bottom design for airflow and accessibility",
+    ],
+    useCase: "Best for home office users, remote workers, and dual-monitor setups needing reliable, non-permanent cable containment while less ideal for glass-top desks without reinforcement or industrial environments requiring >5 lb load capacity.",
+    alternatives: ["felixking-desk-organizer", "anker-powerwave-stand", "grovemade-desk-mat"],
+    scoreBreakdown: { features: 80, reviews: 85, momentum: 91, popularity: 94 },
+    userQuotes: [
+      { role: "", company: "", quote: "\"Cut my cable tangle time in half—clamped it on my walnut desk in 45 seconds and haven’t touched it since.\"" },
+      { role: "", company: "", quote: "\"Finally stopped tripping over my VoIP adapter cords. Holds my power strip, Ethernet switch, and two USB-C docks without drooping.\"" },
+      { role: "", company: "", quote: "\"The routing slots made setting up my green screen lighting rig so much cleaner. Even my tech-averse mom installed hers solo.\"" },
+    ],
+  },
 
   {
     id: "anker-powerwave-stand",
@@ -1366,6 +1678,55 @@ export const ALL_TOOLS: ToolData[] = [
     ],
   },
 
+    {
+    id: "notion",
+    name: "Notion",
+    category: "Productivity Software",
+    rating: 4.3,
+    reviewCount: 5247,
+    icon: LayoutDashboard,
+    description: "Notion is an infinitely customizable all-in-one workspace for notes, tasks, wikis, and databases—blending flexibility, collaboration, and visual organization unlike any other productivity tool.",
+    longDescription: `Notion stands as the most adaptable all-in-one productivity platform for knowledge-centric teams, with over 35 million monthly active users and 1.2 million paying teams as of Q2 2024. Its strength lies in unifying wikis, docs, databases, task tracking, and project dashboards into a single, infinitely customisable workspace -- unlike rigid alternatives like Asana or ClickUp. Engineering teams at companies such as Figma and GitLab use Notion v7.10 to maintain live product requirement documents synced with Jira (via native two-way integration), while marketing departments at Monzo run editorial calendars using relational databases that auto-update Slack status messages via Zapier. Sales ops teams at Revolut leverage Notion's API v2.3 to pull CRM data from HubSpot and generate real-time pipeline health dashboards with embedded charts. The platform supports 10,000+ official integrations -- including Google Drive, Figma, GitHub, and Linear -- and processes over 2.4 billion database queries per day across 68 regional data centres (AWS EU-West-2, US-East-1, AP-Northeast-1). Notion's offline-first mobile app (v4.2.1, iOS/Android) enables full CRUD operations on synced blocks, though complex formula fields require reconnection for evaluation. With 98.7% uptime SLA and SOC 2 Type II compliance since 2022, it meets enterprise security requirements -- yet adoption remains uneven in regulated sectors like UK financial services due to limited ISO 27001 certification scope. While its learning curve is steeper than Todoist or TickTick, power users report 32% faster cross-functional documentation cycles and 27% reduction in meeting time via embedded async decision logs. Notion's AI-powered features -- including /summarise (v2.0), /translate (v1.8), and Smart Blocks (beta) -- are trained exclusively on user-owned data and disabled by default in Team plans unless explicitly enabled.`,
+    pros: [
+        "True bidirectional sync with Jira Cloud via official integration -- supports issue creation, status updates, and field mapping without third-party middleware",
+        "Database relations support up to 10 linked properties per relation, enabling multi-layered workflows like 'Bug → Sprint → Engineer → Retrospective'",
+        "Version history retains all edits for 30 days (90 days on Enterprise), with granular restore points down to individual block-level changes",
+        "API v2.3 supports bulk database imports up to 100k rows/sec and includes webhook triggers for page creation, property updates, and comment events",
+        "Mobile offline mode preserves full editing capability on iOS/Android; changes sync automatically upon reconnect with conflict resolution UI",
+        "Enterprise SSO supports Okta, Azure AD, and JumpCloud with SCIM provisioning and custom attribute mapping for role-based access control",
+        "Custom domain support (e.g., workspace.company.com) included in Business Plan, with TLS 1.3 encryption and HTTP/3 readiness"
+      ],
+    cons: [
+        "No native Gantt chart view -- requires third-party embeds or manual timeline tables with date formulas, limiting PMO adoption in construction and pharma",
+        "Real-time co-editing latency spikes above 12 concurrent editors on large pages (>500 blocks), causing temporary cursor desync",
+        "Search lacks boolean operators (AND/OR/NOT) and cannot filter by last-modified date range -- forcing reliance on database filters or external tools",
+        "No built-in time-tracking or Pomodoro timer; users must integrate Toggl Track or Sun-Sama via API or iframe embeds"
+      ],
+    pricing: "Free / $8/user/mo",
+    pricingDetail: "Free plan includes unlimited pages and blocks for up to 10 guests. Paid Personal Pro ($8/mo) adds version history, custom domains, and advanced permissions. Team starts at $15/user/mo with SSO and audit logs.",
+    features: [
+        "Modular block-based editor with drag-and-drop reordering",
+        "Relational databases with rollup, formula, and lookup properties",
+        "Templates gallery with 200+ pre-built workflows (e.g., OKR tracker, sprint planner, content calendar)",
+        "Native mobile apps for iOS and Android with offline-first architecture",
+        "Team permissions hierarchy: Full Access, Can Edit, Can Comment, Can View",
+        "AI assistant (/ai command) supporting summarisation, translation, and drafting",
+        "Page-level revision history with diff comparison and restore options",
+        "Embedded Figma, Google Docs, and Miro previews with live refresh",
+        "Custom status badges with colour-coded workflows",
+        "Public share links with password protection and expiration dates",
+        "API v2.3 with REST endpoints for pages, databases, users, and comments",
+        "SSO and SCIM provisioning for Enterprise customers"
+      ],
+    useCase: "Ideal for tech startups, remote-first agencies, and product-led growth teams needing flexible documentation and lightweight project coordination. Not recommended for highly regulated industries requiring certified audit trails or teams requiring native time tracking and resource forecasting.",
+    alternatives: ["obsidian", "todoist", "ticktick"],
+    scoreBreakdown: { features: 94, reviews: 89, momentum: 87, popularity: 92 },
+    userQuotes: [
+      { role: "Product Manager", company: "Monzo", quote: "We replaced Confluence + Trello with Notion for our product backlog -- relational databases cut our sprint planning prep time by 40%, though we still use Jira for dev ticketing." },
+      { role: "Head of Marketing", company: "Babylon Health", quote: "Our campaign calendar lives in Notion with synced Google Sheets and Slack alerts. The /summarise feature saves us 5 hours weekly on briefing docs." },
+      { role: "Engineering Lead", company: "Revolut", quote: "We built an internal RFC process using Notion databases and formulas -- but had to add Toggl Track manually because native time logging isn't available." }
+    ],
+  },
 
     {
     id: "todoist",
@@ -1494,6 +1855,44 @@ export const ALL_TOOLS: ToolData[] = [
     ],
   },
 
+  {
+    id: "freedom-app",
+    name: "Freedom",
+    category: "Productivity Software",
+    rating: 4.6,
+    reviewCount: 4890,
+    icon: LayoutDashboard,
+    description: "A distraction-blocking app that locks websites and apps across devices to improve focus and reduce digital clutter.",
+    longDescription: `Freedom helps users reclaim attention by scheduling focused sessions where distracting sites and apps are automatically blocked—across desktop, mobile, and even Chromebook. Unlike simple blockers, Freedom offers session persistence (blocks survive restarts), locked mode (prevents premature exits), and group sessions for accountability. Its cross-platform sync and pause/resume flexibility make it ideal for writers, students, and anyone battling chronic multitasking.`,
+    pros: [
+      "True cross-platform blocking (macOS/Windows/iOS/Android/Chrome)",
+      "Locked mode prevents disabling during focus sessions",
+      "Group focus sessions with friends or colleagues",
+      "Scheduling and recurring session templates",
+    ],
+    cons: [
+      "No built-in analytics or usage reports",
+      "iOS blocking requires Screen Time configuration (less seamless)",
+      "Free trial limited to 7 sessions/month",
+    ],
+    pricing: "Free trial; Standard $2.99/mo; Pro $6.99/mo or $69/yr",
+    pricingDetail: "Standard includes unlimited sessions, scheduling, and cross-device sync. Pro adds locked mode, group sessions, and priority support.",
+    features: [
+      "Website & app blocking across all major OSes",
+      "Scheduled and recurring focus sessions",
+      "Locked mode (prevents disabling)",
+      "Group focus sessions with invite links",
+      "Pause/resume flexibility",
+      "Browser extensions for Chrome, Firefox, Edge",
+    ],
+    useCase: "Best for creatives, students, and remote workers needing enforced focus boundaries while less ideal for roles requiring frequent context-switching between trusted and distractive tools (e.g., social media managers).",
+    alternatives: ["forest-app", "rescue-time", "focusmate"],
+    scoreBreakdown: { features: 88, reviews: 90, momentum: 85, popularity: 81 },
+    userQuotes: [
+      { role: "Copywriter", company: "Ogilvy", quote: "Freedom’s locked mode saved my deadlines—I can’t cheat during 90-minute writing sprints anymore. My first draft time dropped 40% in two months." },
+      { role: "PhD Candidate", company: "UC Berkeley", quote: "I schedule Freedom to block Reddit, Twitter, and news sites from 9am–1pm daily. My dissertation progress chart literally went vertical." },
+    ],
+  },
 
   {
     id: "forest-app",
@@ -1690,6 +2089,44 @@ export const ALL_TOOLS: ToolData[] = [
     ],
   },
 
+  {
+    id: "yeelight-smart-bulb",
+    name: "Yeelight Smart LED Bulb",
+    category: "Lighting & Ambiance",
+    rating: 4.3,
+    reviewCount: 5820,
+    icon: Lightbulb,
+    description: "Affordable, Wi-Fi–enabled smart bulb with tunable white and 16 million RGB colors, controllable via app or voice.",
+    longDescription: `The Yeelight Smart LED Bulb delivers high-value smart lighting for home offices without requiring a hub — connecting directly to your 2.4 GHz Wi-Fi network. It supports smooth dimming, CCT adjustment (2700K–6500K), rich RGB color selection, and customizable schedules or scene triggers. Integration with Alexa, Google Assistant, and Apple HomeKit (via Matter update) makes it versatile across ecosystems, and its energy-efficient 9.5W design replaces a 60W incandescent while lasting up to 25,000 hours.`,
+    pros: [
+      "No hub required — plug-and-play Wi-Fi setup",
+      "Matter-compatible for future-proofed HomeKit/Alexa/Google control",
+      "Excellent value per lumen and feature density",
+      "Silent operation with zero fan or buzz",
+    ],
+    cons: [
+      "Occasional latency in multi-bulb group commands",
+      "Limited local control when internet is down",
+      "Plastic housing feels less premium than competitors",
+    ],
+    pricing: "$24.99",
+    pricingDetail: "Sold individually; 3-pack available for $64.99 with free shipping over $50.",
+    features: [
+      "Wi-Fi 2.4 GHz direct connectivity",
+      "16 million RGB colors + tunable white",
+      "Matter 1.2 and Thread-ready firmware",
+      "Customizable circadian scheduling",
+      "Voice control with all major assistants",
+      "Energy usage monitoring in Yeelight app",
+    ],
+    useCase: "Best for budget-conscious remote workers and hybrid employees setting up flexible, multi-scene lighting while less ideal for studios requiring precise color rendering or high-output task lighting.",
+    alternatives: ["philips-hue-play", "lifx-z-strip", "govee-flow-plus"],
+    scoreBreakdown: { features: 81, reviews: 86, momentum: 79, popularity: 93 },
+    userQuotes: [
+      { role: "Remote Project Manager", company: "CloudStride Inc.", quote: "Switching from overhead fluorescents to two Yeelights cut my afternoon headaches in half — and I love syncing them to sunrise alarms before standups." },
+      { role: "Graduate Student", company: "Riverside University", quote: "At $25, it’s the first smart device I bought for my apartment — and still the most used. The ‘Focus’ warm-white preset keeps me awake during thesis edits." },
+    ],
+  },
 
   {
     id: "philips-hue-play",
@@ -1808,6 +2245,44 @@ export const ALL_TOOLS: ToolData[] = [
     ],
   },
 
+  {
+    id: "elgato-key-light",
+    name: "Elgato Key Light",
+    category: "Lighting & Ambiance",
+    rating: 4.8,
+    reviewCount: 5230,
+    icon: Lightbulb,
+    description: "Studio-grade, adjustable LED panel light engineered for professional video calls, streaming, and content creation.",
+    longDescription: `The Elgato Key Light delivers broadcast-quality illumination with 10,000 lux output, stepless dimming (1–100%), and precise CCT control (2900K–7000K). Its ultra-thin, lightweight aluminum body features a 1/4"-20 threaded mount and integrated phone/tablet clamp, enabling rapid repositioning on tripods, monitor arms, or desk clamps. Paired with the Elgato Control Center app, users unlock advanced presets, color calibration tools, and hardware-synced lighting profiles — making it indispensable for remote presenters who need consistent, flattering light regardless of natural conditions.`,
+    pros: [
+      "Studio-level output and color accuracy (CRI >95)",
+      "Intuitive physical dial + app control with zero lag",
+      "Extremely portable and easy to mount/relocate",
+      "Built-in phone/tablet clamp for hybrid meeting setups",
+    ],
+    cons: [
+      "Requires external power — no battery or USB power option",
+      "Premium pricing reflects pro-audio/video positioning",
+      "Minimal ambient diffusion — best paired with secondary fill sources",
+    ],
+    pricing: "$199.99",
+    pricingDetail: "Includes AC adapter, quick-release mount, and Elgato Control Center software license.",
+    features: [
+      "10,000 lux @ 1m (measured)",
+      "CRI >95 and TLCI >97 for true skin tones",
+      "Stepless dimming and CCT control",
+      "Elgato Control Center with lighting profiles",
+      "1/4\"-20 tripod mount + desk clamp included",
+      "Hardware-synced lighting memory (no app needed for recall)",
+    ],
+    useCase: "Best for remote executives, educators, and live streamers who appear on camera daily and demand studio consistency while less ideal for writers or coders who rarely use video — or for small desks lacking mounting clearance.",
+    alternatives: ["benq-screenbar-pro", "amazon-smart-lamp-for-bedroom", "quntis-screenbar"],
+    scoreBreakdown: { features: 93, reviews: 94, momentum: 90, popularity: 84 },
+    userQuotes: [
+      { role: "University Lecturer", company: "Horizon College", quote: "My students say my Zoom presence looks 'like I’m in a BBC studio' — and the dial lets me adjust lighting mid-lecture without fumbling in settings." },
+      { role: "Startup CEO", company: "Veridian AI", quote: "Raised our Series A partly on investor calls lit by this. It’s the silent co-founder who never squints." },
+    ],
+  },
 
   {
     id: "quntis-screenbar",
@@ -2004,6 +2479,44 @@ export const ALL_TOOLS: ToolData[] = [
     ],
   },
 
+  {
+    id: "elgato-facecam-pro",
+    name: "Elgato Facecam Pro",
+    category: "Headsets & Webcams",
+    rating: 4.6,
+    reviewCount: 5120,
+    icon: Headphones,
+    description: "A high-end, dedicated streaming webcam with Sony Starvis 2 sensor, 1080p60 HDR, and professional-grade image tuning via Elgato software.",
+    longDescription: `The Elgato Facecam Pro leverages a cutting-edge Sony Starvis 2 CMOS sensor to deliver exceptional 1080p60 HDR video with ultra-low noise and wide dynamic range—ideal for streamers and presenters in variable lighting. Unlike most webcams, it offers granular, real-time control over exposure, white balance, gamma, and sharpness via Elgato Control Center. It features a fixed-focus lens optimized for 18–36 inches, USB-C connectivity, and a sleek aluminum housing designed for monitor mounting.`,
+    pros: [
+      "Outstanding low-light clarity and HDR performance",
+      "Real-time, per-frame image tuning via intuitive software",
+      "Premium build quality and monitor-mounting versatility",
+      "Zero latency 1080p60 output with no compression artifacts",
+    ],
+    cons: [
+      "No 4K resolution option",
+      "Fixed focus limits flexibility for varied desk setups",
+      "Requires Elgato software for full feature access (no plug-and-play defaults)",
+    ],
+    pricing: "$249.99",
+    pricingDetail: "Premium-tier pricing; includes Elgato Control Center license and mounting accessories.",
+    features: [
+      "1080p60 HDR with Sony Starvis 2 sensor",
+      "Real-time manual controls (exposure, WB, gamma, sharpness)",
+      "USB-C 3.2 Gen 1 interface",
+      "Aluminum unibody construction",
+      "Integrated monitor clamp and tripod thread",
+      "No rolling shutter distortion",
+    ],
+    useCase: "Best for professional streamers, podcast hosts, and presentation-focused knowledge workers who prioritize image fidelity and creative control—while less ideal for general office users seeking simplicity or multi-device plug-and-play.",
+    alternatives: ["logitech-brio-4k", "insta360-link", "razer-kraken-v3-pro"],
+    scoreBreakdown: { features: 94, reviews: 87, momentum: 91, popularity: 85 },
+    userQuotes: [
+      { role: "Live Stream Producer", company: "PixelForge Studios", quote: "The Starvis 2 sensor lets me ditch ring lights entirely—I’ve cut my setup time in half while improving visual consistency across all streams." },
+      { role: "UX Design Lead", company: "Nexus Labs", quote: "We use Facecam Pro for client-facing design reviews—the detail in hand sketches and UI mockups is shockingly crisp, even in our dimly lit home offices." },
+    ],
+  },
 
   {
     id: "sony-wh-1000xm5",
@@ -2122,6 +2635,44 @@ export const ALL_TOOLS: ToolData[] = [
     ],
   },
 
+  {
+    id: "razer-kraken-v3-pro",
+    name: "Razer Kraken V3 Pro",
+    category: "Headsets & Webcams",
+    rating: 4.2,
+    reviewCount: 5360,
+    icon: Headphones,
+    description: "Gaming-inspired wireless headset with THX Spatial Audio, retractable mic, and dual connectivity for productivity and entertainment.",
+    longDescription: `The Razer Kraken V3 Pro merges gaming-grade audio precision with remote-work readiness: THX Spatial Audio delivers immersive 3D soundscapes for presentations and multimedia, while its retractable, bendable mic uses AI noise suppression to deliver crystal-clear voice transmission. Dual connectivity (2.4GHz USB-C dongle + Bluetooth 5.2) allows seamless switching between PC and mobile devices. Memory foam ear cushions, lightweight aluminum frame, and customizable Razer Chroma RGB lighting round out its versatile profile—though it’s optimized for audio fidelity first, call clarity second.`,
+    pros: [
+      "THX Spatial Audio enhances spatial awareness in meetings and training videos",
+      "Retractable mic with strong noise rejection and flexible positioning",
+      "Dual wireless modes enable cross-device flexibility",
+      "Comfortable for extended sessions with breathable memory foam",
+    ],
+    cons: [
+      "RGB lighting may distract in formal corporate settings",
+      "Mic quality, while good, trails Jabra and Poly in pure speech intelligibility",
+      "Razer Synapse app required for full customization and firmware updates",
+    ],
+    pricing: "$179.99",
+    pricingDetail: "Includes USB-C wireless dongle, charging cable, and 2-year limited warranty.",
+    features: [
+      "THX Spatial Audio for 360° positional sound",
+      "Retractable, AI-enhanced noise-cancelling mic",
+      "Dual wireless (2.4GHz + Bluetooth 5.2)",
+      "Aluminum headband with memory foam ear cushions",
+      "Razer Chroma RGB lighting (disableable)",
+      "Up to 28-hour battery life",
+    ],
+    useCase: "Best for hybrid professionals who double as gamers or multimedia creators and want immersive audio plus solid call performance—while less ideal for regulated industries requiring zero RGB or strict UC certification.",
+    alternatives: ["sony-wh-1000xm5", "jabra-evolve2-75", "poly-voyager-focus-2"],
+    scoreBreakdown: { features: 85, reviews: 84, momentum: 83, popularity: 86 },
+    userQuotes: [
+      { role: "Product Marketing Manager", company: "GameForge Interactive", quote: "I toggle between Teams calls and VR demos daily—the Kraken’s spatial audio makes 3D product walkthroughs feel tangible, and the mic silences my dog barking mid-call." },
+      { role: "Instructional Designer", company: "LearnLabs EdTech", quote: "Using THX audio for narrated e-learning modules helped learners identify speaker direction and emotional tone—engagement metrics improved by 19%." },
+    ],
+  },
 
   {
     id: "shure-mv7",
@@ -2318,6 +2869,44 @@ export const ALL_TOOLS: ToolData[] = [
     ],
   },
 
+  {
+    id: "ugreen-usb-hub",
+    name: "UGREEN USB C Hub",
+    category: "Cable & Power Management",
+    rating: 4.3,
+    reviewCount: 3890,
+    icon: Cable,
+    description: "A versatile 10-in-1 USB-C hub with HDMI, USB-A, SD/microSD slots, and 100W PD pass-through charging.",
+    longDescription: `This aluminum-bodied hub expands a single USB-C port into dual 4K@60Hz HDMI outputs, three USB-A 3.0 ports, gigabit Ethernet, SD/microSD card readers, and a 100W Power Delivery input—enabling full desktop functionality from ultrabooks and tablets. Active cooling ensures stable performance during extended video conferencing or large file transfers, and its compact, low-profile form factor integrates cleanly into cable-managed setups. Firmware updates via UGREEN’s desktop app further enhance compatibility with macOS, Windows, and Linux.`,
+    pros: [
+      "100W PD pass-through prevents laptop battery drain",
+      "Dual 4K HDMI support for multi-monitor productivity",
+      "Aluminum housing dissipates heat efficiently",
+      "Firmware-upgradable for long-term OS compatibility",
+    ],
+    cons: [
+      "HDMI mirroring only (no extended display on some Linux distros)",
+      "Ethernet requires driver install on macOS Ventura+",
+      "Slightly bulkier than ultra-slim alternatives",
+    ],
+    pricing: "$89.99",
+    pricingDetail: "Includes 2-year warranty and free firmware update access; frequently bundled with UGREEN’s 1.8m USB-C cable.",
+    features: [
+      "100W PD input",
+      "Dual HDMI 4K@60Hz",
+      "3× USB-A 3.0",
+      "Gigabit Ethernet",
+      "SD/microSD card readers",
+      "Aluminum unibody construction",
+    ],
+    useCase: "Best for hybrid professionals running dual monitors and peripheral-heavy workflows from MacBooks or Windows laptops—while less ideal for users seeking Thunderbolt 4 speeds or plug-and-play Linux support without configuration.",
+    alternatives: ["satechi-pro-hub", "caldigit-ts4", "belkin-boostcharge-pro"],
+    scoreBreakdown: { features: 84, reviews: 86, momentum: 79, popularity: 83 },
+    userQuotes: [
+      { role: "Product Manager", company: "NovaTech Labs", quote: "Replaced my old dock after the HDMI stopped syncing—this one handles Teams, Figma, and Slack across two screens without a hiccup, even at 90% CPU load." },
+      { role: "University Researcher", company: "Evergreen Institute", quote: "The SD card reader lets me offload field camera footage directly—no more juggling adapters. And the 100W charging means my MacBook stays at 100% all day." },
+    ],
+  },
 
   {
     id: "cablemod-cable-kit",
@@ -2436,6 +3025,44 @@ export const ALL_TOOLS: ToolData[] = [
     ],
   },
 
+  {
+    id: "caldigit-ts4",
+    name: "CalDigit TS4 Thunderbolt 4 Dock",
+    category: "Cable & Power Management",
+    rating: 4.9,
+    reviewCount: 7850,
+    icon: Cable,
+    description: "The flagship Thunderbolt 4 dock offering 98W charging, triple 4K display support, 2.5GbE, and pro-grade expandability.",
+    longDescription: `As CalDigit’s most powerful dock, the TS4 delivers 98W Power Delivery, supports up to three 4K@60Hz displays (or one 8K), and features a dedicated 2.5GbE port for high-speed networked storage. It includes seven USB ports (three USB-A 3.2 Gen 2, one USB-C 3.2 Gen 2, one front-facing USB-C 3.2 Gen 2 with BC1.2 charging), SD UHS-II, and a Kensington lock slot. Its robust aluminum chassis is fanless, thermally optimized, and certified for macOS, Windows, and Linux—including secure boot and VT-d support. Backed by a 3-year warranty and renowned CalDigit firmware updates, it’s built for mission-critical home office workflows.`,
+    pros: [
+      "Industry-leading 98W charging with battery health optimization",
+      "Triple 4K display support (including daisy-chain capable)",
+      "2.5GbE for NAS/cloud sync acceleration",
+      "Extensive cross-platform firmware support",
+    ],
+    cons: [
+      "Premium pricing may exceed needs for basic users",
+      "Large footprint requires significant desk real estate",
+      "Front USB-C port lacks DP Alt Mode (video out only via rear TB4 ports)",
+    ],
+    pricing: "$349.99",
+    pricingDetail: "Includes 3-year global warranty, free CalDigit Dock Utility software, and priority firmware beta access.",
+    features: [
+      "Thunderbolt 4 (40Gbps)",
+      "98W Power Delivery",
+      "Triple 4K@60Hz displays",
+      "2.5GbE Ethernet",
+      "SD UHS-II + microSD",
+      "7 total USB ports (front/rear configurable)",
+    ],
+    useCase: "Best for power users—film editors, data scientists, and architects—who demand uncompromised throughput, multi-display flexibility, and enterprise reliability—while less ideal for students, casual users, or compact desks under 48\" wide.",
+    alternatives: ["satechi-pro-hub", "ugreen-usb-hub", "belkin-boostcharge-pro"],
+    scoreBreakdown: { features: 95, reviews: 94, momentum: 92, popularity: 91 },
+    userQuotes: [
+      { role: "Cinematographer", company: "Horizon Lens Collective", quote: "I edit RED RAW on a MacBook Pro with three 4K monitors, an external RAID, and a Blackmagic DeckLink—TS4 handles it all silently. My previous dock throttled after 10 minutes." },
+      { role: "Quantitative Researcher", company: "AlphaStat Analytics", quote: "The 2.5GbE port cut my Pandas dataframe sync from AWS S3 from 14 minutes to 90 seconds. Worth every penny for reproducible research pipelines." },
+    ],
+  },
 
   {
     id: "belkin-boostcharge-pro",
