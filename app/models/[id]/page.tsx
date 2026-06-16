@@ -94,8 +94,8 @@ export default function ModelDetailPage() {
             <div>
               <div className="flex items-center gap-3 flex-wrap">
                 <span className={`px-3 py-1 text-xs font-bold rounded-full uppercase tracking-wider border ${
-                  resource.style === "真实系" ? "bg-blue-900/30 text-blue-400 border-blue-800/30" :
-                  resource.style === "二次元" ? "bg-pink-900/30 text-pink-400 border-pink-800/30" :
+                  resource.style === "Realistic" ? "bg-blue-900/30 text-blue-400 border-blue-800/30" :
+                  resource.style === "Anime" ? "bg-pink-900/30 text-pink-400 border-pink-800/30" :
                   "bg-amber-900/30 text-amber-400 border-amber-800/30"
                 }`}>
                   {resource.style}

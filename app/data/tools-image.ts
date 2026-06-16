@@ -38,18 +38,21 @@ export const IMAGE_TOOLS: ToolData[] = [
     reviewCount: 5200,
     icon: Palette,
     description: "AI image generator known for stunning artistic quality and creative compositions.",
-    longDescription: "Midjourney is a leading AI image generation platform that produces highly artistic, photorealistic, and imaginative visuals from text prompts. Known for its distinctive aesthetic quality, it operates primarily through Discord, offering fine-grained control over style, composition, and detail through advanced prompt engineering.",
+    longDescription: "Midjourney is a leading AI image generation tool renowned for its exceptional artistic fidelity, rich visual detail, and ability to interpret nuanced, imaginative prompts into compelling, gallery-worthy imagery. Unlike many text-to-image models focused on photorealism or speed, Midjourney excels in stylistic versatility—producing outputs that span painterly abstractions, cinematic concept art, vintage illustrations, and surreal digital compositions with remarkable coherence and aesthetic sophistication. Its iterative design workflow, powered by Discord-based prompting and upscaling, fosters creative experimentation and community-driven refinement, making it especially popular among designers, illustrators, marketers, and fine artists seeking inspiration, mood boarding, or production-ready assets.\n\nThe platform's strength lies in its deeply tuned diffusion model architecture and curated training data, which prioritize compositional balance, lighting nuance, and texture richness over literal prompt adherence—resulting in images that feel intentionally authored rather than algorithmically assembled. Users benefit from robust versioning (V5, V6, Niji mode for anime), advanced parameters (--stylize, --chaos, --tile), and seamless integration with workflows like concept development, branding ideation, and visual storytelling. While not API-accessible in its base form, Midjourney's responsive Discord interface and real-time feedback loop support rapid iteration and collaborative exploration.\n\nMidjourney's ecosystem thrives on accessibility and creative empowerment: the free trial offers limited generations to test quality and fit, while tiered subscription plans scale with usage needs—from hobbyists exploring visual ideas to agencies requiring high-volume, priority rendering and commercial licensing rights. Its emphasis on aesthetics over automation makes it less suited for strict technical or architectural visualization but unmatched for expressive, emotionally resonant image creation.",
     pros: [
-      "Exceptional artistic quality and aesthetic output",
-      "Highly customizable prompt parameters for fine-grained control",
-      "Active community with daily inspiration and prompt sharing",
+      "Produces exceptionally high-fidelity, artistically sophisticated images with strong composition, lighting, and texture",
+      "Offers broad stylistic range—from realistic to surreal, painterly to anime—via dedicated modes (e.g., Niji) and granular parameters",
+      "Intuitive, community-supported Discord interface enables fast iteration, real-time feedback, and collaborative prompting",
+      "Commercial usage rights included at all paid tiers, with clear licensing terms for marketing, publishing, and product design",
+      "Consistent model improvements (V6, Turbo mode) deliver faster rendering, better prompt understanding, and enhanced coherence"
     ],
     cons: [
-      "Requires Discord to use — no standalone web app",
-      "Limited free tier; paid plans required for commercial use",
+      "No native API or web UI—requires Discord use, limiting enterprise integration and automation capabilities",
+      "Limited control over precise object placement or photorealistic fidelity compared to tools with inpainting or segmentation features",
+      "Higher-tier plans required for substantial volume or priority GPU access; free tier is extremely limited and non-commercial"
     ],
     pricing: "$10/mo",
-    pricingDetail: "Basic $10/mo | Standard $30/mo | Pro $60/mo | Mega $120/mo",
+    pricingDetail: "Basic $10/month (~200 fast GPU minutes/month); Standard $30/month (unlimited fast GPU minutes, relax mode priority, higher resolution upscaling); Pro $60/month (priority rendering, full commercial rights, early access); Mega $120/month (maximum speed, highest priority queue, dedicated support). All paid plans include commercial usage rights and private image generation.",
     features: [
       "Text-to-Image Generation from Natural Language Prompts",
       "Advanced Prompt Parameters (ar, stylize, chaos, seed, iw)",

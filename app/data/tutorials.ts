@@ -16,155 +16,155 @@ export interface Tutorial {
 export const TUTORIALS: Tutorial[] = [
   {
     id: "chatgpt-hidden-features",
-    title: "ChatGPT Plus 会员的10个隐藏功能，90%的用户不知道",
-    excerpt: "ChatGPT Plus 每月花$20，但大多数用户只用到了不到20%的功能。本文将揭示10个强大的隐藏功能，让你的会员费物超所值。",
-    content: `ChatGPT Plus 每月收费 $20，但你很可能只用到了它最基础的功能。我花了大量时间探索这些"隐藏"特性——以下是我认为最实用的10个。
+    title: "10 Hidden ChatGPT Plus Features 90% of Users Don't Know About",
+    excerpt: "ChatGPT Plus costs $20/month, but most users utilize less than 20% of its capabilities. This article reveals 10 powerful hidden features that make your membership worthwhile.",
+    content: `ChatGPT Plus costs $20/month, but you're likely only scratching the surface of what it can do. I've spent considerable time exploring these hidden features — here are the 10 most useful ones I've found.
 
-## 1. Advanced Data Analysis（原Code Interpreter）
+## 1. Advanced Data Analysis (formerly Code Interpreter)
 
-大多数用户不知道 ChatGPT Plus 内置了一个完整的 Python 运行环境。
+Most users don't know ChatGPT Plus includes a full Python runtime environment.
 
-**如何开启：**
-点击底部模型选择器 → 选择 "GPT-4o" → 点击下方的 "... More" 确保 "Advanced Data Analysis" 已开启。
+**How to enable:**
+Click the model selector at the bottom → Select "GPT-4o" → Click "... More" and ensure "Advanced Data Analysis" is enabled.
 
-**它能做什么：**
-- 上传 CSV/Excel 文件，让 ChatGPT 自动分析数据并生成图表
-- 上传图片，ChatGPT 可以提取文字、分析内容
-- 上传 PDF，自动摘要和翻译
-- 运行 Python 代码并返回结果
+**What it can do:**
+- Upload CSV/Excel files for automatic data analysis and chart generation
+- Upload images for text extraction and content analysis
+- Upload PDFs for automatic summarization and translation
+- Run Python code and return results
 
 \`\`\`
 Upload: sales_data.csv (2.3MB)
-ChatGPT 自动输出：
-├── 数据清洗（检测到 15 个空值）
-├── 描述性统计（平均值、中位数、标准差）
-├── 可视化（柱状图、折线图、热力图）
-└── 结论（"Q3销售额最高，建议加大Q3投入"）
+ChatGPT auto outputs:
+├── Data cleaning (detected 15 null values)
+├── Descriptive statistics (mean, median, standard deviation)
+├── Visualizations (bar chart, line chart, heatmap)
+└── Conclusion ("Q3 sales are highest, recommend increasing Q3 investment")
 \`\`\`
 
-**最佳场景：** 数据分析师、市场人员快速处理报表。
+**Best for:** Data analysts and marketers needing quick report processing.
 
-## 2. 自定义 GPTs（Custom GPTs）
+## 2. Custom GPTs
 
-你可以创建自己的专属 GPT，设定特定的指令、知识库和能力。
+You can create your own specialized GPT with custom instructions, knowledge bases, and capabilities.
 
-**如何创建：**
-左侧栏 → "Explore GPTs" → "Create a GPT"
+**How to create:**
+Left sidebar → "Explore GPTs" → "Create a GPT"
 
-**实用案例：**
-- **写作助手 GPT：** 设定你的品牌语调、常用词汇，生成内容一键匹配品牌风格
-- **代码审查 GPT：** 上传你的代码规范文档，每次审查代码时自动按规范检查
-- **翻译 GPT：** 设定专业术语库，确保翻译一致性
+**Practical examples:**
+- **Writing Assistant GPT:** Set your brand tone and commonly used vocabulary for one-click brand-aligned content generation
+- **Code Review GPT:** Upload your coding standards document for automatic compliance checks
+- **Translation GPT:** Configure specialized terminology databases for consistent translations
 
-## 3. 记忆功能（Memory）
+## 3. Memory Feature
 
-ChatGPT 可以记住你的个人信息和偏好。
+ChatGPT can remember your personal information and preferences.
 
-**如何开启：**
-Settings → Personalization → Memory → 开启
+**How to enable:**
+Settings → Personalization → Memory → Toggle on
 
-**记忆效果：**
-- 告诉它 "我是前端开发者" → 后续回答代码问题会默认用 JavaScript
-- 告诉它 "我喜欢简洁的回答" → 以后回复会变得更短
-- 告诉它 "我团队有5个人" → 项目规划时自动按5人团队计算
+**Memory effects:**
+- Tell it "I'm a frontend developer" → future code answers default to JavaScript
+- Tell it "I prefer concise answers" → responses become shorter
+- Tell it "my team has 5 people" → project planning automatically scales for 5
 
-**管理记忆：**
-Settings → Manage Memory → 可以查看和删除不需要的记忆项
+**Managing memory:**
+Settings → Manage Memory → View and delete unwanted memory items
 
-## 4. 多模态输入（Vision）
+## 4. Multimodal Input (Vision)
 
-GPT-4o 可以直接"看"图片。
+GPT-4o can directly "see" images.
 
-**使用方法：**
-直接上传图片到对话中，然后提问。支持格式：JPG、PNG、GIF、WEBP。
+**How to use:**
+Simply upload images into the conversation and ask questions. Supported formats: JPG, PNG, GIF, WEBP.
 
-**实用案例：**
-- 拍一张白板会议记录 → "帮我把这个整理成结构化的会议纪要"
-- 拍一张菜单 → "帮我翻译这份菜单并推荐3道菜"
-- 上传UI设计图 → "帮我写这个页面的HTML/CSS代码"
+**Practical examples:**
+- Take a photo of whiteboard meeting notes → "Help me organize this into structured meeting minutes"
+- Take a photo of a menu → "Help me translate this menu and recommend 3 dishes"
+- Upload a UI design mockup → "Help me write the HTML/CSS code for this page"
 
-## 5. 对话分享与协作
+## 5. Conversation Sharing & Collaboration
 
-你可以生成一个公开链接分享整个对话。
+You can generate a public link to share an entire conversation.
 
-**如何操作：**
-右上角 "Share" 按钮 → "Copy Link"
+**How to do it:**
+Top-right "Share" button → "Copy Link"
 
-**实用场景：**
-- 分享Prompt模板给同事
-- 保存重要对话（即使用户删除了对话，分享链接仍然有效）
-- 团队协作：一个人写好Prompt，分享给全团队使用
+**Practical scenarios:**
+- Share prompt templates with colleagues
+- Save important conversations (shared links remain valid even if you delete the conversation)
+- Team collaboration: one person writes a prompt, shares it with the whole team
 
-## 6. 插件生态系统
+## 6. Plugin Ecosystem
 
-Plus 会员可以访问 ChatGPT 插件市场。
+Plus members can access the ChatGPT plugin marketplace.
 
-**推荐插件：**
-- **Zapier：** 将 ChatGPT 和 5000+ 应用连接
-- **WebPilot：** 让 ChatGPT 浏览网页获取最新信息
-- **Wolfram：** 处理数学计算和数据可视化
-- **Diagrams：** 生成流程图和架构图
+**Recommended plugins:**
+- **Zapier:** Connect ChatGPT with 5000+ apps
+- **WebPilot:** Let ChatGPT browse the web for the latest information
+- **Wolfram:** Handle mathematical calculations and data visualization
+- **Diagrams:** Generate flowcharts and architecture diagrams
 
-## 7. 语音对话模式
+## 7. Voice Conversation Mode
 
-ChatGPT App 支持语音输入和语音回复。
+The ChatGPT App supports voice input and voice responses.
 
-**打开方式：**
-ChatGPT App → 点击耳机图标
+**How to use:**
+ChatGPT App → Tap the headphone icon
 
-**实用场景：**
-- 开车时口头朗读文章摘要
-- 睡前让它给你读故事
-- 语言学习：和ChatGPT用英语对话，练习口语
+**Practical scenarios:**
+- Have articles read aloud while driving
+- Listen to stories before bed
+- Language learning: practice English conversation with ChatGPT
 
-## 8. 对话文件夹
+## 8. Conversation Folders
 
-你可以整理对话到不同的文件夹。
+You can organize conversations into different folders.
 
-**如何操作：**
-左侧栏 → 点击 "New Folder" → 命名并拖拽对话进去
+**How to do it:**
+Left sidebar → Click "New Folder" → Name it and drag conversations in
 
-**推荐分类：**
+**Recommended organization:**
 \`\`\`
-📁 工作项目
-  ├── 代码审查
-  ├── 邮件草稿
-  └── 数据分析
-📁 学习
-  ├── Python教程
-  └── 英语练习
-📁 Prompt 模板库
-  └── 常用Prompt存档
+📁 Work Projects
+  ├── Code Reviews
+  ├── Email Drafts
+  └── Data Analysis
+📁 Learning
+  ├── Python Tutorials
+  └── English Practice
+📁 Prompt Templates
+  └── Saved Prompts
 \`\`\`
 
-## 9. 数据分析图表导出
+## 9. Data Analysis Chart Export
 
-Advanced Data Analysis 生成的图表可以直接导出。
+Charts generated by Advanced Data Analysis can be exported directly.
 
-**操作：**
-右键点击生成的图表 → "Download" → 选择格式（PNG、HTML、CSV）
+**How to do it:**
+Right-click on the generated chart → "Download" → Choose format (PNG, HTML, CSV)
 
-**技巧：** 使用HTML格式导出，可以保持交互性（鼠标悬停显示数据）。
+**Tip:** Export in HTML format for interactivity (hover to see data).
 
-## 10. 自定义指令
+## 10. Custom Instructions
 
-在 Settings 中设置固定的行为准则。
+Set fixed behavioral guidelines in Settings.
 
-**如何设置：**
+**How to set up:**
 Settings → Personalization → Custom Instructions
 
-**推荐配置：**
+**Recommended configuration:**
 \`\`\`
-关于我：
-"我是一名前端开发者，使用React和TypeScript。需要代码示例时用TypeScript。"
+About me:
+"I'm a frontend developer using React and TypeScript. Use TypeScript for code examples."
 
-偏好：
-"回答要简洁、结构清晰。不要重复我之前说过的话。代码要有注释。"
+Preferences:
+"Keep answers concise and well-structured. Don't repeat what I've already said. Include comments in code."
 \`\`\`
 
-## 总结
+## Summary
 
-这10个功能中，**Advanced Data Analysis** 和 **Custom GPTs** 最值得优先探索。光是这两个功能，$20/月的会员费就值回票价了。`,
+Of these 10 features, **Advanced Data Analysis** and **Custom GPTs** are the most worth exploring first. These two features alone make the $20/month membership fee worthwhile.`,
     author: "Alex Chen",
     authorRole: "AI Tools Expert",
     date: "2026-05-19",
@@ -176,54 +176,54 @@ Settings → Personalization → Custom Instructions
   },
   {
     id: "midjourney-prompt-guide",
-    title: "Midjourney Prompt工程：从入门到精通",
-    excerpt: "写好Prompt是使用Midjourney的核心技能。从基础结构到高级参数，本文带你系统掌握Midjourney的Prompt写法。",
-    content: `# Midjourney Prompt 工程：从入门到精通
+    title: "Midjourney Prompt Engineering: From Beginner to Pro",
+    excerpt: "Writing good prompts is the core skill for using Midjourney. From basic structure to advanced parameters, this guide will systematically teach you Midjourney prompt techniques.",
+    content: `# Midjourney Prompt Engineering: From Beginner to Pro
 
-Midjourney 是目前最强大的AI图像生成器之一，但很多用户的 Prompt 只写了 "a cat" —— 这完全浪费了它的能力。
+Midjourney is one of the most powerful AI image generators available, but many users only write prompts like "a cat" — which completely wastes its potential.
 
-## 基础结构
+## Basic Structure
 
-一个完整的 Midjourney Prompt 包含五个部分：
+A complete Midjourney prompt consists of five parts:
 
 \`\`\`
-[主体] + [环境/背景] + [风格] + [灯光/色彩] + [参数]
+[Subject] + [Environment/Background] + [Style] + [Lighting/Color] + [Parameters]
 \`\`\`
 
-**示例：**
+**Example:**
 \`\`\`
 /imagine prompt: 
 a Siberian husky wearing aviator goggles --ar 16:9 --v 6
 \`\`\`
 
-## 进阶技巧
+## Advanced Techniques
 
-### 1. 使用参数控制输出
+### 1. Using Parameters to Control Output
 
-Midjourney 支持丰富的参数：
+Midjourney supports a rich set of parameters:
 
-| 参数 | 作用 | 示例 |
+| Parameter | Function | Example |
 |------|------|------|
-| --ar | 宽高比 | --ar 16:9, --ar 9:16 |
-| --v | 版本 | --v 6（最新版）|
-| --s | 风格化程度 | --s 250（默认）, --s 1000（高风格化）|
-| --iw | 图片权重 | --iw 2（参考图权重）|
-| --no | 排除元素 | --no text,watermark |
+| --ar | Aspect ratio | --ar 16:9, --ar 9:16 |
+| --v | Version | --v 6 (latest) |
+| --s | Stylization level | --s 250 (default), --s 1000 (high stylization) |
+| --iw | Image weight | --iw 2 (reference image influence) |
+| --no | Exclude elements | --no text,watermark |
 
-### 2. 权重控制
+### 2. Weight Control
 
-用 \`::\` 分隔不同部分并分配权重：
+Use \`::\` to separate different parts and assign weights:
 
 \`\`\`
 /imagine prompt: 
 a futuristic city::2 sunset sky::1 --ar 16:9
 \`\`\`
 
-这样 "futuristic city" 的权重是 "sunset sky" 的两倍。
+This makes "futuristic city" twice as important as "sunset sky".
 
-### 3. 风格混合
+### 3. Style Mixing
 
-组合不同的艺术家风格：
+Combine different artist styles:
 
 \`\`\`
 /imagine prompt: 
@@ -231,9 +231,9 @@ Japanese garden in the style of Studio Ghibli and Monet,
 soft lighting, watercolor texture --ar 16:9
 \`\`\`
 
-## 实战Prompt模板
+## Practical Prompt Templates
 
-### 电商产品图
+### E-commerce Product Photos
 \`\`\`
 /imagine prompt: 
 minimalist white ceramic coffee cup on wooden table, 
@@ -241,7 +241,7 @@ professional product photography, soft studio lighting,
 clean background, 8k --ar 4:3 --v 6
 \`\`\`
 
-### 人物肖像
+### Portraits
 \`\`\`
 /imagine prompt: 
 portrait of an elderly fisherman with weathered face, 
@@ -249,7 +249,7 @@ cinematic lighting, shallow depth of field,
 grainy film texture --ar 3:4 --s 200 --v 6
 \`\`\`
 
-### 概念设计
+### Concept Design
 \`\`\`
 /imagine prompt: 
 floating crystal city in the clouds at sunset, 
@@ -257,16 +257,16 @@ concept art, epic scale, volumetric lighting,
 trending on ArtStation --ar 21:9 --s 400 --v 6
 \`\`\`
 
-## 常见问题
+## Frequently Asked Questions
 
-**Q: 为什么我的图不够清晰？**
-A: 在 Discord 中图片上点击 "Open in Browser" 可以查看原图。或者使用 --s 50-100 降低风格化程度。
+**Q: Why aren't my images sharp enough?**
+A: Click "Open in Browser" on the image in Discord to view the original. Alternatively, use --s 50-100 to reduce stylization.
 
-**Q: 如何保持角色一致性？**
-A: 使用 --seed 参数固定随机种子，每次生成同样种子+同样Prompt可以得到一致的风格。
+**Q: How do I maintain character consistency?**
+A: Use the --seed parameter to fix the random seed. Using the same seed + prompt will produce consistent styles.
 
-**Q: 图片尺寸不合适？**
-A: 用 --ar 控制宽高比。常见比例：16:9（宽屏）、4:3（标准）、3:4（竖屏）、1:1（方形）。`,
+**Q: Image size doesn't look right?**
+A: Use --ar to control aspect ratio. Common ratios: 16:9 (widescreen), 4:3 (standard), 3:4 (portrait), 1:1 (square).`,
     author: "Alex Chen",
     authorRole: "AI Tools Expert",
     date: "2026-05-19",
@@ -278,57 +278,57 @@ A: 用 --ar 控制宽高比。常见比例：16:9（宽屏）、4:3（标准）�
   },
   {
     id: "cursor-claude-workflow",
-    title: "Cursor + Claude 搭配使用，让AI写代码效率翻倍",
-    excerpt: "Cursor 是目前最强大的AI代码编辑器，搭配 Claude 可以让开发效率提升数倍。本文分享实战配置和高效工作流。",
-    content: `# Cursor + Claude 搭配使用工作流
+    title: "Cursor + Claude Workflow: Doubling Your AI Coding Efficiency",
+    excerpt: "Cursor is currently the most powerful AI code editor. Paired with Claude, it can multiply your development efficiency. This article shares practical configurations and efficient workflows.",
+    content: `# Cursor + Claude Workflow Guide
 
-Cursor 是 VS Code 的一个 AI-first 分支，内置了 DeepSeek 和 Claude 等多种模型。合理配置可以显著提升编码效率。
+Cursor is an AI-first fork of VS Code, with built-in support for DeepSeek, Claude, and other models. Proper configuration can significantly boost your coding efficiency.
 
-## 基础配置
+## Basic Configuration
 
-### 1. 选择正确的模型
+### 1. Choosing the Right Model
 
-在 Cursor 设置中，建议为不同任务配置不同的模型：
+In Cursor settings, it's recommended to configure different models for different tasks:
 
-- **日常编码补全：** Cursor Tab（默认，最快）
-- **代码生成/重构：** Claude Sonnet（平衡速度和质量）
-- **复杂逻辑/架构设计：** Claude Opus（最强大）
+- **Daily code completion:** Cursor Tab (default, fastest)
+- **Code generation/refactoring:** Claude Sonnet (balanced speed and quality)
+- **Complex logic/architecture design:** Claude Opus (most powerful)
 
-### 2. 快捷键
+### 2. Keyboard Shortcuts
 
-| 操作 | 快捷键 | 作用 |
+| Action | Shortcut | Description |
 |------|--------|------|
-| Tab | Tab | 接受AI补全建议 |
-| Cmd/Ctrl + K | 编辑 | 选中代码后按此键，用自然语言修改代码 |
-| Cmd/Ctrl + L | 对话 | 打开AI聊天面板 |
-| Cmd/Ctrl + I | Composer | 多文件编辑模式 |
+| Tab | Tab | Accept AI completion suggestion |
+| Cmd/Ctrl + K | Edit | Select code and press this to modify code with natural language |
+| Cmd/Ctrl + L | Chat | Open AI chat panel |
+| Cmd/Ctrl + I | Composer | Multi-file editing mode |
 
-## 高效工作流
+## Efficient Workflows
 
-### 场景1：从头写一个新功能
+### Scenario 1: Writing a New Feature from Scratch
 
-**Step 1:** 用 \`Cmd+I\` 打开 Composer
-**Step 2:** 输入 "Create a React component for a user profile card"
-**Step 3:** Cursor 生成代码后，用 \`Tab\` 接受
-**Step 4:** 选中生成的代码，\`Cmd+K\` 输入 "Add TypeScript types"
-**Step 5:** 继续用对话优化
+**Step 1:** Use \`Cmd+I\` to open Composer
+**Step 2:** Type "Create a React component for a user profile card"
+**Step 3:** Cursor generates code, use \`Tab\` to accept
+**Step 4:** Select generated code, \`Cmd+K\` type "Add TypeScript types"
+**Step 5:** Continue optimizing with chat
 
-### 场景2：调试Bug
+### Scenario 2: Debugging Bugs
 
-**Step 1:** 选中报错的代码行
-**Step 2:** \`Cmd+L\` 打开对话面板
-**Step 3:** 输入 "This code has a bug. The error message is X. Find and fix it."
-**Step 4:** Claude 会分析代码并给出修复建议
+**Step 1:** Select the buggy code line
+**Step 2:** \`Cmd+L\` to open chat panel
+**Step 3:** Type "This code has a bug. The error message is X. Find and fix it."
+**Step 4:** Claude will analyze the code and provide fixes
 
-### 场景3：代码重构
+### Scenario 3: Code Refactoring
 
-**Step 1:** \`Cmd+Shift+F\` 全局搜索相关代码
-**Step 2:** 选中需要重构的代码块
-**Step 3:** \`Cmd+K\` 输入 "Refactor this to use proper error handling with try-catch"
+**Step 1:** \`Cmd+Shift+F\` to globally search related code
+**Step 2:** Select the code block needing refactoring
+**Step 3:** \`Cmd+K\` type "Refactor this to use proper error handling with try-catch"
 
-## .cursorrules 配置
+## .cursorrules Configuration
 
-创建 \`.cursorrules\` 文件在项目根目录，让AI了解你的项目规范：
+Create a \`.cursorrules\` file in your project root to help AI understand your project conventions:
 
 \`\`\`
 You are an expert in React, TypeScript, and Tailwind CSS.
@@ -339,9 +339,9 @@ You are an expert in React, TypeScript, and Tailwind CSS.
 - Use Zod for validation
 \`\`\`
 
-## 配对Prompt模板
+## Prompt Templates
 
-### 代码审查
+### Code Review
 \`\`\`
 Review this code for:
 1. Potential bugs
@@ -350,24 +350,24 @@ Review this code for:
 4. Code style violations
 \`\`\`
 
-### 生成测试
+### Generate Tests
 \`\`\`
 Write comprehensive unit tests for this function using Vitest.
 Cover: happy path, edge cases, error scenarios.
 \`\`\`
 
-### 文档生成
+### Documentation Generation
 \`\`\`
 Generate JSDoc documentation for this component.
 Include: props description, usage examples, edge cases.
 \`\`\`
 
-## 注意事项
+## Notes
 
-- Cursor 的 Composer 模式（Cmd+I）适合多文件编辑
-- 对话模式（Cmd+L）适合分析和提问
-- 模型选择：简单补全用默认，复杂逻辑切到Claude
-- .cursorrules 文件让AI理解你的编码规范`,
+- Cursor's Composer mode (Cmd+I) is great for multi-file editing
+- Chat mode (Cmd+L) is good for analysis and questions
+- Model selection: use default for simple completions, switch to Claude for complex logic
+- The .cursorrules file helps AI understand your coding standards`,
     author: "Alex Chen",
     authorRole: "AI Tools Expert",
     date: "2026-05-18",
@@ -379,81 +379,81 @@ Include: props description, usage examples, edge cases.
   },
   {
     id: "notion-ai-templates",
-    title: "Notion AI 项目管理模板（可复制使用）",
-    excerpt: "Notion AI 不仅是一个笔记工具，结合AI功能它还能成为强大的项目管理平台。本文提供5个可直接复用的模板。",
-    content: `# Notion AI 项目管理模板
+    title: "Notion AI Project Management Templates (Ready to Copy)",
+    excerpt: "Notion AI isn't just a note-taking tool — combined with AI features it becomes a powerful project management platform. This article provides 5 ready-to-use templates.",
+    content: `# Notion AI Project Management Templates
 
-Notion AI 的月费是 $10/月（附加到已有的 Notion 订阅上）。用好AI功能后，这笔投入很容易回本。
+Notion AI costs $10/month (added to an existing Notion subscription). With the AI features, this investment pays for itself quickly.
 
-## 模板1：周报自动生成器
+## Template 1: Weekly Report Auto-Generator
 
-**用途：** 输入本周工作要点，AI自动生成结构化的周报。
+**Purpose:** Input your weekly work highlights and let AI automatically generate structured weekly reports.
 
-**设置方法：**
-1. 新建一个 Page
-2. 输入 Prompt: "Act as my weekly report assistant"
-3. 设置固定格式
+**Setup:**
+1. Create a new Page
+2. Enter Prompt: "Act as my weekly report assistant"
+3. Set a fixed format
 
-**使用方式：**
-每周五输入你的工作要点，AI会自动整理成：
-
-\`\`\`
-## 本周完成
-- [AI 整理你的要点]
-
-## 遇到的问题
-- [AI 识别出的风险点]
-
-## 下周计划
-- [AI 根据本周情况建议]
-\`\`\`
-
-## 模板2：会议纪要AI
-
-**用途：** 输入会议录音文字，AI生成结构化的会议纪要。
-
-**操作步骤：**
-1. 将会议录音发给 Otter.ai 或其他转录工具
-2. 将转录文本粘贴到 Notion
-3. 选中全文，点击 AI -> "Summarize"
-4. AI 自动生成：
+**How to use:**
+Each Friday, input your work highlights and AI will organize them into:
 
 \`\`\`
-📅 会议日期: [自动识别]
-👥 参与者: [AI提取人名]
-✅ 决策: [关键决策点]
-📋 待办事项:
-- [任务1] → [负责人]
-- [任务2] → [负责人]
+## Completed This Week
+- [AI organizes your points]
+
+## Issues Encountered
+- [AI identifies risks]
+
+## Next Week's Plan
+- [AI suggests based on this week]
 \`\`\`
 
-## 模板3：项目数据库
+## Template 2: AI Meeting Minutes
 
-Notion 的 Database + AI 是最强大的组合。
+**Purpose:** Input meeting recording transcripts and let AI generate structured meeting minutes.
 
-**创建方式：**
-1. 新建一个 Database (Table 视图)
-2. 添加字段：Task, Status, Priority, Due Date, Assignee
-3. 每次新增任务时，用 AI 自动补全：
+**Steps:**
+1. Send meeting recording to Otter.ai or other transcription tools
+2. Paste the transcript into Notion
+3. Select all text, click AI -> "Summarize"
+4. AI automatically generates:
 
-**操作：** 输入任务名 → 选中 → AI → "Auto-fill properties"
+\`\`\`
+📅 Meeting Date: [auto-detected]
+👥 Participants: [AI-extracted names]
+✅ Decisions: [key decision points]
+📋 Action Items:
+- [Task 1] → [Owner]
+- [Task 2] → [Owner]
+\`\`\`
 
-## 模板4：文档翻译机
+## Template 3: Project Database
 
-选中任意内容 → AI → Translate → 选择目标语言
+Notion's Database + AI is the most powerful combination.
 
-**实际案例：**
+**How to create:**
+1. Create a new Database (Table view)
+2. Add fields: Task, Status, Priority, Due Date, Assignee
+3. When adding new tasks, use AI to auto-complete:
+
+**Action:** Enter task name → Select → AI → "Auto-fill properties"
+
+## Template 4: Document Translator
+
+Select any content → AI → Translate → Choose target language
+
+**Example:**
 \`\`\`
 Source: "The Q3 revenue increased by 15%..."
-Target: 中文翻译
-Output: "第三季度收入增长了15%..."
+Target: Chinese Translation
+Output: "Q3 revenue grew by 15%..."
 \`\`\`
 
-## 模板5：AI写作助手
+## Template 5: AI Writing Assistant
 
-在 Notion 中直接写文章，AI帮你优化。
+Write articles directly in Notion and let AI help optimize.
 
-**常用 Prompt：**
+**Common prompts:**
 \`\`\`
 - "Make this more professional"
 - "Rewrite for a beginner audience"
@@ -462,11 +462,11 @@ Output: "第三季度收入增长了15%..."
 - "Summarize this into 3 bullet points"
 \`\`\`
 
-## 最佳实践
+## Best Practices
 
-1. **固定模板：** 创建常用模板后复制使用，不必每次都从头写Prompt
-2. **AI 按钮：** 在 Notion 中创建 AI 按钮（输入 /ai），一键执行常用操作
-3. **团队共享：** Notion AI 支持团队协作，全团队可以用同一套模板`,
+1. **Save Templates:** Create commonly used templates and copy them instead of writing prompts from scratch each time
+2. **AI Buttons:** Create AI buttons in Notion (type /ai) for one-click execution of common tasks
+3. **Team Sharing:** Notion AI supports team collaboration — the whole team can use the same templates`,
     author: "Alex Chen",
     authorRole: "AI Tools Expert",
     date: "2026-05-18",
@@ -478,87 +478,87 @@ Output: "第三季度收入增长了15%..."
   },
   {
     id: "otter-ai-meeting-guide",
-    title: "用Otter.ai自动记录会议并生成摘要，每周省3小时",
-    excerpt: "Otter.ai 是目前最优秀的AI会议记录工具。本文从基础设置到高级技巧，帮你把会议效率提升到极致。",
-    content: `# Otter.ai 会议记录完整指南
+    title: "Automate Meeting Recording and Summaries with Otter.ai — Save 3 Hours Per Week",
+    excerpt: "Otter.ai is currently the best AI meeting recording tool. This article covers everything from basic setup to advanced tips to maximize your meeting efficiency.",
+    content: `# Otter.ai Meeting Recording Complete Guide
 
-Otter.ai 是领先的AI会议助手，可以自动转录、记录和生成会议摘要。Free 版每月300分钟，Pro 版 $17/月（6000分钟）。
+Otter.ai is a leading AI meeting assistant that can automatically transcribe, record, and generate meeting summaries. Free plan: 300 minutes/month, Pro: $17/month (6000 minutes).
 
-## 基础设置
+## Basic Setup
 
-### Step 1: 连接日历
+### Step 1: Connect Calendar
 
-登录 Otter.ai → Settings → Calendar → 连接 Google Calendar 或 Outlook
+Log in to Otter.ai → Settings → Calendar → Connect Google Calendar or Outlook
 
-连接后，Otter 会自动加入你日历上的所有会议。
+Once connected, Otter will automatically join all meetings on your calendar.
 
-### Step 2: 设置自动加入
+### Step 2: Set Auto-Join
 
-可以设置 Otter 自动加入特定类型的会议（如"只加入标记了需要记录的重要会议"）。
+You can configure Otter to automatically join specific types of meetings (e.g., "only join important meetings marked for recording").
 
-### Step 3: 选择AI模型
+### Step 3: Select AI Model
 
-Otter 提供不同的 AI 模型：
-- **OtterPilot：** 自动参加会议并转录
-- **Otter Chat：** 会议中实时提问（Pro功能）
-- **Ask Otter：** 会后查询会议内容
+Otter offers different AI models:
+- **OtterPilot:** Automatically joins meetings and transcribes
+- **Otter Chat:** Real-time questions during meetings (Pro feature)
+- **Ask Otter:** Query meeting content after the meeting
 
-## 会后操作
+## Post-Meeting Actions
 
-### 查看纪要模板
+### View Summary Templates
 
-Otter 自动生成的会议纪要保持固定的格式：
+Otter's auto-generated meeting summaries follow a fixed format:
 
 \`\`\`
 📝 Meeting Summary
-Keyword: [AI识别的关键词]
+Keyword: [AI-identified keywords]
 Action Items:
-- [任务1] → [负责人]
-- [任务2] → [负责人]
+- [Task 1] → [Owner]
+- [Task 2] → [Owner]
 
 Key Takeaways:
-- [AI总结的要点1]
-- [AI总结的要点2]
+- [AI-summarized point 1]
+- [AI-summarized point 2]
 
-Full Transcript (展开查看)
+Full Transcript (expand to view)
 \`\`\`
 
-### 分享会议纪要
+### Share Meeting Notes
 
-点击 "Share" 按钮：
-- 通过链接分享
-- 导出为 PDF/Word/TXT
-- 自动发送邮件给参会者
+Click the "Share" button:
+- Share via link
+- Export as PDF/Word/TXT
+- Auto-send email to participants
 
-## 高级技巧
+## Advanced Tips
 
-### 技巧1：高亮标记
+### Tip 1: Highlight Marking
 
-会议中如果听到重要信息，在 Otter 界面点一下高亮按钮。会后可以直接跳转到标记位置。
+If you hear important information during a meeting, click the highlight button in the Otter interface. You can jump directly to that position later.
 
-### 技巧2：自定义词库
+### Tip 2: Custom Vocabulary
 
-如果你们团队常用专业术语（比如 "AGI", "RAG", "向量数据库"），先在 Settings → Vocabulary 中添加。
+If your team frequently uses specialized terms (like "AGI", "RAG", "vector database"), add them in Settings → Vocabulary first.
 
-这样 Otter 转录时不会把这些词写成奇怪的拼写。
+This prevents Otter from transcribing these words with strange spellings.
 
-### 技巧3：团队工作空间
+### Tip 3: Team Workspace
 
-Otter Pro 以上支持团队空间：
-- 创建团队 → 邀请成员 → 共享会议文件夹
-- 所有成员可以查看彼此的会议摘要（需授权）
+Otter Pro and above support team workspaces:
+- Create a team → Invite members → Share meeting folders
+- All members can view each other's meeting summaries (with permission)
 
-## Otter vs 竞品
+## Otter vs Competitors
 
-| 功能 | Otter.ai | Fireflies.ai | Krisp |
+| Feature | Otter.ai | Fireflies.ai | Krisp |
 |------|---------|-------------|-------|
-| 免费额度 | 300min/月 | 800min/月 | 60min/天 |
-| 自动加入会议 | ✅ | ✅ | ❌ |
-| AI摘要 | ✅ | ✅ | ❌ |
-| 中文支持 | 🟡 有限 | 🟡 有限 | ✅ 好 |
-| 价格 | $17/mo | $10/mo | $8/mo |
+| Free tier | 300min/month | 800min/month | 60min/day |
+| Auto-join meetings | ✅ | ✅ | ❌ |
+| AI summaries | ✅ | ✅ | ❌ |
+| Chinese support | 🟡 Limited | 🟡 Limited | ✅ Good |
+| Price | $17/mo | $10/mo | $8/mo |
 
-**推荐：** 如果你的团队主要说英语，Otter 是最佳选择。中文会议建议用 Fireflies 或飞书自带转录。`,
+**Recommendation:** If your team primarily speaks English, Otter is the best choice. For Chinese meetings, consider Fireflies or Feishu's built-in transcription.`,
     author: "Alex Chen",
     authorRole: "AI Tools Expert",
     date: "2026-05-17",
@@ -570,79 +570,79 @@ Otter Pro 以上支持团队空间：
   },
   {
     id: "elevenlabs-voice-cloning",
-    title: "ElevenLabs 语音克隆：从录制到上线的完整流程",
-    excerpt: "ElevenLabs 的语音克隆技术已经非常成熟，从录制声音到生成合成语音，整个流程只需要30分钟。本文带你走完每一步。",
-    content: `# ElevenLabs 语音克隆完整流程
+    title: "ElevenLabs Voice Cloning: Complete Workflow from Recording to Deployment",
+    excerpt: "ElevenLabs voice cloning technology is incredibly mature. From recording your voice to generating synthetic speech, the entire process takes only 30 minutes. This guide walks you through every step.",
+    content: `# ElevenLabs Voice Cloning Complete Workflow
 
-ElevenLabs 是目前最先进的AI语音合成平台。它的语音克隆功能可以复制任何人的声音，并用AI生成全新的语音内容。
+ElevenLabs is currently the most advanced AI voice synthesis platform. Its voice cloning feature can replicate anyone's voice and generate entirely new spoken content with AI.
 
-## 前置准备
+## Prerequisites
 
-你需要：
-- ElevenLabs 账号（Free 版即可体验，Pro 版 $99/月解锁全部功能）
-- 一段人声录音（建议 2-5 分钟）
-- 干净的录音环境（无背景噪音）
+You need:
+- An ElevenLabs account (Free tier is available to try; Pro is $99/month for full features)
+- A voice recording (recommended 2-5 minutes)
+- A clean recording environment (no background noise)
 
-## Step 1: 录制声音样本
+## Step 1: Record Voice Samples
 
-**最佳实践：**
-- 录制 3-5 分钟的纯人声
-- 使用麦克风（手机录音即可，但避免使用免提）
-- 背景安静，不要有音乐或噪音
-- 说话自然，像日常对话一样
+**Best practices:**
+- Record 3-5 minutes of clean voice
+- Use a microphone (phone recording works, but avoid speakerphone)
+- Quiet background, no music or noise
+- Speak naturally, like a normal conversation
 
-**录音内容推荐：**
-- 朗读一段新闻或文章（包含不同情感和语调）
-- 自然的对话（如果是为播客制作）
+**Recommended recording content:**
+- Read a news article or passage (includes different emotions and tones)
+- Natural conversation (if creating content for a podcast)
 
-## Step 2: 上传并训练
+## Step 2: Upload and Train
 
-1. 登录 ElevenLabs 网站
-2. 点击 "Voice Lab" → "Add Voice" → "Instant Voice Cloning"
-3. 上传你的录音文件
-4. 等待处理（约 1-2 分钟）
+1. Log into ElevenLabs website
+2. Click "Voice Lab" → "Add Voice" → "Instant Voice Cloning"
+3. Upload your recording file
+4. Wait for processing (about 1-2 minutes)
 
-**注意：** Instant Voice Cloning 不需要长时间训练，上传后立即可用。如果需要更高品质，选择 "Professional Voice Cloning"（需要提交申请）。
+**Note:** Instant Voice Cloning doesn't require long training — it's available immediately after upload. For higher quality, choose "Professional Voice Cloning" (requires an application).
 
-## Step 3: 生成语音
+## Step 3: Generate Speech
 
-1. 在 Text to Speech 页面选择克隆的语音
-2. 输入或粘贴需要朗读的文字
-3. 调整参数：
+1. On the Text to Speech page, select your cloned voice
+2. Enter or paste the text you want read aloud
+3. Adjust parameters:
 
 \`\`\`
-Stability: 70%（稳定度，越高越平稳）
-Similarity: 80%（与原声相似度）
-Style Exaggeration: 30%（情感夸张程度）
+Stability: 70% (higher = more stable)
+Similarity: 80% (similarity to original voice)
+Style Exaggeration: 30% (degree of emotional exaggeration)
 \`\`\`
 
-4. 点击 "Generate" 试听
+4. Click "Generate" to preview
 
-## Step 4: 批量生成（Pro功能）
+## Step 4: Batch Generation (Pro Feature)
 
-ElevenLabs Pro 支持批量生成：
-- 上传 CSV 文件（每行一段文字）
-- 自动生成所有语音并打包下载
-- 支持 SSML 标记（控制语速、停顿、重音）
+ElevenLabs Pro supports batch generation:
+- Upload a CSV file (each row contains a text fragment)
+- Automatically generate all audio and package for download
+- Supports SSML markup (control speed, pauses, emphasis)
 
-## 最佳应用场景
+## Best Use Cases
 
-### 播客制作
-生成完整的播客内容，可以使用多个不同声音进行对话。
+### Podcast Production
+Generate complete podcast content using multiple different voices for conversations.
 
-### 视频配音
-- 为视频配旁白
-- 多语言版本（ElevenLabs 支持 29 种语言）
+### Video Dubbing
+- Add narration to videos
+- Multi-language versions (ElevenLabs supports 29 languages)
 
-### 有声书
-- 长文本朗读
-- 控制不同角色的声音
+### Audiobooks
+- Long-form text narration
+- Control different character voices
 
-## 注意事项
+## Important Notes
 
-1. **版权问题：** 不要克隆他人的声音用于商业用途。ElevenLabs 有语音验证机制，未经授权的克隆会被删除。
-2. **音质限制：** Free 版会降低音质。Pro 版提供 192kbps 的高品质。
-3. **中文效果：** ElevenLabs 支持中文，但效果不如英文好。建议先用短文本测试。`,
+1. **Copyright issues:** Don't clone someone else's voice for commercial purposes. ElevenLabs has voice verification mechanisms — unauthorized clones will be removed.
+2. **Quality limits:** The Free tier reduces audio quality. Pro offers 192kbps high quality.
+3. **Chinese language:** ElevenLabs supports Chinese, but results aren't as good as English. Test with short text first.`,
     author: "Alex Chen",
     authorRole: "AI Tools Expert",
     date: "2026-05-17",
@@ -654,116 +654,116 @@ ElevenLabs Pro 支持批量生成：
   },
   {
     id: "zapier-ai-automation",
-    title: "Zapier 串联 AI工具：6个自动化工流，每天省2小时",
-    excerpt: "Zapier 是目前最强大的自动化平台，支持超过7000个应用。结合AI功能后，你可以创建真正智能的工作流。",
-    content: `# Zapier AI 自动化工作流指南
+    title: "Zapier + AI Tools: 6 Automation Workflows to Save 2 Hours Daily",
+    excerpt: "Zapier is the most powerful automation platform, supporting over 7000 apps. Combined with AI capabilities, you can create truly intelligent workflows.",
+    content: `# Zapier AI Automation Workflow Guide
 
-Zapier 连接了 7000+ 应用，每月处理数十亿次自动化任务。Free 版每月100个任务，Starter $20/月（750个任务），Professional $49/月（2000个任务）。
+Zapier connects 7000+ apps and processes billions of automated tasks monthly. Free plan: 100 tasks/month, Starter $20/month (750 tasks), Professional $49/month (2000 tasks).
 
-## 自动化基础概念
+## Automation Basics
 
-一个 Zap（自动化流程）由三个部分组成：
-
-\`\`\`
-Trigger（触发器） → Action（动作）
-
-示例：
-Gmail收到新邮件 → 在Slack发送通知
-\`\`\`
-
-## 6个高效工作流
-
-### 工作流1：AI写作自动化
-
-**用途：** 将 Notion 中的草稿自动用 AI 优化后发布到博客。
+A Zap (automation workflow) consists of three parts:
 
 \`\`\`
-Trigger: Notion Database 新增条目
-  → Action: OpenAI (ChatGPT) 优化文字
-  → Action: WordPress 创建草稿
-  → Action: Slack 通知"新文章已准备就绪"
+Trigger → Action
+
+Example:
+New email in Gmail → Send notification in Slack
 \`\`\`
 
-### 工作流2：会议跟进自动化
+## 6 Efficient Workflows
 
-**用途：** 会议结束后自动发送跟进邮件。
+### Workflow 1: AI Writing Automation
 
-\`\`\`
-Trigger: Google Calendar 会议结束
-  → Action: Otter.ai 获取会议摘要
-  → Action: ChatGPT 生成跟进邮件
-  → Action: Gmail 发送给所有参会者
-  → Action: Notion 添加待办事项
-\`\`\`
-
-### 工作流3：社交媒体内容工厂
-
-**用途：** 从RSS源提取文章，用AI改写成社交媒体帖子。
+**Purpose:** Automatically optimize drafts from Notion with AI and publish to your blog.
 
 \`\`\`
-Trigger: RSS Feed 有新文章
-  → Action: ChatGPT 提取要点
-  → Action: ChatGPT 改写成 Twitter 帖子和 LinkedIn 帖子
-  → Action: Buffer 排期发布
+Trigger: New entry in Notion Database
+  → Action: OpenAI (ChatGPT) optimize text
+  → Action: Create draft in WordPress
+  → Action: Slack notification "New article ready"
 \`\`\`
 
-### 工作流4：客户支持自动化
+### Workflow 2: Meeting Follow-Up Automation
 
-**用途：** 客户邮件自动分类和回复。
-
-\`\`\`
-Trigger: Gmail 收到客户邮件
-  → Action: ChatGPT 分析意图（投诉/咨询/退款）
-  → Action: 根据意图分流：
-    ├── 投诉 → 通知Slack #urgent频道
-    ├── 咨询 → ChatGPT 生成回复草稿
-    └── 退款 → 创建 Trello 卡片
-\`\`\`
-
-### 工作流5：日报自动生成
-
-**用途：** 每日自动汇总工作内容。
+**Purpose:** Automatically send follow-up emails after meetings.
 
 \`\`\`
-Trigger: 每天下午5点 (Schedule)
-  → Action: Toggl/Clockify 获取今日工时
-  → Action: Notion 获取今日完成任务
-  → Action: ChatGPT 生成日报摘要
-  → Action: Slack 发送到团队频道
+Trigger: Google Calendar meeting ends
+  → Action: Get meeting summary from Otter.ai
+  → Action: ChatGPT generates follow-up email
+  → Action: Gmail sends to all participants
+  → Action: Add to-do items in Notion
 \`\`\`
 
-### 工作流6：AI协作内容审核
+### Workflow 3: Social Media Content Factory
 
-**用途：** AI预审内容后再手动审批。
+**Purpose:** Extract articles from RSS feeds and rewrite them as social media posts using AI.
 
 \`\`\`
-Trigger: Google Forms 收到内容提交
-  → Action: ChatGPT 检查内容质量（语法、事实、品牌一致性）
-  → Action: 根据评分分流：
-    ├── 评分 > 80 → 自动发布到WordPress
-    └── 评分 < 80 → 创建Asana任务待人工审核
+Trigger: New article in RSS Feed
+  → Action: ChatGPT extracts key points
+  → Action: ChatGPT rewrites into Twitter and LinkedIn posts
+  → Action: Buffer schedules publication
 \`\`\`
 
-## 高级技巧
+### Workflow 4: Customer Support Automation
 
-### 使用 Filters
+**Purpose:** Auto-classify and respond to customer emails.
 
-在Zap中加入 Filter 步骤，只处理符合条件的数据。例如：只处理标题中包含"urgent"的邮件。
+\`\`\`
+Trigger: Customer email received in Gmail
+  → Action: ChatGPT analyzes intent (complaint/inquiry/refund)
+  → Action: Route based on intent:
+    ├── Complaint → Notify Slack #urgent channel
+    ├── Inquiry → ChatGPT generates reply draft
+    └── Refund → Create Trello card
+\`\`\`
 
-### 使用 Paths
+### Workflow 5: Daily Report Auto-Generation
 
-Zapier 的 Paths 功能可以创建条件分支（就像编程中的 if-else）。
+**Purpose:** Automatically summarize daily work content.
 
-### 使用 Formatter
+\`\`\`
+Trigger: Every day at 5 PM (Schedule)
+  → Action: Toggl/Clockify fetches today's hours
+  → Action: Notion fetches today's completed tasks
+  → Action: ChatGPT generates daily report summary
+  → Action: Slack sends to team channel
+\`\`\`
 
-格式化数据后再传递给下一个应用。例如：将日期格式从 "2026-05-19" 改为 "May 19, 2026"。
+### Workflow 6: AI Collaborative Content Review
 
-## 注意事项
+**Purpose:** AI pre-checks content before manual approval.
 
-- Free 版 100 个任务/月，建议先用 Starter 计划
-- 每个 Zap 最多可以有 10 个步骤（Professional 版）
-- 复杂工作流建议先在小范围测试
-- 注意 API 调用限制，避免触发反滥用机制`,
+\`\`\`
+Trigger: Content submitted via Google Forms
+  → Action: ChatGPT checks content quality (grammar, facts, brand consistency)
+  → Action: Route based on score:
+    ├── Score > 80 → Auto-publish to WordPress
+    └── Score < 80 → Create Asana task for manual review
+\`\`\`
+
+## Advanced Tips
+
+### Using Filters
+
+Add a Filter step in your Zap to only process data that meets conditions. For example: only process emails with "urgent" in the subject.
+
+### Using Paths
+
+Zapier's Paths feature lets you create conditional branches (like if-else in programming).
+
+### Using Formatter
+
+Format data before passing it to the next app. For example: change date format from "2026-05-19" to "May 19, 2026".
+
+## Notes
+
+- Free plan: 100 tasks/month. Starter plan is recommended to start
+- Each Zap can have up to 10 steps (Professional plan)
+- Test complex workflows on a small scale first
+- Be mindful of API call limits to avoid triggering anti-abuse mechanisms`,
     author: "Alex Chen",
     authorRole: "AI Tools Expert",
     date: "2026-05-16",
@@ -775,36 +775,37 @@ Zapier 的 Paths 功能可以创建条件分支（就像编程中的 if-else）�
   },
   {
     id: "github-copilot-tips",
-    title: "GitHub Copilot 效率提升10倍的12个快捷键和技巧",
-    excerpt: "GitHub Copilot 每月 $10，但很多开发者只用到了 Tab 键接受建议。本文分享12个高级技巧，让你的 Copilot 投入产出比最大化。",
-    content: `# GitHub Copilot 高效技巧指南
+    title: "GitHub Copilot: 12 Shortcuts and Tips to Boost Efficiency 10x",
+    excerpt: "GitHub Copilot costs $10/month, but most developers only use Tab to accept suggestions. This article shares 12 advanced tips to maximize your Copilot investment.",
+    content: `# GitHub Copilot Efficiency Tips Guide
 
-GitHub Copilot 每月 $10（Individual），支持 VS Code、JetBrains、Neovim 等主流编辑器。绝大多数用户只用到了不到30%的功能。
+GitHub Copilot costs $10/month (Individual), supporting VS Code, JetBrains, Neovim, and other major editors. The vast majority of users utilize less than 30% of its capabilities.
 
-## 基础必备快捷键
+## Essential Keyboard Shortcuts
 
-| 快捷键 | 功能 | 说明 |
+| Shortcut | Function | Description |
 |--------|------|------|
-| Tab | 接受建议 | 最常用，没有之一 |
-| Esc | 拒绝建议 | 关闭当前建议 |
-| Ctrl+Enter | 打开建议面板 | 显示10个备选方案 |
-| Alt+] | 下一条建议 | 切换不同补全方案 |
-| Alt+[ | 上一条建议 | 回到上一个方案 |
+| Tab | Accept suggestion | The most used one, period |
+| Esc | Reject suggestion | Close current suggestion |
+| Ctrl+Enter | Open suggestions panel | Show 10 alternatives |
+| Alt+] | Next suggestion | Switch between completion options |
+| Alt+[ | Previous suggestion | Go back to previous option |
 
-## 12个高级技巧
+## 12 Advanced Tips
 
-### 技巧1：用注释描述需求
+### Tip 1: Describe Requirements with Comments
 
-最好的Prompt就是注释。在写代码之前，先用注释描述你要做什么：
+The best prompt is a comment. Before writing code, use comments to describe what you want to do:
 
 \`\`\`typescript
+// Calculate the total price with tax and discount
 \`\`\`
 
-Copilot 会根据注释生成对应的代码实现。
+Copilot will generate the corresponding code implementation based on the comment.
 
-### 技巧2：写测试先于实现（TDD模式）
+### Tip 2: Write Tests Before Implementation (TDD Mode)
 
-先写测试名称，Copilot 会推荐测试实现：
+Write test names first, and Copilot will recommend test implementations:
 
 \`\`\`typescript
 describe("UserService", () => {
@@ -813,13 +814,13 @@ describe("UserService", () => {
 })
 \`\`\`
 
-### 技巧3：利用Completions面板
+### Tip 3: Use the Completions Panel
 
-按 \`Ctrl+Enter\` 打开建议面板，可以看到10个不同的补全方案。适合在不确定最佳实现时查看多种选择。
+Press \`Ctrl+Enter\` to open the suggestions panel and see 10 different completion options. Great for when you're unsure about the best implementation.
 
-### 技巧4：生成样板代码
+### Tip 4: Generate Boilerplate Code
 
-输入重复性代码的起始几行，Copilot 会自动补全剩余部分。例如：
+Type the first few lines of repetitive code, and Copilot will auto-complete the rest. For example:
 
 \`\`\`typescript
 interface User {
@@ -829,64 +830,66 @@ interface User {
 }
 \`\`\`
 
-### 技巧5：代码解释
+### Tip 5: Code Explanation
 
-选中一段代码，输入注释 \`// explain this:\`，Copilot 会用自然语言解释这段代码的作用。
+Select a block of code, type a comment \`// explain this:\`, and Copilot will explain what the code does in natural language.
 
-### 技巧6：生成正则表达式
+### Tip 6: Generate Regular Expressions
 
-正则表达式难写难记。用注释让 Copilot 帮你写：
-
-\`\`\`javascript
-const emailRegex = /[Copilot 自动生成]/
-\`\`\`
-
-### 技巧7：多语言翻译
-
-Copilot 可以将代码从一种语言翻译到另一种：
+Regex is hard to write and remember. Use comments to let Copilot write them for you:
 
 \`\`\`javascript
+// Regex to validate email address
+const emailRegex = /[Copilot auto-generates]/
 \`\`\`
 
-粘贴 Python 代码，Copilot 会生成对应的 TypeScript 版本。
+### Tip 7: Multi-Language Translation
 
-### 技巧8：生成文档注释
+Copilot can translate code from one language to another:
 
-在函数上方输入 \`/**\`，Copilot 会自动生成 JSDoc 注释。
+\`\`\`javascript
+// Translate this Python function to TypeScript
+\`\`\`
 
-### 技巧9：修复bug
+Paste Python code, and Copilot will generate the corresponding TypeScript version.
 
-选中有bug的代码，按 \`Ctrl+I\` 打开 Copilot Chat，输入 "Fix bugs in this code"。
+### Tip 8: Generate Documentation Comments
 
-### 技巧10：代码重构
+Type \`/**\` above a function, and Copilot will automatically generate JSDoc comments.
 
-在 Copilot Chat 中输入：
+### Tip 9: Fix Bugs
+
+Select buggy code, press \`Ctrl+I\` to open Copilot Chat, and type "Fix bugs in this code".
+
+### Tip 10: Code Refactoring
+
+In Copilot Chat, type:
 \`\`\`
 Refactor this function to use async/await instead of callbacks
 \`\`\`
 
-### 技巧11：学习新语言
+### Tip 11: Learn New Languages
 
-Copilot 是学习新语言的好工具。你可以用 Python 写逻辑，Copilot 会帮你转换为 Rust/Go/Java。
+Copilot is a great tool for learning new languages. You can write logic in Python, and Copilot will help convert it to Rust/Go/Java.
 
-### 技巧12：与 Cursor 配合使用
+### Tip 12: Combine with Cursor
 
-Copilot 的代码补全（Tab）是最快的。但如果需要大规模重构或理解代码库，切换到 Cursor 使用 Claude 效果更好。两者可以共存。
+Copilot's code completion (Tab) is the fastest. But for large-scale refactoring or understanding codebases, switch to Cursor with Claude for better results. Both can coexist.
 
-## 效率对比
+## Efficiency Comparison
 
-| 场景 | 不用Copilot | 用Copilot（基础） | 用Copilot（高级技巧）|
+| Scenario | Without Copilot | With Copilot (Basic) | With Copilot (Advanced) |
 |------|-----------|----------------|------------------|
-| 写新函数 | 15min | 5min | 3min |
-| 写测试 | 30min | 10min | 5min |
-| 调试Bug | 1h | 20min | 10min |
-| 代码重构 | 2h | 45min | 20min |
+| Writing new function | 15min | 5min | 3min |
+| Writing tests | 30min | 10min | 5min |
+| Debugging bugs | 1h | 20min | 10min |
+| Code refactoring | 2h | 45min | 20min |
 
-## 注意事项
+## Notes
 
-- Copilot 生成的代码可能有安全漏洞，生产环境需要人工review
-- 如果 Copilot 连续几次给出低质量建议，尝试换一个更具体的注释
-- 在敏感项目中，建议开启 Copilot 的 "屏蔽匹配公开代码" 选项`,
+- Copilot-generated code may have security vulnerabilities — production code needs human review
+- If Copilot gives poor quality suggestions several times in a row, try a more specific comment
+- In sensitive projects, enable the "Block matching public code" option`,
     author: "Alex Chen",
     authorRole: "AI Tools Expert",
     date: "2026-05-16",

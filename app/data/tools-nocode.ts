@@ -371,7 +371,7 @@ export const NOCODE_TOOLS: ToolData[] = [
     alternatives: ["Zapier AI", "Make AI", "UiPath", "Automation Anywhere"],
     scoreBreakdown: { features: 4.3, reviews: 4.1, momentum: 4.4, popularity: 3.7 },
     userQuotes: [
-      { role: "Sales Development Rep", company: "B2B SaaS", quote: "Bardeen automates my LinkedIn prospecting and data enrichment. I just describe what I need and it handles the rest." },
+      { role: "Sales Development Rep", company: "A SaaS Company", quote: "Bardeen automates my LinkedIn prospecting and data enrichment. I just describe what I need and it handles the rest." },
       { role: "Market Researcher", company: "Consulting Firm", quote: "I use Bardeen daily for competitive research. It scrapes competitor sites and feeds data into our sheets automatically." }
     ]
   },

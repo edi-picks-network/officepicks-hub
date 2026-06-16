@@ -41,21 +41,21 @@ export const CODE_TOOLS: ToolData[] = [
     reviewCount: 12500,
     icon: Code2,
     description: "AI pair programmer that offers autocomplete-style suggestions as you code, powered by OpenAI Codex.",
-    longDescription: "GitHub Copilot is an AI-powered code completion tool developed by GitHub in collaboration with OpenAI. It integrates directly into popular IDEs like VS Code, JetBrains, and Neovim, providing real-time suggestions for entire lines or blocks of code. Trained on billions of lines of public code, Copilot adapts to your coding style and context, supporting a wide range of programming languages and frameworks.",
+    longDescription: "GitHub Copilot is an AI-powered coding assistant designed to act as a real-time pair programmer for developers across a wide range of languages and environments. Integrated directly into popular editors like Visual Studio Code, JetBrains IDEs, and Visual Studio, it analyzes context—such as comments, function names, and surrounding code—to generate intelligent, inline code suggestions, full-line completions, and even entire function blocks. Built on OpenAI's Codex model (and increasingly leveraging GitHub's own large language models), Copilot learns from billions of lines of public code while respecting user privacy—code snippets are not stored or used to retrain models without explicit consent. Its strength lies in accelerating repetitive tasks, reducing boilerplate, exploring new libraries or frameworks, and helping developers navigate unfamiliar codebases with contextual guidance. For enterprise teams, Copilot Business adds centralized policy management, audit logs, and IP indemnification—making it viable for organizations of any maturity level.",
     pros: [
-      "Deep IDE integration with minimal setup",
-      "Supports many languages including Python, JS, TS, Ruby, Go",
-      "Understands context from comments and function names",
-      "Fast inline suggestions with Tab to accept"
+      "Significantly boosts developer productivity by offering accurate, context-aware code completions in real time",
+      "Supports over 20 programming languages—including Python, JavaScript, TypeScript, Go, Ruby, and more—with growing framework-specific intelligence",
+      "Seamless integration with major IDEs (VS Code, IntelliJ, Visual Studio) and robust support for GitHub workflows and PR suggestions",
+      "Free tier available for verified students and open-source maintainers, lowering the barrier to adoption",
+      "Enterprise-grade security and compliance features—including data encryption, SSO, audit logs, and private code filtering—for business plans"
     ],
     cons: [
-      "Can produce insecure or buggy code without review",
-      "Limited free tier; paid subscription required for full access",
-      "Privacy concerns with code sent to cloud",
-      "Occasionally suggests outdated or deprecated APIs"
+      "Code suggestions may occasionally contain subtle bugs or security vulnerabilities, requiring careful review before use",
+      "Limited offline functionality—requires consistent internet connectivity for inference and updates",
+      "Business plan pricing can become costly at scale for large engineering teams without clear ROI tracking tools"
     ],
     pricing: "Freemium",
-    pricingDetail: "Free for open-source maintainers and verified students; $10/month for Individuals ($100/year); $19/user/month for Business",
+    pricingDetail: "Free for verified students and open-source maintainers; Individual plan at $10/month ($100/year); Business plan at $19 per user per month (billed annually or monthly), including centralized admin controls, SSO, and team-wide usage analytics.",
     features: [
       "Real-time code completion",
       "Multi-line suggestion",

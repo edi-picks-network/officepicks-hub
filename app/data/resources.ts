@@ -22,7 +22,7 @@ export const ALL_RESOURCES: ResourceData[] = [
     id: "deliberate-v2",
     name: "Deliberate v2",
     type: "model",
-    style: "真实系",
+    style: "Realistic",
     description: "Versatile realistic checkpoint for Stable Diffusion, excels at portraits, landscapes, and general photography-style generation.",
     longDescription: "Deliberate v2 is one of the most popular and versatile Stable Diffusion checkpoints. It produces high-quality photorealistic images with excellent composition and lighting. The model handles a wide range of subjects — from human portraits and fashion photography to architecture and nature scenes. It works well with most LoRAs and ControlNet models, making it a reliable base model for both beginners and experienced users. v2 improves upon the original with better hands, more consistent skin texture, and enhanced background detail.",
     features: [
@@ -54,7 +54,7 @@ export const ALL_RESOURCES: ResourceData[] = [
     id: "realistic-vision-v20",
     name: "Realistic Vision V2.0",
     type: "model",
-    style: "真实系",
+    style: "Realistic",
     description: "Specialized photorealistic checkpoint focused on ultra-realistic human portraits, skin details, and natural lighting.",
     longDescription: "Realistic Vision V2.0 is purpose-built for photorealistic human portraits. It excels at skin texture, eye detail, hair strands, and natural lighting that closely resembles actual photography. The model has been fine-tuned specifically to reduce the 'AI look' that many general models produce. It produces images that can often pass as real photographs, especially at mid-to-close range portraits. Works best with realistic LoRAs and VAE for skin tone accuracy.",
     features: [
@@ -86,7 +86,7 @@ export const ALL_RESOURCES: ResourceData[] = [
     id: "lofi-v2",
     name: "Lofi V2",
     type: "model",
-    style: "真实系",
+    style: "Realistic",
     description: "Soft, atmospheric realistic model with a cinematic film-like aesthetic — ideal for moody portraits and artistic photography.",
     longDescription: "Lofi V2 brings a distinctive cinematic and slightly moody aesthetic to realistic image generation. Unlike typical photorealistic models that aim for clinical accuracy, Lofi V2 embraces artistic imperfection — soft focus, film grain, desaturated tones, and atmospheric lighting. It's ideal for creating images with a nostalgic or 'indie film' feel. The model performs exceptionally well with prompts describing mood, atmosphere, and emotional tone rather than technical detail.",
     features: [
@@ -119,7 +119,7 @@ export const ALL_RESOURCES: ResourceData[] = [
     id: "anything-v5",
     name: "Anything V5",
     type: "model",
-    style: "二次元",
+    style: "Anime",
     description: "The definitive anime-style checkpoint — produces high-quality illustrations in Japanese anime and manga art styles.",
     longDescription: "Anything V5 is the latest iteration of the most popular anime-style Stable Diffusion checkpoint. It produces stunning anime illustrations with accurate anatomy, expressive faces, and vibrant colors. The model handles a wide range of anime styles — from modern shonen and slice-of-life to fantasy and sci-fi. It excels at generating characters with consistent facial features and detailed costumes. V5 brings improved hand anatomy, better background rendering, and enhanced prompt adherence compared to earlier versions.",
     features: [
@@ -151,7 +151,7 @@ export const ALL_RESOURCES: ResourceData[] = [
     id: "counterfeit-v25",
     name: "Counterfeit V2.5",
     type: "model",
-    style: "二次元",
+    style: "Anime",
     description: "High-quality anime checkpoint known for its clean linework, vibrant cel-shaded aesthetics, and consistent character generation.",
     longDescription: "Counterfeit V2.5 is a meticulously crafted anime-style checkpoint that produces images with exceptionally clean linework and vibrant cel-shaded aesthetics. The model is particularly strong at generating characters with consistent facial features, detailed clothing, and dynamic poses. It has a distinctive 'clean anime' look that sets it apart from other anime models — less painterly, more akin to high-budget anime productions. It handles complex compositions well and maintains consistency across multiple generations of the same character.",
     features: [
@@ -183,7 +183,7 @@ export const ALL_RESOURCES: ResourceData[] = [
     id: "dreamlike-diffusion",
     name: "Dreamlike Diffusion 1.0",
     type: "model",
-    style: "二次元",
+    style: "Anime",
     description: "Dreamlike anime-style checkpoint with a painterly, ethereal aesthetic — perfect for fantasy and dreamlike illustrations.",
     longDescription: "Dreamlike Diffusion 1.0 offers a unique painterly interpretation of anime-style generation. Unlike the clean cel-shaded look of other anime models, Dreamlike Diffusion produces images with soft brush strokes, ethereal lighting, and a dreamy atmosphere. It's particularly well-suited for fantasy scenes, magical girl themes, and illustrations that call for a softer, more artistic touch. The .ckpt format is compatible with most SD 1.5 workflows, and the model pairs beautifully with artistic LoRAs.",
     features: [
@@ -278,11 +278,11 @@ export const ALL_RESOURCES: ResourceData[] = [
   },
   {
     id: "guofeng3",
-    name: "Guofeng3 (国风3)",
+    name: "Guofeng3",
     type: "model",
     style: "2.5D",
     description: "Specialized Chinese ink-wash painting style checkpoint — blends traditional Chinese art with modern AI generation.",
-    longDescription: "Guofeng3 (国风3) is a unique cultural heritage checkpoint that specializes in generating images in traditional Chinese ink-wash painting (水墨画) style, blended with modern illustration techniques. It produces stunning pieces that capture the essence of Chinese brush painting — flowing lines, atmospheric perspective, and the characteristic 'boneless' technique of traditional Chinese art. The .ckpt format model excels at landscapes, floral subjects, and classical Chinese figures, making it invaluable for projects requiring authentic Chinese aesthetic elements.",
+    longDescription: "Guofeng3 is a unique cultural heritage checkpoint that specializes in generating images in traditional Chinese ink-wash painting style, blended with modern illustration techniques. It produces stunning pieces that capture the essence of Chinese brush painting — flowing lines, atmospheric perspective, and the characteristic 'boneless' technique of traditional Chinese art. The .ckpt format model excels at landscapes, floral subjects, and classical Chinese figures, making it invaluable for projects requiring authentic Chinese aesthetic elements.",
     features: [
       "Authentic Chinese ink-wash painting style",
       "Traditional brush stroke simulation",
@@ -311,8 +311,8 @@ export const ALL_RESOURCES: ResourceData[] = [
 ];
 
 export const RESOURCES_BY_STYLE = {
-  "真实系": ALL_RESOURCES.filter(r => r.style === "真实系"),
-  "二次元": ALL_RESOURCES.filter(r => r.style === "二次元"),
+  "Realistic": ALL_RESOURCES.filter(r => r.style === "Realistic"),
+  "Anime": ALL_RESOURCES.filter(r => r.style === "Anime"),
   "2.5D": ALL_RESOURCES.filter(r => r.style === "2.5D"),
 };
 
@@ -322,7 +322,7 @@ export const RESOURCES_BY_CATEGORY = ALL_RESOURCES.reduce((acc, r) => {
   return acc;
 }, {} as Record<string, ResourceData[]>);
 
-export const ALL_STYLES = ["真实系", "二次元", "2.5D"] as const;
+export const ALL_STYLES = ["Realistic", "Anime", "2.5D"] as const;
 export const ALL_CATEGORIES = [...new Set(ALL_RESOURCES.map(r => r.category))];
 
 export const RESOURCE_MAP = new Map(ALL_RESOURCES.map(r => [r.id, r]));

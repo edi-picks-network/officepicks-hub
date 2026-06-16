@@ -331,7 +331,7 @@ export const DATA_TOOLS: ToolData[] = [
     scoreBreakdown: { features: 91.0, reviews: 89.0, momentum: 94.0, popularity: 92.0 },
     userQuotes: [
       { role: "Data Engineering Lead", company: "Mid-Size Enterprise", quote: "Hex replaced a dozen tools in our stack. The collaboration features alone have been worth the switch — no more 'works on my machine' problems." },
-      { role: "Analytics Manager", company: "B2B SaaS Company", quote: "The AI code generation in Hex is incredibly accurate. It understands our data schema and generates production-ready SQL and Python." }
+      { role: "Analytics Manager", company: "Enterprise User", quote: "The AI code generation in Hex is incredibly accurate. It understands our data schema and generates production-ready SQL and Python." }
     ]
   },
   {

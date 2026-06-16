@@ -38,18 +38,21 @@ export const VIDEO_TOOLS: ToolData[] = [
     reviewCount: 3200,
     icon: Video,
     description: "AI video generation platform that creates professional videos with AI avatars from text.",
-    longDescription: "Synthesia is a leading AI video creation platform that lets you generate professional-quality videos with realistic AI avatars simply by typing text. With support for over 120 languages and 140+ diverse AI presenters, it is widely used by enterprises for training, marketing, and internal communications without the need for cameras, studios, or actors.",
+    longDescription: "Synthesia is a leading AI video generation platform designed to transform text into professional, high-quality videos without the need for cameras, microphones, or actors. Using advanced generative AI, Synthesia powers over 140 lifelike AI avatars speaking in 120+ languages and accents—enabling teams to scale video content creation across training, marketing, internal communications, and customer onboarding. Users simply input a script, select an avatar and voice, customize branding (logos, colors, templates), and generate fully rendered videos in minutes. The platform supports screen recording integration, PowerPoint import, custom avatar creation (via paid add-on), and robust collaboration features like shared workspaces and version history—making it ideal for L&D professionals, marketers, and global enterprises seeking consistent, multilingual video output at speed.\n\nBuilt with enterprise-grade security in mind, Synthesia complies with GDPR, SOC 2 Type II, and ISO 27001 standards, and offers SSO, audit logs, and data residency options for its higher-tier plans. Its intuitive no-code interface lowers the barrier to entry for non-technical users, while API access and Zapier integrations empower automation workflows—such as turning blog posts or support tickets into personalized explainer videos. With continuous model improvements—including enhanced lip-sync accuracy, natural gesture generation, and improved background customization—Synthesia remains at the forefront of realistic, scalable AI video production.",
     pros: [
-      "Highly realistic AI avatars with natural lip-sync and expressions",
-      "Supports 120+ languages with accurate pronunciation",
-      "Enterprise-grade security and SSO integration",
+      "Intuitive, no-code interface enables rapid video creation from text in under 5 minutes",
+      "Extensive library of 140+ diverse, customizable AI avatars speaking 120+ languages and accents",
+      "Strong enterprise readiness: SOC 2 Type II, GDPR, and ISO 27001 compliance; SSO and audit logs available on Creator tier and above",
+      "Seamless integrations including PowerPoint import, screen recording, API, and Zapier for workflow automation",
+      "Scalable multilingual video production—ideal for global training, compliance, and marketing campaigns"
     ],
     cons: [
-      "Avatar customization options are somewhat limited",
-      "Higher pricing compared to some competitors",
+      "Custom AI avatar creation requires additional cost and approval; not included in Starter or Creator plans",
+      "Limited fine-grained control over avatar facial expressions or gestures compared to high-end 3D animation tools",
+      "Starter plan restricts video length to 10 minutes/month and excludes team features, API access, and priority support"
     ],
     pricing: "$29/mo",
-    pricingDetail: "Starter $29/mo | Creator $89/mo | Enterprise Custom",
+    pricingDetail: "Starter: $29/month (1 user, 10 min video/month, 120+ AI avatars, basic templates); Creator: $89/month (up to 3 users, 30 min video/month, custom branding, API access, priority support, SSO); Enterprise: Custom pricing (unlimited video, dedicated account manager, custom avatars, advanced security & compliance, SLA)",
     features: [
       "Text-to-Video with AI Avatars",
       "140+ Diverse AI Presenters",

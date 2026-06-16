@@ -216,7 +216,7 @@ export const PRODUCTIVITY_TOOLS: ToolData[] = [
     alternatives: ["Otter.ai", "Fathom", "Grain", "Wingman"],
     scoreBreakdown: { features: 4.6, reviews: 4.3, momentum: 4.5, popularity: 4.4 },
     userQuotes: [
-      { role: "Sales Director", company: "B2B SaaS", quote: "Fireflies transcribes all my customer calls and automatically logs insights into Salesforce. My pipeline visibility has never been better." },
+      { role: "Sales Director", company: "A SaaS Company", quote: "Fireflies transcribes all my customer calls and automatically logs insights into Salesforce. My pipeline visibility has never been better." },
       { role: "Customer Success Manager", company: "Tech Company", quote: "The AI topic tracking helps me identify which product features customers are asking about most. Invaluable for product feedback." }
     ]
   },
