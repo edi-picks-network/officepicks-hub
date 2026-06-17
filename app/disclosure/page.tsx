@@ -31,7 +31,7 @@ export default function DisclosurePage() {
           </section>
           <section>
             <h2 className="text-xl font-bold text-beige-900 mb-3">Questions</h2>
-            <p>If you have any questions, please contact us at <a href="mailto:hello@jadeinteractive.fr" className="text-beige-500 hover:underline">hello@jadeinteractive.fr</a>.</p>
+            <p>If you have any questions, please contact us at <a href="mailto:info@officepicks.net" className="text-beige-500 hover:underline">info@officepicks.net</a>.</p>
           </section>
         </div>
       </div>
