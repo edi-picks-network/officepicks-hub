@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
+import CookieBanner from "./components/CookieBanner";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -26,6 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <body className={`${inter.className} min-h-screen antialiased bg-beige-50 text-[#3c2e22]`}>
+        <CookieBanner />
         {/* Header */}
         <header className="sticky top-0 z-50 border-b border-beige-200 bg-beige-50/95 backdrop-blur-sm">
           <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
