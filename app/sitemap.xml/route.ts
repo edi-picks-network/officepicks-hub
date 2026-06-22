@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 const BLOG_SLUGS = [
-  "best-home-office-desk-chairs-2026",  "complete-home-office-setup-guide", "10-essential-home-office-upgrades-2026", "top-office-productivity-tools-2026", "standing-desk-ergonomics-2026",  "microsoft-365-vs-google-workspace-2026", "ai-office-assistants-compared-2026", "hybrid-home-office-guide-2026", "best-pm-tools-small-business-2026", "ai-productivity-tools-remote-teams-2026",  "time-blocking-tools-2026-sunsama-vs-motion-vs-reclaim", "dual-monitor-home-office-setup-2026", "office-collab-tools-20240620", "remote-team-collaboration-tools-2026",
+  "best-home-office-desk-chairs-2026",  "complete-home-office-setup-guide", "10-essential-home-office-upgrades-2026", "top-office-productivity-tools-2026", "standing-desk-ergonomics-2026",  "microsoft-365-vs-google-workspace-2026", "ai-office-assistants-compared-2026", "hybrid-home-office-guide-2026", "best-pm-tools-small-business-2026", "ai-productivity-tools-remote-teams-2026",  "time-blocking-tools-2026-sunsama-vs-motion-vs-reclaim", "dual-monitor-home-office-setup-2026", "office-collab-tools-20240620", "remote-team-collaboration-tools-2026", "async-first-productivity-tools-remote-teams-2026",
 ] as const;
 
 const TOOL_SLUGS = [

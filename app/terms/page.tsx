@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms of Service — OfficePicks by JadeInteractive",
+  title: "Terms of Service — OfficePicks",
   description:
     "Read the Terms of Service for OfficePicks. By using our platform, you agree to these terms governing your use of the website and services.",
 };
@@ -30,7 +30,7 @@ export default function TermsPage() {
               bound by these Terms of Service (&quot;Terms&quot;). If you do not agree to all of these
               Terms, you are prohibited from using the Site. We reserve the right to modify these
               Terms at any time, and your continued use constitutes acceptance of any changes.
-              OfficePicks is operated by <strong>JadeInteractive</strong>, Bordeaux, France.
+              OfficePicks is operated by <strong>OfficePicks</strong>, Bordeaux, France.
             </p>
           </section>
 
@@ -50,7 +50,7 @@ export default function TermsPage() {
             <p className="mb-3">
               The Site and its original content, features, and functionality — including but not
               limited to the layout, design, logos, trademarks, and written content — are owned
-              by JadeInteractive and are protected by international copyright, trademark, and
+              by OfficePicks and are protected by international copyright, trademark, and
               intellectual property laws.
             </p>
             <p>
@@ -95,8 +95,8 @@ export default function TermsPage() {
           <section>
             <h2 className="text-xl font-bold text-beige-900 mb-3">7. Contact Information</h2>
             <div className="mt-4 p-5 bg-beige-100 border border-beige-200 rounded-xl">
-              <p className="mb-2"><strong className="text-beige-900">Email:</strong> hello@jadeinteractive.fr</p>
-              <p className="mb-2"><strong className="text-beige-900">Studio:</strong> JadeInteractive, 42 Quai des Chartrons, 33000 Bordeaux, France</p>
+              <p className="mb-2"><strong className="text-beige-900">Email:</strong> hello@officepicks.fr</p>
+              <p className="mb-2"><strong className="text-beige-900">Studio:</strong> OfficePicks, 42 Quai des Chartrons, 33000 Bordeaux, France</p>
               <p><strong className="text-beige-900">Website:</strong> officepicks.net</p>
             </div>
           </section>

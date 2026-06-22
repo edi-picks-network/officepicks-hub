@@ -12,11 +12,11 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "OfficePicks — Curated Home Office Equipment & Tools",
+    default: "OfficePicks — Ergonomic Office Equipment & Software Reviews",
     template: "%s — OfficePicks",
   },
   description:
-    "Discover the best home office equipment, ergonomic furniture, and productivity tools. Expert-curated by JadeInteractive studio based in Bordeaux, France.",
+    "Discover the best home office equipment, ergonomic furniture, and productivity tools. Expert reviews and comparisons.",
 };
 
 export default function RootLayout({
@@ -52,7 +52,7 @@ export default function RootLayout({
         {/* Main content */}
         <main>{children}</main>
 
-        {/* Footer — JadeInteractive Bordeaux */}
+        {/* Footer — OfficePicks Bordeaux */}
         <footer className="border-t border-beige-200 bg-beige-100">
           <div className="max-w-6xl mx-auto px-6 py-12">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -62,7 +62,7 @@ export default function RootLayout({
                 </span>
                 <p className="mt-3 text-sm text-beige-600 max-w-md leading-relaxed">
                   Expert-curated recommendations for home office equipment, ergonomic furniture, and productivity tools.
-                  Built by <strong>JadeInteractive</strong> — a Bordeaux-based edge computing and cybersecurity studio.
+                  Built by <strong>OfficePicks</strong> — a Bordeaux-based edge computing and cybersecurity studio.
                 </p>
                 <p className="mt-2 text-xs text-beige-500">
                   Crafted in Bordeaux, France 🇫🇷
@@ -80,7 +80,7 @@ export default function RootLayout({
               <div>
                 <h3 className="text-sm font-semibold text-beige-900 mb-4">Contact</h3>
                 <ul className="space-y-3">
-                  <li><a href="mailto:hello@jadeinteractive.fr" className="text-sm text-beige-600 hover:text-beige-700 transition-colors">hello@jadeinteractive.fr</a></li>
+                  <li><a href="mailto:hello@officepicks.fr" className="text-sm text-beige-600 hover:text-beige-700 transition-colors">hello@officepicks.fr</a></li>
                   <li><span className="text-sm text-beige-500">Bordeaux, France</span></li>
                   <li><Link href="/contact" className="text-sm text-beige-600 hover:text-beige-700 transition-colors">Contact Us</Link></li>
                   <li><Link href="/privacy" className="text-sm text-beige-600 hover:text-beige-700 transition-colors">Privacy Policy</Link></li>
@@ -90,7 +90,7 @@ export default function RootLayout({
               </div>
             </div>
             <div className="mt-10 pt-6 border-t border-beige-200 text-center text-xs text-beige-500">
-              &copy; {new Date().getFullYear()} OfficePicks by JadeInteractive. All rights reserved.
+              &copy; {new Date().getFullYear()} OfficePicks. All rights reserved.
             </div>
           </div>
         </footer>

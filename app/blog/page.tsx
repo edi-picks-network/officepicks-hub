@@ -4,9 +4,9 @@ import { BLOG_POSTS } from "@/data/blog-posts";
 import { ArrowRight, Calendar, Clock, Tags } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Blog — OfficePicks by JadeInteractive",
+  title: "Blog — OfficePicks",
   description:
-    "In-depth reviews and guides for office furniture, home office setups, and productivity tools. Expert advice from JadeInteractive's Bordeaux testing lab.",
+    "In-depth reviews and guides for office furniture, home office setups, and productivity tools. Expert advice from the OfficePicks team.",
 };
 
 export default function BlogListPage() {
@@ -25,7 +25,7 @@ export default function BlogListPage() {
           </h1>
           <p className="text-lg text-beige-600 max-w-2xl mx-auto">
             In-depth reviews and guides for office furniture, home office setups, and productivity tools.
-            Expert advice from <strong>JadeInteractive</strong>&apos;s Bordeaux testing lab.
+            Expert advice from the OfficePicks team.
           </p>
         </div>
 

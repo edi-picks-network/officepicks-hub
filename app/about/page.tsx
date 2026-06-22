@@ -3,9 +3,9 @@ import Link from "next/link";
 import { MapPin, Users, Shield, Cpu, Wine, Sparkles } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About — OfficePicks by JadeInteractive",
+  title: "About — OfficePicks",
   description:
-    "OfficePicks is curated by JadeInteractive, a Bordeaux-based studio specializing in edge computing and cybersecurity. We test and recommend the best home office equipment.",
+    "OfficePicks is curated by OfficePicks, a Bordeaux-based studio specializing in edge computing and cybersecurity. We test and recommend the best home office equipment.",
 };
 
 const TEAM_VALUES = [
@@ -45,19 +45,19 @@ export default function AboutPage() {
             <span className="text-beige-500">Tested in Bordeaux</span>
           </h1>
           <p className="text-lg text-beige-600 leading-relaxed max-w-2xl mx-auto">
-            OfficePicks is curated by <strong>JadeInteractive</strong>, a 6-person
+            OfficePicks is curated by <strong>OfficePicks</strong>, a 6-person
             studio based in Bordeaux, France. We combine edge computing and
             cybersecurity expertise with hands-on hardware testing to bring you
             honest, thorough home office recommendations.
           </p>
         </div>
 
-        {/* The JadeInteractive Story */}
+        {/* The OfficePicks Story */}
         <div className="mb-16">
           <h2 className="text-2xl font-bold text-beige-900 mb-6">Our Story</h2>
           <div className="space-y-4 text-beige-600 leading-relaxed">
             <p>
-              JadeInteractive was founded in 2018 by three engineers who met at
+              OfficePicks was founded in 2018 by three engineers who met at
               the Bordeaux INP engineering school. What started as a cybersecurity
               consultancy quickly evolved into something broader: a studio that
               builds secure, edge-native solutions for distributed teams across Europe.

@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — OfficePicks by JadeInteractive",
+  title: "Privacy Policy — OfficePicks",
   description:
-    "Learn how OfficePicks by JadeInteractive collects, uses, and protects your personal data. Our privacy policy outlines our commitment to your privacy and data security, including Google AdSense and GDPR/CCPA compliance.",
+    "Learn how OfficePicks collects, uses, and protects your personal data. Our privacy policy outlines our commitment to your privacy and data security, including Google AdSense and GDPR/CCPA compliance.",
 };
 
 export default function PrivacyPage() {
@@ -32,7 +32,7 @@ export default function PrivacyPage() {
               policy carefully. If you do not agree with the terms, do not access the Site.
             </p>
             <p className="mt-3">
-              OfficePicks is operated by <strong>JadeInteractive</strong>, a studio based in Bordeaux, France.
+              OfficePicks is operated by <strong>OfficePicks</strong>, a studio based in Bordeaux, France.
             </p>
           </section>
 
@@ -174,8 +174,8 @@ export default function PrivacyPage() {
           <section>
             <h2 className="text-xl font-bold text-beige-900 mb-3">8. Contact Us</h2>
             <div className="mt-4 p-5 bg-beige-100 border border-beige-200 rounded-xl">
-              <p className="mb-2"><strong className="text-beige-900">Email:</strong> hello@jadeinteractive.fr</p>
-              <p className="mb-2"><strong className="text-beige-900">Studio:</strong> JadeInteractive, 42 Quai des Chartrons, 33000 Bordeaux, France</p>
+              <p className="mb-2"><strong className="text-beige-900">Email:</strong> hello@officepicks.fr</p>
+              <p className="mb-2"><strong className="text-beige-900">Studio:</strong> OfficePicks, 42 Quai des Chartrons, 33000 Bordeaux, France</p>
               <p><strong className="text-beige-900">Website:</strong> officepicks.net</p>
             </div>
           </section>

@@ -62,7 +62,7 @@ export default function HomePage(props?: HomePageProps) {
           </h1>
           <p className="text-lg md:text-xl text-beige-600 max-w-2xl mx-auto mb-10 leading-relaxed">
             Expert-tested home office equipment, curated by
-            <strong className="text-beige-700"> JadeInteractive</strong> —
+            <strong className="text-beige-700"> OfficePicks</strong> —
             a Bordeaux-based engineering studio. Every product, verified.
           </p>
 

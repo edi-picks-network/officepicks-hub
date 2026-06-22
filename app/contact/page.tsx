@@ -29,7 +29,7 @@ export default function ContactPage() {
           </h1>
           <p className="text-lg text-beige-600 max-w-xl mx-auto">
             Have a question, a product suggestion, or want to collaborate with
-            JadeInteractive? We&apos;d love to hear from you.
+            OfficePicks? We&apos;d love to hear from you.
           </p>
         </div>
 
@@ -149,7 +149,7 @@ export default function ContactPage() {
                 Visit Us
               </h3>
               <p className="text-sm text-beige-600">
-                <strong className="text-beige-900">JadeInteractive Studio</strong>
+                <strong className="text-beige-900">OfficePicks Studio</strong>
                 <br />
                 42 Quai des Chartrons
                 <br />

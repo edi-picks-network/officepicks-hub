@@ -322,7 +322,7 @@ export default function ToolDetailPage() {
 
           <div className="mt-10 text-center">
             <p className="text-xs text-beige-400">
-              Tested and reviewed by <strong>JadeInteractive</strong> — Bordeaux, France.
+              Tested and reviewed by <strong>OfficePicks</strong> — Bordeaux, France.
               When you purchase through links on our site, we may earn an affiliate commission.{" "}
               <Link
                 href="/disclosure"

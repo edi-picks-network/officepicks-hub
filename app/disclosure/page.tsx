@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Affiliate Disclosure — OfficePicks by JadeInteractive",
+  title: "Affiliate Disclosure — OfficePicks",
   description:
     "OfficePicks' affiliate disclosure policy. Learn how we may earn commissions through partner links on our site.",
 };
@@ -18,7 +18,7 @@ export default function DisclosurePage() {
         <div className="space-y-6 text-beige-700 leading-relaxed">
           <section>
             <h2 className="text-xl font-bold text-beige-900 mb-3">Transparency First</h2>
-            <p>OfficePicks by JadeInteractive is committed to transparency. This Affiliate Disclosure explains how we may earn compensation through links on our website.</p>
+            <p>OfficePicks is committed to transparency. This Affiliate Disclosure explains how we may earn compensation through links on our website.</p>
           </section>
           <section>
             <h2 className="text-xl font-bold text-beige-900 mb-3">Affiliate Links</h2>

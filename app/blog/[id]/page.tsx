@@ -50,13 +50,13 @@ export default function BlogPostPage({ params }: { params: { id: string } }) {
     post.title,
     post.author,
     post.date,
-    'OfficePicks by JadeInteractive',
+    'OfficePicks',
     post.excerpt
   );
   const orgJsonLd = organizationSchema(
-    'OfficePicks by JadeInteractive',
+    'OfficePicks',
     'https://officepicks.net',
-    'Expert-curated home office equipment reviews by JadeInteractive, a Bordeaux-based engineering studio.'
+    'Expert-curated home office equipment reviews by OfficePicks, a Bordeaux-based engineering studio.'
   );
 
   return (
@@ -132,7 +132,7 @@ export default function BlogPostPage({ params }: { params: { id: string } }) {
 
         <div className="border-t border-beige-200 pt-8 mb-8">
           <p className="text-xs text-beige-400">
-            OfficePicks independently researches and verifies all product data. Tested by <strong>JadeInteractive</strong> in Bordeaux, France.
+            OfficePicks independently researches and verifies all product data. Tested by OfficePicks in Bordeaux, France.
           </p>
         </div>
 
