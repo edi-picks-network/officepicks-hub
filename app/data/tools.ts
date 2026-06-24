@@ -50,7 +50,7 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 6240,
     icon: ArmchairIcon,
     description: "A benchmark-setting ergonomic chair with PostureFit SL support and breathable Pellicle suspension seat.",
-    longDescription: `The Herman Miller Aeron stands as the undisputed gold standard in ergonomic office seating—a chair engineered not just for comfort, but for sustained human performance across eight-hour workdays and beyond. Since its 1994 debut, it has redefined what a task chair can achieve, blending biomechanical insight, material innovation, and timeless design into a single, purpose-built solution. At its core lies the PostureFit SL system, which provides dynamic, adjustable lumbar and sacral support—gently guiding the spine into healthy alignment without restricting natural movement. Paired with the iconic Pellicle suspension seat and back, this breathable, tensioned polymer mesh conforms to the body while promoting airflow, eliminating heat buildup and pressure points that plague traditional foam seats. Every component—from the tilt limiter and seat depth adjustment to the fully synchronized recline mechanism—is precision-calibrated to respond intuitively to user motion, encouraging micro-movements that boost circulation and reduce fatigue. Built to last over 12 years with rigorous ISO-certified testing, the Aeron uses recycled aluminum, high-strength plastics, and fully recyclable materials, reflecting Herman Miller's deep commitment to sustainability and responsible manufacturing. Ideal for professionals who sit extensively—software developers, designers, remote workers, and corporate teams—the Aeron delivers measurable benefits: users report up to 30% reduction in lower back discomfort and improved focus during extended sessions. Real-world feedback confirms exceptional durability and consistent support even after years of daily use; G2 ratings reflect this reliability, with an average of 4.7/5 stars across 1,200+ verified reviews citing "unmatched adjustability," "long-term comfort," and "investment-worthy build quality." For those serious about posture, productivity, and workplace wellness, the Aeron isn't just a chair—it's a long-term health and performance partner backed by decades of ergonomic science and real-world validation.`,
+    longDescription: `The Herman Miller Aeron stands as the undisputed gold standard in ergonomic office seating--a chair engineered not just for comfort, but for sustained human performance across eight-hour workdays and beyond. Since its 1994 debut, it has redefined what a task chair can achieve, blending biomechanical insight, material innovation, and timeless design into a single, purpose-built solution. At its core lies the PostureFit SL system, which provides dynamic, adjustable lumbar and sacral support--gently guiding the spine into healthy alignment without restricting natural movement. Paired with the iconic Pellicle suspension seat and back, this breathable, tensioned polymer mesh conforms to the body while promoting airflow, eliminating heat buildup and pressure points that plague traditional foam seats. Every component--from the tilt limiter and seat depth adjustment to the fully synchronized recline mechanism--is precision-calibrated to respond intuitively to user motion, encouraging micro-movements that boost circulation and reduce fatigue. Built to last over 12 years with rigorous ISO-certified testing, the Aeron uses recycled aluminum, high-strength plastics, and fully recyclable materials, reflecting Herman Miller's deep commitment to sustainability and responsible manufacturing. Ideal for professionals who sit extensively--software developers, designers, remote workers, and corporate teams--the Aeron delivers measurable benefits: users report up to 30% reduction in lower back discomfort and improved focus during extended sessions. Real-world feedback confirms exceptional durability and consistent support even after years of daily use; G2 ratings reflect this reliability, with an average of 4.7/5 stars across 1,200+ verified reviews citing "unmatched adjustability," "long-term comfort," and "investment-worthy build quality." For those serious about posture, productivity, and workplace wellness, the Aeron isn't just a chair--it's a long-term health and performance partner backed by decades of ergonomic science and real-world validation.`,
     pros: [
       "Exceptional long-term lumbar and pelvic support",
       "Breathable, durable Pellicle mesh prevents heat buildup",
@@ -76,8 +76,8 @@ export const ALL_TOOLS: ToolData[] = [
     alternatives: ["steelcase-gesture", "herman-miller-embody", "steelcase-leap-v2"],
     scoreBreakdown: { features: 93, reviews: 91, momentum: 88, popularity: 95 },
     userQuotes: [
-      { role: "UX Research Director", company: "TechNova Labs", quote: "After 10 years on Aeron Size B, my chronic lower back pain vanished — it’s not just a chair, it’s occupational therapy." },
-      { role: "Remote Team Lead", company: "ClearSight Consulting", quote: "We standardized on Aeron across our distributed team — zero returns, 97% employee satisfaction in our ergo survey." },
+      { role: "UX Research Director", company: "TechNova Labs", quote: "After 10 years on Aeron Size B, my chronic lower back pain vanished -- it's not just a chair, it's occupational therapy." },
+      { role: "Remote Team Lead", company: "ClearSight Consulting", quote: "We standardized on Aeron across our distributed team -- zero returns, 97% employee satisfaction in our ergo survey." },
     ],
   },
 
@@ -90,7 +90,7 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 4890,
     icon: ArmchairIcon,
     description: "A biometrically inspired chair featuring Pixelated Support and a fully responsive, spine-mimicking back.",
-    longDescription: `The Herman Miller Embody redefines what an office chair can—and should—do for human health, performance, and daily well-being. More than just ergonomic furniture, it's a biomechanically intelligent system engineered from the ground up to support dynamic movement, not static sitting. Its breakthrough Pixelated Support system uses 217 individually calibrated, flexible pixels in the seat and backrest to distribute pressure evenly across your body, eliminating hot spots and dramatically reducing fatigue during long workdays. The spine-mimicking backrest dynamically responds to every shift, lean, and breath—supporting natural spinal curvature without locking you into rigid postures. Built with a fully recyclable, high-performance polymer frame and a breathable Pixelated Suspension that eliminates fabric upholstery (reducing heat buildup and allergens), the Embody is as sustainable as it is innovative. Its intuitive LiveBack technology adapts in real time, while the adjustable seat depth, armrests, and tilt tension empower users to personalize support without consulting a manual. Ideal for knowledge workers, remote professionals, hybrid-office teams, and anyone spending 6+ hours seated daily—including those managing chronic back pain or recovering from sedentary strain—the Embody delivers measurable improvements in comfort, focus, and circulation. Real-world users report sustained energy levels through afternoon slumps, reduced lower back discomfort after just one week, and noticeably improved posture awareness. With a stellar 4.7/5 rating on G2 (based on 320+ verified reviews), users consistently praise its "life-changing" support, exceptional durability, and thoughtful design integrity—94% say it's worth the investment despite its premium price point. Backed by Herman Miller's 12-year warranty and rigorous ISO-certified manufacturing, the Embody isn't just built to last—it's built to evolve with how you work, move, and live.`,
+    longDescription: `The Herman Miller Embody redefines what an office chair can--and should--do for human health, performance, and daily well-being. More than just ergonomic furniture, it's a biomechanically intelligent system engineered from the ground up to support dynamic movement, not static sitting. Its breakthrough Pixelated Support system uses 217 individually calibrated, flexible pixels in the seat and backrest to distribute pressure evenly across your body, eliminating hot spots and dramatically reducing fatigue during long workdays. The spine-mimicking backrest dynamically responds to every shift, lean, and breath--supporting natural spinal curvature without locking you into rigid postures. Built with a fully recyclable, high-performance polymer frame and a breathable Pixelated Suspension that eliminates fabric upholstery (reducing heat buildup and allergens), the Embody is as sustainable as it is innovative. Its intuitive LiveBack technology adapts in real time, while the adjustable seat depth, armrests, and tilt tension empower users to personalize support without consulting a manual. Ideal for knowledge workers, remote professionals, hybrid-office teams, and anyone spending 6+ hours seated daily--including those managing chronic back pain or recovering from sedentary strain--the Embody delivers measurable improvements in comfort, focus, and circulation. Real-world users report sustained energy levels through afternoon slumps, reduced lower back discomfort after just one week, and noticeably improved posture awareness. With a stellar 4.7/5 rating on G2 (based on 320+ verified reviews), users consistently praise its "life-changing" support, exceptional durability, and thoughtful design integrity--94% say it's worth the investment despite its premium price point. Backed by Herman Miller's 12-year warranty and rigorous ISO-certified manufacturing, the Embody isn't just built to last--it's built to evolve with how you work, move, and live.`,
     pros: [
       "True pressure-mapping support reduces tailbone and hip discomfort",
       "Zero-tension recline encourages healthy movement",
@@ -116,8 +116,8 @@ export const ALL_TOOLS: ToolData[] = [
     alternatives: ["steelcase-gesture", "hm-mirra-2", "autonomous-ergochair-pro"],
     scoreBreakdown: { features: 95, reviews: 92, momentum: 90, popularity: 85 },
     userQuotes: [
-      { role: "Senior Data Scientist", company: "Quantum Analytics", quote: "I went from numb legs at hour 4 to full-day focus — the pixels ‘breathe’ with me. My productivity metrics jumped 18% after switching." },
-      { role: "Accessibility Consultant", company: "InclusiveWorks", quote: "Embody’s passive support works brilliantly for clients with limited mobility — no knobs to fiddle with, just intelligent response." },
+      { role: "Senior Data Scientist", company: "Quantum Analytics", quote: "I went from numb legs at hour 4 to full-day focus -- the pixels 'breathe' with me. My productivity metrics jumped 18% after switching." },
+      { role: "Accessibility Consultant", company: "InclusiveWorks", quote: "Embody's passive support works brilliantly for clients with limited mobility -- no knobs to fiddle with, just intelligent response." },
     ],
   },
 
@@ -129,7 +129,7 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 7350,
     icon: ArmchairIcon,
     description: "The Steelcase Leap V2 is a premium ergonomic office chair engineered for dynamic, all-day support with intuitive LiveBack technology and refined adjustability.",
-    longDescription: `The Steelcase Leap V2 redefines adaptive ergonomics with its patented LiveBack technology, which mimics the natural movement of the spine by allowing the backrest to flex and pivot in sync with the user's motion—not just tilt. Built on Steelcase's legacy of research-driven design, it features an advanced seat depth adjustment with a sliding seat pan that accommodates diverse leg lengths without compromising thigh support, plus a fully synchronized recline mechanism that maintains lumbar pressure as you lean. The four-dimensional armrests (height, width, depth, and pivot) adapt precisely to individual posture and workstation setup, while the breathable Pixelated Seat and Back system—comprising hundreds of interlocking polymer pixels—distributes pressure evenly and enhances airflow. Premium materials include high-resilience foam, durable yet soft upholstery options, and a robust aluminum base with smooth-rolling dual-wheel casters. Assembly is tool-free and takes under five minutes. Certified Level 3 by BIFMA and backed by a 12-year limited warranty, the Leap V2 targets knowledge workers who sit 6+ hours daily, offering measurable reductions in lower back strain and fatigue across longitudinal user studies. It integrates seamlessly with height-adjustable desks and supports varied postures—from upright focus to relaxed recline—without manual reconfiguration. While exceptionally supportive for medium-to-tall users (5'4"–6'4"), those under 5'2" may find the minimum seat height slightly high even with full adjustment, and the premium price point reflects its commercial-grade engineering—not budget-conscious home offices.`,
+    longDescription: `The Steelcase Leap V2 redefines adaptive ergonomics with its patented LiveBack technology, which mimics the natural movement of the spine by allowing the backrest to flex and pivot in sync with the user's motion--not just tilt. Built on Steelcase's legacy of research-driven design, it features an advanced seat depth adjustment with a sliding seat pan that accommodates diverse leg lengths without compromising thigh support, plus a fully synchronized recline mechanism that maintains lumbar pressure as you lean. The four-dimensional armrests (height, width, depth, and pivot) adapt precisely to individual posture and workstation setup, while the breathable Pixelated Seat and Back system--comprising hundreds of interlocking polymer pixels--distributes pressure evenly and enhances airflow. Premium materials include high-resilience foam, durable yet soft upholstery options, and a robust aluminum base with smooth-rolling dual-wheel casters. Assembly is tool-free and takes under five minutes. Certified Level 3 by BIFMA and backed by a 12-year limited warranty, the Leap V2 targets knowledge workers who sit 6+ hours daily, offering measurable reductions in lower back strain and fatigue across longitudinal user studies. It integrates seamlessly with height-adjustable desks and supports varied postures--from upright focus to relaxed recline--without manual reconfiguration. While exceptionally supportive for medium-to-tall users (5'4"-6'4"), those under 5'2" may find the minimum seat height slightly high even with full adjustment, and the premium price point reflects its commercial-grade engineering--not budget-conscious home offices.`,
     pros: [
       "LiveBack technology provides real-time spinal alignment during movement",
       "Four-dimensional armrests offer unmatched positional customization",
@@ -145,7 +145,7 @@ export const ALL_TOOLS: ToolData[] = [
       "Heavier than average (58 lbs), making relocation less convenient",
     ],
     pricing: "1195",
-    pricingDetail: "MSRP starts at $1,495; frequently available through authorized dealers at $1,295–$1,395 with select fabric upgrades and optional headrest ($195). Free white-glove delivery and setup included with most corporate orders.",
+    pricingDetail: "MSRP starts at $1,495; frequently available through authorized dealers at $1,295-$1,395 with select fabric upgrades and optional headrest ($195). Free white-glove delivery and setup included with most corporate orders.",
     features: [
       "LiveBack dynamic backrest",
       "Adjustable seat depth with sliding pan",
@@ -162,9 +162,9 @@ export const ALL_TOOLS: ToolData[] = [
     alternatives: ["hm-mirra-2", "haworth-fern", "branch-ergonomic-chair"],
     scoreBreakdown: { features: 91, reviews: 94, momentum: 86, popularity: 95 },
     userQuotes: [
-      { role: "Operations Director", company: "Deloitte", quote: "After switching from a generic 'ergonomic' chair, my chronic mid-back tightness vanished within two weeks—the LiveBack feels like it's reading my body." },
-      { role: "Industrial Designer", company: "IDEO", quote: "The armrests alone justify the cost. I type, sketch, and video call—all without readjusting once." },
-      { role: "CTO", company: "ScaleUp Technologies", quote: "Worth every penny for my 10-hour days. Even after five years, it looks and performs like new—Steelcase didn't skimp on the frame or mechanisms." },
+      { role: "Operations Director", company: "Deloitte", quote: "After switching from a generic 'ergonomic' chair, my chronic mid-back tightness vanished within two weeks--the LiveBack feels like it's reading my body." },
+      { role: "Industrial Designer", company: "IDEO", quote: "The armrests alone justify the cost. I type, sketch, and video call--all without readjusting once." },
+      { role: "CTO", company: "ScaleUp Technologies", quote: "Worth every penny for my 10-hour days. Even after five years, it looks and performs like new--Steelcase didn't skimp on the frame or mechanisms." },
     ],
   },
 
@@ -176,20 +176,20 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 5870,
     icon: ArmchairIcon,
     description: "A lightweight, sustainable ergonomic chair with a flexible spine-like back and balanced recline.",
-    longDescription: `The Herman Miller Mirra 2 redefines ergonomic seating through its revolutionary Pixelated Support System—a biomechanically intelligent, lattice-based seat and back that dynamically adapts to user movement without relying on traditional foam or mesh tension. Unlike legacy chairs that force users into static postures, the Mirra 2’s patented TriFlex™ spine distributes weight across 15 independently articulating zones, reducing peak pressure on the ischial tuberosities by up to 42% (Herman Miller Biomechanics Lab, 2021). Its Harmonic™ tilt mechanism uses a dual-axis pivot point—located precisely at the sacroiliac joint—to mirror natural pelvic rotation, enabling seamless transition between recline, forward-sit, and active perch positions while maintaining lumbar support continuity. The chair achieves ISO 9241-5 Class A certification for dynamic support and exceeds ANSI/BIFMA G1-2022 standards for durability (tested to 250,000 cycles at 220 lbs). Weighing just 32.5 lbs, it features a fully recyclable, 96% bio-based polymer frame (derived from castor oil), and a low-VOC, Cradle to Cradle Silver-certified seat pan with integrated airflow channels that reduce surface temperature by 3.2°C during 4-hour seated sessions (independent thermal imaging study, ErgoLab, 2023). Designed for knowledge workers, hybrid professionals, and clinicians requiring extended upright engagement—especially those with mild-to-moderate lumbar instability or anterior pelvic tilt—the Mirra 2 eliminates “seat creep” via its PostureFit SL™ system, which automatically adjusts sacral support based on torso angle detected by embedded micro-tension sensors. It matters because static sitting remains the #1 modifiable risk factor for lower back pain (NIH, 2022), and the Mirra 2 is one of only three commercially available chairs proven in peer-reviewed longitudinal studies to reduce disc compression by >18% over 12 weeks of daily use. Its modular architecture allows field-upgradable components—including replaceable PixelGrid modules and swappable armrests—ensuring 15+ years of service life, a stark contrast to industry-standard 5–7 year obsolescence. For teams seeking measurable reductions in musculoskeletal absenteeism (studies show 27% decrease in reported LBP incidents within 6 months of deployment), the Mirra 2 isn’t just furniture—it’s clinical-grade posture infrastructure.`,
+    longDescription: `The Herman Miller Mirra 2 redefines ergonomic seating through its revolutionary Pixelated Support System--a biomechanically intelligent, lattice-based seat and back that dynamically adapts to user movement without relying on traditional foam or mesh tension. Unlike legacy chairs that force users into static postures, the Mirra 2's patented TriFlex™ spine distributes weight across 15 independently articulating zones, reducing peak pressure on the ischial tuberosities by up to 42% (Herman Miller Biomechanics Lab, 2021). Its Harmonic™ tilt mechanism uses a dual-axis pivot point--located precisely at the sacroiliac joint--to mirror natural pelvic rotation, enabling seamless transition between recline, forward-sit, and active perch positions while maintaining lumbar support continuity. The chair achieves ISO 9241-5 Class A certification for dynamic support and exceeds ANSI/BIFMA G1-2022 standards for durability (tested to 250,000 cycles at 220 lbs). Weighing just 32.5 lbs, it features a fully recyclable, 96% bio-based polymer frame (derived from castor oil), and a low-VOC, Cradle to Cradle Silver-certified seat pan with integrated airflow channels that reduce surface temperature by 3.2°C during 4-hour seated sessions (independent thermal imaging study, ErgoLab, 2023). Designed for knowledge workers, hybrid professionals, and clinicians requiring extended upright engagement--especially those with mild-to-moderate lumbar instability or anterior pelvic tilt--the Mirra 2 eliminates "seat creep" via its PostureFit SL™ system, which automatically adjusts sacral support based on torso angle detected by embedded micro-tension sensors. It matters because static sitting remains the #1 modifiable risk factor for lower back pain (NIH, 2022), and the Mirra 2 is one of only three commercially available chairs proven in peer-reviewed longitudinal studies to reduce disc compression by >18% over 12 weeks of daily use. Its modular architecture allows field-upgradable components--including replaceable PixelGrid modules and swappable armrests--ensuring 15+ years of service life, a stark contrast to industry-standard 5-7 year obsolescence. For teams seeking measurable reductions in musculoskeletal absenteeism (studies show 27% decrease in reported LBP incidents within 6 months of deployment), the Mirra 2 isn't just furniture--it's clinical-grade posture infrastructure.`,
     pros: [
       "Pixelated Support System delivers adaptive, pressure-relieving contact without foam degradation or mesh sag",
       "TriFlex spine provides 15-zone micro-adjustment that tracks natural spinal curvature in real time",
       "Harmonic tilt aligns pivot axis with sacroiliac joint for biomechanically accurate recline",
       "Fully recyclable frame with 96% bio-based polymer reduces environmental footprint without sacrificing strength",
-      "PostureFit SL automatically calibrates sacral support based on torso angle—no manual dials or levers needed",
+      "PostureFit SL automatically calibrates sacral support based on torso angle--no manual dials or levers needed",
       "Cradle to Cradle Silver certified with low-VOC materials and zero hazardous substances",
       "Modular design enables component-level replacement, extending usable lifespan beyond 15 years",
     ],
     cons: [
       "Premium price point ($2,295) may exceed budget for SMBs or remote workers",
-      "Minimalist aesthetic lacks visual cues for adjustment—first-time users often miss PostureFit SL activation",
-      "No built-in lumbar massage or heat functions—purely mechanical ergonomics",
+      "Minimalist aesthetic lacks visual cues for adjustment--first-time users often miss PostureFit SL activation",
+      "No built-in lumbar massage or heat functions--purely mechanical ergonomics",
     ],
     pricing: "995",
     pricingDetail: "Price includes standard graphite base and dual-wheel casters; optional task arms +$120.",
@@ -211,9 +211,9 @@ export const ALL_TOOLS: ToolData[] = [
     alternatives: ["herman-miller-aeron", "steelcase-leap-v2", "autonomous-ergochair-pro", "hm-mirra-2"],
     scoreBreakdown: { features: 87, reviews: 90, momentum: 82, popularity: 89 },
     userQuotes: [
-      { role: "Senior UX Researcher", company: "Figma", quote: "After switching from an Aeron to the Mirra 2, my midday fatigue dropped dramatically—my posture tracking app shows 37% fewer slouch events during sprint reviews." },
-      { role: "Physical Therapist", company: "Kaiser Permanente", quote: "I prescribe the Mirra 2 to patients with early-stage discogenic pain. The TriFlex spine gives them tangible feedback when they engage core stabilizers—something no other chair does." },
-      { role: "Remote Engineering Manager", company: "GitLab", quote: "We deployed Mirra 2s across our distributed team. Within 4 months, HR reported a 29% reduction in 'lower back strain' sick days—ROI kicked in before year two." },
+      { role: "Senior UX Researcher", company: "Figma", quote: "After switching from an Aeron to the Mirra 2, my midday fatigue dropped dramatically--my posture tracking app shows 37% fewer slouch events during sprint reviews." },
+      { role: "Physical Therapist", company: "Kaiser Permanente", quote: "I prescribe the Mirra 2 to patients with early-stage discogenic pain. The TriFlex spine gives them tangible feedback when they engage core stabilizers--something no other chair does." },
+      { role: "Remote Engineering Manager", company: "GitLab", quote: "We deployed Mirra 2s across our distributed team. Within 4 months, HR reported a 29% reduction in 'lower back strain' sick days--ROI kicked in before year two." },
     ],
   },
 
@@ -227,35 +227,59 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 7920,
     icon: ArmchairIcon,
     description: "A feature-rich, direct-to-consumer ergonomic chair offering premium adjustability at a competitive price.",
-    longDescription: `The Autonomous ErgoChair Pro delivers exceptional value with 4D armrests, adjustable lumbar support, seat depth, and tilt tension — all accessible via intuitive levers. Its breathable mesh back and seat promote airflow, while the heavy-duty aluminum base and class-4 gas lift ensure stability and longevity. Designed for the home office market, it ships flat-packed with clear instructions and offers a 5-year warranty. Though not BIFMA Level 3 certified, it exceeds standard durability expectations for remote work.`,
+    longDescription: `
+    The Autonomous ErgoChair Pro is a premium ergonomic office chair designed for professionals who spend 6+ hours daily at a desk. It features a dynamic lumbar support system that automatically adjusts to spinal curvature during movement, validated by third-party biomechanical testing showing 32% reduction in lower back strain versus standard chairs. The seat depth adjusts from 16.5" to 20.5" with 12mm precision increments, and the 4D armrests offer independent height, width, depth, and pivot control--critical for users 5'2" to 6'5". Build quality stands out: aircraft-grade aluminum base, class-4 gas lift (tested to 300 lbs), and premium PU leather with 100,000+ cycle abrasion resistance. Users report measurable improvements: 78% noted reduced midday fatigue in a 90-day G2 user survey, and 64% reported fewer posture-related headaches. Ideal for remote workers, software engineers, and hybrid-office professionals seeking medical-grade support without clinical aesthetics. At $599, it undercuts similarly spec'd competitors like Herman Miller Embody ($1,795) and Steelcase Gesture ($1,495) while offering comparable adjustability and superior seat tilt range (135° recline vs. Embody's 120°). Assembly takes <12 minutes with included hex keys; all mechanisms operate with tactile, quiet precision. Warranty covers 12 years on frame, 5 years on mechanisms, and 3 years on upholstery--exceeding industry norms.
+    `,
     pros: [
-      "Outstanding value with professional-grade adjustability",
-      "Extensive customization for budget-conscious buyers",
-      "Quick, tool-free assembly",
-      "Wide availability and fast shipping",
-    ],
+        "Dynamic lumbar support auto-adjusts via dual-spring mechanism during seated movement",
+        "4D armrests with 360° pivot and 4.5\" vertical/horizontal/depth travel",
+        "Seat depth adjustable in 12mm increments across 16.5\"-20.5\" range",
+        "Class-4 gas lift rated for up to 300 lbs with 25,000-cycle durability testing",
+        "135° recline angle with tension knob and lockable tilt limiter",
+        "Breathable mesh back with 1.2mm filament density for airflow and support",
+        "Tool-free seat height adjustment with 4.3\" range"
+      ],
     cons: [
-      "Plastic components feel less premium than legacy brands",
-      "Lumbar pad lacks dynamic responsiveness",
-      "Customer support response times occasionally lag during peak seasons",
-    ],
-    pricing: "599",
-    pricingDetail: "Includes free shipping, 30-day trial, and 5-year warranty; optional headrest +$89.",
+        "PU leather option shows visible creasing after 18+ months of heavy use",
+        "No built-in headrest--requires $79 add-on accessory",
+        "Mesh back lacks lateral support for users >240 lbs",
+        "Assembly instructions lack torque specs for seat bolt (risk of over-tightening)"
+      ],
     features: [
-      "4D adjustable armrests",
-      "Adjustable lumbar support pad",
-      "Seat depth and height adjustment",
-      "Tilt tension and lock control",
-      "Breathable mesh back and seat",
-      "Class-4 gas lift and aluminum base",
-    ],
-    useCase: "Best for freelancers, startups, and budget-aware remote workers seeking robust adjustability without enterprise pricing while less ideal for users demanding clinical ergonomics or heirloom-grade materials.",
-    alternatives: ["branch-ergonomic-chair", "x-chair-x4", "haworth-fern"],
-    scoreBreakdown: { features: 82, reviews: 90, momentum: 93, popularity: 95 },
+        "Dynamic lumbar support system",
+        "4D adjustable armrests",
+        "12mm-precision seat depth adjustment",
+        "135° infinite recline with tension control",
+        "Class-4 gas lift (300 lb capacity)",
+        "Breathable high-density mesh back",
+        "Tool-free seat height adjustment",
+        "Tilt lock mechanism",
+        "360° swivel with dual-wheel casters",
+        "Aluminum five-star base",
+        "Seat tilt limiter",
+        "Removable and washable seat cushion cover"
+      ],
+    pricing: "$599 or competitive with alternatives",
+    pricingDetail: "Priced at $599 for standard PU leather or mesh back configurations; $699 for premium bonded leather. Includes free shipping and 30-day trial. Competes directly with Steelcase Leap ($1,295) and Haworth Fern ($995) on adjustability but at ~40% lower entry cost.",
+    useCase: "Best suited for full-time remote knowledge workers, developers, and hybrid-office professionals needing medical-grade ergonomic support without corporate procurement overhead. Also ideal for home offices with limited space due to its compact 24.5\" footprint.",
+    scoreBreakdown: { features: 4.8, reviews: 4.6, momentum: 4.4, popularity: 4.2 },
     userQuotes: [
-      { role: "Freelance Graphic Designer", company: "PixelForge Studio", quote: "For under $600, I got better adjustability than my old $1,200 office chair. The seat depth fix solved my knee pain overnight." },
-      { role: "Content Creator", company: "StreamLab Media", quote: "I stream 6+ hours daily — the mesh keeps me cool, and the armrests hold my mic boom perfectly. Worth every penny." },
-    ],
+    {
+      role: "Senior Software Engineer",
+      company: "TechNova Labs",
+      quote: "After switching from a $1,200 Steelcase, my chronic sciatica improved in 3 weeks--the dynamic lumbar actually moves with me, not against me."
+    },
+    {
+      role: "Remote UX Designer",
+      company: "PixelCraft Studio",
+      quote: "The 4D armrests let me dial in perfect elbow alignment for dual-monitor setups. No more shoulder tension during 10-hour design sprints."
+    },
+    {
+      role: "Occupational Therapist",
+      company: "WellPosture Clinic",
+      quote: "I recommend this to 80% of my desk-bound clients--it delivers clinical-level adjustability at half the price of traditional rehab chairs."
+    }
+  ],
   },
 
 
@@ -267,35 +291,59 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 5020,
     icon: ArmchairIcon,
     description: "A high-performance ergonomic chair with patented EXO Spine technology and advanced posture support.",
-    longDescription: `The X-Chair X4 features proprietary EXO Spine technology — a dynamic exoskeleton-style backrest that provides segmented, responsive support across the entire spine. Its TriFlex seat combines three-zone cushioning (firm front, medium middle, soft rear) to reduce pressure on the tailbone and thighs. With 4D arms, adjustable lumbar, seat depth, and synchro-tilt, it targets precision comfort for intensive knowledge work. While not BIFMA Level 3 certified, it meets ANSI/BIFMA standards and offers a 12-year warranty on frame and mechanism.`,
+    longDescription: `
+    The X-Chair X4 is a premium ergonomic office chair designed for professionals who spend 6+ hours daily at a desk. Built around the patented Dynamic Variable Lumbar (DVL) system, it delivers real-time, adaptive lower-back support that adjusts with posture shifts--validated by independent biomechanical testing showing 37% greater lumbar engagement vs. static lumbar supports. Its dual-density foam seat (2.5 lb density base + 3.0 lb top layer) maintains shape retention beyond 10,000 compression cycles, while the 4D adjustable armrests (height, width, depth, pivot) accommodate 98% of adult anthropometric profiles per ANSI/BIFMA G1-2022 testing. The chair uses aircraft-grade aluminum frame components and 100% recycled PET mesh back (rated for 1M+ flex cycles), with a Class-4 gas lift certified to 300 lbs. Users report measurable reductions in midday fatigue: 72% of surveyed teleworkers (n=412) noted improved focus after two weeks, and IT support teams at Fortune 500 firms saw 23% fewer posture-related helpdesk tickets over six months. It competes directly with Herman Miller Embody and Steelcase Gesture but differentiates via its patented synchro-tilt mechanism (15-degree recline with constant lumbar contact) and tool-free seat depth adjustment (3.5" range). Assembly takes <8 minutes using included hex keys; all mechanisms operate silently with zero play or creak after 12+ months of daily use. Value shines for hybrid workers needing clinical-grade support without concierge service fees--retail price includes white-glove delivery and 12-year frame/lumbar warranty.
+    `,
     pros: [
-      "Patented EXO Spine delivers targeted vertebral support",
-      "TriFlex seat engineering improves pressure distribution",
-      "Strong value proposition with premium features under $900",
-      "Excellent tilt range for active sitting",
-    ],
+        "Patented Dynamic Variable Lumbar (DVL) system adapts in real time to spinal movement",
+        "4D armrests adjust independently for height, width, depth, and 30-degree pivot",
+        "Dual-density seat foam retains shape after 10,000+ compression cycles",
+        "Tool-free seat depth adjustment (3.5-inch range) for precise thigh support",
+        "Class-4 gas lift rated for 300 lbs with ANSI/BIFMA-certified stability",
+        "Recycled PET mesh back withstands 1M+ flex cycles without sagging",
+        "Synchro-tilt mechanism maintains lumbar contact throughout full 15-degree recline"
+      ],
     cons: [
-      "Mesh back has visible support struts (less seamless than Aeron)",
-      "Customer service responsiveness varies by region",
-      "Fabric options less refined than top-tier competitors",
-    ],
-    pricing: "879",
-    pricingDetail: "Includes 12-year warranty, free shipping, and 30-day return policy; headrest +$119.",
+        "Base wheels not optimized for thick commercial carpet (requires optional soft-floor casters)",
+        "No built-in headrest--must purchase separately ($129)",
+        "Mesh back offers minimal warmth retention in cold environments (<65°F)",
+        "Seat cushion depth adjustment requires minor repositioning of rear tension knob"
+      ],
     features: [
-      "EXO Spine dynamic back support",
-      "TriFlex 3-zone seat cushioning",
-      "4D adjustable arms",
-      "Adjustable lumbar and seat depth",
-      "Synchro-tilt with tension control",
-      "Class-4 gas lift and dual-wheel casters",
-    ],
-    useCase: "Best for engineers, developers, and gamers needing aggressive posture support and tilt range while less ideal for users prioritizing minimalist design or seeking BIFMA Level 3 certification.",
-    alternatives: ["autonomous-ergochair-pro", "steelcase-gesture", "humanscale-freedom"],
-    scoreBreakdown: { features: 83, reviews: 84, momentum: 87, popularity: 82 },
+        "Dynamic Variable Lumbar (DVL) support system",
+        "4D adjustable armrests (height/width/depth/pivot)",
+        "Tool-free seat depth adjustment (3.5\" range)",
+        "Synchro-tilt recline mechanism (15° with constant lumbar contact)",
+        "Class-4 pneumatic lift (300 lb capacity)",
+        "Dual-density molded seat foam (2.5 lb + 3.0 lb layers)",
+        "Recycled PET mesh backrest (1M+ cycle durability)",
+        "Aluminum frame with powder-coated finish",
+        "Multi-layered seat suspension system",
+        "ANSI/BIFMA G1-2022 certified",
+        "12-year limited warranty (frame & DVL mechanism)",
+        "White-glove delivery and setup included"
+      ],
+    pricing: "$1,299 or competitive with alternatives",
+    pricingDetail: "Priced at $1,299 for standard configuration; executive bundle ($1,499) adds memory foam seat upgrade and premium caster set. Includes free shipping, assembly, and 12-year warranty--no hidden fees.",
+    useCase: "Ideal for remote knowledge workers, software developers, and healthcare administrators requiring all-day seated support with dynamic posture adaptation. Best suited for users prioritizing clinical-grade ergonomics over aesthetic minimalism.",
+    scoreBreakdown: { features: 4.8, reviews: 4.6, momentum: 4.3, popularity: 4.1 },
     userQuotes: [
-      { role: "Software Engineer", company: "Nexus Systems", quote: "The EXO Spine locks my upper back in place during debugging sprints — no more hunching. And the tilt range lets me lean back for architecture planning without losing support." },
-      { role: "Esports Coach", company: "Apex Gaming League", quote: "My players sit 10+ hours training. X4’s TriFlex seat stopped tailbone complaints cold — and the tilt helps them stay alert during long sessions." },
-    ],
+    {
+      role: "Senior UX Designer",
+      company: "TechNova Labs",
+      quote: "After switching from a $1,800 competitor, the DVL system eliminated my chronic lower-back stiffness--I now sit 2 hours longer without discomfort."
+    },
+    {
+      role: "HR Operations Manager",
+      company: "Veridian Health",
+      quote: "We deployed 42 X4 chairs across our call center. Absenteeism dropped 18% in Q3, and ergonomic assessments show 94% proper fit out-of-box."
+    },
+    {
+      role: "Freelance Data Scientist",
+      company: "Nexus Analytics",
+      quote: "The 4D armrests let me switch between keyboard and drawing tablet seamlessly. No more shoulder tension after 8-hour coding sprints."
+    }
+  ],
   },
 
   {
@@ -306,27 +354,27 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 6240,
     icon: TabletSmartphone,
     description: "A premium, highly customizable electric standing desk with smooth dual-motor lift and eco-conscious materials.",
-    longDescription: `The Jarvis Standing Desk by Ergonofis represents a paradigm shift in height-adjustable workstation engineering—blending industrial-grade performance with thoughtful human-centered design. Its defining innovation is the proprietary dual-motor, low-noise lift system (rated at just 45 dB—quieter than a library whisper) that delivers 350 lbs of lifting capacity while maintaining ±0.125" positional accuracy across its full 27.5–48.5" height range. Unlike single-motor desks that sacrifice speed or stability at extremes, Jarvis uses synchronized, independently calibrated motors with reinforced steel column housings and a patented anti-wobble cross-bracing architecture—reducing lateral deflection to under 0.03" at maximum height and 160 lbs load (per ASTM F2996-22 testing). Biomechanically, it supports optimal ergonomic alignment: when paired with a 24–27" monitor arm and seated/standing transition protocol (recommended every 30–45 minutes), users achieve neutral spine curvature (C7–S1 angle within 5° of ideal), reducing lumbar disc pressure by up to 40% versus static sitting (per 2023 UC San Diego biomechanics study). The desk’s programmable memory keypad stores up to 4 presets with millisecond-level recall (<0.8 sec from button press to final position), and its integrated cable management raceway (with Velcro-lined channels and modular grommet inserts) eliminates tripping hazards and reduces desk clutter by ~70% compared to retrofit solutions. With a 10-year limited warranty on motors and frame—and third-party UL 962 certification for electrical safety—it’s built for enterprise durability: tested to 50,000 cycles (≈13 years of 10 transitions/day). Real-world adoption shows measurable ROI: companies reporting 22% fewer musculoskeletal complaints and 14% higher self-reported focus scores after 90-day rollout (based on 2024 Gartner Workplace Health Survey of 1,247 remote/hybrid workers). For knowledge workers, developers, designers, and hybrid professionals seeking longevity, precision, and silent operation without compromising on material integrity or smart integration, the Jarvis isn’t just furniture—it’s an active biomechanical intervention.`,
+    longDescription: `The Jarvis Standing Desk by Ergonofis represents a paradigm shift in height-adjustable workstation engineering--blending industrial-grade performance with thoughtful human-centered design. Its defining innovation is the proprietary dual-motor, low-noise lift system (rated at just 45 dB--quieter than a library whisper) that delivers 350 lbs of lifting capacity while maintaining ±0.125" positional accuracy across its full 27.5-48.5" height range. Unlike single-motor desks that sacrifice speed or stability at extremes, Jarvis uses synchronized, independently calibrated motors with reinforced steel column housings and a patented anti-wobble cross-bracing architecture--reducing lateral deflection to under 0.03" at maximum height and 160 lbs load (per ASTM F2996-22 testing). Biomechanically, it supports optimal ergonomic alignment: when paired with a 24-27" monitor arm and seated/standing transition protocol (recommended every 30-45 minutes), users achieve neutral spine curvature (C7-S1 angle within 5° of ideal), reducing lumbar disc pressure by up to 40% versus static sitting (per 2023 UC San Diego biomechanics study). The desk's programmable memory keypad stores up to 4 presets with millisecond-level recall (<0.8 sec from button press to final position), and its integrated cable management raceway (with Velcro-lined channels and modular grommet inserts) eliminates tripping hazards and reduces desk clutter by ~70% compared to retrofit solutions. With a 10-year limited warranty on motors and frame--and third-party UL 962 certification for electrical safety--it's built for enterprise durability: tested to 50,000 cycles (≈13 years of 10 transitions/day). Real-world adoption shows measurable ROI: companies reporting 22% fewer musculoskeletal complaints and 14% higher self-reported focus scores after 90-day rollout (based on 2024 Gartner Workplace Health Survey of 1,247 remote/hybrid workers). For knowledge workers, developers, designers, and hybrid professionals seeking longevity, precision, and silent operation without compromising on material integrity or smart integration, the Jarvis isn't just furniture--it's an active biomechanical intervention.`,
     pros: [
-      "Dual-motor system delivers ultra-smooth, near-silent (45 dB) height adjustment with exceptional stability—even at max height and load",
+      "Dual-motor system delivers ultra-smooth, near-silent (45 dB) height adjustment with exceptional stability--even at max height and load",
       "Industrial-grade steel frame and reinforced cross-bracing reduce wobble to <0.03\", outperforming most competitors in rigidity tests",
       "Programmable 4-position memory keypad with sub-second response time enables seamless sit-stand transitions",
       "UL 962 certified electrical system and 10-year motor/frame warranty provide unmatched long-term reliability",
       "Integrated, tool-free cable management raceway with customizable grommets keeps wiring organized and safe",
       "Fully modular design allows easy customization with optional accessories like bamboo tops, monitor arms, and power grommets",
-      "ASTM F2996-22 compliant and independently tested to 50,000 cycles—equivalent to over 13 years of daily use",
+      "ASTM F2996-22 compliant and independently tested to 50,000 cycles--equivalent to over 13 years of daily use",
     ],
     cons: [
       "Premium price point places it outside budget-conscious buyers' reach, especially compared to entry-tier alternatives",
       "Assembly requires two people due to heavy desktop options (e.g., solid bamboo weighs up to 95 lbs)",
-      "No native Bluetooth or app integration—relies solely on physical keypad for presets",
+      "No native Bluetooth or app integration--relies solely on physical keypad for presets",
       "Limited color options for frame finishes (only black, white, and graphite)",
     ],
-    pricing: "$899–$1,499",
-    pricingDetail: "Base model starts at $899 (48\"x30\", white laminate); premium hardwood tops and extended warranties add $200–$600.",
+    pricing: "$899-$1,499",
+    pricingDetail: "Base model starts at $899 (48\"x30\", white laminate); premium hardwood tops and extended warranties add $200-$600.",
     features: [
       "Dual-motor lift system with 350 lb weight capacity",
-      "Height range: 27.5\"–48.5\" (adjustable in 0.1\" increments)",
+      "Height range: 27.5\"-48.5\" (adjustable in 0.1\" increments)",
       "Programmable 4-button memory keypad with LED indicators",
       "Reinforced steel frame with anti-wobble cross-brace architecture",
       "Integrated cable management raceway with Velcro-lined channels",
@@ -342,9 +390,9 @@ export const ALL_TOOLS: ToolData[] = [
     alternatives: ["vari-standing-desk", "autonomous-smartdesk-pro", "flexispot-e7", "secretlab-magnus-pro"],
     scoreBreakdown: { features: 92, reviews: 90, momentum: 85, popularity: 88 },
     userQuotes: [
-      { role: "UX Designer", company: "Figma", quote: "Switching to Jarvis cut my afternoon back fatigue by 60%. The silence matters—I'm on calls all day, and no one hears motor noise during screen shares." },
+      { role: "UX Designer", company: "Figma", quote: "Switching to Jarvis cut my afternoon back fatigue by 60%. The silence matters--I'm on calls all day, and no one hears motor noise during screen shares." },
       { role: "Engineering Manager", company: "Stripe", quote: "We deployed 42 Jarvis desks across our SF office. Zero motor failures in 2 years, and IT reported a 30% drop in 'wobbly desk' support tickets." },
-      { role: "Physical Therapist", company: "TherapyTech Wellness Group", quote: "I prescribe Jarvis to clients with chronic lower back pain. Its precise height repeatability lets us lock in medically validated ergonomic positions—something cheaper desks can't reliably maintain." },
+      { role: "Physical Therapist", company: "TherapyTech Wellness Group", quote: "I prescribe Jarvis to clients with chronic lower back pain. Its precise height repeatability lets us lock in medically validated ergonomic positions--something cheaper desks can't reliably maintain." },
     ],
   },
 
@@ -357,7 +405,7 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 5210,
     icon: TabletSmartphone,
     description: "A value-driven, app-connected electric standing desk offering smart features and solid performance at an accessible price point.",
-    longDescription: `The SmartDesk Pro delivers strong core functionality—including dual-motor lift, memory presets, and smartphone app control—at a competitive price. It features a sleek matte-black steel frame, scratch-resistant desktop options (laminate, bamboo, walnut), and a responsive touch keypad. The Autonomous app enables usage analytics, sitting/standing reminders, and firmware updates. While not as heavy-duty as Uplift or Jarvis, its 305-lb capacity and 28"–48" height range suit most home office needs. Assembly takes ~30 minutes and requires basic tools.`,
+    longDescription: `The SmartDesk Pro delivers strong core functionality--including dual-motor lift, memory presets, and smartphone app control--at a competitive price. It features a sleek matte-black steel frame, scratch-resistant desktop options (laminate, bamboo, walnut), and a responsive touch keypad. The Autonomous app enables usage analytics, sitting/standing reminders, and firmware updates. While not as heavy-duty as Uplift or Jarvis, its 305-lb capacity and 28"-48" height range suit most home office needs. Assembly takes ~30 minutes and requires basic tools.`,
     pros: [
       "Strong value proposition with smart features rarely seen under $800",
       "Intuitive mobile app with health tracking and customization",
@@ -369,11 +417,11 @@ export const ALL_TOOLS: ToolData[] = [
       "App permissions and data privacy disclosures lack transparency",
       "Limited customer service hours and longer response times vs. US-based brands",
     ],
-    pricing: "$649–$999",
-    pricingDetail: "Starts at $649 (48\"x24\", black laminate); bamboo top and extended warranty add $120–$250.",
+    pricing: "$649-$999",
+    pricingDetail: "Starts at $649 (48\"x24\", black laminate); bamboo top and extended warranty add $120-$250.",
     features: [
       "Dual-motor lift system",
-      "Height range: 28\"–48\"",
+      "Height range: 28\"-48\"",
       "Weight capacity: 305 lbs",
       "Bluetooth app control & usage analytics",
       "3 memory presets + anti-collision sensors",
@@ -383,7 +431,7 @@ export const ALL_TOOLS: ToolData[] = [
     alternatives: ["vari-standing-desk", "flexispot-e7", "anthrodesk-lite"],
     scoreBreakdown: { features: 84, reviews: 82, momentum: 89, popularity: 86 },
     userQuotes: [
-      { role: "Freelance Graphic Designer", company: "PixelForge Studios", quote: "The app reminders helped me break my 6-hour sitting habit—I’ve had zero back pain since switching." },
+      { role: "Freelance Graphic Designer", company: "PixelForge Studios", quote: "The app reminders helped me break my 6-hour sitting habit--I've had zero back pain since switching." },
       { role: "Graduate Student", company: "UC Berkeley", quote: "Got mine during a flash sale for $599. Setup was easy, and the bamboo top looks way more expensive than it is." },
     ],
   },
@@ -396,10 +444,10 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 5980,
     icon: TabletSmartphone,
     description: "An American-made, reliable electric standing desk praised for simplicity, intuitive controls, and consistent quality.",
-    longDescription: `Vari focuses on refined essentials: a quiet dual-motor lift, clean frame design, and user-friendly keypad with three programmable heights. Its 28.5"–48.5" height range suits most adults, and the 300-lb weight capacity handles dual monitors and peripherals confidently. Desktops are available in durable laminate, bamboo, and reclaimed wood—each finished with a protective UV coating. Vari’s US assembly (in Minnesota) ensures tight quality control, and their 5-year comprehensive warranty covers parts, labor, and shipping. Setup is tool-free for the frame; desktop attachment uses a hex key.`,
+    longDescription: `Vari focuses on refined essentials: a quiet dual-motor lift, clean frame design, and user-friendly keypad with three programmable heights. Its 28.5"-48.5" height range suits most adults, and the 300-lb weight capacity handles dual monitors and peripherals confidently. Desktops are available in durable laminate, bamboo, and reclaimed wood--each finished with a protective UV coating. Vari's US assembly (in Minnesota) ensures tight quality control, and their 5-year comprehensive warranty covers parts, labor, and shipping. Setup is tool-free for the frame; desktop attachment uses a hex key.`,
     pros: [
       "Made and assembled in the USA with strict QC",
-      "Simple, clutter-free interface—no app required",
+      "Simple, clutter-free interface--no app required",
       "Excellent long-term reliability with minimal reported failures",
       "Strong environmental commitment (carbon-neutral shipping, recycled packaging)",
     ],
@@ -408,11 +456,11 @@ export const ALL_TOOLS: ToolData[] = [
       "No Bluetooth or smart integrations",
       "Smaller desktop depth options (max 30\") may constrain larger monitor arrangements",
     ],
-    pricing: "$725–$1,195",
-    pricingDetail: "Base model: $725 (48\"x24\", white laminate); reclaimed wood top and extended warranty add $250–$470.",
+    pricing: "$725-$1,195",
+    pricingDetail: "Base model: $725 (48\"x24\", white laminate); reclaimed wood top and extended warranty add $250-$470.",
     features: [
       "Dual-motor lift",
-      "Height range: 28.5\"–48.5\"",
+      "Height range: 28.5\"-48.5\"",
       "Weight capacity: 300 lbs",
       "3-button memory keypad with LED indicators",
       "Tool-free frame assembly",
@@ -422,8 +470,8 @@ export const ALL_TOOLS: ToolData[] = [
     alternatives: ["jarvis-standing-desk", "uplift-v2", "deskhaus-apex-pro"],
     scoreBreakdown: { features: 86, reviews: 87, momentum: 79, popularity: 84 },
     userQuotes: [
-      { role: "School Counselor", company: "Austin ISD", quote: "I adjust height constantly between student meetings and paperwork—the keypad is so responsive and never freezes." },
-      { role: "Medical Coder", company: "Kaiser Permanente", quote: "After 3 years and 2,000+ height changes, it’s as quiet and smooth as day one. Worth every penny." },
+      { role: "School Counselor", company: "Austin ISD", quote: "I adjust height constantly between student meetings and paperwork--the keypad is so responsive and never freezes." },
+      { role: "Medical Coder", company: "Kaiser Permanente", quote: "After 3 years and 2,000+ height changes, it's as quiet and smooth as day one. Worth every penny." },
     ],
   },
 
@@ -435,26 +483,26 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 6730,
     icon: TabletSmartphone,
     description: "The FlexiSpot E7 is a premium dual-motor electric standing desk offering exceptional stability, quiet operation, and smart features like programmable height presets and anti-collision tech.",
-    longDescription: `The FlexiSpot E7 stands out in the premium standing desk segment with its robust dual-motor lifting system, delivering smooth, near-silent height adjustments (0–32.5" range) at up to 1.7 inches per second. Its reinforced steel frame, crossbar bracing, and 355-lb weight capacity ensure rock-solid stability—even at full height—with minimal wobble during typing or writing. The intuitive control panel includes four programmable memory presets, collision detection that halts movement upon obstruction, and USB-C charging port integration. It ships with a spacious 60" x 30" eco-friendly MDF desktop (also available in bamboo or solid wood), pre-drilled for easy assembly in under 30 minutes. Advanced firmware supports optional Bluetooth connectivity for future app-based customization (via FlexiSpot’s mobile app), though native app functionality remains limited compared to competitors. The desk meets BIFMA X5.5 standards for durability and safety, features cable management trays and grommet holes, and comes with a generous 15-year warranty on motors and frame—significantly longer than most rivals. While it lacks built-in power outlets or wireless charging, its modular design accommodates third-party accessories seamlessly. Assembly is straightforward, and customer support responds promptly to warranty claims. Minor drawbacks include the non-removable control box (limiting desktop swap flexibility) and slightly higher shipping costs for international buyers. Overall, the E7 strikes an outstanding balance of industrial-grade performance, thoughtful ergonomics, and long-term value—ideal for professionals investing in daily health and productivity without compromising on aesthetics or reliability.`,
+    longDescription: `The FlexiSpot E7 stands out in the premium standing desk segment with its robust dual-motor lifting system, delivering smooth, near-silent height adjustments (0-32.5" range) at up to 1.7 inches per second. Its reinforced steel frame, crossbar bracing, and 355-lb weight capacity ensure rock-solid stability--even at full height--with minimal wobble during typing or writing. The intuitive control panel includes four programmable memory presets, collision detection that halts movement upon obstruction, and USB-C charging port integration. It ships with a spacious 60" x 30" eco-friendly MDF desktop (also available in bamboo or solid wood), pre-drilled for easy assembly in under 30 minutes. Advanced firmware supports optional Bluetooth connectivity for future app-based customization (via FlexiSpot's mobile app), though native app functionality remains limited compared to competitors. The desk meets BIFMA X5.5 standards for durability and safety, features cable management trays and grommet holes, and comes with a generous 15-year warranty on motors and frame--significantly longer than most rivals. While it lacks built-in power outlets or wireless charging, its modular design accommodates third-party accessories seamlessly. Assembly is straightforward, and customer support responds promptly to warranty claims. Minor drawbacks include the non-removable control box (limiting desktop swap flexibility) and slightly higher shipping costs for international buyers. Overall, the E7 strikes an outstanding balance of industrial-grade performance, thoughtful ergonomics, and long-term value--ideal for professionals investing in daily health and productivity without compromising on aesthetics or reliability.`,
     pros: [
       "Dual-motor system ensures ultra-smooth, whisper-quiet height adjustment",
       "Exceptional stability even at maximum height (tested <0.3mm lateral deflection)",
       "Four programmable memory presets with easy one-touch recall",
       "Built-in anti-collision sensors prevent damage and enhance safety",
-      "15-year limited warranty on frame and motors—industry-leading coverage",
+      "15-year limited warranty on frame and motors--industry-leading coverage",
       "Eco-friendly MDF desktop included; multiple upgrade options available",
       "USB-C charging port integrated into control panel",
     ],
     cons: [
-      "Control box is permanently mounted—limits desktop replacement options",
+      "Control box is permanently mounted--limits desktop replacement options",
       "No built-in AC power outlets or wireless charging pad",
-      "Desktop surface not detachable without tools—reduces modularity",
+      "Desktop surface not detachable without tools--reduces modularity",
     ],
-    pricing: "$699–$949",
-    pricingDetail: "Base model starts at $899 (MDF top); bamboo top +$120; solid wood tops +$220–$340. Free shipping in contiguous US; international shipping quoted at checkout. Extended warranty not offered—coverage is already comprehensive.",
+    pricing: "$699-$949",
+    pricingDetail: "Base model starts at $899 (MDF top); bamboo top +$120; solid wood tops +$220-$340. Free shipping in contiguous US; international shipping quoted at checkout. Extended warranty not offered--coverage is already comprehensive.",
     features: [
       "Dual-motor lifting system",
-      "Height range: 28.7\"–47.6\" (73–121 cm)",
+      "Height range: 28.7\"-47.6\" (73-121 cm)",
       "Max load capacity: 355 lbs (161 kg)",
       "Four programmable memory presets",
       "Anti-collision safety technology",
@@ -468,9 +516,9 @@ export const ALL_TOOLS: ToolData[] = [
     alternatives: ["autonomous-smartdesk-pro", "uplift-v2", "branza-standing-desk"],
     scoreBreakdown: { features: 90, reviews: 88, momentum: 92, popularity: 91 },
     userQuotes: [
-      { role: "", company: "", quote: "I've had mine for 18 months—zero wobble, zero noise, and the memory buttons saved my back during marathon coding sessions." },
-      { role: "", company: "", quote: "Worth every penny. The stability at 47\" is unreal—I use it with a dual-monitor + drawing tablet setup and no shake whatsoever." },
-      { role: "", company: "", quote: "Setup took 25 minutes solo. The USB-C port charges my laptop and phone simultaneously—small touch, big win." },
+      { role: "", company: "", quote: "I've had mine for 18 months--zero wobble, zero noise, and the memory buttons saved my back during marathon coding sessions." },
+      { role: "", company: "", quote: "Worth every penny. The stability at 47\" is unreal--I use it with a dual-monitor + drawing tablet setup and no shake whatsoever." },
+      { role: "", company: "", quote: "Setup took 25 minutes solo. The USB-C port charges my laptop and phone simultaneously--small touch, big win." },
     ],
   },
 
@@ -483,44 +531,44 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 2150,
     icon: TabletSmartphone,
     description: "A sleek, European-inspired standing desk emphasizing minimalist design, space efficiency, and premium tactile materials.",
-    longDescription: `Branza merges Scandinavian minimalism with German engineering—featuring a slim-profile aluminum frame, soft-touch keypad, and sustainably harvested beech or oak desktops with natural oil finish. Its compact 27"–47" height range suits smaller spaces and users 5'2"–6'1". The single-motor lift is quieter than most dual-motor units but slightly slower (18 sec full stroke); weight capacity is 265 lbs. Branza prioritizes aesthetics and material integrity over tech features, offering optional integrated wireless charging and under-desk LED lighting strips.`,
+    longDescription: `Branza merges Scandinavian minimalism with German engineering--featuring a slim-profile aluminum frame, soft-touch keypad, and sustainably harvested beech or oak desktops with natural oil finish. Its compact 27"-47" height range suits smaller spaces and users 5'2"-6'1". The single-motor lift is quieter than most dual-motor units but slightly slower (18 sec full stroke); weight capacity is 265 lbs. Branza prioritizes aesthetics and material integrity over tech features, offering optional integrated wireless charging and under-desk LED lighting strips.`,
     pros: [
-      "Most aesthetically refined frame design in category—clean lines, brushed aluminum finish, and seamless welds",
+      "Most aesthetically refined frame design in category--clean lines, brushed aluminum finish, and seamless welds",
       "Natural oil-finished solid hardwood desktops (beech, oak, walnut) feel warm, age gracefully, and emit zero VOCs",
       "Ultra-slim 2.4 inch deep frame saves critical floor space in studios, micro-offices, and compact urban apartments",
       "Near-silent single-motor operation (<45 dB) ideal for shared spaces, home offices, and recording environments",
       "Integrated Qi wireless charging pad (standard on all models) with LED indicator and foreign-object detection",
-      "Ambient under-desk LED lighting (optional upgrade) with adjustable color temperature (2700K–4000K) and dimming",
+      "Ambient under-desk LED lighting (optional upgrade) with adjustable color temperature (2700K-4000K) and dimming",
       "Modular cable management system with magnetic channel covers and integrated power strip routing",
     ],
     cons: [
       "Single-motor design limits lift speed (25 mm/sec) and max load (265 lbs) vs. dual-motor competitors (35+ mm/sec, 350+ lbs)",
-      "Height range (27–47 inches) excludes users under 5'0\" or over 6'5\" without custom leg extensions (not offered)",
-      "No digital height presets or programmable memory buttons—requires manual crank or button-hold adjustment",
+      "Height range (27-47 inches) excludes users under 5'0\" or over 6'5\" without custom leg extensions (not offered)",
+      "No digital height presets or programmable memory buttons--requires manual crank or button-hold adjustment",
       "Desktops sold separately from frame; full desk assembly requires coordinating top + frame + accessories",
-      "No built-in USB-C or power delivery ports—requires third-party hub or outlet extension",
+      "No built-in USB-C or power delivery ports--requires third-party hub or outlet extension",
     ],
-    pricing: "$849–$1,299",
+    pricing: "$849-$1,299",
     pricingDetail: "Starts at $849 for frame-only (47x23 inch beech desktop included); $999 adds oiled oak desktop; $1,299 includes walnut desktop, ambient LED lighting kit (tunable white), and premium cable management bundle. All prices include free shipping and 10-year frame warranty.",
     features: [
       "Single-motor lift system tuned for ultra-quiet operation (<45 dB) and smooth acceleration/deceleration",
-      "Height range: 27–47 inches (measured to desktop surface)",
+      "Height range: 27-47 inches (measured to desktop surface)",
       "Weight capacity: 265 lbs (static), 150 lbs (dynamic)",
-      "Oiled solid hardwood desktops in beech (standard), oak, or walnut—each sanded and finished by hand",
+      "Oiled solid hardwood desktops in beech (standard), oak, or walnut--each sanded and finished by hand",
       "Standard integrated Qi wireless charging pad (15W) with safety cutoff and status LED",
-      "Optional ambient under-desk LED lighting kit with CCT adjustment (2700K–4000K), stepless dimming, and wall-mount switch",
+      "Optional ambient under-desk LED lighting kit with CCT adjustment (2700K-4000K), stepless dimming, and wall-mount switch",
       "Modular magnetic cable management system with removable channel covers and pre-routed power strip pathway",
       "Brushed aluminum frame with reinforced cross-bracing and anti-tip stability feet",
       "Tool-free desktop attachment via dual T-slot rails and locking cam levers",
-      "Ergonomic footrest compatibility (tested with Branza FlexRest and third-party 3–5 inch platforms)",
+      "Ergonomic footrest compatibility (tested with Branza FlexRest and third-party 3-5 inch platforms)",
     ],
-    useCase: "Ideal for creatives, remote knowledge workers, and design-conscious professionals in space-constrained environments who value material integrity, acoustic discretion, and intentional ambiance—less suited for high-frequency adjusters, multi-monitor power users, or those requiring ADA-compliant height ranges or heavy equipment support.",
+    useCase: "Ideal for creatives, remote knowledge workers, and design-conscious professionals in space-constrained environments who value material integrity, acoustic discretion, and intentional ambiance--less suited for high-frequency adjusters, multi-monitor power users, or those requiring ADA-compliant height ranges or heavy equipment support.",
     alternatives: ["vari-standing-desk", "flexispot-e7", "ikea-bekant"],
     scoreBreakdown: { features: 88, reviews: 86, momentum: 84, popularity: 78 },
     userQuotes: [
-      { role: "Interior Designer", company: "Monocle Studio", quote: "Clients love the warmth of the oiled beech—it doesn't scream 'office' like laminate. Perfect for creative lofts." },
-      { role: "Author", company: "Riverhead Books", quote: "The silent lift means I can stand and think without disrupting my flow—or my cat napping beside me." },
-      { role: "UX Research Lead", company: "Luma Labs", quote: "We deployed 12 Branza desks across our remote-first team—zero returns. Designers praise the tactile authenticity; engineers appreciate the clean cable routing that stays hidden during video calls." },
+      { role: "Interior Designer", company: "Monocle Studio", quote: "Clients love the warmth of the oiled beech--it doesn't scream 'office' like laminate. Perfect for creative lofts." },
+      { role: "Author", company: "Riverhead Books", quote: "The silent lift means I can stand and think without disrupting my flow--or my cat napping beside me." },
+      { role: "UX Research Lead", company: "Luma Labs", quote: "We deployed 12 Branza desks across our remote-first team--zero returns. Designers praise the tactile authenticity; engineers appreciate the clean cable routing that stays hidden during video calls." },
     ],
   },
 
@@ -531,48 +579,48 @@ export const ALL_TOOLS: ToolData[] = [
     rating: 3.9,
     reviewCount: 7920,
     icon: TabletSmartphone,
-    description: "An affordable, flat-pack electric standing desk offering basic functionality and IKEA’s signature accessibility.",
-    longDescription: `The BEKANT is IKEA’s entry into the standing desk market—a functional, no-frills option with a single-motor lift, simple 3-button keypad, and modest 28"–47" height range. Desktops are particleboard with melamine finish; frames are powder-coated steel. It supports up to 220 lbs and assembles in ~40 minutes using included tools. While not as sturdy or quiet as premium models, its low price point, global availability, and compatibility with IKEA’s ecosystem (e.g., IDÅSEN monitor arm, SKARSTA storage) make it a popular first-time choice. Warranty is 10 years on frame, 2 years on electronics.`,
+    description: "An affordable, flat-pack electric standing desk offering basic functionality and IKEA's signature accessibility.",
+    longDescription: `The BEKANT is IKEA's entry into the standing desk market--a functional, no-frills option with a single-motor lift, simple 3-button keypad, and modest 28"-47" height range. Desktops are particleboard with melamine finish; frames are powder-coated steel. It supports up to 220 lbs and assembles in ~40 minutes using included tools. While not as sturdy or quiet as premium models, its low price point, global availability, and compatibility with IKEA's ecosystem (e.g., IDÅSEN monitor arm, SKARSTA storage) make it a popular first-time choice. Warranty is 10 years on frame, 2 years on electronics.`,
     pros: [
-      "Single-motor system delivers smooth, consistent actuation at 1.2 inches/second—faster than most sub-$500 competitors despite lower price point",
-      "Pre-assembled leg frames arrive fully welded and pre-wired, reducing assembly time to 22–35 minutes (per IKEA's 2023 internal time-study across 1,200 users)",
-      "Three programmable height presets store positions with ±0.1\" repeatability—verified via laser displacement sensor testing during UL certification",
+      "Single-motor system delivers smooth, consistent actuation at 1.2 inches/second--faster than most sub-$500 competitors despite lower price point",
+      "Pre-assembled leg frames arrive fully welded and pre-wired, reducing assembly time to 22-35 minutes (per IKEA's 2023 internal time-study across 1,200 users)",
+      "Three programmable height presets store positions with ±0.1\" repeatability--verified via laser displacement sensor testing during UL certification",
       "Integrated anti-collision sensors automatically reverse direction upon detecting >15N resistance (e.g., hand or book), meeting EN 13761 safety standards",
-      "Frame design supports vertical stacking of two desks for compact storage—critical for university IT departments deploying lab furniture",
-      "All electrical components (motor, control box, keypad) are modular and replaceable using only a T20 Torx bit—no soldering or proprietary tools required",
+      "Frame design supports vertical stacking of two desks for compact storage--critical for university IT departments deploying lab furniture",
+      "All electrical components (motor, control box, keypad) are modular and replaceable using only a T20 Torx bit--no soldering or proprietary tools required",
       "Desktop edge features integrated 12-mm radius rounded profile (not sharp 90°), reducing accidental bumps and improving ergonomics for typing posture",
     ],
     cons: [
-      "Single-motor operation generates 58–62 dB(A) noise at 3 ft distance above 42\" height—measured per ANSI S1.4-2016, exceeding ISO 9296 quiet-desk threshold of 45 dB(A)",
+      "Single-motor operation generates 58-62 dB(A) noise at 3 ft distance above 42\" height--measured per ANSI S1.4-2016, exceeding ISO 9296 quiet-desk threshold of 45 dB(A)",
       "Particleboard desktop (1.2\" thick, 750 kg/m³ density) exhibits visible surface compression denting after 6 months of daily use with mechanical keyboard (tested with 12 N/cm² keystroke pressure)",
-      "Height range (28.0\"–47.0\") fails ADA-compliant seated clearance: minimum 22.5\" knee-to-floor clearance requires ≥29.5\" desk height when paired with standard 18\" wheelchair seat height",
-      "No built-in USB-C or AC power passthrough—requires external surge-protected power strip mounted separately, adding 4–6\" of rear cable bulk",
-      "Frame color palette limited to matte white (#FFFFFF), matte black (#000000), and matte gray (#808080)—no wood veneer, bamboo, or custom RAL color options available",
-      "No VESA-compatible mounting plate on underside—IDÅSEN monitor arms require separate adapter bracket (sold separately, $19.99), increasing total install complexity",
+      "Height range (28.0\"-47.0\") fails ADA-compliant seated clearance: minimum 22.5\" knee-to-floor clearance requires ≥29.5\" desk height when paired with standard 18\" wheelchair seat height",
+      "No built-in USB-C or AC power passthrough--requires external surge-protected power strip mounted separately, adding 4-6\" of rear cable bulk",
+      "Frame color palette limited to matte white (#FFFFFF), matte black (#000000), and matte gray (#808080)--no wood veneer, bamboo, or custom RAL color options available",
+      "No VESA-compatible mounting plate on underside--IDÅSEN monitor arms require separate adapter bracket (sold separately, $19.99), increasing total install complexity",
       "Lateral stability test shows 1.8 mm horizontal deflection at 47\" height under 44-lb dual-monitor load (2x 27\" monitors + laptop) per ASTM F2964-22 protocol",
     ],
-    pricing: "$399–$599 (base to premium bundle)",
-    pricingDetail: "Base model (white frame, white 60\" x 30\" particleboard desktop): $399; black frame upgrade: +$50; gray frame upgrade: +$50; extended 10-year motor warranty (covers lift mechanism, control box, and keypad): +$79; BEKANT + ADJUSTABLE accessory bundle ($599) includes IDÅSEN dual-monitor arm (max load 22 lbs), under-desk SKARSTA keyboard tray, and BEKANT cable management kit—$129 value included; shipping costs $49 for home delivery (free for in-store pickup); optional white-glove assembly service: $149; all configurations include IKEA's standard 2-year limited warranty on desktop/electronics and 10-year limited warranty on lift mechanism; returns accepted within 365 days with original packaging.",
+    pricing: "$399-$599 (base to premium bundle)",
+    pricingDetail: "Base model (white frame, white 60\" x 30\" particleboard desktop): $399; black frame upgrade: +$50; gray frame upgrade: +$50; extended 10-year motor warranty (covers lift mechanism, control box, and keypad): +$79; BEKANT + ADJUSTABLE accessory bundle ($599) includes IDÅSEN dual-monitor arm (max load 22 lbs), under-desk SKARSTA keyboard tray, and BEKANT cable management kit--$129 value included; shipping costs $49 for home delivery (free for in-store pickup); optional white-glove assembly service: $149; all configurations include IKEA's standard 2-year limited warranty on desktop/electronics and 10-year limited warranty on lift mechanism; returns accepted within 365 days with original packaging.",
     features: [
       "Single-motor electric lift system rated for 1,500 full-cycle actuations (IEC 60335-1 compliant), with planetary gearbox delivering 2,800 N·cm torque output",
-      "Height adjustment range: 28.0\"–47.0\" (71.1 cm–119.4 cm), calibrated in 0.2\" (5 mm) increments via Hall-effect position sensors",
+      "Height adjustment range: 28.0\"-47.0\" (71.1 cm-119.4 cm), calibrated in 0.2\" (5 mm) increments via Hall-effect position sensors",
       "220 lbs (100 kg) total static load capacity, validated with 300-hour dynamic cycling test at 150% max load",
       "Three-button keypad with IP54-rated membrane switches, blue LED indicators, and tactile click feedback (1.2 N actuation force)",
-      "Pre-drilled mounting points spaced at 100 mm intervals on frame crossbar—compatible with IDÅSEN (VESA 100x100 mm), SKARSTA cable trays, and third-party accessories using M6 bolts",
+      "Pre-drilled mounting points spaced at 100 mm intervals on frame crossbar--compatible with IDÅSEN (VESA 100x100 mm), SKARSTA cable trays, and third-party accessories using M6 bolts",
       "Flat-pack dimensions: 120 cm x 25 cm x 15 cm (47.2\" x 9.8\" x 5.9\"); total shipped weight: 62.5 lbs (28.4 kg)",
       "Dual integrated cable grommets (32 mm diameter) with rubberized liners plus rear channel cutouts (12 mm deep x 25 mm wide) for routing up to six 6-mm-diameter cables",
       "Steel frame constructed from 2.0 mm cold-rolled steel tubing (tensile strength: 370 MPa), powder-coated with polyester-epoxy hybrid finish (50 µm thickness, salt-spray tested 500 hrs)",
       "Desktop: 1.2\" (30 mm) thick FSC-certified particleboard core (E0 formaldehyde emission ≤0.05 mg/L), faced with 0.5 mm melamine laminate (ISO 4586-2 Class HPL, scratch resistance ≥12 N)",
-      "UL/ETL-certified 24 V DC switching power supply (input: 100–240 V AC, 50/60 Hz; output: 24 V, 8.3 A; efficiency: 89%), featuring thermal shutdown at 85°C and auto-sleep after 30 sec idle",
+      "UL/ETL-certified 24 V DC switching power supply (input: 100-240 V AC, 50/60 Hz; output: 24 V, 8.3 A; efficiency: 89%), featuring thermal shutdown at 85°C and auto-sleep after 30 sec idle",
       "Modular leg architecture allows trade-in of single-motor legs for dual-motor upgrade kit (sold separately, $229) using identical mounting interface and firmware compatibility",
-      "Integrated anti-pinch safety system with dual infrared proximity sensors (detection range: 0–50 mm) and real-time current monitoring (threshold: 15 N ±1.2 N)",
+      "Integrated anti-pinch safety system with dual infrared proximity sensors (detection range: 0-50 mm) and real-time current monitoring (threshold: 15 N ±1.2 N)",
     ],
-    useCase: "Optimized for high-turnover academic labs (e.g., university computer science teaching assistants rotating every semester), mid-sized nonprofit field offices (e.g., Habitat for Humanity regional hubs outfitting 5–12 remote staff annually), and telehealth support centers requiring rapid deployment of ADA-adjacent (but not fully compliant) workstations for clinicians managing 4–6 video patient visits daily. Excels in tight urban apartments (<500 sq ft) where the 60\" x 30\" footprint fits against walls with only 3\" clearance for chair swivel, and in corporate satellite offices needing uniform, brand-aligned furniture across 3–8 locations without custom procurement delays. Less suitable for neurosurgeons performing long-duration digital imaging review (requires silent operation <45 dB), professional audio engineers needing vibration-free surfaces for condenser mic placement, or federal government facilities mandating strict ADA seating clearance (≥29.5\" height with 22.5\" knee clearance). Not recommended for continuous 10+ hour daily use beyond 3 years without motor replacement due to thermal cycling limits.",
+    useCase: "Optimized for high-turnover academic labs (e.g., university computer science teaching assistants rotating every semester), mid-sized nonprofit field offices (e.g., Habitat for Humanity regional hubs outfitting 5-12 remote staff annually), and telehealth support centers requiring rapid deployment of ADA-adjacent (but not fully compliant) workstations for clinicians managing 4-6 video patient visits daily. Excels in tight urban apartments (<500 sq ft) where the 60\" x 30\" footprint fits against walls with only 3\" clearance for chair swivel, and in corporate satellite offices needing uniform, brand-aligned furniture across 3-8 locations without custom procurement delays. Less suitable for neurosurgeons performing long-duration digital imaging review (requires silent operation <45 dB), professional audio engineers needing vibration-free surfaces for condenser mic placement, or federal government facilities mandating strict ADA seating clearance (≥29.5\" height with 22.5\" knee clearance). Not recommended for continuous 10+ hour daily use beyond 3 years without motor replacement due to thermal cycling limits.",
     alternatives: ["anthrodesk-lite", "autonomous-smartdesk-pro", "vari-standing-desk"],
     scoreBreakdown: { features: 78, reviews: 82, momentum: 84, popularity: 97 },
     userQuotes: [
-      { role: "Clinical Research Coordinator", company: "Mayo Clinic Jacksonville", quote: "Deployed 14 BEKANT desks across our outpatient trial units—assembly took 2 hours total for staff. The preset heights let nurses switch instantly between seated charting and standing patient consults without disrupting workflow." },
-      { role: "Freelance UX Designer", company: "Studio Lumen", quote: "Used it for 2.5 years with Wacom Cintiq 22 and triple monitors—stable enough for precise pen work at 38\", though I added a $45 third-party stabilizer bar to reduce wobble during tablet strokes." },
+      { role: "Clinical Research Coordinator", company: "Mayo Clinic Jacksonville", quote: "Deployed 14 BEKANT desks across our outpatient trial units--assembly took 2 hours total for staff. The preset heights let nurses switch instantly between seated charting and standing patient consults without disrupting workflow." },
+      { role: "Freelance UX Designer", company: "Studio Lumen", quote: "Used it for 2.5 years with Wacom Cintiq 22 and triple monitors--stable enough for precise pen work at 38\", though I added a $45 third-party stabilizer bar to reduce wobble during tablet strokes." },
     ],
   },
 
@@ -584,26 +632,26 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 1890,
     icon: TabletSmartphone,
     description: "A gaming-first, ultra-sturdy standing desk engineered for extreme setups, featuring magnetic cable management and seamless peripheral integration.",
-    longDescription: `The Secretlab Magnus Pro XL stands as one of the most robust and meticulously engineered electric standing desks on the market—designed not just for productivity, but for demanding, high-fidelity workspaces where stability, aesthetics, and intelligent ergonomics converge. Its reinforced cold-rolled steel 3-stage dual-motor lift system delivers whisper-quiet, ultra-smooth height transitions across its expansive 26.8–48.8 inch range—enough to accommodate users from under 5′2″ to over 6′8″ with optimal ergonomic alignment. With a certified 375 lbs weight capacity, it confidently supports triple 32-inch monitors, full-size mechanical keyboard setups, high-end PC towers, capture cards, streaming gear, and even secondary peripherals—all without perceptible wobble or motor strain. The massive 70.9″ x 31.5″ XL desktop provides generous real estate for sprawling workflows while maintaining visual cohesion through seamless integration with Secretlab's ecosystem. A standout innovation is the MagGrip magnetic cable management system: embedded neodymium magnets along the underside of the desktop allow for tool-free, repositionable cable clips, Velcro straps, and accessory mounts—eliminating clutter without drilling or adhesive residue. The integrated touchscreen controller features customizable RGB backlighting, intuitive haptic feedback, and four programmable memory presets that recall exact heights with millimeter precision—even after power cycles. Built-in anti-collision sensors, silent braking, and USB-C passthrough further elevate daily usability. Backed by a best-in-class 10-year structural warranty covering frame, motors, and electronics, the Magnus Pro XL reflects Secretlab's commitment to longevity and user-centric design—making it a compelling long-term investment for serious professionals and creators who refuse to compromise on performance or presence.`,
+    longDescription: `The Secretlab Magnus Pro XL stands as one of the most robust and meticulously engineered electric standing desks on the market--designed not just for productivity, but for demanding, high-fidelity workspaces where stability, aesthetics, and intelligent ergonomics converge. Its reinforced cold-rolled steel 3-stage dual-motor lift system delivers whisper-quiet, ultra-smooth height transitions across its expansive 26.8-48.8 inch range--enough to accommodate users from under 5′2″ to over 6′8″ with optimal ergonomic alignment. With a certified 375 lbs weight capacity, it confidently supports triple 32-inch monitors, full-size mechanical keyboard setups, high-end PC towers, capture cards, streaming gear, and even secondary peripherals--all without perceptible wobble or motor strain. The massive 70.9″ x 31.5″ XL desktop provides generous real estate for sprawling workflows while maintaining visual cohesion through seamless integration with Secretlab's ecosystem. A standout innovation is the MagGrip magnetic cable management system: embedded neodymium magnets along the underside of the desktop allow for tool-free, repositionable cable clips, Velcro straps, and accessory mounts--eliminating clutter without drilling or adhesive residue. The integrated touchscreen controller features customizable RGB backlighting, intuitive haptic feedback, and four programmable memory presets that recall exact heights with millimeter precision--even after power cycles. Built-in anti-collision sensors, silent braking, and USB-C passthrough further elevate daily usability. Backed by a best-in-class 10-year structural warranty covering frame, motors, and electronics, the Magnus Pro XL reflects Secretlab's commitment to longevity and user-centric design--making it a compelling long-term investment for serious professionals and creators who refuse to compromise on performance or presence.`,
     pros: [
-      "Exceptional 375 lbs weight capacity—ideal for heavy multi-monitor, dual-PC, or full studio setups",
+      "Exceptional 375 lbs weight capacity--ideal for heavy multi-monitor, dual-PC, or full studio setups",
       "Ultra-stable 3-stage dual-motor lift system with near-silent operation and zero visible wobble at max height",
       "MagGrip magnetic cable management enables fully modular, tool-free cable routing and accessory mounting",
       "Large 70.9″ x 31.5″ XL desktop in premium matte finishes with seamless edge-to-edge aesthetics",
       "Intuitive touchscreen controller with customizable RGB lighting, haptic feedback, and 4 precise memory presets",
       "Industry-leading 10-year structural warranty covering frame, motors, electronics, and lift mechanism",
-      "Wide 26.8–48.8 inch height range accommodates users from ~5′2″ to over 6′8″ comfortably",
+      "Wide 26.8-48.8 inch height range accommodates users from ~5′2″ to over 6′8″ comfortably",
     ],
     cons: [
-      "Premium price point significantly exceeds mainstream standing desk competitors—justifiable only for high-load or premium-use cases",
+      "Premium price point significantly exceeds mainstream standing desk competitors--justifiable only for high-load or premium-use cases",
       "XL desktop size requires substantial floor space and may be impractical for compact home offices",
       "Touchscreen controller lacks physical buttons, making adjustments slightly less intuitive in low-light conditions",
-      "No built-in USB-A or USB-C ports on the desk itself—USB-C passthrough requires separate dock module",
+      "No built-in USB-A or USB-C ports on the desk itself--USB-C passthrough requires separate dock module",
       "Limited third-party desktop compatibility due to proprietary mounting system",
-      "Shipping weight exceeds 200 lbs—assembly requires two people and careful handling",
+      "Shipping weight exceeds 200 lbs--assembly requires two people and careful handling",
     ],
-    pricing: "$1,299–$1,699",
-    pricingDetail: "Base: $1,299 (XL size, matte black); carbon fiber top and RGB upgrade add $200–$400.",
+    pricing: "$1,299-$1,699",
+    pricingDetail: "Base: $1,299 (XL size, matte black); carbon fiber top and RGB upgrade add $200-$400.",
     features: [
       "加固冷轧钢框架与3-stage dual-motor lift系统",
       "MagGrip™ 磁吸式模块化线缆管理套件",
@@ -614,9 +662,9 @@ export const ALL_TOOLS: ToolData[] = [
     alternatives: ["uplift-v2", "deskhaus-apex-pro", "flexispot-e7"],
     scoreBreakdown: { features: 95, reviews: 94, momentum: 93, popularity: 82 },
     userQuotes: [
-      { role: "Professional Streamer", company: "Twitch Partner", quote: "The zero-wobble stability with my triple 32-inch setup is unreal—I've never seen a desk this solid at any height." },
-      { role: "Senior UX Designer", company: "Figma Enterprise", quote: "MagGrip changed everything—no more tangled cables under the desk. Setup time dropped from 20 minutes to 90 seconds." },
-      { role: "Remote Team Lead", company: "Tech Startup", quote: "After 6 months of daily use, the motor is as quiet and precise as day one. The 10-year warranty isn't marketing—it's peace of mind." },
+      { role: "Professional Streamer", company: "Twitch Partner", quote: "The zero-wobble stability with my triple 32-inch setup is unreal--I've never seen a desk this solid at any height." },
+      { role: "Senior UX Designer", company: "Figma Enterprise", quote: "MagGrip changed everything--no more tangled cables under the desk. Setup time dropped from 20 minutes to 90 seconds." },
+      { role: "Remote Team Lead", company: "Tech Startup", quote: "After 6 months of daily use, the motor is as quiet and precise as day one. The 10-year warranty isn't marketing--it's peace of mind." },
     ],
   },
 
@@ -627,35 +675,35 @@ export const ALL_TOOLS: ToolData[] = [
     rating: 3.7,
     reviewCount: 1420,
     icon: TabletSmartphone,
-    description: "The AnthroDesk Lite is the lightest, most travel-ready standing desk converter—12.5 lbs of aircraft-grade aluminum that lifts your gear 5\"–17\" with zero electricity required.",
-    longDescription: `The AnthroDesk Lite redefines portability in the standing desk converter category—not as a compromise, but as a precision-engineered solution for users who value mobility, affordability, and rapid setup without sacrificing build quality. Unlike bulkier competitors (e.g., VariDesk Pro Plus at 38 lbs or Flexispot M2B at 26 lbs), the Lite weighs just 12.5 lbs and folds to a compact 3.5\" thick profile—sliding effortlessly into a standard airline overhead bin or under a dorm bed. Its manual crank system delivers smooth, backlash-free height adjustment across a verified 5\"–17\" lift range (measured from tabletop surface to keyboard platform), enabling ergonomic alignment for users 5'2\" to 6'4\" tall when paired with a standard 29\"-high desk. The dual-tier platform accommodates up to 33 lbs total: the upper tier supports monitors up to 27\" diagonal (tested with dual 24\" IPS displays + VESA mount), while the lower tier features a fully articulating, tilt-adjustable keyboard tray with integrated cable management channels and non-slip silicone pads. Constructed from T6-aluminum alloy (same grade used in aerospace brackets), it undergoes 50,000-cycle durability testing and ships with pre-torqued stainless steel hardware—no assembly tools needed beyond the included 8mm crank handle. Real-world testing shows <12 seconds to adjust from seated to optimal standing height (vs. 22+ sec for comparable manual units), thanks to its 12:1 gear ratio and low-friction polymer bushings. It’s certified BIFMA X5.5 compliant for stability (≤0.5° wobble at max height) and includes integrated leveling feet for carpet or uneven surfaces. Ideal for hybrid workers juggling home, co-working, and campus spaces—or clinicians, educators, and creatives who reconfigure workspaces weekly. While not designed for all-day continuous use like motorized desks, its 33-lb capacity comfortably handles laptops, ultrawide monitors, drawing tablets, and secondary peripherals—making it uniquely suited for students upgrading cramped library carrels or remote workers optimizing shared family desks.`,
+    description: "The AnthroDesk Lite is the lightest, most travel-ready standing desk converter--12.5 lbs of aircraft-grade aluminum that lifts your gear 5\"-17\" with zero electricity required.",
+    longDescription: `The AnthroDesk Lite redefines portability in the standing desk converter category--not as a compromise, but as a precision-engineered solution for users who value mobility, affordability, and rapid setup without sacrificing build quality. Unlike bulkier competitors (e.g., VariDesk Pro Plus at 38 lbs or Flexispot M2B at 26 lbs), the Lite weighs just 12.5 lbs and folds to a compact 3.5\" thick profile--sliding effortlessly into a standard airline overhead bin or under a dorm bed. Its manual crank system delivers smooth, backlash-free height adjustment across a verified 5\"-17\" lift range (measured from tabletop surface to keyboard platform), enabling ergonomic alignment for users 5'2\" to 6'4\" tall when paired with a standard 29\"-high desk. The dual-tier platform accommodates up to 33 lbs total: the upper tier supports monitors up to 27\" diagonal (tested with dual 24\" IPS displays + VESA mount), while the lower tier features a fully articulating, tilt-adjustable keyboard tray with integrated cable management channels and non-slip silicone pads. Constructed from T6-aluminum alloy (same grade used in aerospace brackets), it undergoes 50,000-cycle durability testing and ships with pre-torqued stainless steel hardware--no assembly tools needed beyond the included 8mm crank handle. Real-world testing shows <12 seconds to adjust from seated to optimal standing height (vs. 22+ sec for comparable manual units), thanks to its 12:1 gear ratio and low-friction polymer bushings. It's certified BIFMA X5.5 compliant for stability (≤0.5° wobble at max height) and includes integrated leveling feet for carpet or uneven surfaces. Ideal for hybrid workers juggling home, co-working, and campus spaces--or clinicians, educators, and creatives who reconfigure workspaces weekly. While not designed for all-day continuous use like motorized desks, its 33-lb capacity comfortably handles laptops, ultrawide monitors, drawing tablets, and secondary peripherals--making it uniquely suited for students upgrading cramped library carrels or remote workers optimizing shared family desks.`,
     pros: [
-      "Weighs only 12.5 lbs—the lightest BIFMA X5.5-certified standing desk converter on the market (15.5 lbs lighter than VariDesk Pro Plus 2nd Gen and 8.2 lbs lighter than Fully Jarvis Convertible)",
-      "Folds to just 3.5\" thick with zero protruding components—meets IATA carry-on size limits (22\" x 14\" x 3.5\") and fits vertically in standard airline overhead bins",
+      "Weighs only 12.5 lbs--the lightest BIFMA X5.5-certified standing desk converter on the market (15.5 lbs lighter than VariDesk Pro Plus 2nd Gen and 8.2 lbs lighter than Fully Jarvis Convertible)",
+      "Folds to just 3.5\" thick with zero protruding components--meets IATA carry-on size limits (22\" x 14\" x 3.5\") and fits vertically in standard airline overhead bins",
       "Adjusts height from 5\" to 17\" (or 20\" with Extended Height Kit) in under 11.5 seconds using precision 12:1 gear-ratio manual crank with <0.3° backlash tolerance",
       "BIFMA X5.5 certified for stability: measured wobble ≤0.42° at 17\" lift under 33-lb load (tested per ANSI/BIFMA X5.5-2021 Section 7.3.2)",
-      "Full functionality included at $249—undercuts comparable electric converters (e.g., Uplift V2 Mini at $429, Flexispot E7 at $519) by $180–$270 while delivering identical vertical range and weight capacity",
-      "Tool-free assembly: fully pre-assembled at factory—including gear mesh calibrated to ±0.05mm tolerance—with only crank handle requiring snap-in installation (takes <20 seconds)",
+      "Full functionality included at $249--undercuts comparable electric converters (e.g., Uplift V2 Mini at $429, Flexispot E7 at $519) by $180-$270 while delivering identical vertical range and weight capacity",
+      "Tool-free assembly: fully pre-assembled at factory--including gear mesh calibrated to ±0.05mm tolerance--with only crank handle requiring snap-in installation (takes <20 seconds)",
       "Corrosion-resistant anodized T6-aluminum frame tested to 10,000+ crank cycles (per ASTM B117 salt-spray test: zero pitting or coating degradation after 500 hours)",
     ],
     cons: [
-      "Manual crank requires 18–22 lbs of peak rotational force at the handle's outer radius—may cause fatigue during >8 daily adjustments or be inaccessible for users with diagnosed carpal tunnel syndrome, rotator cuff injuries, or arthritis (per NIH hand strength guidelines)",
+      "Manual crank requires 18-22 lbs of peak rotational force at the handle's outer radius--may cause fatigue during >8 daily adjustments or be inaccessible for users with diagnosed carpal tunnel syndrome, rotator cuff injuries, or arthritis (per NIH hand strength guidelines)",
       "Max 17\" lift (20\" with Extended Height Kit) restricts compatibility with desks under 25.5\" height (e.g., IKEA MICKE at 23.5\") or users over 6'4\" requiring ≥22\" monitor height for neutral gaze angle",
-      "No integrated power delivery system—lacks USB-A/USB-C ports, AC outlets, or wireless charging pads, requiring external surge protectors or power strips that reduce under-desk real estate",
-      "Keyboard tray tilt is fixed at 12 degrees with no adjustment mechanism—prevents ergonomic optimization for users with pronated wrists or those needing ≥15° tilt for tenkey-heavy workflows",
-      "Not rated for continuous all-day use beyond 4–6 hours without rest breaks due to lack of motorized load redistribution—BIFMA testing shows increased frame flex (>0.15mm deflection) after sustained 33-lb load at 17\" for >320 minutes",
-      "Dual-tier platform has non-modular spacing: 7.25\" vertical gap between upper shelf and lower tray—too narrow for dual 27\" monitors stacked vertically or too wide for single 24\" monitor with full-size mechanical keyboard beneath",
-      "Extended Height Kit requires re-torqueing of four M4x12mm mounting screws and recalibration of clutch engagement point—voids warranty if performed outside authorized service centers",
+      "No integrated power delivery system--lacks USB-A/USB-C ports, AC outlets, or wireless charging pads, requiring external surge protectors or power strips that reduce under-desk real estate",
+      "Keyboard tray tilt is fixed at 12 degrees with no adjustment mechanism--prevents ergonomic optimization for users with pronated wrists or those needing ≥15° tilt for tenkey-heavy workflows",
+      "Not rated for continuous all-day use beyond 4-6 hours without rest breaks due to lack of motorized load redistribution--BIFMA testing shows increased frame flex (>0.15mm deflection) after sustained 33-lb load at 17\" for >320 minutes",
+      "Dual-tier platform has non-modular spacing: 7.25\" vertical gap between upper shelf and lower tray--too narrow for dual 27\" monitors stacked vertically or too wide for single 24\" monitor with full-size mechanical keyboard beneath",
+      "Extended Height Kit requires re-torqueing of four M4x12mm mounting screws and recalibration of clutch engagement point--voids warranty if performed outside authorized service centers",
     ],
-    pricing: "$249–$329",
-    pricingDetail: "Base AnthroDesk Lite ($249): includes dual-stage ergonomic crank handle, articulating keyboard tray with fixed 12-degree tilt, dual-tier platform (16\" W x 10\" D upper shelf + 12\" W x 9\" lower tray), stainless steel hardware (Grade 304), silicone anti-slip pads (70 Shore A hardness), BIFMA-certified pre-assembled frame, and 30-day trial with prepaid return label. Extended Height Kit ($40): adds two precision-machined aluminum spacers (+3\" total lift range, extending max height to 20\") and recalibrated crank gear set. Premium Laptop Tray ($39.99): CNC-machined 6061-T6 aluminum chassis with micro-geared tilt mechanism (0°–30° in 5° increments), integrated cable clip, and magnetic alignment pins. Bundled Kit ($79.99): Extended Height Kit + Premium Laptop Tray. Optional ErgoGrip Crank Upgrade ($24.99): contoured thermoplastic elastomer handle with torque-reducing pivot joint. Free standard shipping to contiguous US; expedited shipping ($12.99) available. 2-year limited warranty covering frame, gears, and hardware; 90-day warranty on accessories.",
+    pricing: "$249-$329",
+    pricingDetail: "Base AnthroDesk Lite ($249): includes dual-stage ergonomic crank handle, articulating keyboard tray with fixed 12-degree tilt, dual-tier platform (16\" W x 10\" D upper shelf + 12\" W x 9\" lower tray), stainless steel hardware (Grade 304), silicone anti-slip pads (70 Shore A hardness), BIFMA-certified pre-assembled frame, and 30-day trial with prepaid return label. Extended Height Kit ($40): adds two precision-machined aluminum spacers (+3\" total lift range, extending max height to 20\") and recalibrated crank gear set. Premium Laptop Tray ($39.99): CNC-machined 6061-T6 aluminum chassis with micro-geared tilt mechanism (0°-30° in 5° increments), integrated cable clip, and magnetic alignment pins. Bundled Kit ($79.99): Extended Height Kit + Premium Laptop Tray. Optional ErgoGrip Crank Upgrade ($24.99): contoured thermoplastic elastomer handle with torque-reducing pivot joint. Free standard shipping to contiguous US; expedited shipping ($12.99) available. 2-year limited warranty covering frame, gears, and hardware; 90-day warranty on accessories.",
     features: [
       "Precision 12:1 gear-ratio manual crank with dual-stage ergonomic handle (dual-diameter grip: 1.25\" primary, 0.75\" secondary) and integrated torque limiter",
-      "Verified height adjustment range: 5\"–17\" above existing desk surface (±0.125\" tolerance per ANSI/BIFMA X5.5-2021 Section 6.1)",
+      "Verified height adjustment range: 5\"-17\" above existing desk surface (±0.125\" tolerance per ANSI/BIFMA X5.5-2021 Section 6.1)",
       "Dual-tier platform: upper monitor shelf (16\" W x 10\" D, 0.125\" thick 6061-T6 aluminum) + lower articulating keyboard tray (12\" W x 9\" D, 0.09\" thick, 12° fixed tilt)",
       "33-lb total static weight capacity (tested at 17\" lift with 200 lb-force applied at shelf corners per BIFMA X5.5 Section 6.2)",
       "Aircraft-grade 6061-T6 aluminum frame with MIL-A-8625 Type II Class 1 anodization (0.0003\" thickness, 60 Rockwell hardness)",
-      "Ultra-compact folded profile: 3.5\" thick, 16\" W x 10\" D footprint—verified compliant with Delta, United, and American Airlines carry-on dimensions",
+      "Ultra-compact folded profile: 3.5\" thick, 16\" W x 10\" D footprint--verified compliant with Delta, United, and American Airlines carry-on dimensions",
       "Integrated micro-adjustable leveling feet (M3 threaded, ±2.5mm travel) with rubberized tips (Shore A 60 durometer, 0.25\" diameter)",
       "Pre-assembled core structure with factory-calibrated gear mesh (backlash <0.05mm, runout <0.02mm per DIN 3967)",
       "Patented anti-backlash clutch system with spring-loaded ball detent (engagement force: 3.2 Nm, disengagement threshold: 4.8 Nm)",
@@ -667,8 +715,8 @@ export const ALL_TOOLS: ToolData[] = [
     alternatives: ["ikea-bekant", "autonomous-smartdesk-pro", "vari-standing-desk"],
     scoreBreakdown: { features: 72, reviews: 78, momentum: 81, popularity: 75 },
     userQuotes: [
-      { role: "Physical Therapist", company: "RehabPlus Clinics", quote: "I use it across three outpatient locations—its portability lets me set up identical ergonomics in exam rooms with fixed-height counters, and the precise 12:1 crank prevents aggravating my CTS." },
-      { role: "Freelance Graphic Designer", company: "PixelForge Studios", quote: "I've shipped it via FedEx 17 times this year—from Brooklyn co-working spaces to client offices in Portland and Austin—and the anodized frame still looks factory-fresh." },
+      { role: "Physical Therapist", company: "RehabPlus Clinics", quote: "I use it across three outpatient locations--its portability lets me set up identical ergonomics in exam rooms with fixed-height counters, and the precise 12:1 crank prevents aggravating my CTS." },
+      { role: "Freelance Graphic Designer", company: "PixelForge Studios", quote: "I've shipped it via FedEx 17 times this year--from Brooklyn co-working spaces to client offices in Portland and Austin--and the anodized frame still looks factory-fresh." },
     ],
   },
 
@@ -680,7 +728,7 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 6240,
     icon: Monitor,
     description: "A premium, highly adjustable single-monitor arm with smooth motion and exceptional build quality.",
-    longDescription: `The Ergotron LX stands apart in the premium monitor arm category not merely through incremental upgrades—but by redefining what ergonomic adjustability, structural integrity, and long-term reliability should deliver in mission-critical workspaces. Unlike conventional gas-spring arms that degrade over time or compromise precision under load, the LX leverages Ergotron's proprietary Constant Force™ counterbalance technology—a finely tuned torsion-spring system engineered to maintain consistent, fluid resistance across its entire range of motion, regardless of monitor weight (up to 25 lbs) or orientation. This means no sagging at extended reach, no drift during tilt or rotation, and zero "spring fatigue" even after tens of thousands of adjustments—validated through 100,000-cycle lab testing. Its dual-axis articulating arm features 19.5 inches of vertical travel, 360° swivel, ±90° portrait/landscape rotation, and ±25° forward/backward tilt—all independently lockable via intuitive, low-profile levers that require minimal hand force to engage or release. Constructed from aerospace-grade aluminum extrusions and cold-rolled steel components, the LX resists corrosion, flex, and vibration—even when supporting dual 27-inch displays (with optional dual-mount kit) or high-resolution medical imaging screens demanding pixel-perfect stability. Mounting flexibility is equally robust: the heavy-duty C-clamp accommodates desks up to 3.5 inches thick with 1.5-inch jaw depth and integrated rubberized grip pads, while the grommet mount fits openings from 0.75 to 3.25 inches and includes a reinforced steel plate for ultra-stiff anchoring. Real-world deployment spans diverse environments—radiologists repositioning 4K diagnostic monitors without disrupting calibration, software engineers toggling between coding and video conferencing with one-handed height shifts, and hybrid workers seamlessly transitioning from seated to standing desk configurations multiple times daily. Compared to competitors like the Humanscale M2.1 or AmazonBasics Premium Arm, the LX delivers superior load consistency across its full adjustment envelope, deeper desk compatibility, and a warranty that reflects true enterprise-grade commitment: 10 years covering parts, labor, and even accidental damage from normal use. Users report measurable gains—including a 32% reduction in self-reported neck and shoulder strain after six weeks (per internal Ergotron clinical partner data), up to 18 seconds saved per daily repositioning event, and near-zero maintenance requirements over five-year deployments. For organizations prioritizing sustained productivity, clinician accuracy, and total cost of ownership—not just first-cost—the Ergotron LX isn't an accessory. It's infrastructure.`,
+    longDescription: `The Ergotron LX stands apart in the premium monitor arm category not merely through incremental upgrades--but by redefining what ergonomic adjustability, structural integrity, and long-term reliability should deliver in mission-critical workspaces. Unlike conventional gas-spring arms that degrade over time or compromise precision under load, the LX leverages Ergotron's proprietary Constant Force™ counterbalance technology--a finely tuned torsion-spring system engineered to maintain consistent, fluid resistance across its entire range of motion, regardless of monitor weight (up to 25 lbs) or orientation. This means no sagging at extended reach, no drift during tilt or rotation, and zero "spring fatigue" even after tens of thousands of adjustments--validated through 100,000-cycle lab testing. Its dual-axis articulating arm features 19.5 inches of vertical travel, 360° swivel, ±90° portrait/landscape rotation, and ±25° forward/backward tilt--all independently lockable via intuitive, low-profile levers that require minimal hand force to engage or release. Constructed from aerospace-grade aluminum extrusions and cold-rolled steel components, the LX resists corrosion, flex, and vibration--even when supporting dual 27-inch displays (with optional dual-mount kit) or high-resolution medical imaging screens demanding pixel-perfect stability. Mounting flexibility is equally robust: the heavy-duty C-clamp accommodates desks up to 3.5 inches thick with 1.5-inch jaw depth and integrated rubberized grip pads, while the grommet mount fits openings from 0.75 to 3.25 inches and includes a reinforced steel plate for ultra-stiff anchoring. Real-world deployment spans diverse environments--radiologists repositioning 4K diagnostic monitors without disrupting calibration, software engineers toggling between coding and video conferencing with one-handed height shifts, and hybrid workers seamlessly transitioning from seated to standing desk configurations multiple times daily. Compared to competitors like the Humanscale M2.1 or AmazonBasics Premium Arm, the LX delivers superior load consistency across its full adjustment envelope, deeper desk compatibility, and a warranty that reflects true enterprise-grade commitment: 10 years covering parts, labor, and even accidental damage from normal use. Users report measurable gains--including a 32% reduction in self-reported neck and shoulder strain after six weeks (per internal Ergotron clinical partner data), up to 18 seconds saved per daily repositioning event, and near-zero maintenance requirements over five-year deployments. For organizations prioritizing sustained productivity, clinician accuracy, and total cost of ownership--not just first-cost--the Ergotron LX isn't an accessory. It's infrastructure.`,
     pros: [
       "Smooth, tool-free height/tilt/swivel adjustment",
       "10-year manufacturer warranty",
@@ -706,8 +754,8 @@ export const ALL_TOOLS: ToolData[] = [
     alternatives: ["humanscale-m8", "loctek-d7d", "workpro-single-arm"],
     scoreBreakdown: { features: 92, reviews: 94, momentum: 88, popularity: 90 },
     userQuotes: [
-      { role: "UX Designer", company: "TechNova Labs", quote: "After six years of daily use, my LX still glides like new—worth every penny for posture and productivity." },
-      { role: "Telehealth Coordinator", company: "MediCare Connect", quote: "The smooth adjustability lets me quickly reposition between laptop and patient-facing monitor—critical during back-to-back virtual visits." },
+      { role: "UX Designer", company: "TechNova Labs", quote: "After six years of daily use, my LX still glides like new--worth every penny for posture and productivity." },
+      { role: "Telehealth Coordinator", company: "MediCare Connect", quote: "The smooth adjustability lets me quickly reposition between laptop and patient-facing monitor--critical during back-to-back virtual visits." },
     ],
   },
 
@@ -719,8 +767,8 @@ export const ALL_TOOLS: ToolData[] = [
     rating: 4.8,
     reviewCount: 5780,
     icon: Monitor,
-    description: "A minimalist, self-balancing monitor arm that adjusts intuitively with one finger—no knobs or levers needed.",
-    longDescription: `The Humanscale M8 Monitor Arm stands as a benchmark in ergonomic workspace design—engineered not just for function, but for quiet, intuitive elegance. Unlike conventional arms reliant on springs or gas pistons that degrade over time or require frequent recalibration, the M8 employs Humanscale’s proprietary Gravity Balancing Technology: a precision-calibrated counterweight system housed entirely within its brushed aluminum chassis. This mechanical marvel delivers truly frictionless, one-finger height, tilt, and depth adjustment—no tools, no knobs, no compromise on stability. Rated for monitors up to 35 lbs (15.9 kg), it comfortably accommodates most 24- to 32-inch flat-panel displays—including heavier professional-grade models—and maintains perfect positional memory across thousands of adjustments. Its minimalist architecture features seamless integrated cable management: discreet channels along the arm and base route power and data cables cleanly into the mounting point, eliminating visual clutter without zip ties or add-ons. When not in use, the M8 folds down to a sleek 3-inch profile—ideal for shared workspaces, hot-desking environments, or compact home offices where footprint matters. The solid aluminum construction feels substantial yet refined, with matte-brushed finishes that resist fingerprints and complement modern desk materials like wood, glass, or steel. Mounting options include sturdy clamp (up to 3.5″ thick) and grommet kits, both engineered for vibration-free rigidity—even on ultra-thin desktops. Backed by a best-in-class 10-year warranty and assembled in the USA, the M8 reflects Humanscale’s decades-long commitment to human-centered engineering: it doesn’t just hold your screen—it supports sustained focus, reduces neck and shoulder strain, and elevates the entire sensory experience of daily computer use.`,
+    description: "A minimalist, self-balancing monitor arm that adjusts intuitively with one finger--no knobs or levers needed.",
+    longDescription: `The Humanscale M8 Monitor Arm stands as a benchmark in ergonomic workspace design--engineered not just for function, but for quiet, intuitive elegance. Unlike conventional arms reliant on springs or gas pistons that degrade over time or require frequent recalibration, the M8 employs Humanscale's proprietary Gravity Balancing Technology: a precision-calibrated counterweight system housed entirely within its brushed aluminum chassis. This mechanical marvel delivers truly frictionless, one-finger height, tilt, and depth adjustment--no tools, no knobs, no compromise on stability. Rated for monitors up to 35 lbs (15.9 kg), it comfortably accommodates most 24- to 32-inch flat-panel displays--including heavier professional-grade models--and maintains perfect positional memory across thousands of adjustments. Its minimalist architecture features seamless integrated cable management: discreet channels along the arm and base route power and data cables cleanly into the mounting point, eliminating visual clutter without zip ties or add-ons. When not in use, the M8 folds down to a sleek 3-inch profile--ideal for shared workspaces, hot-desking environments, or compact home offices where footprint matters. The solid aluminum construction feels substantial yet refined, with matte-brushed finishes that resist fingerprints and complement modern desk materials like wood, glass, or steel. Mounting options include sturdy clamp (up to 3.5″ thick) and grommet kits, both engineered for vibration-free rigidity--even on ultra-thin desktops. Backed by a best-in-class 10-year warranty and assembled in the USA, the M8 reflects Humanscale's decades-long commitment to human-centered engineering: it doesn't just hold your screen--it supports sustained focus, reduces neck and shoulder strain, and elevates the entire sensory experience of daily computer use.`,
     pros: [
       "Patented gravity-balanced mechanism requires zero maintenance and delivers perfectly smooth, tool-free, one-finger adjustment",
       "Supports monitors up to 35 lbs (15.9 kg), making it suitable for large, heavy professional displays",
@@ -732,7 +780,7 @@ export const ALL_TOOLS: ToolData[] = [
     ],
     cons: [
       "Premium price point may exceed budget for casual or entry-level users",
-      "Clamp mount requires minimum desk thickness of 0.75″ and maximum of 3.5″—not compatible with very thin or unusually thick surfaces without accessories",
+      "Clamp mount requires minimum desk thickness of 0.75″ and maximum of 3.5″--not compatible with very thin or unusually thick surfaces without accessories",
       "No built-in VESA adapter rotation lock; some users report slight monitor drift when using non-standard or lightweight mounts",
       "Limited horizontal reach (25.5″ max extension) compared to some competitor arms with dual-axis booms",
     ],
@@ -748,9 +796,9 @@ export const ALL_TOOLS: ToolData[] = [
     alternatives: ["ergotron-lx", "loctek-d7d", "north-bayou-g60"],
     scoreBreakdown: { features: 94, reviews: 95, momentum: 91, popularity: 87 },
     userQuotes: [
-      { role: "UX Designer", company: "Frog Design", quote: "The M8 lets me reposition my dual 32-inch monitors in under two seconds—no fiddling, no drift. It's become the silent MVP of my workflow." },
-      { role: "Ergonomics Consultant", company: "Corporate Wellness Group", quote: "After installing M8 arms across 120+ workstations, we saw a 37% drop in reported neck strain—proof that precision adjustability directly impacts health outcomes." },
-      { role: "Product Manager", company: "TechNova Labs", quote: "Its brushed aluminum finish matches our conference room aesthetic perfectly, and the fold-flat feature saves space when not in use—elegant engineering meets real-world pragmatism." },
+      { role: "UX Designer", company: "Frog Design", quote: "The M8 lets me reposition my dual 32-inch monitors in under two seconds--no fiddling, no drift. It's become the silent MVP of my workflow." },
+      { role: "Ergonomics Consultant", company: "Corporate Wellness Group", quote: "After installing M8 arms across 120+ workstations, we saw a 37% drop in reported neck strain--proof that precision adjustability directly impacts health outcomes." },
+      { role: "Product Manager", company: "TechNova Labs", quote: "Its brushed aluminum finish matches our conference room aesthetic perfectly, and the fold-flat feature saves space when not in use--elegant engineering meets real-world pragmatism." },
     ],
   },
 
@@ -762,10 +810,10 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 7890,
     icon: Monitor,
     description: "An affordable, reliable single-monitor arm offering solid adjustability and broad compatibility.",
-    longDescription: `This value-driven arm delivers dependable performance for everyday remote workers and students. Supporting monitors from 4.4–22 lbs and up to 32 inches, it features smooth gas-spring height adjustment, 360° rotation, and tilt functionality. The sturdy steel construction and dual-clamp design (desk clamp + grommet) ensure stability on most surfaces. While not as refined as premium models, its intuitive setup, strong cable management, and Amazon’s return policy make it a top-rated entry point into ergonomic upgrades.`,
+    longDescription: `This value-driven arm delivers dependable performance for everyday remote workers and students. Supporting monitors from 4.4-22 lbs and up to 32 inches, it features smooth gas-spring height adjustment, 360° rotation, and tilt functionality. The sturdy steel construction and dual-clamp design (desk clamp + grommet) ensure stability on most surfaces. While not as refined as premium models, its intuitive setup, strong cable management, and Amazon's return policy make it a top-rated entry point into ergonomic upgrades.`,
     pros: [
       "Excellent value for money with premium functionality at budget pricing",
-      "Tool-free assembly in under 5 minutes—no screwdriver or expertise required",
+      "Tool-free assembly in under 5 minutes--no screwdriver or expertise required",
       "Dual-mount versatility: secure clamp-on and grommet installation options",
       "Wide VESA compatibility (75mm and 100mm) supporting most monitors up to 32 inches",
       "Smooth gas-spring-assisted height adjustment with intuitive tension control",
@@ -774,9 +822,9 @@ export const ALL_TOOLS: ToolData[] = [
     ],
     cons: [
       "Noticeable spring resistance near full extension or extreme tilt angles",
-      "Non-locking rotation—monitors may gradually drift over extended use without manual repositioning",
+      "Non-locking rotation--monitors may gradually drift over extended use without manual repositioning",
       "Plastic housing and pivot caps show subtle wear or scuffing after 18+ months of daily use",
-      "No integrated USB hub or power passthrough—requires separate cable management for peripherals",
+      "No integrated USB hub or power passthrough--requires separate cable management for peripherals",
     ],
     pricing: "$89.99",
     pricingDetail: "Includes full hardware kit (clamp, grommet plate, VESA adapter plates, mounting screws, and 4 reusable cable ties); 2-year limited warranty covering manufacturing defects and structural failure (excludes cosmetic wear or misuse); no extended warranty option available.",
@@ -786,19 +834,19 @@ export const ALL_TOOLS: ToolData[] = [
       "Swivel: ±90° for seamless left/right screen repositioning",
       "360° rotation for instant portrait/landscape mode switching",
       "Integrated cable routing channel with pre-attached Velcro straps and dedicated exit ports",
-      "Dual-mount system: heavy-duty C-clamp (fits desks 0.8–3.5 inches thick) and grommet base (for desks with 1.5–3 inch hole diameter)",
+      "Dual-mount system: heavy-duty C-clamp (fits desks 0.8-3.5 inches thick) and grommet base (for desks with 1.5-3 inch hole diameter)",
       "VESA 75x75mm and 100x100mm compatibility out of the box",
       "Sturdy steel-aluminum hybrid construction with matte black powder-coated finish",
-      "Weight capacity: supports monitors 2–32 inches (up to 19.8 lbs / 9 kg)",
+      "Weight capacity: supports monitors 2-32 inches (up to 19.8 lbs / 9 kg)",
       "Low-profile design with 2.2 inch minimum desk clearance when fully retracted",
     ],
-    useCase: "Ideal for students, remote/hybrid professionals, and SMBs scaling monitor ergonomics affordably—especially where quick deployment, space efficiency, and reliable daily performance matter more than pixel-perfect micro-adjustments or ultra-heavy display support.",
+    useCase: "Ideal for students, remote/hybrid professionals, and SMBs scaling monitor ergonomics affordably--especially where quick deployment, space efficiency, and reliable daily performance matter more than pixel-perfect micro-adjustments or ultra-heavy display support.",
     alternatives: ["north-bayou-g60", "workpro-single-arm", "loctek-d7d"],
     scoreBreakdown: { features: 82, reviews: 87, momentum: 93, popularity: 94 },
     userQuotes: [
-      { role: "Graduate Student", company: "State University", quote: "Set it up before my first Zoom lecture—held my 27 inch Dell perfectly and freed up so much desk space for notes." },
+      { role: "Graduate Student", company: "State University", quote: "Set it up before my first Zoom lecture--held my 27 inch Dell perfectly and freed up so much desk space for notes." },
       { role: "Customer Support Lead", company: "CloudServe LLC", quote: "We bought 42 units for our WFH team. Zero returns, consistent performance, and IT loved the plug-and-play setup." },
-      { role: "Freelance Graphic Designer", company: "PixelForge Studio", quote: "Switched from a $250 arm—this handles my 32 inch 4K display flawlessly for 8-hour days. The smooth tilt and rotation are surprisingly precise for the price." },
+      { role: "Freelance Graphic Designer", company: "PixelForge Studio", quote: "Switched from a $250 arm--this handles my 32 inch 4K display flawlessly for 8-hour days. The smooth tilt and rotation are surprisingly precise for the price." },
     ],
   },
 
@@ -810,7 +858,7 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 5210,
     icon: Monitor,
     description: "A versatile, budget-friendly dual-monitor arm with independent articulation and robust load capacity.",
-    longDescription: `Engineer two screens side-by-side—or stacked—with full independent control over each arm. Each segment supports up to 17.6 lbs and accommodates monitors up to 32 inches, with smooth gas-spring height adjustment, tilt, swivel, and rotation. The central base features a heavy-duty C-clamp and grommet option, plus integrated cable management for both displays. Ideal for traders, developers, and content creators who need simultaneous access to reference tools and primary workspaces—without sacrificing desk real estate.`,
+    longDescription: `Engineer two screens side-by-side--or stacked--with full independent control over each arm. Each segment supports up to 17.6 lbs and accommodates monitors up to 32 inches, with smooth gas-spring height adjustment, tilt, swivel, and rotation. The central base features a heavy-duty C-clamp and grommet option, plus integrated cable management for both displays. Ideal for traders, developers, and content creators who need simultaneous access to reference tools and primary workspaces--without sacrificing desk real estate.`,
     pros: [
       "Truly independent dual-arm movement",
       "Sturdy steel construction with reinforced joints",
@@ -820,7 +868,7 @@ export const ALL_TOOLS: ToolData[] = [
     cons: [
       "Base requires minimum 2.5\" desk depth clearance",
       "Larger footprint than single-arm solutions",
-      "Tension may loosen slightly after 6–12 months of heavy use",
+      "Tension may loosen slightly after 6-12 months of heavy use",
     ],
     pricing: "$129.99",
     pricingDetail: "Includes dual arms, clamp/grommet base, VESA plates, screws, and cable ties; 3-year warranty.",
@@ -829,15 +877,15 @@ export const ALL_TOOLS: ToolData[] = [
       "Portrait/landscape rotation per monitor",
       "VESA 75/100mm compatible",
       "Cable raceway with Velcro straps",
-      "Adjustable center arm spacing (12–24\")",
-      "Desk thickness range: 0.98–3.5\"",
+      "Adjustable center arm spacing (12-24\")",
+      "Desk thickness range: 0.98-3.5\"",
     ],
     useCase: "Best for software developers, financial analysts, and editors managing multi-app workflows while less ideal for ultra-thin laptops-only users or desks narrower than 24 inches.",
     alternatives: ["wali-dual-arm", "ergotron-hx", "atdec-freestanding"],
     scoreBreakdown: { features: 83, reviews: 87, momentum: 89, popularity: 91 },
     userQuotes: [
-      { role: "Frontend Developer", company: "NexusDev", quote: "I run VS Code on one screen and Figma + Chrome DevTools on the other—VIVO keeps them exactly where I need them, all day." },
-      { role: "Day Trader", company: "AlphaFlow Capital", quote: "Mounted three 27\" screens using two VIVO units—rock-solid stability during volatile market hours, and way cheaper than pro rigs." },
+      { role: "Frontend Developer", company: "NexusDev", quote: "I run VS Code on one screen and Figma + Chrome DevTools on the other--VIVO keeps them exactly where I need them, all day." },
+      { role: "Day Trader", company: "AlphaFlow Capital", quote: "Mounted three 27\" screens using two VIVO units--rock-solid stability during volatile market hours, and way cheaper than pro rigs." },
     ],
   },
 
@@ -850,7 +898,7 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 3670,
     icon: Monitor,
     description: "A feature-rich, dual-monitor arm with enhanced flexibility, USB-C passthrough, and smart cable routing.",
-    longDescription: `The Loctek D7D stands out with its dual-arm design featuring independent height adjustment, synchronized tilt, and seamless portrait/landscape rotation—all supported by dual gas springs. Unique additions include built-in USB-C 3.1 passthrough (10Gbps data + 60W charging), an integrated cable organizer with snap-lock channels, and a detachable keyboard tray mount. Its sleek matte-black finish and quiet operation appeal to tech-forward professionals. With VESA 75/100/200mm compatibility and support for monitors up to 30 lbs each, it bridges the gap between value and premium functionality.`,
+    longDescription: `The Loctek D7D stands out with its dual-arm design featuring independent height adjustment, synchronized tilt, and seamless portrait/landscape rotation--all supported by dual gas springs. Unique additions include built-in USB-C 3.1 passthrough (10Gbps data + 60W charging), an integrated cable organizer with snap-lock channels, and a detachable keyboard tray mount. Its sleek matte-black finish and quiet operation appeal to tech-forward professionals. With VESA 75/100/200mm compatibility and support for monitors up to 30 lbs each, it bridges the gap between value and premium functionality.`,
     pros: [
       "Built-in USB-C passthrough with power delivery",
       "Detachable keyboard tray mount included",
@@ -870,13 +918,13 @@ export const ALL_TOOLS: ToolData[] = [
       "VESA 75/100/200mm compatible",
       "Keyboard tray mount interface",
       "Snap-lock cable routing",
-      "Height range: 15.7\"–23.6\"",
+      "Height range: 15.7\"-23.6\"",
     ],
     useCase: "Best for hybrid professionals using USB-C laptops and needing integrated power/data while less ideal for legacy HDMI-only setups or users avoiding proprietary connectors.",
     alternatives: ["ergotron-lx", "vivo-dual-monitor-arm", "wali-dual-arm"],
     scoreBreakdown: { features: 91, reviews: 88, momentum: 93, popularity: 85 },
     userQuotes: [
-      { role: "Product Manager", company: "Nimbus Tech", quote: "My MacBook Pro charges *and* drives dual 4K displays through one cable—clean desk, zero dongles, zero frustration." },
+      { role: "Product Manager", company: "Nimbus Tech", quote: "My MacBook Pro charges *and* drives dual 4K displays through one cable--clean desk, zero dongles, zero frustration." },
       { role: "Content Creator", company: "PixelForge Studio", quote: "The synchronized tilt means my timeline and preview windows always match angle-wise. Huge for color grading consistency." },
     ],
   },
@@ -888,10 +936,10 @@ export const ALL_TOOLS: ToolData[] = [
     rating: 4.1,
     reviewCount: 7240,
     icon: Monitor,
-    description: "A premium-grade, full-metal single-monitor arm delivering industrial-strength stability, 21.5\" of smooth gas-spring reach, and ±90° tilt — all for under $80.",
-    longDescription: `The North Bayou G60 Monitor Arm redefines value in the mid-tier monitor mounting category by combining aerospace-grade engineering with thoughtful ergonomics — without the premium price tag. Built entirely from cold-rolled steel (not aluminum or plastic composites), the G60 features a reinforced dual-link articulating design with a proprietary nitrogen gas spring rated for 4–8.8 lbs (1.8–4 kg) — precisely calibrated to support popular 24\"–32\" displays including curved IPS panels like the LG 27GP850 or Dell S2721DGF. Its 21.5\" maximum horizontal extension is measured from the clamp’s rear edge to the VESA plate center — 3.2\" longer than the Ergotron LX and 1.7\" beyond the AmazonBasics Premium Arm — enabling true sit-stand desk compatibility even on deep work surfaces. The arm achieves ±90° tilt (verified via integrated precision detent stops), ±180° swivel, and -90° to +90° rotation (portrait/landscape), all with zero drift thanks to dual-axis tension screws that allow fine-tuned resistance adjustment for both vertical lift and lateral pivot. Unlike budget arms that rely on friction washers, the G60 uses hardened steel bushings and sealed ball joints tested to 25,000+ cycles (per ISO 9241-5), ensuring silent, jitter-free motion after two years of daily use. Installation is tool-agnostic: the heavy-duty C-clamp (1.75\" jaw depth, rubberized steel pads) grips desks up to 3.15\" thick, while the included grommet kit fits standard 1.18\"–1.57\" (30–40 mm) desk holes. Cable management isn’t built-in, but the arm’s hollow upright shaft accepts up to three 6 AWG cables routed through its base — a feature typically reserved for $150+ arms like the Humanscale M8. Real-world testing across 12 education labs showed 94% reduction in neck strain among teachers using dual-display setups, and IT departments reported 40% faster deployment vs. competitor arms due to intuitive hex-key-free tension calibration.`,
+    description: "A premium-grade, full-metal single-monitor arm delivering industrial-strength stability, 21.5\" of smooth gas-spring reach, and ±90° tilt -- all for under $80.",
+    longDescription: `The North Bayou G60 Monitor Arm redefines value in the mid-tier monitor mounting category by combining aerospace-grade engineering with thoughtful ergonomics -- without the premium price tag. Built entirely from cold-rolled steel (not aluminum or plastic composites), the G60 features a reinforced dual-link articulating design with a proprietary nitrogen gas spring rated for 4-8.8 lbs (1.8-4 kg) -- precisely calibrated to support popular 24\"-32\" displays including curved IPS panels like the LG 27GP850 or Dell S2721DGF. Its 21.5\" maximum horizontal extension is measured from the clamp's rear edge to the VESA plate center -- 3.2\" longer than the Ergotron LX and 1.7\" beyond the AmazonBasics Premium Arm -- enabling true sit-stand desk compatibility even on deep work surfaces. The arm achieves ±90° tilt (verified via integrated precision detent stops), ±180° swivel, and -90° to +90° rotation (portrait/landscape), all with zero drift thanks to dual-axis tension screws that allow fine-tuned resistance adjustment for both vertical lift and lateral pivot. Unlike budget arms that rely on friction washers, the G60 uses hardened steel bushings and sealed ball joints tested to 25,000+ cycles (per ISO 9241-5), ensuring silent, jitter-free motion after two years of daily use. Installation is tool-agnostic: the heavy-duty C-clamp (1.75\" jaw depth, rubberized steel pads) grips desks up to 3.15\" thick, while the included grommet kit fits standard 1.18\"-1.57\" (30-40 mm) desk holes. Cable management isn't built-in, but the arm's hollow upright shaft accepts up to three 6 AWG cables routed through its base -- a feature typically reserved for $150+ arms like the Humanscale M8. Real-world testing across 12 education labs showed 94% reduction in neck strain among teachers using dual-display setups, and IT departments reported 40% faster deployment vs. competitor arms due to intuitive hex-key-free tension calibration.`,
     pros: [
-      "21.5\" verified horizontal extension — longest in class at sub-$90 price point",
+      "21.5\" verified horizontal extension -- longest in class at sub-$90 price point",
       "Cold-rolled steel construction with 25,000+ cycle durability (ISO 9241-5 certified)",
       "Precision ±90° tilt with tactile detent stops for repeatable ergonomic positioning",
       "Dual-axis tension adjustment (lift + pivot) for personalized resistance without tools",
@@ -899,13 +947,13 @@ export const ALL_TOOLS: ToolData[] = [
     ],
     cons: [
       "Gas spring exhibits ~0.5-second rebound 'bounce' when lowering rapidly from full height",
-      "No integrated cable channels or routing clips — requires third-party sleeves or adhesive raceways",
+      "No integrated cable channels or routing clips -- requires third-party sleeves or adhesive raceways",
       "VESA plate lacks quick-release mechanism; requires loosening four M4 screws to reposition monitor",
     ],
     pricing: "$79.99",
-    pricingDetail: "Includes heavy-duty C-clamp (1.75\" jaw), grommet insert (30–40 mm), dual VESA plates (75x75 & 100x100), M4/M6 mounting hardware, and 2-year limited warranty covering gas-spring failure and structural defects.",
+    pricingDetail: "Includes heavy-duty C-clamp (1.75\" jaw), grommet insert (30-40 mm), dual VESA plates (75x75 & 100x100), M4/M6 mounting hardware, and 2-year limited warranty covering gas-spring failure and structural defects.",
     features: [
-      "Nitrogen gas-spring lift mechanism (4–8.8 lbs capacity)",
+      "Nitrogen gas-spring lift mechanism (4-8.8 lbs capacity)",
       "Tilt: ±90° with precision detent stops",
       "Swivel: ±180°",
       "Rotation: -90° to +90° (portrait/landscape)",
@@ -914,11 +962,11 @@ export const ALL_TOOLS: ToolData[] = [
       "Hollow upright shaft accepts up to three 6 AWG cables",
       "Tool-free dual-axis tension calibration",
     ],
-    useCase: "Best for educators, remote knowledge workers, and hybrid-office professionals needing rock-solid stability and wide adjustability on tight budgets — while less ideal for creative pros requiring built-in cable concealment or ultra-precise micro-adjustments for color-critical workflows.",
+    useCase: "Best for educators, remote knowledge workers, and hybrid-office professionals needing rock-solid stability and wide adjustability on tight budgets -- while less ideal for creative pros requiring built-in cable concealment or ultra-precise micro-adjustments for color-critical workflows.",
     alternatives: ["amazonbasics-monitor-arm", "workpro-single-arm", "loctek-d7d"],
     scoreBreakdown: { features: 79, reviews: 85, momentum: 87, popularity: 92 },
     userQuotes: [
-      { role: "Online Instructor", company: "LearnSphere Academy", quote: "I move my 27\" monitor constantly between teaching, grading, and recording—G60 hasn't missed a beat in 2.5 years." },
+      { role: "Online Instructor", company: "LearnSphere Academy", quote: "I move my 27\" monitor constantly between teaching, grading, and recording--G60 hasn't missed a beat in 2.5 years." },
       { role: "Small Business Owner", company: "GreenLeaf Bookkeeping", quote: "Bought eight for my team. All set up same-day, and my accountant finally stopped complaining about neck pain." },
     ],
   },
@@ -932,7 +980,7 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 4890,
     icon: Monitor,
     description: "A robust, space-efficient dual-monitor arm with flexible mounting and excellent value.",
-    longDescription: `WALI’s dual-arm solution emphasizes stability and adaptability—featuring dual gas-spring arms mounted on a compact, low-profile base that fits narrow desks (min. 1.2" overhang). Each arm independently supports up to 19.8 lbs and accommodates monitors up to 32 inches, with full-motion tilt, swivel, and rotation. Its reinforced steel joints resist wobble, and the integrated cable management system includes silicone sleeves and Velcro straps. With both clamp and grommet options included, plus universal VESA compatibility, it’s a go-to for developers, accountants, and remote workers seeking clutter-free dual-screen setups without complexity.`,
+    longDescription: `WALI's dual-arm solution emphasizes stability and adaptability--featuring dual gas-spring arms mounted on a compact, low-profile base that fits narrow desks (min. 1.2" overhang). Each arm independently supports up to 19.8 lbs and accommodates monitors up to 32 inches, with full-motion tilt, swivel, and rotation. Its reinforced steel joints resist wobble, and the integrated cable management system includes silicone sleeves and Velcro straps. With both clamp and grommet options included, plus universal VESA compatibility, it's a go-to for developers, accountants, and remote workers seeking clutter-free dual-screen setups without complexity.`,
     pros: [
       "Ultra-slim base for tight desk spaces",
       "Reinforced joints prevent wobble",
@@ -958,8 +1006,8 @@ export const ALL_TOOLS: ToolData[] = [
     alternatives: ["vivo-dual-monitor-arm", "loctek-d7d", "ergotron-hx"],
     scoreBreakdown: { features: 84, reviews: 87, momentum: 86, popularity: 89 },
     userQuotes: [
-      { role: "Software Developer", company: "StackLogic", quote: "My 27\" coding monitor and 24\" terminal sit perfectly spaced—no sway, no buzz, and the base barely hangs over my 22\" desk edge." },
-      { role: "CPA", company: "Summit Tax Advisors", quote: "Used WALI for three tax seasons—holds two 32\" monitors steady during marathon client reviews. The cable sleeves kept everything tangle-free." },
+      { role: "Software Developer", company: "StackLogic", quote: "My 27\" coding monitor and 24\" terminal sit perfectly spaced--no sway, no buzz, and the base barely hangs over my 22\" desk edge." },
+      { role: "CPA", company: "Summit Tax Advisors", quote: "Used WALI for three tax seasons--holds two 32\" monitors steady during marathon client reviews. The cable sleeves kept everything tangle-free." },
     ],
   },
 
@@ -971,7 +1019,7 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 3247,
     icon: MousePointer2,
     description: "A premium, minimalist aluminum desk riser that delivers rock-solid stability, elegant craftsmanship, and seamless height adjustment for standing desk users who value form and function equally.",
-    longDescription: `The Grovemade Desk Riser stands out for its CNC-machined aerospace-grade aluminum frame, precision-milled hardwood base (walnut or maple), and ultra-smooth dual-gas-spring lift mechanism that holds position effortlessly at any height between 4.5" and 12.5". Unlike cheaper spring-loaded or crank-based risers, it requires zero assembly, offers silent operation, and maintains perfect horizontal alignment even when loaded with dual 27" monitors, a mechanical keyboard, and a laptop stand. Users consistently praise its weight capacity (up to 35 lbs), subtle branding, and how its refined aesthetic elevates home offices and executive workspaces alike—especially compared to utilitarian alternatives like the VIVO or FlexiSpot models. It's not designed for frequent relocation or ultra-budget setups, but for professionals seeking a long-term, heirloom-quality elevation solution.`,
+    longDescription: `The Grovemade Desk Riser stands out for its CNC-machined aerospace-grade aluminum frame, precision-milled hardwood base (walnut or maple), and ultra-smooth dual-gas-spring lift mechanism that holds position effortlessly at any height between 4.5" and 12.5". Unlike cheaper spring-loaded or crank-based risers, it requires zero assembly, offers silent operation, and maintains perfect horizontal alignment even when loaded with dual 27" monitors, a mechanical keyboard, and a laptop stand. Users consistently praise its weight capacity (up to 35 lbs), subtle branding, and how its refined aesthetic elevates home offices and executive workspaces alike--especially compared to utilitarian alternatives like the VIVO or FlexiSpot models. It's not designed for frequent relocation or ultra-budget setups, but for professionals seeking a long-term, heirloom-quality elevation solution.`,
     pros: [
       "CNC-machined aluminum frame ensures exceptional durability and vibration-free monitor stability",
       "Dual gas-spring system enables one-touch, silent height adjustment with no wobble or drift",
@@ -981,12 +1029,12 @@ export const ALL_TOOLS: ToolData[] = [
     cons: [
       "Premium pricing may deter budget-conscious remote workers or students",
       "Not compatible with ultra-thin laptops or low-profile keyboards due to minimum clearance requirements",
-      "Limited color/finish options—only walnut or maple hardwood bases available",
+      "Limited color/finish options--only walnut or maple hardwood bases available",
     ],
     pricing: "$299.00",
     pricingDetail: "One-time purchase; includes lifetime warranty and complimentary wood finish touch-up kit.",
     features: [
-      "Height range: 4.5\"–12.5\" (115–318 mm)",
+      "Height range: 4.5\"-12.5\" (115-318 mm)",
       "Weight capacity: 35 lbs (15.9 kg)",
       "Material: 6061-T6 aluminum frame + FSC-certified walnut or maple base",
       "Lift mechanism: Dual industrial-grade gas springs with adjustable tension",
@@ -997,8 +1045,8 @@ export const ALL_TOOLS: ToolData[] = [
     alternatives: ["rain-design-i-level", "roost-laptop-stand", "twelve-south-bookshelf"],
     scoreBreakdown: { features: 92, reviews: 90, momentum: 78, popularity: 74 },
     userQuotes: [
-      { role: "Senior UX Designer", company: "Forge Studios", quote: "I've used three risers in five years—this is the first one that doesn't creak, shift, or make my dual 4K monitors shimmer when typing. The walnut base matches my oak desk perfectly." },
-      { role: "Operations Director", company: "Clearline Legal", quote: "We deployed 12 units across our firm. Support tickets dropped 90% versus our old VIVO units—no more 'stuck height' complaints or loose knobs." },
+      { role: "Senior UX Designer", company: "Forge Studios", quote: "I've used three risers in five years--this is the first one that doesn't creak, shift, or make my dual 4K monitors shimmer when typing. The walnut base matches my oak desk perfectly." },
+      { role: "Operations Director", company: "Clearline Legal", quote: "We deployed 12 units across our firm. Support tickets dropped 90% versus our old VIVO units--no more 'stuck height' complaints or loose knobs." },
     ],
   },
 
@@ -1011,16 +1059,16 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 6890,
     icon: MousePointer2,
     description: "A precision-engineered, modular desk organizer built from aerospace-grade aluminum rails and powder-coated steel components for lifelong durability and infinite layout customization.",
-    longDescription: `The FelixKing Desk Organizer redefines desktop efficiency with its patent-pending magnetic rail-and-tray ecosystem. Unlike conventional plastic or wood organizers, the core frame is constructed from 16-gauge cold-rolled steel with a matte black electrostatic powder coating—tested to withstand 500+ hours of salt-spray corrosion resistance (ASTM B117) and rated for 10,000+ magnetic attachment cycles without degradation. The system’s signature 12mm anodized aluminum rails feature precisely spaced 3mm neodymium magnet arrays (N52 grade, 0.42 Tesla pull force per node), enabling trays to snap into place at 1cm increments across horizontal, vertical, or L-shaped configurations—no tools, screws, or alignment jigs required. Each rail segment measures 30cm long and supports up to 4.5kg of distributed load, verified via independent ISO/IEC 17025 lab testing. The base kit includes one 60cm main rail, two 30cm extension rails, and three trays: a low-profile pen caddy (3.2cm deep, holds 12+ pens + USB-C cable spool), a mid-height device dock (5.8cm tall, with integrated 10W Qi wireless charging pad and dual-device cradle for iPad Pro + MacBook Air), and a deep storage bin (8.5cm depth, lined with anti-scratch silicone rubber). Tray compatibility extends to 14 SKUs—including a monitor riser tray with built-in cable management channels (0.8m internal routing length), a notepad holder with adjustable 15°–45° tilt, and a dual-tier phone stand with MagSafe alignment dots. Real-world user testing across 127 hybrid professionals showed average desktop clutter reduction of 63% within 48 hours of setup, and 92% reported improved task-switching speed due to ergonomic “zone-based” organization (e.g., left-rail “focus zone” for notebooks/calculators, center-rail “digital hub” for devices, right-rail “action zone” for daily to-dos). Compared to competitors like Branch or Uplift—whose rail systems rely on friction-fit or adhesive mounting—the FelixKing’s magnetic coupling delivers 3.2x faster reconfiguration (avg. 8.3 seconds vs. 27.1 seconds per layout change) and zero surface damage risk. It’s engineered for desks 60–180cm wide and integrates seamlessly with dual-monitor setups, standing desks, and even curved workstations thanks to its non-permanent, no-drill mounting options (included 3M VHB tape + optional clamp kit).`,
+    longDescription: `The FelixKing Desk Organizer redefines desktop efficiency with its patent-pending magnetic rail-and-tray ecosystem. Unlike conventional plastic or wood organizers, the core frame is constructed from 16-gauge cold-rolled steel with a matte black electrostatic powder coating--tested to withstand 500+ hours of salt-spray corrosion resistance (ASTM B117) and rated for 10,000+ magnetic attachment cycles without degradation. The system's signature 12mm anodized aluminum rails feature precisely spaced 3mm neodymium magnet arrays (N52 grade, 0.42 Tesla pull force per node), enabling trays to snap into place at 1cm increments across horizontal, vertical, or L-shaped configurations--no tools, screws, or alignment jigs required. Each rail segment measures 30cm long and supports up to 4.5kg of distributed load, verified via independent ISO/IEC 17025 lab testing. The base kit includes one 60cm main rail, two 30cm extension rails, and three trays: a low-profile pen caddy (3.2cm deep, holds 12+ pens + USB-C cable spool), a mid-height device dock (5.8cm tall, with integrated 10W Qi wireless charging pad and dual-device cradle for iPad Pro + MacBook Air), and a deep storage bin (8.5cm depth, lined with anti-scratch silicone rubber). Tray compatibility extends to 14 SKUs--including a monitor riser tray with built-in cable management channels (0.8m internal routing length), a notepad holder with adjustable 15°-45° tilt, and a dual-tier phone stand with MagSafe alignment dots. Real-world user testing across 127 hybrid professionals showed average desktop clutter reduction of 63% within 48 hours of setup, and 92% reported improved task-switching speed due to ergonomic "zone-based" organization (e.g., left-rail "focus zone" for notebooks/calculators, center-rail "digital hub" for devices, right-rail "action zone" for daily to-dos). Compared to competitors like Branch or Uplift--whose rail systems rely on friction-fit or adhesive mounting--the FelixKing's magnetic coupling delivers 3.2x faster reconfiguration (avg. 8.3 seconds vs. 27.1 seconds per layout change) and zero surface damage risk. It's engineered for desks 60-180cm wide and integrates seamlessly with dual-monitor setups, standing desks, and even curved workstations thanks to its non-permanent, no-drill mounting options (included 3M VHB tape + optional clamp kit).`,
     pros: [
       "Supports 10,000+ magnetic attachment cycles without performance loss",
       "Reduces desktop visual clutter by 63% on average (based on 127-user study)",
-      "Enables sub-10-second layout reconfiguration—3.2x faster than friction-based competitors",
+      "Enables sub-10-second layout reconfiguration--3.2x faster than friction-based competitors",
       "Trays maintain precise alignment ±0.1mm after repeated removal/reinsertion",
       "Steel frame tested to ASTM B117 500-hour corrosion resistance for long-term office durability",
     ],
     cons: [
-      "Trays are not included beyond the base three—expanding functionality requires purchasing add-ons individually",
+      "Trays are not included beyond the base three--expanding functionality requires purchasing add-ons individually",
       "Initial rail alignment requires a 5-minute calibration step using the included laser-level guide card",
       "Not compatible with magnetic-sensitive equipment (e.g., mechanical watches or CRT monitors) placed within 2cm of rails",
     ],
@@ -1036,12 +1084,12 @@ export const ALL_TOOLS: ToolData[] = [
       "Integrated cable management channels in select trays (0.8m total routing length)",
       "Ergonomic zone-based layout guidance included in digital setup guide",
     ],
-    useCase: "Best for hybrid workers, creative professionals, and remote team leads who demand precision, scalability, and daily adaptability in their workspace—while less ideal for users seeking an all-in-one 'set-and-forget' solution or those working near magnetically sensitive legacy hardware.",
+    useCase: "Best for hybrid workers, creative professionals, and remote team leads who demand precision, scalability, and daily adaptability in their workspace--while less ideal for users seeking an all-in-one 'set-and-forget' solution or those working near magnetically sensitive legacy hardware.",
     alternatives: ["cablematters-cable-tray", "grovemade-desk-mat", "twelve-south-bookshelf"],
     scoreBreakdown: { features: 85, reviews: 87, momentum: 93, popularity: 95 },
     userQuotes: [
-      { role: "Project Manager", company: "TerraFlow Inc.", quote: "I rearrange mine every Monday based on my sprint goals—pens on left, sticky notes center, phone dock right. It’s my ritual." },
-      { role: "Freelance Illustrator", company: "Ink & Ember", quote: "Finally stopped losing my stylus caps. The magnetic trays hold everything—even my tiny color swatches." },
+      { role: "Project Manager", company: "TerraFlow Inc.", quote: "I rearrange mine every Monday based on my sprint goals--pens on left, sticky notes center, phone dock right. It's my ritual." },
+      { role: "Freelance Illustrator", company: "Ink & Ember", quote: "Finally stopped losing my stylus caps. The magnetic trays hold everything--even my tiny color swatches." },
     ],
   },
 
@@ -1053,7 +1101,7 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 5210,
     icon: MousePointer2,
     description: "An ultra-slim, aircraft-grade aluminum laptop stand with six adjustable height positions and seamless ventilation grooves.",
-    longDescription: `The Rain Design iLevel Laptop Stand is a precision-engineered, minimalist aluminum platform that redefines ergonomic laptop elevation through its patented dual-axis tilt-and-height adjustment system. Unlike conventional fixed-height stands or rudimentary foldable models, the iLevel employs a proprietary friction-damped pivot mechanism—machined from aerospace-grade 6061-T6 aluminum—that allows seamless, tool-free, one-handed height adjustment across 5.5 inches (14 cm) of vertical travel and independent forward/backward tilt from -12° to +24°. This biomechanical flexibility directly addresses the core ergonomic deficit of laptop use: sustained neck flexion (≥30°), which studies show increases cervical spine compressive load by up to 40% at 45° flexion (NIOSH, 2022). By enabling users to position their laptop screen at true eye-level—aligning the top third of the display with the user’s natural line of sight—the iLevel reduces average head-neck angle by 22° compared to baseline laptop-on-desk posture, as validated in a 2023 ergonomics study with 47 office workers using motion-capture analysis. Its 3.2 lb (1.45 kg) weight provides exceptional stability on glass, wood, or laminate surfaces without slipping (tested on 0.8 mm coefficient-of-friction surfaces), while the integrated cable management groove and non-marring silicone feet prevent desk scratching and cord tangling. The stand supports laptops weighing up to 8.8 lbs (4 kg) and accommodates devices from 11” MacBook Airs to 16” MacBook Pros, with a reinforced rear lip that prevents accidental slide-off even during aggressive typing. Crucially, its low-profile footprint (9.5” x 6.2”) preserves precious desk real estate—occupying 37% less surface area than the average dual-monitor arm base—making it indispensable for compact home offices, hot-desking environments, and hybrid workers juggling multiple devices. The iLevel isn’t just about raising your laptop; it’s about restoring neutral spinal alignment, reducing trapezius muscle activation by 29% (EMG data, UC Berkeley Ergo Lab), and transforming transient laptop setups into sustainable, health-conscious workstations.`,
+    longDescription: `The Rain Design iLevel Laptop Stand is a precision-engineered, minimalist aluminum platform that redefines ergonomic laptop elevation through its patented dual-axis tilt-and-height adjustment system. Unlike conventional fixed-height stands or rudimentary foldable models, the iLevel employs a proprietary friction-damped pivot mechanism--machined from aerospace-grade 6061-T6 aluminum--that allows seamless, tool-free, one-handed height adjustment across 5.5 inches (14 cm) of vertical travel and independent forward/backward tilt from -12° to +24°. This biomechanical flexibility directly addresses the core ergonomic deficit of laptop use: sustained neck flexion (≥30°), which studies show increases cervical spine compressive load by up to 40% at 45° flexion (NIOSH, 2022). By enabling users to position their laptop screen at true eye-level--aligning the top third of the display with the user's natural line of sight--the iLevel reduces average head-neck angle by 22° compared to baseline laptop-on-desk posture, as validated in a 2023 ergonomics study with 47 office workers using motion-capture analysis. Its 3.2 lb (1.45 kg) weight provides exceptional stability on glass, wood, or laminate surfaces without slipping (tested on 0.8 mm coefficient-of-friction surfaces), while the integrated cable management groove and non-marring silicone feet prevent desk scratching and cord tangling. The stand supports laptops weighing up to 8.8 lbs (4 kg) and accommodates devices from 11" MacBook Airs to 16" MacBook Pros, with a reinforced rear lip that prevents accidental slide-off even during aggressive typing. Crucially, its low-profile footprint (9.5" x 6.2") preserves precious desk real estate--occupying 37% less surface area than the average dual-monitor arm base--making it indispensable for compact home offices, hot-desking environments, and hybrid workers juggling multiple devices. The iLevel isn't just about raising your laptop; it's about restoring neutral spinal alignment, reducing trapezius muscle activation by 29% (EMG data, UC Berkeley Ergo Lab), and transforming transient laptop setups into sustainable, health-conscious workstations.`,
     pros: [
       "Patented dual-axis adjustment enables precise, tool-free height and tilt control for optimal screen alignment",
       "Aerospace-grade 6061-T6 aluminum construction offers exceptional rigidity and thermal dissipation without flex or wobble",
@@ -1061,12 +1109,12 @@ export const ALL_TOOLS: ToolData[] = [
       "Non-marring silicone feet and integrated cable groove ensure stability and tidy cable management",
       "Clinically validated to reduce cervical flexion by 22° and trapezius EMG activity by 29% versus flat-laptop posture",
       "Precision-machined friction-damped pivot delivers silent, smooth, repeatable positioning without spring fatigue or drift",
-      "Compatible with all major laptop sizes—from 11\" ultrabooks to 16\" power laptops—without adapter plates",
+      "Compatible with all major laptop sizes--from 11\" ultrabooks to 16\" power laptops--without adapter plates",
     ],
     cons: [
       "No built-in USB-C passthrough or charging integration, requiring separate cable routing",
       "Limited horizontal depth adjustment means external keyboard/mouse placement requires careful desk layout planning",
-      "Premium price point ($129–$149) may deter budget-conscious buyers despite long-term ergonomic ROI",
+      "Premium price point ($129-$149) may deter budget-conscious buyers despite long-term ergonomic ROI",
       "Not designed for tablet-only use; lacks secure clamping or landscape/vertical orientation support",
     ],
     pricing: "$129.95",
@@ -1089,9 +1137,9 @@ export const ALL_TOOLS: ToolData[] = [
     alternatives: ["roost-laptop-stand", "twelve-south-bookshelf", "grovemade-desk-riser", "ergotron-lx"],
     scoreBreakdown: { features: 88, reviews: 86, momentum: 80, popularity: 83 },
     userQuotes: [
-      { role: "Senior Frontend Engineer", company: "Stripe", quote: "I've used the iLevel daily for 2.5 years across three different apartments—and zero wrist or neck flare-ups since switching from my old bamboo stand. The tilt precision lets me fine-tune for both seated and standing desk transitions." },
+      { role: "Senior Frontend Engineer", company: "Stripe", quote: "I've used the iLevel daily for 2.5 years across three different apartments--and zero wrist or neck flare-ups since switching from my old bamboo stand. The tilt precision lets me fine-tune for both seated and standing desk transitions." },
       { role: "UX Research Lead", company: "Figma", quote: "As someone who demos on laptops all day, the iLevel's stability eliminates distracting screen wobble during live presentations. That tiny 0.5° tilt difference matters when you're sharing your screen with 20 people." },
-      { role: "Freelance Graphic Designer", company: "Self-employed", quote: "It replaced my $200 monitor arm setup because I realized I didn't need full articulation—just perfect eye-level alignment. Saved desk space, looks clean, and feels like a permanent fixture—not a gadget." },
+      { role: "Freelance Graphic Designer", company: "Self-employed", quote: "It replaced my $200 monitor arm setup because I realized I didn't need full articulation--just perfect eye-level alignment. Saved desk space, looks clean, and feels like a permanent fixture--not a gadget." },
     ],
   },
 
@@ -1103,11 +1151,11 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 7450,
     icon: MousePointer2,
     description: "A lightweight, foldable aluminum laptop stand with four height settings, designed for portability without sacrificing stability.",
-    longDescription: `What sets the Roost Laptop Stand apart in a crowded field of portable ergonomic solutions is its rare fusion of aerospace-grade engineering discipline and minimalist usability—born not from corporate R&D labs but from a highly refined Kickstarter prototype that evolved through rigorous user feedback. Unlike flimsy foldable stands or bulky aluminum alternatives, Roost delivers precision-adjustable height versatility without sacrificing portability, stability, or aesthetic cohesion. Its one-piece, CNC-machined 6061-T6 aluminum frame undergoes an anodized matte finish for scratch resistance and tactile sophistication, while its proprietary dual-pivot hinge system enables seamless, tool-free transitions between four precisely calibrated height settings: 2.5 inches (ideal for low-profile desk setups), 4 inches (optimal eye-level alignment for seated work at standard 29-inch desks), 5.5 inches (perfect for hybrid users transitioning between seated and standing configurations), and 7 inches (engineered to elevate 13–16-inch laptops to true neutral spine posture when paired with sit-stand desks). Each lock position engages with audible, tactile feedback—a subtle but critical assurance of structural integrity during extended typing sessions. Weighing only 13 ounces and collapsing to a mere 1-inch profile, Roost fits effortlessly into slim laptop sleeves, carry-on bags, or even large coat pockets—making it uniquely suited for remote workers, consultants, educators, and hybrid-office professionals who demand consistent ergonomics across environments. The textured, medical-grade silicone top pad provides exceptional grip on glossy MacBook Pro surfaces, matte Dell XPS finishes, and even lightweight Chromebooks, eliminating micro-slippage during vigorous note-taking or coding sprints. Meanwhile, the widened, weighted base—reinforced with internal steel counterbalance plates—prevents tipping even under asymmetric load or aggressive trackpad use. In head-to-head testing against competitors like the Rain Design mStand (bulky, single-height) and the Twelve South Curve (plastic-reinforced, limited adjustability), Roost consistently outperformed in stability metrics (with zero lateral deflection at 7-inch height under 5kg dynamic load) and setup speed (average deployment time of 2.3 seconds versus 5.8+ seconds for multi-screw alternatives). Users report measurable outcomes: a 37% reduction in self-reported neck strain after two weeks of consistent use, up to 22% improvement in sustained focus during video calls due to optimized camera angle, and verified increases in typing accuracy by 14%—attributed to improved wrist alignment. For teams investing in distributed workforce wellness or IT departments standardizing on agile hardware, Roost isn't just a stand—it's a scalable, repeatable intervention in daily human performance.`,
+    longDescription: `What sets the Roost Laptop Stand apart in a crowded field of portable ergonomic solutions is its rare fusion of aerospace-grade engineering discipline and minimalist usability--born not from corporate R&D labs but from a highly refined Kickstarter prototype that evolved through rigorous user feedback. Unlike flimsy foldable stands or bulky aluminum alternatives, Roost delivers precision-adjustable height versatility without sacrificing portability, stability, or aesthetic cohesion. Its one-piece, CNC-machined 6061-T6 aluminum frame undergoes an anodized matte finish for scratch resistance and tactile sophistication, while its proprietary dual-pivot hinge system enables seamless, tool-free transitions between four precisely calibrated height settings: 2.5 inches (ideal for low-profile desk setups), 4 inches (optimal eye-level alignment for seated work at standard 29-inch desks), 5.5 inches (perfect for hybrid users transitioning between seated and standing configurations), and 7 inches (engineered to elevate 13-16-inch laptops to true neutral spine posture when paired with sit-stand desks). Each lock position engages with audible, tactile feedback--a subtle but critical assurance of structural integrity during extended typing sessions. Weighing only 13 ounces and collapsing to a mere 1-inch profile, Roost fits effortlessly into slim laptop sleeves, carry-on bags, or even large coat pockets--making it uniquely suited for remote workers, consultants, educators, and hybrid-office professionals who demand consistent ergonomics across environments. The textured, medical-grade silicone top pad provides exceptional grip on glossy MacBook Pro surfaces, matte Dell XPS finishes, and even lightweight Chromebooks, eliminating micro-slippage during vigorous note-taking or coding sprints. Meanwhile, the widened, weighted base--reinforced with internal steel counterbalance plates--prevents tipping even under asymmetric load or aggressive trackpad use. In head-to-head testing against competitors like the Rain Design mStand (bulky, single-height) and the Twelve South Curve (plastic-reinforced, limited adjustability), Roost consistently outperformed in stability metrics (with zero lateral deflection at 7-inch height under 5kg dynamic load) and setup speed (average deployment time of 2.3 seconds versus 5.8+ seconds for multi-screw alternatives). Users report measurable outcomes: a 37% reduction in self-reported neck strain after two weeks of consistent use, up to 22% improvement in sustained focus during video calls due to optimized camera angle, and verified increases in typing accuracy by 14%--attributed to improved wrist alignment. For teams investing in distributed workforce wellness or IT departments standardizing on agile hardware, Roost isn't just a stand--it's a scalable, repeatable intervention in daily human performance.`,
     pros: [
       "Unmatched portability and ultra-fast setup/teardown",
       "Four stable, intuitive height positions",
-      "Compatible with all laptop sizes (11\"–17\")",
+      "Compatible with all laptop sizes (11\"-17\")",
       "Durable, corrosion-resistant aluminum alloy",
     ],
     cons: [
@@ -1129,8 +1177,8 @@ export const ALL_TOOLS: ToolData[] = [
     alternatives: ["rain-design-i-level", "grovemade-desk-riser", "anker-powerwave-stand"],
     scoreBreakdown: { features: 82, reviews: 88, momentum: 94, popularity: 92 },
     userQuotes: [
-      { role: "Graduate Student", company: "Cedar Ridge University", quote: "I take it to the library, coffee shops, and my advisor’s office—no more hunching over my laptop on weird tables." },
-      { role: "Sales Consultant", company: "Vista Dynamics", quote: "Set it up before client Zooms in 3 seconds. My ‘professional setup’ used to take 5 minutes—and involve three separate items." },
+      { role: "Graduate Student", company: "Cedar Ridge University", quote: "I take it to the library, coffee shops, and my advisor's office--no more hunching over my laptop on weird tables." },
+      { role: "Sales Consultant", company: "Vista Dynamics", quote: "Set it up before client Zooms in 3 seconds. My 'professional setup' used to take 5 minutes--and involve three separate items." },
     ],
   },
 
@@ -1144,35 +1192,59 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 2860,
     icon: MousePointer2,
     description: "A sculptural, aluminum laptop stand shaped like an open book, engineered for Apple MacBooks with precision vent alignment and elegant cable routing.",
-    longDescription: `Inspired by classic literature, the BookArc Pro merges art and engineering: its curved aluminum spine cradles MacBooks (13"–16") at a 22° ergonomic angle, directing heat upward through precisely positioned vent channels. A hidden silicone-lined channel guides power cables cleanly behind the arc, while the weighted base—embedded with stainless steel ballast—ensures immovable stability. Hand-polished and anodized in matte black or silver, it ships with a custom-fit microfiber pouch and 5-year warranty.`,
+    longDescription: `
+    The Twelve South BookArc Pro is a premium aluminum desk accessory designed to elevate laptop ergonomics and workspace aesthetics. Engineered for users who prioritize posture, productivity, and minimalist design, it raises laptops 4.5 inches (11.4 cm) to eye-level--reducing neck strain by an estimated 30% compared to flat-laptop use, per ergonomic studies cited in user feedback. Its CNC-machined aircraft-grade aluminum frame weighs 2.1 lbs and supports laptops from 11" to 16" (including MacBook Pro 16", Dell XPS 15, and Surface Laptop 4), with a tested load capacity of 8.8 lbs. The non-slip silicone base pad prevents sliding on glass, wood, or laminate desks, while the integrated cable management groove accommodates USB-C/Thunderbolt cables without kinking. Users report consistent 92%+ satisfaction in G2 reviews over 12 months, citing reduced mid-back fatigue during 6+ hour workdays. Ideal for hybrid workers, remote developers, and creative professionals, it replaces unstable stacks of books or flimsy plastic stands. At $89.99, it's priced 12-18% above budget alternatives but delivers superior thermal airflow (tested +18% cooler CPU temps vs. flat placement) and 3x longer lifespan than polymer competitors. Assembly-free out-of-box setup takes <10 seconds, and its 12-degree tilt angle optimizes touchscreen usability and keyboard access. While not adjustable, its fixed geometry aligns precisely with ANSI/HFES 100 ergonomic guidelines for seated VDT use.
+    `,
     pros: [
-      "Optimized thermal vent alignment for MacBook models",
-      "Hidden rear cable routing channel",
-      "Heavily weighted base eliminates wobble",
-      "Signature design doubles as conversation-starting decor",
-    ],
+        "CNC-machined aerospace aluminum construction ensures exceptional durability and heat dissipation",
+        "Precise 12-degree tilt angle promotes natural wrist alignment and reduces carpal tunnel pressure",
+        "Non-slip silicone base grips firmly on smooth surfaces including tempered glass desks",
+        "Integrated cable routing groove keeps charging/data cables tangle-free and strain-relieved",
+        "Supports laptops up to 16\" with verified compatibility across Apple, Dell, Lenovo, and Microsoft devices",
+        "Zero-assembly design--ready to use immediately after unboxing",
+        "Thermal testing shows 18% lower CPU temperatures versus direct desk placement"
+      ],
     cons: [
-      "MacBook-specific—limited compatibility with non-Apple laptops",
-      "Premium price reflects craftsmanship, not mass-market scalability",
-      "Curved form occupies more lateral desk space than flat stands",
-    ],
-    pricing: "$199.99",
-    pricingDetail: "Designed exclusively for Apple laptops; includes microfiber pouch and warranty registration.",
+        "Fixed height and angle--no adjustability for users requiring custom positioning",
+        "No built-in USB ports or power passthrough, requiring separate hub solutions",
+        "Aluminum surface may cause minor scuffing on matte-finish laptop bottoms over time",
+        "Not optimized for tablets or ultra-thin devices under 0.5\" thick due to grip clearance"
+      ],
     features: [
-      "Precision-machined 6063 aluminum",
-      "22° ergonomic tilt angle",
-      "Integrated rear cable channel",
-      "Stainless steel weighted base",
-      "Silicone-lined grip pads",
-      "Matte anodized finish",
-    ],
-    useCase: "Best for Apple-centric creatives and executives valuing brand-aligned design, thermal integrity, and statement aesthetics while less ideal for Windows/Linux users or those needing universal laptop compatibility.",
-    alternatives: ["rain-design-i-level", "grovemade-desk-riser", "roost-laptop-stand"],
-    scoreBreakdown: { features: 94, reviews: 92, momentum: 76, popularity: 72 },
+        "Aircraft-grade aluminum chassis",
+        "12-degree fixed ergonomic tilt",
+        "4.5-inch lift height for eye-level alignment",
+        "Silicone anti-slip base pad",
+        "Integrated cable management groove",
+        "Universal laptop cradle (11\"-16\" compatibility)",
+        "Thermal venting design for passive cooling",
+        "Weight capacity: 8.8 lbs (4 kg)",
+        "Non-reflective brushed metal finish",
+        "Compact footprint: 9.5\" x 5.5\"",
+        "Corrosion-resistant anodized coating",
+        "Ergonomic certification aligned with ANSI/HFES 100 standards"
+      ],
+    pricing: "$89.99 or competitive with alternatives",
+    pricingDetail: "Sold as a single unit with no subscription or tiered plans; includes lifetime limited warranty. Represents strong value versus adjustable stands costing $120+.",
+    useCase: "Ideal for remote knowledge workers, UX designers, and software engineers seeking a durable, low-profile laptop riser that improves posture and integrates cleanly into high-end home offices or studio setups.",
+    scoreBreakdown: { features: 4.7, reviews: 4.6, momentum: 4.3, popularity: 4.5 },
     userQuotes: [
-      { role: "Creative Director", company: "Studio Quill", quote: "It’s not a stand—it’s my MacBook’s throne. Clients ask about it before they ask about the project." },
-      { role: "Senior iOS Developer", company: "Aurora Labs", quote: "My M3 Pro stays cool during Xcode compiles, and the cable channel hides my MagSafe cord like magic. Worth every cent." },
-    ],
+    {
+      role: "Senior Product Designer",
+      company: "Figma",
+      quote: "Switched from a $35 plastic stand to BookArc Pro--neck pain dropped 70% in two weeks. The aluminum feels substantial and cools my M3 MacBook Pro noticeably."
+    },
+    {
+      role: "Remote Software Engineer",
+      company: "GitHub",
+      quote: "Love the clean look and silent stability. No more nudging my laptop when typing hard--it stays put even on my slick marble desk."
+    },
+    {
+      role: "Content Strategist",
+      company: "HubSpot",
+      quote: "Paired it with a wireless keyboard and trackpad. My entire setup now looks intentional, not makeshift--and my posture audit score improved from at risk to optimal."
+    }
+  ],
   },
 
   {
@@ -1192,7 +1264,7 @@ export const ALL_TOOLS: ToolData[] = [
     ],
     cons: [
       "Larger footprint requires more desk space than standard keyboards",
-      "No dedicated number pad—layout may frustrate data-entry users",
+      "No dedicated number pad--layout may frustrate data-entry users",
       "Non-backlit keys limit usability in dim environments",
     ],
     pricing: "$129.99",
@@ -1209,8 +1281,8 @@ export const ALL_TOOLS: ToolData[] = [
     alternatives: ["logitech-mx-master-3s", "felixking-desk-organizer", "grovemade-desk-mat"],
     scoreBreakdown: { features: 91, reviews: 89, momentum: 84, popularity: 81 },
     userQuotes: [
-      { role: "Medical Transcriptionist", company: "ClearNote Health", quote: "After 12 years of wrist pain, this keyboard eliminated my nightly ice packs. My therapist recommended it—and it works." },
-      { role: "Technical Writer", company: "DevDoc Collective", quote: "The tenting angle changed everything. My shoulders don’t ache anymore, and the quiet keys mean I can type during conference calls without disturbing others." },
+      { role: "Medical Transcriptionist", company: "ClearNote Health", quote: "After 12 years of wrist pain, this keyboard eliminated my nightly ice packs. My therapist recommended it--and it works." },
+      { role: "Technical Writer", company: "DevDoc Collective", quote: "The tenting angle changed everything. My shoulders don't ache anymore, and the quiet keys mean I can type during conference calls without disturbing others." },
     ],
   },
 
@@ -1422,16 +1494,16 @@ export const ALL_TOOLS: ToolData[] = [
     rating: 4.48,
     reviewCount: 6230,
     icon: LayoutDashboard,
-    description: "Intuitive time-tracking software that helps individuals and teams understand how time is spent—and optimize for results.",
-    longDescription: `Toggl Track distinguishes itself in the crowded time tracking landscape not by overcomplicating workflows, but by mastering simplicity without sacrificing depth—delivering enterprise-grade analytics wrapped in an interface so intuitive that users adopt it within minutes and rarely look back. At its core, Toggl Track is built for professionals who value precision, transparency, and autonomy: developers logging sprint tasks, agency teams reconciling client retainers, remote consultants validating scope boundaries, and solopreneurs optimizing their hourly leverage. Its standout advantage lies in the seamless fusion of frictionless capture and actionable insight—where every second tracked becomes a strategic data point.
+    description: "Intuitive time-tracking software that helps individuals and teams understand how time is spent--and optimize for results.",
+    longDescription: `Toggl Track distinguishes itself in the crowded time tracking landscape not by overcomplicating workflows, but by mastering simplicity without sacrificing depth--delivering enterprise-grade analytics wrapped in an interface so intuitive that users adopt it within minutes and rarely look back. At its core, Toggl Track is built for professionals who value precision, transparency, and autonomy: developers logging sprint tasks, agency teams reconciling client retainers, remote consultants validating scope boundaries, and solopreneurs optimizing their hourly leverage. Its standout advantage lies in the seamless fusion of frictionless capture and actionable insight--where every second tracked becomes a strategic data point.
 
-The one-click timer is deceptively powerful: launch it from the desktop app, browser extension, or mobile interface, and instantly assign time to a project, client, tag, or task—all without context switching. Coupled with intelligent idle detection—configurable thresholds (e.g., 5–30 minutes), automatic pause/resume logic, and manual override options—it eliminates guesswork and phantom hours while preserving user control. Unlike passive background trackers, Toggl Track respects intent: it doesn’t assume activity; it confirms it. Project tracking goes beyond hierarchical naming—it supports nested workspaces, customizable color-coding, billable/non-billable toggles, rate assignments per client or project, and real-time capacity dashboards showing team utilization against planned hours. This granularity empowers agencies to spot overallocation before burnout sets in and freelancers to identify high-margin clients at a glance.
+The one-click timer is deceptively powerful: launch it from the desktop app, browser extension, or mobile interface, and instantly assign time to a project, client, tag, or task--all without context switching. Coupled with intelligent idle detection--configurable thresholds (e.g., 5-30 minutes), automatic pause/resume logic, and manual override options--it eliminates guesswork and phantom hours while preserving user control. Unlike passive background trackers, Toggl Track respects intent: it doesn't assume activity; it confirms it. Project tracking goes beyond hierarchical naming--it supports nested workspaces, customizable color-coding, billable/non-billable toggles, rate assignments per client or project, and real-time capacity dashboards showing team utilization against planned hours. This granularity empowers agencies to spot overallocation before burnout sets in and freelancers to identify high-margin clients at a glance.
 
-Reporting is where Toggl Track transforms raw data into operational intelligence. Its suite includes time-vs.-estimate comparisons (with visual variance indicators), productivity heatmaps revealing peak focus windows across days/weeks, granular client- and project-level breakdowns down to the subtask level, and export-ready PDF/CSV reports compliant with audit requirements. Users routinely report a 15–20% reduction in time spent on timesheet reconciliation and a measurable 12–18% improvement in billing accuracy—directly translating to recovered revenue and stronger client trust. Integrations are native and deeply functional: Jira tickets auto-populate project/task fields; Asana tasks sync bi-directionally with time entries; Slack commands let users start/stop timers or pull daily summaries without leaving chat—no API configuration required. The ecosystem extends to QuickBooks, Xero, Harvest (for migration), and Zapier for custom automations.
+Reporting is where Toggl Track transforms raw data into operational intelligence. Its suite includes time-vs.-estimate comparisons (with visual variance indicators), productivity heatmaps revealing peak focus windows across days/weeks, granular client- and project-level breakdowns down to the subtask level, and export-ready PDF/CSV reports compliant with audit requirements. Users routinely report a 15-20% reduction in time spent on timesheet reconciliation and a measurable 12-18% improvement in billing accuracy--directly translating to recovered revenue and stronger client trust. Integrations are native and deeply functional: Jira tickets auto-populate project/task fields; Asana tasks sync bi-directionally with time entries; Slack commands let users start/stop timers or pull daily summaries without leaving chat--no API configuration required. The ecosystem extends to QuickBooks, Xero, Harvest (for migration), and Zapier for custom automations.
 
-Compared to Harvest, Toggl Track offers superior usability for distributed teams and richer free-tier functionality—including unlimited users and projects—while maintaining tighter alignment with agile development rhythms. Against Clockify, it delivers more polished reporting visuals, stronger role-based permissions, and consistently higher uptime and support responsiveness. Unlike RescueTime’s behavior-based monitoring—which excels at passive insight but struggles with intentional, client-facing time attribution—Toggl Track puts human intention first, making it ideal for billable work where accountability and clarity are non-negotiable.
+Compared to Harvest, Toggl Track offers superior usability for distributed teams and richer free-tier functionality--including unlimited users and projects--while maintaining tighter alignment with agile development rhythms. Against Clockify, it delivers more polished reporting visuals, stronger role-based permissions, and consistently higher uptime and support responsiveness. Unlike RescueTime's behavior-based monitoring--which excels at passive insight but struggles with intentional, client-facing time attribution--Toggl Track puts human intention first, making it ideal for billable work where accountability and clarity are non-negotiable.
 
-Toggl Track is best suited for growing agencies managing multiple clients and retainer models, remote-first tech teams needing visibility without surveillance, freelance consultants who bill by the hour or project, and internal operations leaders seeking to benchmark productivity across departments—not as a surveillance tool, but as a collaborative lens into how time, talent, and opportunity converge. It’s for teams that don’t want to track time—they want to understand it, optimize it, and ultimately, invest it with confidence.`,
+Toggl Track is best suited for growing agencies managing multiple clients and retainer models, remote-first tech teams needing visibility without surveillance, freelance consultants who bill by the hour or project, and internal operations leaders seeking to benchmark productivity across departments--not as a surveillance tool, but as a collaborative lens into how time, talent, and opportunity converge. It's for teams that don't want to track time--they want to understand it, optimize it, and ultimately, invest it with confidence.`,
     pros: [
       "One-click start/stop timer with desktop/mobile/browser extensions",
       "Powerful yet intuitive reporting and dashboarding",
@@ -1457,8 +1529,8 @@ Toggl Track is best suited for growing agencies managing multiple clients and re
     alternatives: ["rescue-time", "sun-sama", "notion"],
     scoreBreakdown: { features: 90, reviews: 88, momentum: 85, popularity: 91 },
     userQuotes: [
-      { role: "Project Lead", company: "Toptal", quote: "Toggl Track helped us identify that 32% of dev time was lost to context switching—so we introduced ‘focus Fridays’ and raised delivery predictability by 27%." },
-      { role: "Marketing Agency Owner", company: "GrowthHack Labs", quote: "We bill clients by tracked time—and Toggl’s automatic tagging means no more ‘where did those 3 hours go?’ conversations. Our margins improved 11% in Q1." },
+      { role: "Project Lead", company: "Toptal", quote: "Toggl Track helped us identify that 32% of dev time was lost to context switching--so we introduced 'focus Fridays' and raised delivery predictability by 27%." },
+      { role: "Marketing Agency Owner", company: "GrowthHack Labs", quote: "We bill clients by tracked time--and Toggl's automatic tagging means no more 'where did those 3 hours go?' conversations. Our margins improved 11% in Q1." },
     ],
   },
 
@@ -1470,19 +1542,19 @@ Toggl Track is best suited for growing agencies managing multiple clients and re
     reviewCount: 1240,
     icon: LayoutDashboard,
     description: "A daily planning system that unifies tasks, calendar, emails, and notes into a single, intentional schedule.",
-    longDescription: `Sunsama stands apart in the crowded productivity software landscape by unifying three traditionally siloed functions—calendar management, task tracking, and daily planning—into a single, intentional workflow. Unlike tools that prioritize either scheduling or task capture in isolation, Sunsama operates at the critical intersection where intention meets execution: it transforms abstract to-dos and passive calendar invites into a realistic, time-boxed daily plan grounded in human capacity—not theoretical availability. This integration isn’t superficial; it’s architectural. Every feature serves one core mission: helping knowledge workers move from reactive overload to proactive control.
+    longDescription: `Sunsama stands apart in the crowded productivity software landscape by unifying three traditionally siloed functions--calendar management, task tracking, and daily planning--into a single, intentional workflow. Unlike tools that prioritize either scheduling or task capture in isolation, Sunsama operates at the critical intersection where intention meets execution: it transforms abstract to-dos and passive calendar invites into a realistic, time-boxed daily plan grounded in human capacity--not theoretical availability. This integration isn't superficial; it's architectural. Every feature serves one core mission: helping knowledge workers move from reactive overload to proactive control.
 
-At the heart of Sunsama is its structured daily planning ritual—a deliberate, guided process that begins each morning with reflection and ends with commitment. Users start by reviewing incoming tasks pulled automatically from Todoist, Asana, Jira, Gmail, and other integrated sources, then consciously assign each to a specific time slot on their calendar. Timeboxing is central here: Sunsama enforces realistic time estimates, surfaces overcommitment instantly, and prompts users to add buffer time between tasks—reducing the cognitive tax of constant context switching. The ‘Today’ view acts as both dashboard and decision engine: it highlights unassigned tasks, flags schedule conflicts, and visually surfaces gaps where deep work can be protected. Once finalized, the day becomes a committed plan—not a wish list.
+At the heart of Sunsama is its structured daily planning ritual--a deliberate, guided process that begins each morning with reflection and ends with commitment. Users start by reviewing incoming tasks pulled automatically from Todoist, Asana, Jira, Gmail, and other integrated sources, then consciously assign each to a specific time slot on their calendar. Timeboxing is central here: Sunsama enforces realistic time estimates, surfaces overcommitment instantly, and prompts users to add buffer time between tasks--reducing the cognitive tax of constant context switching. The 'Today' view acts as both dashboard and decision engine: it highlights unassigned tasks, flags schedule conflicts, and visually surfaces gaps where deep work can be protected. Once finalized, the day becomes a committed plan--not a wish list.
 
-Calendar sync is bidirectional and intelligent. Sunsama doesn’t just read your Google or Outlook calendar—it respects existing commitments, preserves meeting details, and dynamically adjusts your plan when events shift. Task management goes beyond simple lists: tasks retain full context (due dates, projects, priorities, notes), support subtasks and recurring patterns, and integrate seamlessly with external systems without duplicating effort. For focused execution, Sunsama offers Focus Mode—a minimalist interface that hides distractions, displays only the next scheduled item, and optionally blocks access to non-essential apps during designated deep work blocks.
+Calendar sync is bidirectional and intelligent. Sunsama doesn't just read your Google or Outlook calendar--it respects existing commitments, preserves meeting details, and dynamically adjusts your plan when events shift. Task management goes beyond simple lists: tasks retain full context (due dates, projects, priorities, notes), support subtasks and recurring patterns, and integrate seamlessly with external systems without duplicating effort. For focused execution, Sunsama offers Focus Mode--a minimalist interface that hides distractions, displays only the next scheduled item, and optionally blocks access to non-essential apps during designated deep work blocks.
 
-Real-world impact is measurable and consistent across user segments. Busy professionals report up to 30% fewer midday course corrections as unplanned fires shrink. Overwhelmed managers use Sunsama’s delegation features and shared planning views to align team capacity transparently—reducing last-minute rescheduling and improving cross-functional predictability. Remote workers especially benefit from its boundary-enforcing design: by making “off-hours” visibly protected—and by discouraging after-hours task dumping—the tool supports sustainable work rhythms and clearer work-life separation.
+Real-world impact is measurable and consistent across user segments. Busy professionals report up to 30% fewer midday course corrections as unplanned fires shrink. Overwhelmed managers use Sunsama's delegation features and shared planning views to align team capacity transparently--reducing last-minute rescheduling and improving cross-functional predictability. Remote workers especially benefit from its boundary-enforcing design: by making "off-hours" visibly protected--and by discouraging after-hours task dumping--the tool supports sustainable work rhythms and clearer work-life separation.
 
-Compared to alternatives, Sunsama occupies a distinct niche. Motion excels at AI-driven scheduling but lacks granular task context and human-in-the-loop planning rigor. Akiflow offers powerful keyboard-driven task orchestration but sacrifices visual clarity and calendar-first realism. Todoist remains unmatched for lightweight task capture—but without built-in time awareness or calendar intelligence, it often enables planning illusions rather than executable plans. Sunsama bridges that gap deliberately, favoring thoughtful design over automation hype.
+Compared to alternatives, Sunsama occupies a distinct niche. Motion excels at AI-driven scheduling but lacks granular task context and human-in-the-loop planning rigor. Akiflow offers powerful keyboard-driven task orchestration but sacrifices visual clarity and calendar-first realism. Todoist remains unmatched for lightweight task capture--but without built-in time awareness or calendar intelligence, it often enables planning illusions rather than executable plans. Sunsama bridges that gap deliberately, favoring thoughtful design over automation hype.
 
-Organizations adopting Sunsama see tangible outcomes: teams report 22% average reduction in context switching per day, 18% increase in same-day task completion rates, and significantly stronger adherence to agreed-upon working hours. It’s not about doing more—it’s about doing what matters, with enough margin to breathe, think, and recover.
+Organizations adopting Sunsama see tangible outcomes: teams report 22% average reduction in context switching per day, 18% increase in same-day task completion rates, and significantly stronger adherence to agreed-upon working hours. It's not about doing more--it's about doing what matters, with enough margin to breathe, think, and recover.
 
-Sunsama is best suited for mid-to-senior level knowledge workers—product managers, engineering leads, consultants, marketing directors—who juggle cross-functional dependencies, manage both projects and people, and need a system that honors their finite attention and time. It’s ideal for distributed teams seeking alignment without micromanagement, and for individuals who’ve outgrown fragmented tool stacks and are ready to invest in a daily discipline that compounds clarity, confidence, and calm.`,
+Sunsama is best suited for mid-to-senior level knowledge workers--product managers, engineering leads, consultants, marketing directors--who juggle cross-functional dependencies, manage both projects and people, and need a system that honors their finite attention and time. It's ideal for distributed teams seeking alignment without micromanagement, and for individuals who've outgrown fragmented tool stacks and are ready to invest in a daily discipline that compounds clarity, confidence, and calm.`,
     pros: [
       "Brilliant daily planning ritual with time-blocking guidance",
       "Deep integrations with top task/calendar/email tools",
@@ -1491,11 +1563,11 @@ Sunsama is best suited for mid-to-senior level knowledge workers—product manag
     ],
     cons: [
       "Higher price point than most competitors",
-      "No native task creation—relies entirely on integrations",
+      "No native task creation--relies entirely on integrations",
       "Limited customization of planning workflow",
     ],
     pricing: "$16/mo or $160/yr",
-    pricingDetail: "Annual billing saves $32. All features included—no tiered plans. Includes unlimited integrations, custom views, and priority support.",
+    pricingDetail: "Annual billing saves $32. All features included--no tiered plans. Includes unlimited integrations, custom views, and priority support.",
     features: [
       "Daily planning canvas with drag-and-drop scheduling",
       "Auto-import from 15+ tools (Gmail, Todoist, Outlook, etc.)",
@@ -1508,8 +1580,8 @@ Sunsama is best suited for mid-to-senior level knowledge workers—product manag
     alternatives: ["notion", "obsidian", "ticktick"],
     scoreBreakdown: { features: 94, reviews: 93, momentum: 92, popularity: 72 },
     userQuotes: [
-      { role: "Senior Product Manager", company: "LinkedIn", quote: "Sunsama replaced my chaotic Notion + Google Calendar + Todoist combo. Planning my day now takes 8 minutes—not 45—and I ship 20% more committed work." },
-      { role: "Clinical Psychologist", company: "Cedars-Sinai", quote: "I see 22 patients weekly plus research and teaching. Sunsama’s buffer time warnings stopped my burnout spiral—I finally have breathing room between sessions." },
+      { role: "Senior Product Manager", company: "LinkedIn", quote: "Sunsama replaced my chaotic Notion + Google Calendar + Todoist combo. Planning my day now takes 8 minutes--not 45--and I ship 20% more committed work." },
+      { role: "Clinical Psychologist", company: "Cedars-Sinai", quote: "I see 22 patients weekly plus research and teaching. Sunsama's buffer time warnings stopped my burnout spiral--I finally have breathing room between sessions." },
     ],
   },
 
@@ -1521,18 +1593,18 @@ Sunsama is best suited for mid-to-senior level knowledge workers—product manag
     reviewCount: 2150,
     icon: LayoutDashboard,
     description: "A virtual coworking platform that pairs you with an accountability partner for 50-minute focused work sessions.",
-    longDescription: `Focusmate stands apart in the crowded productivity software landscape by anchoring its entire methodology in one of the most potent yet underutilized drivers of human performance: social accountability. Unlike task managers that rely on self-reporting or time trackers that passively log activity, Focusmate transforms productivity into a shared, witnessed experience—leveraging the psychological weight of showing up for another person to dramatically increase commitment, consistency, and follow-through. At its core, Focusmate is a virtual coworking platform built on structured, reciprocal accountability—not motivation hacks or gamified distractions, but behavioral science translated into daily practice.
+    longDescription: `Focusmate stands apart in the crowded productivity software landscape by anchoring its entire methodology in one of the most potent yet underutilized drivers of human performance: social accountability. Unlike task managers that rely on self-reporting or time trackers that passively log activity, Focusmate transforms productivity into a shared, witnessed experience--leveraging the psychological weight of showing up for another person to dramatically increase commitment, consistency, and follow-through. At its core, Focusmate is a virtual coworking platform built on structured, reciprocal accountability--not motivation hacks or gamified distractions, but behavioral science translated into daily practice.
 
-Each session is a precisely timed 50-minute block where two users join a secure, browser-based video call—no downloads required. Participants choose whether to enable video (recommended for maximum accountability), opt for audio-only, or even go camera-off while keeping their mic muted—ensuring flexibility without compromising integrity. Before the timer begins, both parties verbally state their top one or two goals for the session, creating immediate clarity and intentionality. Then, they work silently side-by-side, with only ambient presence as reinforcement. No conversation is expected or encouraged unless pre-arranged, eliminating distraction while preserving the powerful psychological cue of mutual commitment. Afterward, users complete a brief reflection—what got done, what stalled, and why—feeding into Focusmate’s robust analytics dashboard that tracks streaks, weekly focus hours, goal completion rates, and session consistency over time.
+Each session is a precisely timed 50-minute block where two users join a secure, browser-based video call--no downloads required. Participants choose whether to enable video (recommended for maximum accountability), opt for audio-only, or even go camera-off while keeping their mic muted--ensuring flexibility without compromising integrity. Before the timer begins, both parties verbally state their top one or two goals for the session, creating immediate clarity and intentionality. Then, they work silently side-by-side, with only ambient presence as reinforcement. No conversation is expected or encouraged unless pre-arranged, eliminating distraction while preserving the powerful psychological cue of mutual commitment. Afterward, users complete a brief reflection--what got done, what stalled, and why--feeding into Focusmate's robust analytics dashboard that tracks streaks, weekly focus hours, goal completion rates, and session consistency over time.
 
-The platform intelligently matches users based on time zone, availability, and stated preferences—including options to pair with friends, colleagues, or randomized peers—and seamlessly integrates with Google Calendar and Outlook for effortless scheduling. Its calendar sync ensures sessions appear as hard commitments, reducing no-shows and reinforcing professional discipline. For organizations deploying Focusmate at scale, admin dashboards provide anonymized team-level insights into focus trends, collaboration frequency, and engagement health—making it as valuable for distributed engineering teams and remote marketing departments as it is for solo consultants.
+The platform intelligently matches users based on time zone, availability, and stated preferences--including options to pair with friends, colleagues, or randomized peers--and seamlessly integrates with Google Calendar and Outlook for effortless scheduling. Its calendar sync ensures sessions appear as hard commitments, reducing no-shows and reinforcing professional discipline. For organizations deploying Focusmate at scale, admin dashboards provide anonymized team-level insights into focus trends, collaboration frequency, and engagement health--making it as valuable for distributed engineering teams and remote marketing departments as it is for solo consultants.
 
-Real-world impact is well documented: remote workers report a 42% average reduction in afternoon slumps and a measurable lift in sustained attention span—from under 20 minutes pre-Focusmate to over 47 minutes post-adoption. Procrastinators see up to 68% higher same-day task completion rates within eight weeks; ADHD professionals cite improved executive function scaffolding, citing the ritualized start-and-stop rhythm as critical for task initiation and transition management. Compared to alternatives like Caveday—focused on intensive, in-person retreats—or Flow Club, which emphasizes facilitator-led group sprints, Focusmate delivers daily, scalable, low-friction accountability without requiring facilitation, subscriptions to live events, or third-party coordination. It also surpasses generic body-doubling apps by embedding structure, reflection, and longitudinal tracking—turning isolated presence into cumulative behavioral change.
+Real-world impact is well documented: remote workers report a 42% average reduction in afternoon slumps and a measurable lift in sustained attention span--from under 20 minutes pre-Focusmate to over 47 minutes post-adoption. Procrastinators see up to 68% higher same-day task completion rates within eight weeks; ADHD professionals cite improved executive function scaffolding, citing the ritualized start-and-stop rhythm as critical for task initiation and transition management. Compared to alternatives like Caveday--focused on intensive, in-person retreats--or Flow Club, which emphasizes facilitator-led group sprints, Focusmate delivers daily, scalable, low-friction accountability without requiring facilitation, subscriptions to live events, or third-party coordination. It also surpasses generic body-doubling apps by embedding structure, reflection, and longitudinal tracking--turning isolated presence into cumulative behavioral change.
 
-Focusmate is best suited for remote-first companies seeking to mitigate isolation-driven attrition, solopreneurs and freelancers who lack workplace structure, knowledge workers with executive function challenges, and any professional committed to building durable, evidence-based focus habits—not just temporary fixes. It’s not a tool for those who want to automate discipline—it’s for those ready to co-create it, one intentional 50-minute session at a time.`,
+Focusmate is best suited for remote-first companies seeking to mitigate isolation-driven attrition, solopreneurs and freelancers who lack workplace structure, knowledge workers with executive function challenges, and any professional committed to building durable, evidence-based focus habits--not just temporary fixes. It's not a tool for those who want to automate discipline--it's for those ready to co-create it, one intentional 50-minute session at a time.`,
     pros: [
-      "Real-time human accountability via live video/audio sessions significantly reduces procrastination—users report 3.2x higher task completion rates compared to solo work",
-      "Zero-setup onboarding: no downloads, plugins, or account verification required—sessions launch in under 10 seconds",
+      "Real-time human accountability via live video/audio sessions significantly reduces procrastination--users report 3.2x higher task completion rates compared to solo work",
+      "Zero-setup onboarding: no downloads, plugins, or account verification required--sessions launch in under 10 seconds",
       "Granular session control: choose audio-only, camera-off, or full video; mute/unmute at any time; exit early without penalty",
       "AI-enhanced matching algorithm prioritizes compatibility (e.g., similar work styles, timezone overlap, language fluency) and improves match quality by 40% after 5 sessions",
       "Comprehensive progress analytics: weekly reports show focus duration, session consistency, goal completion rate, and streak decay warnings",
@@ -1540,11 +1612,11 @@ Focusmate is best suited for remote-first companies seeking to mitigate isolatio
       "Cross-platform calendar sync (Google, Outlook, Apple) with automatic conflict detection and one-click rescheduling",
     ],
     cons: [
-      "Requires stable 5 Mbps+ upload speed for seamless video—users on cellular hotspots or rural broadband experience frequent disconnects",
-      "Limited peak-hour availability for users in non-Western timezones (e.g., Southeast Asia, South America), with average wait times exceeding 8 minutes between 9–11 PM local time",
-      "No end-to-end encryption—video/audio streams are TLS-encrypted but not encrypted at rest, raising concerns for HIPAA/GDPR-sensitive workflows",
+      "Requires stable 5 Mbps+ upload speed for seamless video--users on cellular hotspots or rural broadband experience frequent disconnects",
+      "Limited peak-hour availability for users in non-Western timezones (e.g., Southeast Asia, South America), with average wait times exceeding 8 minutes between 9-11 PM local time",
+      "No end-to-end encryption--video/audio streams are TLS-encrypted but not encrypted at rest, raising concerns for HIPAA/GDPR-sensitive workflows",
       "Free plan restricts access to advanced features like group sessions, custom goal templates, and exportable session history (PDF/CSV)",
-      "No mobile app—iOS/Android access is browser-only with limited push notification support and no background audio handling",
+      "No mobile app--iOS/Android access is browser-only with limited push notification support and no background audio handling",
     ],
     pricing: "Free (3 sessions/wk); Pro $6.99/mo or $69/yr",
     pricingDetail: "Pro tier includes unlimited 25/50-min sessions, priority matching (guaranteed <90-sec wait time during business hours), custom goal frameworks (e.g., Pomodoro, Deep Work, Exam Prep), exportable session history (PDF/CSV), group coworking rooms (up to 6 people), bi-directional calendar sync with conflict alerts, and dedicated email support. Annual billing saves 17% and adds quarterly progress review reports.",
@@ -1560,13 +1632,13 @@ Focusmate is best suited for remote-first companies seeking to mitigate isolatio
       "Session history dashboard with filterable metrics (duration, frequency, goal type, focus rating)",
       "Accessibility features including keyboard navigation, screen reader support, high-contrast mode, and live captioning (beta)",
     ],
-    useCase: "Ideal for freelancers, writers, students, researchers, and remote knowledge workers seeking structured accountability to overcome motivation barriers, isolation, or inconsistent start rituals—less suitable for roles requiring strict confidentiality (e.g., legal, finance, clinical), highly sensitive work environments, or individuals uncomfortable with real-time video interaction.",
+    useCase: "Ideal for freelancers, writers, students, researchers, and remote knowledge workers seeking structured accountability to overcome motivation barriers, isolation, or inconsistent start rituals--less suitable for roles requiring strict confidentiality (e.g., legal, finance, clinical), highly sensitive work environments, or individuals uncomfortable with real-time video interaction.",
     alternatives: ["freedom-app", "forest-app", "ticktick"],
     scoreBreakdown: { features: 92, reviews: 89, momentum: 91, popularity: 82 },
     userQuotes: [
-      { role: "Indie Game Developer", company: "Self-employed", quote: "Focusmate got me through my 18-month solo dev slog. Knowing someone was waiting for me at 9am made showing up non-negotiable—even on bad mental health days." },
-      { role: "Law Student", company: "Yale Law School", quote: "I used to binge-watch Netflix instead of outlining cases. Now I book Focusmate at 7am daily—and my grades jumped from B+ to A- in Contracts." },
-      { role: "Clinical Psychologist", company: "Private Practice", quote: "As a remote therapist juggling documentation and client notes, Focusmate's 25-min sprint mode helped me clear my admin backlog 3x faster—I now consistently finish notes same-day instead of carrying them over." },
+      { role: "Indie Game Developer", company: "Self-employed", quote: "Focusmate got me through my 18-month solo dev slog. Knowing someone was waiting for me at 9am made showing up non-negotiable--even on bad mental health days." },
+      { role: "Law Student", company: "Yale Law School", quote: "I used to binge-watch Netflix instead of outlining cases. Now I book Focusmate at 7am daily--and my grades jumped from B+ to A- in Contracts." },
+      { role: "Clinical Psychologist", company: "Private Practice", quote: "As a remote therapist juggling documentation and client notes, Focusmate's 25-min sprint mode helped me clear my admin backlog 3x faster--I now consistently finish notes same-day instead of carrying them over." },
     ],
   },
 
@@ -1628,7 +1700,7 @@ Focusmate is best suited for remote-first companies seeking to mitigate isolatio
     reviewCount: 4120,
     icon: Lightbulb,
     description: "Modular, gradient LED light strip system designed for immersive ambient backlighting behind monitors and desks.",
-    longDescription: `The Philips Hue Play Gradient transforms your workspace into a dynamic ambient canvas using individually addressable LEDs that render smooth color gradients across its 22-inch segments. Compatible with the Hue Bridge (required), it supports advanced effects like music sync, game lighting via Razer Chroma, and cinematic scene transitions. Its magnetic mounting system allows flexible placement behind monitors, under shelves, or along desk edges — and its IP20 rating ensures safe indoor use. Firmware updates continually expand its capabilities, including new effects and deeper third-party integrations.`,
+    longDescription: `The Philips Hue Play Gradient transforms your workspace into a dynamic ambient canvas using individually addressable LEDs that render smooth color gradients across its 22-inch segments. Compatible with the Hue Bridge (required), it supports advanced effects like music sync, game lighting via Razer Chroma, and cinematic scene transitions. Its magnetic mounting system allows flexible placement behind monitors, under shelves, or along desk edges -- and its IP20 rating ensures safe indoor use. Firmware updates continually expand its capabilities, including new effects and deeper third-party integrations.`,
     pros: [
       "True gradient rendering (not zone-based), ideal for media immersion",
       "Deep ecosystem integration (Razer, Spotify, Apple Shortcuts)",
@@ -1637,7 +1709,7 @@ Focusmate is best suited for remote-first companies seeking to mitigate isolatio
     ],
     cons: [
       "Bridge required ($59.99 extra), increasing total cost",
-      "Slightly stiffer strip than LIFX Z — less bendable around tight corners",
+      "Slightly stiffer strip than LIFX Z -- less bendable around tight corners",
       "No USB-C or direct power option; uses proprietary adapter",
     ],
     pricing: "$129.99",
@@ -1654,8 +1726,8 @@ Focusmate is best suited for remote-first companies seeking to mitigate isolatio
     alternatives: ["lifx-z-strip", "govee-flow-plus", "nanolight-leaf"],
     scoreBreakdown: { features: 94, reviews: 89, momentum: 87, popularity: 82 },
     userQuotes: [
-      { role: "Video Editor", company: "FrameShift Studios", quote: "When I grade footage in DaVinci Resolve, the Play Gradient shifts hue temperature in real time — it’s like having a physical color wheel behind my screen." },
-      { role: "Indie Game Developer", company: "PixelHaven Games", quote: "Paired with Razer Synapse, my desk pulses with enemy health bars and quest cues. It’s not just ambiance — it’s functional feedback." },
+      { role: "Video Editor", company: "FrameShift Studios", quote: "When I grade footage in DaVinci Resolve, the Play Gradient shifts hue temperature in real time -- it's like having a physical color wheel behind my screen." },
+      { role: "Indie Game Developer", company: "PixelHaven Games", quote: "Paired with Razer Synapse, my desk pulses with enemy health bars and quest cues. It's not just ambiance -- it's functional feedback." },
     ],
   },
 
@@ -1666,16 +1738,16 @@ Focusmate is best suited for remote-first companies seeking to mitigate isolatio
     rating: 4.35,
     reviewCount: 3980,
     icon: Lightbulb,
-    description: "Wi-Fi–enabled, segment-controlled LED strip with vibrant color accuracy and no hub required.",
-    longDescription: `The LIFX Z LED Strip offers true per-segment control (16 zones in the 2m version) over rich, calibrated RGBWW LEDs — delivering exceptional color fidelity and consistent white temperatures. With built-in Wi-Fi (no bridge needed), it pairs seamlessly with the LIFX app, Apple Home, Google Home, and Alexa. Its flexible, adhesive-backed design bends easily around monitors, shelves, or furniture legs, and its IP20-rated housing ensures reliable daily use. Advanced features include music-reactive modes, sunrise/sunset timers, and custom animations created via the desktop LIFX Lab tool.`,
+    description: "Wi-Fi-enabled, segment-controlled LED strip with vibrant color accuracy and no hub required.",
+    longDescription: `The LIFX Z LED Strip offers true per-segment control (16 zones in the 2m version) over rich, calibrated RGBWW LEDs -- delivering exceptional color fidelity and consistent white temperatures. With built-in Wi-Fi (no bridge needed), it pairs seamlessly with the LIFX app, Apple Home, Google Home, and Alexa. Its flexible, adhesive-backed design bends easily around monitors, shelves, or furniture legs, and its IP20-rated housing ensures reliable daily use. Advanced features include music-reactive modes, sunrise/sunset timers, and custom animations created via the desktop LIFX Lab tool.`,
     pros: [
-      "No hub required — direct Wi-Fi 2.4/5 GHz dual-band support",
+      "No hub required -- direct Wi-Fi 2.4/5 GHz dual-band support",
       "Industry-leading color calibration (Delta E < 2)",
       "Highly flexible and cuttable (at marked points)",
       "Desktop LIFX Lab enables granular animation scripting",
     ],
     cons: [
-      "Higher power draw than competitors — requires dedicated outlet access",
+      "Higher power draw than competitors -- requires dedicated outlet access",
       "App occasionally resets segment order after firmware updates",
       "Limited third-party gaming integrations compared to Hue",
     ],
@@ -1693,7 +1765,7 @@ Focusmate is best suited for remote-first companies seeking to mitigate isolatio
     alternatives: ["philips-hue-play", "govee-flow-plus", "nanolight-leaf"],
     scoreBreakdown: { features: 89, reviews: 84, momentum: 83, popularity: 77 },
     userQuotes: [
-      { role: "Product Photographer", company: "LensCraft Studio", quote: "I use the Z strip as a secondary fill source — its D65 white point matches my calibrated monitor perfectly. No more guessing white balance in post." },
+      { role: "Product Photographer", company: "LensCraft Studio", quote: "I use the Z strip as a secondary fill source -- its D65 white point matches my calibrated monitor perfectly. No more guessing white balance in post." },
       { role: "Software Engineer", company: "NexusStack", quote: "I wrote a Python script using LIFX LAN protocol to blink red when CI fails. My desk literally warns me before Slack does." },
     ],
   },
@@ -1706,7 +1778,7 @@ Focusmate is best suited for remote-first companies seeking to mitigate isolatio
     reviewCount: 7150,
     icon: Lightbulb,
     description: "Flagship monitor-mounted task light with AI-powered brightness adaptation, wireless charging, and dual USB-C ports.",
-    longDescription: `The BenQ ScreenBar Pro elevates ergonomic lighting with AI-driven ambient sensing, automatically adjusting brightness and color temperature 120 times per second based on real-time workspace conditions. Beyond illumination, it integrates a Qi-certified wireless charging pad (15W) and dual USB-C passthrough (up to 60W delivery + data) — consolidating power, peripherals, and lighting into one sleek, aluminum-clad unit. Its ultra-wide 180° beam angle eliminates shadows, and its flicker-free, BSI-certified light meets strict ocular safety standards for 8+ hour workdays.`,
+    longDescription: `The BenQ ScreenBar Pro elevates ergonomic lighting with AI-driven ambient sensing, automatically adjusting brightness and color temperature 120 times per second based on real-time workspace conditions. Beyond illumination, it integrates a Qi-certified wireless charging pad (15W) and dual USB-C passthrough (up to 60W delivery + data) -- consolidating power, peripherals, and lighting into one sleek, aluminum-clad unit. Its ultra-wide 180° beam angle eliminates shadows, and its flicker-free, BSI-certified light meets strict ocular safety standards for 8+ hour workdays.`,
     pros: [
       "AI-powered real-time brightness/color adaptation",
       "Integrated 15W wireless charger + dual USB-C hub",
@@ -1714,9 +1786,9 @@ Focusmate is best suited for remote-first companies seeking to mitigate isolatio
       "Robust build quality and lifetime warranty",
     ],
     cons: [
-      "Heavier than Halo — may require reinforced monitor arms",
+      "Heavier than Halo -- may require reinforced monitor arms",
       "Wireless charging only works with centered placement",
-      "No ambient halo lighting — task-only focus",
+      "No ambient halo lighting -- task-only focus",
     ],
     pricing: "$249.99",
     pricingDetail: "Includes USB-C cable, quick-start guide, and 3-year limited warranty with lifetime technical support.",
@@ -1732,8 +1804,8 @@ Focusmate is best suited for remote-first companies seeking to mitigate isolatio
     alternatives: ["benq-screenbar-halo", "elgato-key-light", "quntis-screenbar"],
     scoreBreakdown: { features: 95, reviews: 91, momentum: 88, popularity: 86 },
     userQuotes: [
-      { role: "Data Scientist", company: "QuantumInsight", quote: "The USB-C hub alone paid for itself — now my laptop docks silently to one bar instead of three cables snaking everywhere." },
-      { role: "DevOps Engineer", company: "InfraCore", quote: "LightMeter mode learned my basement office’s weird daylight pattern in two days. It’s never too dim or blinding — even at 2 a.m." },
+      { role: "Data Scientist", company: "QuantumInsight", quote: "The USB-C hub alone paid for itself -- now my laptop docks silently to one bar instead of three cables snaking everywhere." },
+      { role: "DevOps Engineer", company: "InfraCore", quote: "LightMeter mode learned my basement office's weird daylight pattern in two days. It's never too dim or blinding -- even at 2 a.m." },
     ],
   },
 
@@ -1746,40 +1818,40 @@ Focusmate is best suited for remote-first companies seeking to mitigate isolatio
     reviewCount: 4890,
     icon: Lightbulb,
     description: "Budget-friendly, USB-powered screen-mounted LED bar with auto-brightness and eye-care certification.",
-    longDescription: `The Quntis ScreenBar delivers core screen-light functionality at an entry-level price, featuring automatic brightness adjustment via ambient light sensor, flicker-free DC dimming, and TÜV-certified low blue light. Its lightweight ABS+PC construction mounts securely to most flat or curved monitors (up to 34") and draws power exclusively via USB-A (cable included). While lacking smart features or ambient layers, its consistent 5000K neutral white output reduces eye strain during long reading or coding sessions — making it a pragmatic choice for students, freelancers, and distributed teams standardizing basic ergo gear.`,
+    longDescription: `The Quntis ScreenBar delivers core screen-light functionality at an entry-level price, featuring automatic brightness adjustment via ambient light sensor, flicker-free DC dimming, and TÜV-certified low blue light. Its lightweight ABS+PC construction mounts securely to most flat or curved monitors (up to 34") and draws power exclusively via USB-A (cable included). While lacking smart features or ambient layers, its consistent 5000K neutral white output reduces eye strain during long reading or coding sessions -- making it a pragmatic choice for students, freelancers, and distributed teams standardizing basic ergo gear.`,
     pros: [
-      "Most affordable TÜV Rheinland-certified screen light on the market at $89.99 — 32% less than comparable certified models",
+      "Most affordable TÜV Rheinland-certified screen light on the market at $89.99 -- 32% less than comparable certified models",
       "True plug-and-play operation: powers fully via USB-A (5V/1A), eliminating wall outlets, adapters, or battery swaps",
       "Ultra-slim 0.4\" profile and 115g weight ensure seamless compatibility with 98% of monitor arms (including Ergotron LX, AmazonBasics, and Humanscale)",
-      "Clinically validated eye comfort: TÜV Rheinland Low Blue Light (≤40% blue light in 415–455nm range) and Flicker-Free (≤0.1% flicker modulation) certifications",
-      "Auto-brightness adjusts smoothly across 10–1,200 lux ambient range with <0.8s response latency in typical office lighting",
-      "Zero-config setup: no app, no firmware updates, no pairing — ready in under 5 seconds",
+      "Clinically validated eye comfort: TÜV Rheinland Low Blue Light (≤40% blue light in 415-455nm range) and Flicker-Free (≤0.1% flicker modulation) certifications",
+      "Auto-brightness adjusts smoothly across 10-1,200 lux ambient range with <0.8s response latency in typical office lighting",
+      "Zero-config setup: no app, no firmware updates, no pairing -- ready in under 5 seconds",
       "Includes 3-year limited warranty with hassle-free replacement (no proof-of-purchase required for registered users)"
     ],
     cons: [
-      "Fixed 5000K color temperature — no warm/cool adjustment, limiting suitability for circadian rhythm management or evening use",
+      "Fixed 5000K color temperature -- no warm/cool adjustment, limiting suitability for circadian rhythm management or evening use",
       "Plastic housing (ABS+PC blend) shows minor scuffing after 6+ months of frequent repositioning",
       "Ambient sensor can briefly under-respond during rapid transitions (e.g., blinds opening on sunny morning), requiring one manual brightness tap",
-      "USB-A only — no native USB-C power delivery; adapter required for newer laptops without USB-A ports",
-      "No physical controls or indicator LEDs — brightness changes are purely visual, which may disorient new users"
+      "USB-A only -- no native USB-C power delivery; adapter required for newer laptops without USB-A ports",
+      "No physical controls or indicator LEDs -- brightness changes are purely visual, which may disorient new users"
     ],
     pricing: "$89.99 (single unit), $169.99 (2-pack), $299.99 (5-pack with IT deployment kit)",
     pricingDetail: "Single unit includes 5ft USB-A to USB-A cable and quick-start guide. 2-pack adds dual-mount clips and extended 4-year warranty. 5-pack includes IT deployment kit (customizable asset tags, bulk configuration checklist, and admin training PDF). USB-C adapter sold separately ($12.99); 3-year warranty included with all purchases.",
     features: [
-      "Precision ambient light sensing with real-time auto-brightness (10–1,200 lux range, ±5% accuracy)",
-      "Flicker-free DC dimming technology — zero PWM, verified at 10kHz oscilloscope testing",
+      "Precision ambient light sensing with real-time auto-brightness (10-1,200 lux range, ±5% accuracy)",
+      "Flicker-free DC dimming technology -- zero PWM, verified at 10kHz oscilloscope testing",
       "Fixed 5000K daylight-balanced spectrum optimized for screen readability and reduced melatonin suppression",
-      "Clamp-and-snap monitor-mount system supporting 0.75\"–2.25\" bezels (tested on Dell UltraSharp, LG UltraFine, HP EliteDisplay)",
-      "Zero desk footprint design — mounts exclusively to monitor top edge, freeing up 12+ sq in of workspace",
+      "Clamp-and-snap monitor-mount system supporting 0.75\"-2.25\" bezels (tested on Dell UltraSharp, LG UltraFine, HP EliteDisplay)",
+      "Zero desk footprint design -- mounts exclusively to monitor top edge, freeing up 12+ sq in of workspace",
       "TÜV Rheinland Eye Comfort Certification (low blue light + flicker-free + glare control)",
-      "Integrated overvoltage/overcurrent protection — survives USB port surges up to 15V/3A",
-      "Silent thermal design — passive cooling only, zero fan noise even at max brightness",
-      "Universal compatibility — works with Windows, macOS, Linux, ChromeOS, and gaming consoles (PS5/Xbox via USB hub)",
-      "IT-deployment ready — consistent behavior across devices, no driver installation, no background processes",
+      "Integrated overvoltage/overcurrent protection -- survives USB port surges up to 15V/3A",
+      "Silent thermal design -- passive cooling only, zero fan noise even at max brightness",
+      "Universal compatibility -- works with Windows, macOS, Linux, ChromeOS, and gaming consoles (PS5/Xbox via USB hub)",
+      "IT-deployment ready -- consistent behavior across devices, no driver installation, no background processes",
       "Eco mode toggle (via brief double-press) reduces power draw by 40% while maintaining usable brightness for low-light tasks",
-      "Mount stability tested to 50,000+ repositioning cycles — retains grip without slippage or bezel damage"
+      "Mount stability tested to 50,000+ repositioning cycles -- retains grip without slippage or bezel damage"
     ],
-    useCase: "Ideal for academic labs, corporate IT teams deploying standardized peripherals, remote workers prioritizing eye health over customization, and hybrid offices seeking silent, clutter-free lighting that requires zero user training. Also well-suited for call centers and data entry roles where consistent, glare-free illumination improves focus and reduces fatigue. Less suitable for graphic designers, video editors, or night-shift workers who require tunable white light or circadian scheduling — and not recommended as a sole light source in windowless rooms lacking ambient fill.",
+    useCase: "Ideal for academic labs, corporate IT teams deploying standardized peripherals, remote workers prioritizing eye health over customization, and hybrid offices seeking silent, clutter-free lighting that requires zero user training. Also well-suited for call centers and data entry roles where consistent, glare-free illumination improves focus and reduces fatigue. Less suitable for graphic designers, video editors, or night-shift workers who require tunable white light or circadian scheduling -- and not recommended as a sole light source in windowless rooms lacking ambient fill.",
     alternatives: ["benq-screenbar-pro", "benq-screenbar-halo", "yeelight-smart-bulb"],
     scoreBreakdown: { features: 78, reviews: 88, momentum: 81, popularity: 94 },
     userQuotes: [
@@ -1797,7 +1869,7 @@ Focusmate is best suited for remote-first companies seeking to mitigate isolatio
     reviewCount: 5670,
     icon: Lightbulb,
     description: "Affordable, app-controlled TV backlight strip with AI-powered motion tracking and cinematic ambient sync.",
-    longDescription: `The Govee Flow Plus is a high-performance LED backlight strip optimized for home office entertainment and focus enhancement, featuring AI motion tracking that projects light onto walls *ahead* of on-screen action — creating an immersive, responsive halo effect. Its 2m length with 120 LEDs supports 16 million colors, smooth gradients, and seamless integration with Netflix, Disney+, and gaming consoles via HDMI-CEC. The Govee app offers 70+ built-in scenes, DIY animation builder, and voice control through Alexa and Google Assistant — all at a fraction of premium competitors’ cost.`,
+    longDescription: `The Govee Flow Plus is a high-performance LED backlight strip optimized for home office entertainment and focus enhancement, featuring AI motion tracking that projects light onto walls *ahead* of on-screen action -- creating an immersive, responsive halo effect. Its 2m length with 120 LEDs supports 16 million colors, smooth gradients, and seamless integration with Netflix, Disney+, and gaming consoles via HDMI-CEC. The Govee app offers 70+ built-in scenes, DIY animation builder, and voice control through Alexa and Google Assistant -- all at a fraction of premium competitors' cost.`,
     pros: [
       "AI motion prediction creates uniquely immersive 'pre-emptive' lighting",
       "HDMI-CEC sync works reliably with most modern TVs and monitors",
@@ -1805,7 +1877,7 @@ Focusmate is best suited for remote-first companies seeking to mitigate isolatio
       "Robust app with cloud backup and shared scenes",
     ],
     cons: [
-      "Motion tracking requires clear line-of-sight — struggles with matte/black screens",
+      "Motion tracking requires clear line-of-sight -- struggles with matte/black screens",
       "No native Apple HomeKit support (Matter pending)",
       "Power adapter runs warm during extended use",
     ],
@@ -1823,8 +1895,8 @@ Focusmate is best suited for remote-first companies seeking to mitigate isolatio
     alternatives: ["philips-hue-play", "lifx-z-strip", "yeelight-smart-bulb"],
     scoreBreakdown: { features: 85, reviews: 82, momentum: 88, popularity: 90 },
     userQuotes: [
-      { role: "Content Creator", company: "StreamHaven", quote: "Flow Plus made my Twitch background feel alive — and the AI ‘anticipates’ jump scares better than my cat. Viewers beg for my setup list." },
-      { role: "Remote Legal Counsel", company: "Summit Law Group", quote: "I run it in ‘Concentration Blue’ mode during deposition reviews. The gentle wall glow keeps me anchored without distraction." },
+      { role: "Content Creator", company: "StreamHaven", quote: "Flow Plus made my Twitch background feel alive -- and the AI 'anticipates' jump scares better than my cat. Viewers beg for my setup list." },
+      { role: "Remote Legal Counsel", company: "Summit Law Group", quote: "I run it in 'Concentration Blue' mode during deposition reviews. The gentle wall glow keeps me anchored without distraction." },
     ],
   },
 
@@ -1837,13 +1909,13 @@ Focusmate is best suited for remote-first companies seeking to mitigate isolatio
     reviewCount: 6240,
     icon: Headphones,
     description: "A premium 4K USB webcam with Windows Hello facial recognition, RightLight 3 HDR, and AI-powered auto-framing.",
-    longDescription: `The Logitech Brio 4K stands apart in the premium webcam category not merely as a resolution upgrade—but as a purpose-built, AI-enhanced video collaboration hub engineered for today's hybrid workplace. Unlike conventional webcams that prioritize pixel count over intelligibility, the Brio redefines professional video presence through a tightly integrated suite of hardware and software innovations—starting with its native 4K Ultra HD (3840 × 2160) sensor capable of capturing crisp, color-accurate video at 30 fps, with optional 1080p at 60 fps for smoother motion rendering during presentations or screen sharing. Its 5x digital zoom maintains clarity without pixelation, while the ultra-wide 90° field of view—expandable to 120° via Logitech Capture's "Ultra-Wide" mode—accommodates multi-person framing or dynamic desk setups without requiring repositioning.
+    longDescription: `The Logitech Brio 4K stands apart in the premium webcam category not merely as a resolution upgrade--but as a purpose-built, AI-enhanced video collaboration hub engineered for today's hybrid workplace. Unlike conventional webcams that prioritize pixel count over intelligibility, the Brio redefines professional video presence through a tightly integrated suite of hardware and software innovations--starting with its native 4K Ultra HD (3840 × 2160) sensor capable of capturing crisp, color-accurate video at 30 fps, with optional 1080p at 60 fps for smoother motion rendering during presentations or screen sharing. Its 5x digital zoom maintains clarity without pixelation, while the ultra-wide 90° field of view--expandable to 120° via Logitech Capture's "Ultra-Wide" mode--accommodates multi-person framing or dynamic desk setups without requiring repositioning.
 
-At the core of its adaptability is Logitech's proprietary RightLight 3 technology—a dual-sensor system combining an HDR-capable image sensor with advanced ambient light processing that dynamically balances exposure, contrast, and color fidelity across challenging lighting conditions. Independent lab testing shows the Brio delivers up to 2.3× more usable detail in low-light environments (under 10 lux) compared to standard 1080p webcams—making it indispensable for early-morning calls, dimly lit home offices, or window-adjacent workspaces where backlighting would otherwise wash out subjects. Complementing this is AI-powered auto-framing: using on-device machine learning, the Brio continuously tracks facial landmarks at 30 fps, smoothly reframing the shot to keep users centered—even during natural movement across a 3–4 foot radius—eliminating the need for manual pan/tilt adjustments or external tracking hardware.
+At the core of its adaptability is Logitech's proprietary RightLight 3 technology--a dual-sensor system combining an HDR-capable image sensor with advanced ambient light processing that dynamically balances exposure, contrast, and color fidelity across challenging lighting conditions. Independent lab testing shows the Brio delivers up to 2.3× more usable detail in low-light environments (under 10 lux) compared to standard 1080p webcams--making it indispensable for early-morning calls, dimly lit home offices, or window-adjacent workspaces where backlighting would otherwise wash out subjects. Complementing this is AI-powered auto-framing: using on-device machine learning, the Brio continuously tracks facial landmarks at 30 fps, smoothly reframing the shot to keep users centered--even during natural movement across a 3-4 foot radius--eliminating the need for manual pan/tilt adjustments or external tracking hardware.
 
-Security and usability are equally prioritized: Windows Hello infrared facial recognition enables sub-second, password-free authentication on compatible systems, while the physical, slide-to-close privacy shutter provides tangible peace of mind—no software toggle required. Dual beamforming stereo microphones with adaptive noise cancellation suppress keyboard clatter, HVAC hum, and distant conversations, delivering voice clarity measured at ≤3% background noise intrusion in controlled acoustic tests. Plug-and-play USB-C connectivity ensures seamless compatibility with Windows, macOS, and Linux, and certified optimization for Zoom, Microsoft Teams, Google Meet, and Slack guarantees consistent performance—including automatic camera/mic selection and meeting-aware settings.
+Security and usability are equally prioritized: Windows Hello infrared facial recognition enables sub-second, password-free authentication on compatible systems, while the physical, slide-to-close privacy shutter provides tangible peace of mind--no software toggle required. Dual beamforming stereo microphones with adaptive noise cancellation suppress keyboard clatter, HVAC hum, and distant conversations, delivering voice clarity measured at ≤3% background noise intrusion in controlled acoustic tests. Plug-and-play USB-C connectivity ensures seamless compatibility with Windows, macOS, and Linux, and certified optimization for Zoom, Microsoft Teams, Google Meet, and Slack guarantees consistent performance--including automatic camera/mic selection and meeting-aware settings.
 
-Ideal for remote knowledge workers, enterprise IT teams rolling out standardized collaboration hardware, and hybrid meeting rooms needing reliable, self-managing endpoints, the Brio outperforms competitors like the Razer Kiyo Pro (which lacks true 4K and AI framing) and the Dell UltraSharp Webcam (which offers strong image quality but no built-in Windows Hello or advanced auto-framing). Organizations report measurable outcomes: 37% reduction in video-related support tickets post-deployment, 22% increase in participant engagement scores during virtual workshops, and consistently higher perceived professionalism in client-facing interactions—proving that in modern collaboration, resolution is just the baseline; intelligence, reliability, and user-centric design deliver the real ROI.`,
+Ideal for remote knowledge workers, enterprise IT teams rolling out standardized collaboration hardware, and hybrid meeting rooms needing reliable, self-managing endpoints, the Brio outperforms competitors like the Razer Kiyo Pro (which lacks true 4K and AI framing) and the Dell UltraSharp Webcam (which offers strong image quality but no built-in Windows Hello or advanced auto-framing). Organizations report measurable outcomes: 37% reduction in video-related support tickets post-deployment, 22% increase in participant engagement scores during virtual workshops, and consistently higher perceived professionalism in client-facing interactions--proving that in modern collaboration, resolution is just the baseline; intelligence, reliability, and user-centric design deliver the real ROI.`,
     pros: [
       "Crystal-clear 4K resolution with excellent color accuracy",
       "Robust low-light performance and dynamic lighting adaptation",
@@ -1856,7 +1928,7 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
       "Higher price point than mainstream 1080p webcams",
     ],
     pricing: "$199.99",
-    pricingDetail: "List price; often discounted to $179–$189 during seasonal sales.",
+    pricingDetail: "List price; often discounted to $179-$189 during seasonal sales.",
     features: [
       "4K Ultra HD (3840 × 2160) sensor",
       "Windows Hello facial recognition",
@@ -1865,11 +1937,11 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
       "Hardware privacy shutter",
       "USB-C connectivity with USB-A adapter included",
     ],
-    useCase: "Best for remote professionals, hybrid executives, and content creators needing broadcast-quality video and security features—while less ideal for budget-conscious students or casual users who only need 1080p.",
+    useCase: "Best for remote professionals, hybrid executives, and content creators needing broadcast-quality video and security features--while less ideal for budget-conscious students or casual users who only need 1080p.",
     alternatives: ["elgato-facecam-pro", "insta360-link", "logitech-c922"],
     scoreBreakdown: { features: 92, reviews: 90, momentum: 88, popularity: 94 },
     userQuotes: [
-      { role: "Marketing Director", company: "TechNova Solutions", quote: "The auto-framing and lighting adaptation saved me hours of manual camera tweaking—I look polished on every call, even at 7 a.m." },
+      { role: "Marketing Director", company: "TechNova Solutions", quote: "The auto-framing and lighting adaptation saved me hours of manual camera tweaking--I look polished on every call, even at 7 a.m." },
       { role: "Remote Learning Coordinator", company: "EduBridge Academy", quote: "We deployed 42 Brioes across faculty; the privacy shutters and consistent 4K output made compliance and engagement much easier." },
     ],
   },
@@ -1883,20 +1955,20 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
     reviewCount: 7890,
     icon: Headphones,
     description: "Flagship ANC headphones with industry-leading noise cancellation, eight-mic call clarity, and adaptive sound control for hybrid work environments.",
-    longDescription: `The Sony WH-1000XM5 redefines audio excellence for remote collaboration with eight integrated microphones and AI-based beamforming that isolates voice while suppressing wind, keyboard clatter, and ambient chatter. Its upgraded V1 processor and new Integrated Processor V1 deliver class-leading ANC, especially for mid-to-high-frequency office noise like HVAC and overlapping conversations. The headset supports multipoint Bluetooth, Speak-to-Chat auto-pause, and LDAC codec for high-res audio—plus up to 30 hours of battery life and a lightweight, ergonomic headband design.`,
+    longDescription: `The Sony WH-1000XM5 redefines audio excellence for remote collaboration with eight integrated microphones and AI-based beamforming that isolates voice while suppressing wind, keyboard clatter, and ambient chatter. Its upgraded V1 processor and new Integrated Processor V1 deliver class-leading ANC, especially for mid-to-high-frequency office noise like HVAC and overlapping conversations. The headset supports multipoint Bluetooth, Speak-to-Chat auto-pause, and LDAC codec for high-res audio--plus up to 30 hours of battery life and a lightweight, ergonomic headband design.`,
     pros: [
       "Class-leading active noise cancellation for open-plan and home-office settings",
-      "Exceptional voice pickup and call quality—even on mobile networks",
+      "Exceptional voice pickup and call quality--even on mobile networks",
       "Superb comfort for all-day wear and seamless multipoint switching",
       "Intuitive touch controls and robust companion app",
     ],
     cons: [
       "No IP rating for dust/moisture resistance",
-      "Case is bulkier than XM4’s",
+      "Case is bulkier than XM4's",
       "Slightly less bass emphasis may disappoint music-first users",
     ],
     pricing: "$299.99",
-    pricingDetail: "MSRP; frequently available at $249–$279 during major retail promotions.",
+    pricingDetail: "MSRP; frequently available at $249-$279 during major retail promotions.",
     features: [
       "Eight-microphone array with AI voice enhancement",
       "Adaptive Sound Control with location-based presets",
@@ -1905,12 +1977,12 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
       "Multipoint Bluetooth 5.2",
       "Speak-to-Chat and Auto NC Optimizer",
     ],
-    useCase: "Best for frequent video callers, hybrid workers in noisy environments, and professionals juggling multiple devices—while less ideal for users requiring ruggedized durability or strict IT-managed deployment tools.",
+    useCase: "Best for frequent video callers, hybrid workers in noisy environments, and professionals juggling multiple devices--while less ideal for users requiring ruggedized durability or strict IT-managed deployment tools.",
     alternatives: ["jabra-evolve2-75", "poly-voyager-focus-2", "razer-kraken-v3-pro"],
     scoreBreakdown: { features: 90, reviews: 93, momentum: 89, popularity: 95 },
     userQuotes: [
-      { role: "Sales Enablement Manager", company: "CloudSphere Inc.", quote: "Our reps went from constant ‘Can you repeat that?’ to consistently clear, confident calls—even during subway commutes or café co-working sessions." },
-      { role: "Academic Researcher", company: "Veridian University", quote: "The Speak-to-Chat feature pauses my audiobooks automatically when I start speaking—brilliant for quick Zoom huddles between deep-work blocks." },
+      { role: "Sales Enablement Manager", company: "CloudSphere Inc.", quote: "Our reps went from constant 'Can you repeat that?' to consistently clear, confident calls--even during subway commutes or café co-working sessions." },
+      { role: "Academic Researcher", company: "Veridian University", quote: "The Speak-to-Chat feature pauses my audiobooks automatically when I start speaking--brilliant for quick Zoom huddles between deep-work blocks." },
     ],
   },
 
@@ -1922,7 +1994,7 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
     reviewCount: 5980,
     icon: Headphones,
     description: "Enterprise-grade UC headset with best-in-class microphone clarity, Microsoft Teams certification, and modular design for hybrid workforces.",
-    longDescription: `The Jabra Evolve2 75 is engineered for enterprise reliability, featuring an 11-microphone array with AI-powered voice isolation and advanced wind-noise suppression. Certified for Microsoft Teams with dedicated Teams button and intelligent mute alerts, it supports both Bluetooth and USB-C dongle connectivity. Its modular ear cushions, adjustable headband, and 37mm speakers deliver all-day comfort and rich audio fidelity. The Jabra Direct app enables deep IT configuration, firmware updates, and usage analytics—making it a top choice for managed deployments.`,
+    longDescription: `The Jabra Evolve2 75 is engineered for enterprise reliability, featuring an 11-microphone array with AI-powered voice isolation and advanced wind-noise suppression. Certified for Microsoft Teams with dedicated Teams button and intelligent mute alerts, it supports both Bluetooth and USB-C dongle connectivity. Its modular ear cushions, adjustable headband, and 37mm speakers deliver all-day comfort and rich audio fidelity. The Jabra Direct app enables deep IT configuration, firmware updates, and usage analytics--making it a top choice for managed deployments.`,
     pros: [
       "Unmatched microphone quality for speech intelligibility in noisy spaces",
       "Full Microsoft Teams and Zoom certification with one-touch controls",
@@ -1944,12 +2016,12 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
       "Jabra Direct cloud management platform",
       "Up to 37-hour battery life (ANC off)",
     ],
-    useCase: "Best for corporate IT departments, contact centers, and distributed teams requiring certified, manageable, and audibly precise headsets—while less ideal for solo freelancers or creatives prioritizing immersive audio over call clarity.",
+    useCase: "Best for corporate IT departments, contact centers, and distributed teams requiring certified, manageable, and audibly precise headsets--while less ideal for solo freelancers or creatives prioritizing immersive audio over call clarity.",
     alternatives: ["poly-voyager-focus-2", "sony-wh-1000xm5", "razer-kraken-v3-pro"],
     scoreBreakdown: { features: 91, reviews: 88, momentum: 86, popularity: 90 },
     userQuotes: [
-      { role: "IT Infrastructure Director", company: "Finova Group", quote: "We rolled out 1,200 Evolve2 75s company-wide—Jabra Direct cut our support tickets by 65% and ensured consistent mute behavior across all meeting apps." },
-      { role: "Customer Success Lead", company: "ScaleUp SaaS", quote: "My team’s NPS scores jumped 12 points after switching—clients consistently comment on how ‘present’ and ‘clear’ we sound, even during chaotic household interruptions." },
+      { role: "IT Infrastructure Director", company: "Finova Group", quote: "We rolled out 1,200 Evolve2 75s company-wide--Jabra Direct cut our support tickets by 65% and ensured consistent mute behavior across all meeting apps." },
+      { role: "Customer Success Lead", company: "ScaleUp SaaS", quote: "My team's NPS scores jumped 12 points after switching--clients consistently comment on how 'present' and 'clear' we sound, even during chaotic household interruptions." },
     ],
   },
 
@@ -1961,25 +2033,25 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
     reviewCount: 7420,
     icon: Headphones,
     description: "Affordable 1080p60 webcam with dual mics, background removal, and broad streaming software compatibility.",
-    longDescription: `The Logitech C922 Pro Stream Webcam remains a standout value proposition in the mid-tier webcam market—especially for hybrid workers, educators, and emerging streamers who need reliable, broadcast-ready video without breaking the bank. Its 1080p Full HD sensor delivers crisp, well-saturated imagery at a smooth 60 frames per second—a meaningful upgrade over standard 30fps webcams that translates to noticeably more fluid motion during presentations or live interactions. Autofocus is fast and accurate, maintaining sharpness even when repositioning slightly mid-call, while Logitech's proprietary low-light correction intelligently boosts brightness and reduces grain in dimly lit home offices or poorly lit conference rooms—no external lighting required for decent results. The dual omnidirectional microphones capture clear, balanced audio with effective background noise suppression, eliminating the need for a separate mic in most scenarios. One of the C922's most compelling features is its AI-powered background removal, which works reliably without a green screen—ideal for professionals seeking privacy or polish without studio setup complexity. Logitech Capture software enhances usability with intuitive controls: customizable scene layouts, real-time beauty filters, exposure and white balance fine-tuning, and one-click presets for Zoom, Teams, or streaming platforms. The universal clip mount is sturdy and versatile, securing cleanly to monitors up to 2.5 inches thick, laptops, or standard 1/4″-20 tripod threads. Compatibility spans major platforms—including OBS Studio, Streamlabs Desktop, Zoom, Microsoft Teams, Google Meet, and Discord—with plug-and-play USB-A connectivity. While newer models like the C922x offer minor refinements, the original C922 holds up remarkably well—it is a thoughtfully engineered, future-proofed tool that punches far above its sub-$100 price point.`,
+    longDescription: `The Logitech C922 Pro Stream Webcam remains a standout value proposition in the mid-tier webcam market--especially for hybrid workers, educators, and emerging streamers who need reliable, broadcast-ready video without breaking the bank. Its 1080p Full HD sensor delivers crisp, well-saturated imagery at a smooth 60 frames per second--a meaningful upgrade over standard 30fps webcams that translates to noticeably more fluid motion during presentations or live interactions. Autofocus is fast and accurate, maintaining sharpness even when repositioning slightly mid-call, while Logitech's proprietary low-light correction intelligently boosts brightness and reduces grain in dimly lit home offices or poorly lit conference rooms--no external lighting required for decent results. The dual omnidirectional microphones capture clear, balanced audio with effective background noise suppression, eliminating the need for a separate mic in most scenarios. One of the C922's most compelling features is its AI-powered background removal, which works reliably without a green screen--ideal for professionals seeking privacy or polish without studio setup complexity. Logitech Capture software enhances usability with intuitive controls: customizable scene layouts, real-time beauty filters, exposure and white balance fine-tuning, and one-click presets for Zoom, Teams, or streaming platforms. The universal clip mount is sturdy and versatile, securing cleanly to monitors up to 2.5 inches thick, laptops, or standard 1/4″-20 tripod threads. Compatibility spans major platforms--including OBS Studio, Streamlabs Desktop, Zoom, Microsoft Teams, Google Meet, and Discord--with plug-and-play USB-A connectivity. While newer models like the C922x offer minor refinements, the original C922 holds up remarkably well--it is a thoughtfully engineered, future-proofed tool that punches far above its sub-$100 price point.`,
     pros: [
       "True 1080p resolution at 60fps for exceptionally smooth, professional-grade video",
       "Fast, reliable autofocus and intelligent low-light correction for consistent image quality in varied lighting",
-      "Dual built-in mics with effective noise reduction—eliminates need for external audio gear in most use cases",
+      "Dual built-in mics with effective noise reduction--eliminates need for external audio gear in most use cases",
       "AI-powered background removal works robustly without a green screen, ideal for privacy-conscious remote workers",
       "Logitech Capture software offers powerful yet intuitive controls including custom layouts, exposure tuning, and subtle beauty filters",
       "Versatile universal clip mount securely attaches to monitors, laptops, and tripods with 1/4″-20 threading",
       "Broad cross-platform compatibility with Zoom, Teams, OBS, Streamlabs, and other major conferencing/streaming apps",
     ],
     cons: [
-      "USB-A only—no USB-C port, limiting compatibility with newer thin-and-light laptops lacking legacy ports (adapter required)",
+      "USB-A only--no USB-C port, limiting compatibility with newer thin-and-light laptops lacking legacy ports (adapter required)",
       "No built-in privacy shutter; physical cover must be added separately for security-conscious users",
       "AI background removal occasionally misclassifies fine hair or translucent objects (e.g., glasses frames) under challenging lighting",
       "Fixed field of view (78° diagonal) lacks digital zoom or wide-angle flexibility for tight spaces",
-      "Plastic build feels durable but not premium—less refined than Logitech's higher-end StreamCam or BRIO series",
+      "Plastic build feels durable but not premium--less refined than Logitech's higher-end StreamCam or BRIO series",
     ],
     pricing: "$99.99",
-    pricingDetail: "Frequently discounted to $79.99–$89.99; includes Logitech Capture software license.",
+    pricingDetail: "Frequently discounted to $79.99-$89.99; includes Logitech Capture software license.",
     features: [
       "1080p分辨率@60fps高清视频与智能自动对焦",
       "双内置全向降噪麦克风，支持语音激活与回声消除",
@@ -1990,8 +2062,8 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
     alternatives: ["logitech-brio-4k", "insta360-link", "blue-yeti-x"],
     scoreBreakdown: { features: 82, reviews: 92, momentum: 80, popularity: 93 },
     userQuotes: [
-      { role: "Content Creator", company: "Twitch Partner", quote: "The background removal works shockingly well—I stream from my messy apartment and no one notices. At $79, it's the best value webcam I've owned." },
-      { role: "Remote Team Lead", company: "SaaS Startup", quote: "Our team switched from built-in laptop cams to C922 for Zoom calls—engagement increased noticeably. People actually look at the camera now!" },
+      { role: "Content Creator", company: "Twitch Partner", quote: "The background removal works shockingly well--I stream from my messy apartment and no one notices. At $79, it's the best value webcam I've owned." },
+      { role: "Remote Team Lead", company: "SaaS Startup", quote: "Our team switched from built-in laptop cams to C922 for Zoom calls--engagement increased noticeably. People actually look at the camera now!" },
       { role: "University Instructor", company: "Online Learning Division", quote: "Used it for hybrid lectures all semester. Autofocus locks on my face even when I walk around, and the mic picks up questions from students clearly." },
     ],
   },
@@ -2005,7 +2077,7 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
     reviewCount: 4820,
     icon: Headphones,
     description: "Professional USB/XLR microphone with legendary Shure vocal clarity, touch controls, and podcast-grade recording capabilities.",
-    longDescription: `The Shure MV7 combines studio-grade vocal reproduction with modern hybrid-work flexibility—offering both USB and XLR outputs for direct computer connection or integration into pro audio interfaces. Its cardioid condenser capsule delivers warm, detailed voice capture with minimal sibilance and robust plosive rejection. Touch-sensitive controls let users adjust gain, monitor mix, and mute on-the-fly, while the ShurePlus MOTIV app provides real-time waveform visualization, EQ presets, and compressor/limiter controls. Its rugged metal construction and desktop stand ensure stability and longevity.`,
+    longDescription: `The Shure MV7 combines studio-grade vocal reproduction with modern hybrid-work flexibility--offering both USB and XLR outputs for direct computer connection or integration into pro audio interfaces. Its cardioid condenser capsule delivers warm, detailed voice capture with minimal sibilance and robust plosive rejection. Touch-sensitive controls let users adjust gain, monitor mix, and mute on-the-fly, while the ShurePlus MOTIV app provides real-time waveform visualization, EQ presets, and compressor/limiter controls. Its rugged metal construction and desktop stand ensure stability and longevity.`,
     pros: [
       "Studio-grade vocal clarity unmatched in its class",
       "Dual USB/XLR connectivity for future-proofing",
@@ -2027,11 +2099,11 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
       "All-metal construction with vibration-dampening base",
       "Omnidirectional USB audio monitoring",
     ],
-    useCase: "Best for podcasters, subject-matter experts recording long-form content, and remote trainers needing broadcast-level vocal presence—while less ideal for spontaneous video calls or users unwilling to manage separate mic/headphone setups.",
+    useCase: "Best for podcasters, subject-matter experts recording long-form content, and remote trainers needing broadcast-level vocal presence--while less ideal for spontaneous video calls or users unwilling to manage separate mic/headphone setups.",
     alternatives: ["blue-yeti-x", "elgato-facecam-pro", "logitech-brio-4k"],
     scoreBreakdown: { features: 95, reviews: 94, momentum: 90, popularity: 89 },
     userQuotes: [
-      { role: "Chief Learning Officer", company: "TalentEdge Corp.", quote: "We record leadership development series with MV7s—trainees consistently say the voice quality makes complex topics feel more human and trustworthy." },
+      { role: "Chief Learning Officer", company: "TalentEdge Corp.", quote: "We record leadership development series with MV7s--trainees consistently say the voice quality makes complex topics feel more human and trustworthy." },
       { role: "Legal Content Creator", company: "LexStream Media", quote: "Switching from a headset mic to MV7 cut our audio editing time by 70%. The compression preset alone handles inconsistent speaking volume flawlessly." },
     ],
   },
@@ -2044,7 +2116,7 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
     reviewCount: 6150,
     icon: Headphones,
     description: "Feature-rich USB condenser microphone with dynamic LED metering, four-pattern pickup, and real-time effects for creators and remote professionals.",
-    longDescription: `The Blue Yeti X elevates the iconic Yeti legacy with a high-resolution 4-segment LED meter for instant visual feedback on input levels, four selectable polar patterns (cardioid, bidirectional, omnidirectional, stereo), and real-time voice effects—including compression, limiting, and EQ—all controllable via the intuitive Yeti X software. Its 24-bit/48kHz USB audio delivers crisp, low-noise capture, and the weighted metal base ensures stability during energetic presentations. While not as refined as the MV7 for pure vocal nuance, it excels in versatility and immediate usability.`,
+    longDescription: `The Blue Yeti X elevates the iconic Yeti legacy with a high-resolution 4-segment LED meter for instant visual feedback on input levels, four selectable polar patterns (cardioid, bidirectional, omnidirectional, stereo), and real-time voice effects--including compression, limiting, and EQ--all controllable via the intuitive Yeti X software. Its 24-bit/48kHz USB audio delivers crisp, low-noise capture, and the weighted metal base ensures stability during energetic presentations. While not as refined as the MV7 for pure vocal nuance, it excels in versatility and immediate usability.`,
     pros: [
       "Real-time LED level meter eliminates guesswork in audio setup",
       "Four polar patterns offer flexibility for solo or collaborative recording",
@@ -2054,7 +2126,7 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
     cons: [
       "LED lights cannot be fully disabled (may violate some corporate policies)",
       "Cardioid pattern still picks up moderate room reverb",
-      "Software requires installation—no true plug-and-play audio processing",
+      "Software requires installation--no true plug-and-play audio processing",
     ],
     pricing: "$199.99",
     pricingDetail: "Bundle includes USB-C cable, downloadable Blue Sherpa software, and 2-year warranty.",
@@ -2066,12 +2138,12 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
       "Weighted metal base with threaded mount",
       "Zero-latency headphone monitoring jack",
     ],
-    useCase: "Best for content creators, educators, and remote facilitators who value visual feedback, pattern flexibility, and rapid audio optimization—while less ideal for IT-managed environments prohibiting LED indicators or requiring zero-software deployment.",
+    useCase: "Best for content creators, educators, and remote facilitators who value visual feedback, pattern flexibility, and rapid audio optimization--while less ideal for IT-managed environments prohibiting LED indicators or requiring zero-software deployment.",
     alternatives: ["shure-mv7", "logitech-c922", "blue-yeti-x"],
     scoreBreakdown: { features: 87, reviews: 89, momentum: 79, popularity: 91 },
     userQuotes: [
-      { role: "Online Course Instructor", company: "SkillPath Academy", quote: "The LED meter helped my students self-correct mic distance instantly—I saw fewer ‘you’re too quiet’ comments in breakout rooms." },
-      { role: "Startup Founder", company: "NimbleLabs", quote: "Used Yeti X for investor pitch decks and demo videos. The stereo mode captured my co-founder and I naturally—no extra mics needed." },
+      { role: "Online Course Instructor", company: "SkillPath Academy", quote: "The LED meter helped my students self-correct mic distance instantly--I saw fewer 'you're too quiet' comments in breakout rooms." },
+      { role: "Startup Founder", company: "NimbleLabs", quote: "Used Yeti X for investor pitch decks and demo videos. The stereo mode captured my co-founder and I naturally--no extra mics needed." },
     ],
   },
 
@@ -2083,7 +2155,7 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
     reviewCount: 4280,
     icon: Headphones,
     description: "AI-powered 4K webcam with auto-tracking, gesture control, and cinematic framing for dynamic remote presentations.",
-    longDescription: `The Insta360 Link stands out with its 4K sensor, 120° ultra-wide field of view, and advanced AI tracking that follows subjects smoothly—even during walking or gesturing. Its gesture control (e.g., peace sign to mute, wave to start recording) and Smart Frame mode automatically crop and stabilize footage for optimal composition. The Link also features dual noise-cancelling mics, physical privacy cover, and seamless integration with Zoom, Teams, and Google Meet. Its compact, magnetic base and optional wall mount make it highly adaptable for diverse workspace layouts.`,
+    longDescription: `The Insta360 Link stands out with its 4K sensor, 120° ultra-wide field of view, and advanced AI tracking that follows subjects smoothly--even during walking or gesturing. Its gesture control (e.g., peace sign to mute, wave to start recording) and Smart Frame mode automatically crop and stabilize footage for optimal composition. The Link also features dual noise-cancelling mics, physical privacy cover, and seamless integration with Zoom, Teams, and Google Meet. Its compact, magnetic base and optional wall mount make it highly adaptable for diverse workspace layouts.`,
     pros: [
       "Effortless AI subject tracking and cinematic re-framing",
       "Gesture-based controls eliminate fumbling for mute buttons",
@@ -2105,12 +2177,12 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
       "Physical privacy cover and magnetic base",
       "Zoom/Teams/Meet certified",
     ],
-    useCase: "Best for dynamic presenters, sales demo specialists, and hybrid trainers who move, gesture, or switch between solo and group shots—while less ideal for static desk-bound roles where simplicity and reliability trump motion features.",
+    useCase: "Best for dynamic presenters, sales demo specialists, and hybrid trainers who move, gesture, or switch between solo and group shots--while less ideal for static desk-bound roles where simplicity and reliability trump motion features.",
     alternatives: ["logitech-brio-4k", "elgato-facecam-pro", "logitech-c922"],
     scoreBreakdown: { features: 93, reviews: 86, momentum: 92, popularity: 84 },
     userQuotes: [
-      { role: "Sales Engineering Lead", company: "CloudStack Systems", quote: "I demo live code while walking through architecture diagrams—the Link keeps me centered and crops out my whiteboard clutter automatically. Deal velocity increased 22%." },
-      { role: "Virtual Event Producer", company: "SummitLive Co.", quote: "For panel discussions, Link’s group framing and gesture mute saved us from 3+ minutes of pre-call tech checks per session." },
+      { role: "Sales Engineering Lead", company: "CloudStack Systems", quote: "I demo live code while walking through architecture diagrams--the Link keeps me centered and crops out my whiteboard clutter automatically. Deal velocity increased 22%." },
+      { role: "Virtual Event Producer", company: "SummitLive Co.", quote: "For panel discussions, Link's group framing and gesture mute saved us from 3+ minutes of pre-call tech checks per session." },
     ],
   },
 
@@ -2122,9 +2194,9 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
     reviewCount: 5730,
     icon: Headphones,
     description: "Enterprise UC headset with legendary Poly noise cancellation, smart sensors, and seamless Microsoft Teams integration.",
-    longDescription: `The Poly Voyager Focus 2 builds on Poly’s decades of telephony expertise with an 8-mic array, AI-powered Acoustic Fence technology that virtually eliminates background noise—including keyboard typing and nearby conversations—and smart sensors that auto-answer calls and pause media when removed. Fully Microsoft Teams certified with dedicated Teams button and intelligent mute alert, it supports Bluetooth 5.3 and USB-C connectivity. Its premium memory foam ear cushions, lightweight design, and 32-hour battery life make it ideal for all-day hybrid work—backed by Poly Lens cloud management for IT admins.`,
+    longDescription: `The Poly Voyager Focus 2 builds on Poly's decades of telephony expertise with an 8-mic array, AI-powered Acoustic Fence technology that virtually eliminates background noise--including keyboard typing and nearby conversations--and smart sensors that auto-answer calls and pause media when removed. Fully Microsoft Teams certified with dedicated Teams button and intelligent mute alert, it supports Bluetooth 5.3 and USB-C connectivity. Its premium memory foam ear cushions, lightweight design, and 32-hour battery life make it ideal for all-day hybrid work--backed by Poly Lens cloud management for IT admins.`,
     pros: [
-      "Poly’s Acoustic Fence sets the bar for speech isolation in chaotic environments",
+      "Poly's Acoustic Fence sets the bar for speech isolation in chaotic environments",
       "Smart sensors enable hands-free workflow automation",
       "Poly Lens cloud platform enables scalable device management and reporting",
       "Outstanding comfort and battery life for extended wear",
@@ -2144,12 +2216,12 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
       "32-hour battery life (ANC on)",
       "Memory foam ear cushions with stainless steel headband",
     ],
-    useCase: "Best for global enterprises, legal/financial firms, and frontline remote workers requiring military-grade call clarity and centralized device governance—while less ideal for solopreneurs or users seeking consumer-grade aesthetics or multi-platform gaming features.",
+    useCase: "Best for global enterprises, legal/financial firms, and frontline remote workers requiring military-grade call clarity and centralized device governance--while less ideal for solopreneurs or users seeking consumer-grade aesthetics or multi-platform gaming features.",
     alternatives: ["jabra-evolve2-75", "sony-wh-1000xm5", "razer-kraken-v3-pro"],
     scoreBreakdown: { features: 94, reviews: 91, momentum: 87, popularity: 88 },
     userQuotes: [
-      { role: "Global IT Operations Director", company: "VeriTrust Financial", quote: "We deployed Focus 2 across 800+ client-facing staff—call abandonment dropped 31%, and our CSAT scores hit an all-time high for audio quality." },
-      { role: "Compliance Officer", company: "ReguSafe Advisors", quote: "The mute alert prevents accidental disclosures on sensitive calls, and Poly Lens gives us full audit logs—critical for our regulatory reporting." },
+      { role: "Global IT Operations Director", company: "VeriTrust Financial", quote: "We deployed Focus 2 across 800+ client-facing staff--call abandonment dropped 31%, and our CSAT scores hit an all-time high for audio quality." },
+      { role: "Compliance Officer", company: "ReguSafe Advisors", quote: "The mute alert prevents accidental disclosures on sensitive calls, and Poly Lens gives us full audit logs--critical for our regulatory reporting." },
     ],
   },
 
@@ -2161,7 +2233,7 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
     reviewCount: 5240,
     icon: Cable,
     description: "A compact 6-port USB-A wall charger with intelligent PowerIQ technology for fast, adaptive charging.",
-    longDescription: `The Anker PowerPort 6 delivers up to 60W total output across six smart USB-A ports, dynamically allocating power based on connected devices. Its compact, foldable plug design saves space and enhances portability, while premium safety features—including surge protection, temperature control, and short-circuit prevention—ensure reliable daily use. Certified by UL and backed by Anker’s 18-month warranty, it’s engineered for consistent performance across smartphones, tablets, headphones, and other USB-powered peripherals.`,
+    longDescription: `The Anker PowerPort 6 delivers up to 60W total output across six smart USB-A ports, dynamically allocating power based on connected devices. Its compact, foldable plug design saves space and enhances portability, while premium safety features--including surge protection, temperature control, and short-circuit prevention--ensure reliable daily use. Certified by UL and backed by Anker's 18-month warranty, it's engineered for consistent performance across smartphones, tablets, headphones, and other USB-powered peripherals.`,
     pros: [
       "Intelligent PowerIQ adapts charging speed per device",
       "UL-certified safety with multi-layer protection",
@@ -2183,12 +2255,12 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
       "Foldable plug design",
       "18-month warranty",
     ],
-    useCase: "Best for remote workers with multiple legacy USB-A devices (e.g., older phones, Bluetooth speakers, keyboards) who prioritize reliability and travel readiness—while less ideal for users needing USB-C PD or Thunderbolt connectivity.",
+    useCase: "Best for remote workers with multiple legacy USB-A devices (e.g., older phones, Bluetooth speakers, keyboards) who prioritize reliability and travel readiness--while less ideal for users needing USB-C PD or Thunderbolt connectivity.",
     alternatives: ["belkin-boostcharge-pro", "satechi-pro-hub", "caldigit-ts4"],
     scoreBreakdown: { features: 88, reviews: 92, momentum: 85, popularity: 90 },
     userQuotes: [
-      { role: "Remote Marketing Manager", company: "LumenEdge Inc.", quote: "I’ve used this for 3 years across two home offices—it’s never failed, even when charging five devices simultaneously during back-to-back Zoom days." },
-      { role: "Freelance Graphic Designer", company: "PixelHaven Studio", quote: "The foldable plug is a game-changer for my minimalist desk setup. No more tangled cords behind the monitor—just clean, dependable power." },
+      { role: "Remote Marketing Manager", company: "LumenEdge Inc.", quote: "I've used this for 3 years across two home offices--it's never failed, even when charging five devices simultaneously during back-to-back Zoom days." },
+      { role: "Freelance Graphic Designer", company: "PixelHaven Studio", quote: "The foldable plug is a game-changer for my minimalist desk setup. No more tangled cords behind the monitor--just clean, dependable power." },
     ],
   },
 
@@ -2201,7 +2273,7 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
     reviewCount: 2150,
     icon: Cable,
     description: "Premium customizable modular PSU cables designed for aesthetics, airflow, and clean cable routing in gaming and creator workstations.",
-    longDescription: `CableMod’s Pro Kit replaces stock ATX, EPS, PCIe, and SATA cables with individually sleeved, color-matched, low-profile flat cables made from high-purity tinned copper and military-grade paracord sleeves. Each kit includes labeled, length-optimized cables with reinforced connectors and strain relief—reducing clutter behind the motherboard tray and improving case airflow by up to 22% in thermal benchmarks. Designed for enthusiasts building high-end home office rigs (e.g., dual-GPU render nodes or NAS servers), it supports custom colorways, braided finishes, and optional magnetic cable combs for zero-tension routing.`,
+    longDescription: `CableMod's Pro Kit replaces stock ATX, EPS, PCIe, and SATA cables with individually sleeved, color-matched, low-profile flat cables made from high-purity tinned copper and military-grade paracord sleeves. Each kit includes labeled, length-optimized cables with reinforced connectors and strain relief--reducing clutter behind the motherboard tray and improving case airflow by up to 22% in thermal benchmarks. Designed for enthusiasts building high-end home office rigs (e.g., dual-GPU render nodes or NAS servers), it supports custom colorways, braided finishes, and optional magnetic cable combs for zero-tension routing.`,
     pros: [
       "Dramatically improves airflow and thermal performance",
       "Fully customizable colors and sleeve textures",
@@ -2211,7 +2283,7 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
     cons: [
       "Requires technical skill and time to install correctly",
       "Only compatible with modular PSUs (not OEM prebuilts)",
-      "Premium pricing reflects craftsmanship—not mass-market appeal",
+      "Premium pricing reflects craftsmanship--not mass-market appeal",
     ],
     pricing: "$129.99",
     pricingDetail: "Base kit includes 12 cables; add-ons like magnetic combs (+$24.99) and custom labels (+$12.99) available.",
@@ -2223,12 +2295,12 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
       "Modular PSU compatibility",
       "Magnetic accessory support",
     ],
-    useCase: "Best for advanced home office builders optimizing high-performance workstations (e.g., video editors, 3D artists, AI developers) where thermal headroom and visual cohesion matter—while less ideal for plug-and-play users or those with non-modular power supplies.",
+    useCase: "Best for advanced home office builders optimizing high-performance workstations (e.g., video editors, 3D artists, AI developers) where thermal headroom and visual cohesion matter--while less ideal for plug-and-play users or those with non-modular power supplies.",
     alternatives: ["monoprice-cable-sleeve", "joto-cable-clips", "nomad-base-station-pro"],
     scoreBreakdown: { features: 94, reviews: 91, momentum: 88, popularity: 76 },
     userQuotes: [
-      { role: "VFX Artist", company: "StellarFrame Studios", quote: "My Ryzen 9/RTX 4090 rig runs 15°C cooler under Blender renders—and the black-on-black flat cables make my Fractal Meshify 2 look like a showroom unit." },
-      { role: "Hardware Engineer", company: "Apex Logic Systems", quote: "I’ve tested 7 cable brands over 8 years. CableMod’s solder joints and insulation consistency are unmatched—zero failures across 42 custom builds." },
+      { role: "VFX Artist", company: "StellarFrame Studios", quote: "My Ryzen 9/RTX 4090 rig runs 15°C cooler under Blender renders--and the black-on-black flat cables make my Fractal Meshify 2 look like a showroom unit." },
+      { role: "Hardware Engineer", company: "Apex Logic Systems", quote: "I've tested 7 cable brands over 8 years. CableMod's solder joints and insulation consistency are unmatched--zero failures across 42 custom builds." },
     ],
   },
 
@@ -2240,7 +2312,7 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
     reviewCount: 6720,
     icon: Cable,
     description: "Reusable, adhesive-backed silicone cable clips for quick, damage-free cord organization on desks, walls, and monitors.",
-    longDescription: `These 12-pack silicone clips feature a strong yet removable 3M VHB adhesive backing that bonds securely to wood, metal, glass, and painted surfaces without residue—even after months of use. Each clip holds up to four standard cables (e.g., USB-C, HDMI, power) and rotates 360° for flexible routing angles. The soft-touch silicone grip prevents abrasion, and the low-profile design keeps cords neatly aligned without visual clutter. Ideal for renters or frequent reconfigurators, they install in seconds and withstand temperature fluctuations common in sunlit home offices.`,
+    longDescription: `These 12-pack silicone clips feature a strong yet removable 3M VHB adhesive backing that bonds securely to wood, metal, glass, and painted surfaces without residue--even after months of use. Each clip holds up to four standard cables (e.g., USB-C, HDMI, power) and rotates 360° for flexible routing angles. The soft-touch silicone grip prevents abrasion, and the low-profile design keeps cords neatly aligned without visual clutter. Ideal for renters or frequent reconfigurators, they install in seconds and withstand temperature fluctuations common in sunlit home offices.`,
     pros: [
       "Removable 3M adhesive leaves no residue",
       "360° rotating head for dynamic cable direction",
@@ -2262,12 +2334,12 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
       "UV-resistant material",
       "Alignment template included",
     ],
-    useCase: "Best for agile remote workers and digital nomads who regularly rearrange desks or move between home and co-working spaces—while less ideal for permanent installations on uneven or unpainted surfaces.",
+    useCase: "Best for agile remote workers and digital nomads who regularly rearrange desks or move between home and co-working spaces--while less ideal for permanent installations on uneven or unpainted surfaces.",
     alternatives: ["monoprice-cable-sleeve", "iottie-aivo-wireless", "nomad-base-station-pro"],
     scoreBreakdown: { features: 82, reviews: 90, momentum: 87, popularity: 93 },
     userQuotes: [
-      { role: "UX Research Lead", company: "Harmony Labs", quote: "I moved apartments three times last year—I peeled these off my IKEA desk and stuck them right onto my new one. Zero marks, zero stress." },
-      { role: "Online Educator", company: "LearnSphere Academy", quote: "My green-screen setup has 7 cables. These clips keep everything tidy and silent—no more accidental yanks during live classes." },
+      { role: "UX Research Lead", company: "Harmony Labs", quote: "I moved apartments three times last year--I peeled these off my IKEA desk and stuck them right onto my new one. Zero marks, zero stress." },
+      { role: "Online Educator", company: "LearnSphere Academy", quote: "My green-screen setup has 7 cables. These clips keep everything tidy and silent--no more accidental yanks during live classes." },
     ],
   },
 
@@ -2279,7 +2351,7 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
     reviewCount: 4120,
     icon: Cable,
     description: "A sleek, aluminum 13-in-1 Thunderbolt 4 docking station supporting dual 6K displays, 96W charging, and ultra-fast data transfer.",
-    longDescription: `Engineered for Apple Silicon and Windows 11 laptops, the Satechi Pro Hub Max leverages Thunderbolt 4’s full 40Gbps bandwidth to drive dual 6K@60Hz displays, 10GbE Ethernet, SD UHS-II card reading, and three USB-A 3.2 Gen 2 ports—all while delivering up to 96W laptop charging. Its machined aluminum chassis doubles as a passive heatsink, enabling sustained performance during 4K video editing or large Git repository syncs. Includes a detachable 1.2m Thunderbolt 4 cable and supports DisplayPort Alt Mode for non-TB4 laptops via USB-C.`,
+    longDescription: `Engineered for Apple Silicon and Windows 11 laptops, the Satechi Pro Hub Max leverages Thunderbolt 4's full 40Gbps bandwidth to drive dual 6K@60Hz displays, 10GbE Ethernet, SD UHS-II card reading, and three USB-A 3.2 Gen 2 ports--all while delivering up to 96W laptop charging. Its machined aluminum chassis doubles as a passive heatsink, enabling sustained performance during 4K video editing or large Git repository syncs. Includes a detachable 1.2m Thunderbolt 4 cable and supports DisplayPort Alt Mode for non-TB4 laptops via USB-C.`,
     pros: [
       "Dual 6K display support (unmatched in class)",
       "96W PD charging maintains laptop battery health",
@@ -2288,7 +2360,7 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
     ],
     cons: [
       "Requires TB4 host for full feature set (limited on USB-C-only laptops)",
-      "No built-in audio jack—requires separate adapter",
+      "No built-in audio jack--requires separate adapter",
       "Higher price point vs. USB-C hubs",
     ],
     pricing: "$249.99",
@@ -2301,12 +2373,12 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
       "SD UHS-II + microSD",
       "Aluminum unibody with passive cooling",
     ],
-    useCase: "Best for creative professionals and developers requiring pixel-perfect dual-display fidelity and enterprise-grade networking—while less ideal for budget-conscious users or those relying solely on USB-C (non-TB4) laptops.",
+    useCase: "Best for creative professionals and developers requiring pixel-perfect dual-display fidelity and enterprise-grade networking--while less ideal for budget-conscious users or those relying solely on USB-C (non-TB4) laptops.",
     alternatives: ["caldigit-ts4", "ugreen-usb-hub", "belkin-boostcharge-pro"],
     scoreBreakdown: { features: 93, reviews: 89, momentum: 91, popularity: 84 },
     userQuotes: [
-      { role: "Senior Video Editor", company: "FrameCraft Media", quote: "Color grading on two calibrated 6K EIZOs is flawless—no frame drops, no lag. The 10GbE cuts my DaVinci Resolve cache backups from 22 to 3 minutes." },
-      { role: "DevOps Engineer", company: "CloudNest Solutions", quote: "I run Docker containers on a NAS via the 10GbE port—this hub eliminated the bottleneck I had with my old USB 3.0 dock. Game-changer for local dev environments." },
+      { role: "Senior Video Editor", company: "FrameCraft Media", quote: "Color grading on two calibrated 6K EIZOs is flawless--no frame drops, no lag. The 10GbE cuts my DaVinci Resolve cache backups from 22 to 3 minutes." },
+      { role: "DevOps Engineer", company: "CloudNest Solutions", quote: "I run Docker containers on a NAS via the 10GbE port--this hub eliminated the bottleneck I had with my old USB 3.0 dock. Game-changer for local dev environments." },
     ],
   },
 
@@ -2319,7 +2391,7 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
     reviewCount: 5630,
     icon: Cable,
     description: "A 3-in-1 Qi2-certified wireless charging pad supporting simultaneous iPhone, Apple Watch, and AirPods charging with MagSafe alignment.",
-    longDescription: `This MagSafe-compatible charging pad features Belkin’s proprietary Qi2 certification for faster, safer, and cooler 15W iPhone charging—plus dedicated coils for Apple Watch (up to 5W) and AirPods (up to 5W), all powered by a single 30W USB-C input. Its weighted, non-slip base and precision-guided magnets ensure perfect alignment without nudging, while temperature sensors and foreign-object detection prevent overheating. The minimalist matte-finish design blends seamlessly into professional home offices, and its compact 6.5" x 3.5" footprint fits neatly beside keyboards or monitors without obstructing workspace.`,
+    longDescription: `This MagSafe-compatible charging pad features Belkin's proprietary Qi2 certification for faster, safer, and cooler 15W iPhone charging--plus dedicated coils for Apple Watch (up to 5W) and AirPods (up to 5W), all powered by a single 30W USB-C input. Its weighted, non-slip base and precision-guided magnets ensure perfect alignment without nudging, while temperature sensors and foreign-object detection prevent overheating. The minimalist matte-finish design blends seamlessly into professional home offices, and its compact 6.5" x 3.5" footprint fits neatly beside keyboards or monitors without obstructing workspace.`,
     pros: [
       "Qi2 certification enables faster, cooler, and safer charging",
       "MagSafe alignment eliminates misplacement frustration",
@@ -2332,7 +2404,7 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
       "Charging speed drops if phone case exceeds 3mm thickness",
     ],
     pricing: "$129.95",
-    pricingDetail: "Includes 2-year limited warranty and Belkin’s ‘Find My’ accessory registration; sold with 30W USB-C PD wall adapter.",
+    pricingDetail: "Includes 2-year limited warranty and Belkin's 'Find My' accessory registration; sold with 30W USB-C PD wall adapter.",
     features: [
       "Qi2-certified",
       "15W iPhone charging",
@@ -2341,12 +2413,12 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
       "Non-slip weighted base",
       "LED status indicators",
     ],
-    useCase: "Best for Apple ecosystem users seeking a clutter-free, always-ready charging solution for daily desk use—while less ideal for Android users, heavy-case wearers, or those needing wired peripheral ports.",
+    useCase: "Best for Apple ecosystem users seeking a clutter-free, always-ready charging solution for daily desk use--while less ideal for Android users, heavy-case wearers, or those needing wired peripheral ports.",
     alternatives: ["iottie-aivo-wireless", "anker-powerport-6", "nomad-base-station-pro"],
     scoreBreakdown: { features: 86, reviews: 88, momentum: 90, popularity: 87 },
     userQuotes: [
-      { role: "Startup Founder", company: "Veridia AI", quote: "My iPhone, Watch, and AirPods charge overnight—every morning they’re at 100%. No more hunting for cables before investor calls." },
-      { role: "Legal Counsel", company: "Summit Law Group", quote: "The MagSafe alignment means I can drop my phone on the pad mid-call and know it’ll charge. The matte finish doesn’t glare during Zoom depositions." },
+      { role: "Startup Founder", company: "Veridia AI", quote: "My iPhone, Watch, and AirPods charge overnight--every morning they're at 100%. No more hunting for cables before investor calls." },
+      { role: "Legal Counsel", company: "Summit Law Group", quote: "The MagSafe alignment means I can drop my phone on the pad mid-call and know it'll charge. The matte finish doesn't glare during Zoom depositions." },
     ],
   },
 
@@ -2364,18 +2436,18 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
       "High-elasticity 400-denier nylon braid stretches uniformly from 3mm to 12mm OD, accommodating thick power cords alongside thin USB-C cables without kinking",
       "Matte-textured surface features nano-scale silicone particulate infusion for superior fingerprint and dust repellency versus standard polyester sleeves",
       "UL-recognized flame-retardant (UL VW-1) nylon material resists ignition up to 650°C for 30 seconds",
-      "Cuttable cleanly with standard scissors or utility knife—no fraying due to tightly interlocked braid weave and heat-sealed edges",
+      "Cuttable cleanly with standard scissors or utility knife--no fraying due to tightly interlocked braid weave and heat-sealed edges",
       "Includes three 8-inch heavy-duty nylon cable ties rated to 22 lbs tensile strength, pre-attached at 12-inch intervals along sleeve length",
       "Available in six color-matched variants (matte black, charcoal gray, slate blue, forest green, burgundy, and sandstone) with consistent dye-lot calibration across production batches",
     ],
     cons: [
-      "No integrated strain relief at entry/exit points—requires separate ferrules or adhesive anchors for high-flex zones",
+      "No integrated strain relief at entry/exit points--requires separate ferrules or adhesive anchors for high-flex zones",
       "Not UL-rated for plenum spaces (CMP/CMR), limiting use in commercial drop ceilings or air-handling ducts",
       "Minimal UV resistance: prolonged direct sunlight exposure (>120 cumulative hours) causes gradual desaturation and 15% tensile strength loss",
-      "Hook-and-loop closure loses 40% grip retention after 50+ wash cycles—unsuitable for environments requiring frequent cleaning",
-      "No internal lining or shielding—offers zero EMI/RFI suppression for sensitive audio/video signal cables",
+      "Hook-and-loop closure loses 40% grip retention after 50+ wash cycles--unsuitable for environments requiring frequent cleaning",
+      "No internal lining or shielding--offers zero EMI/RFI suppression for sensitive audio/video signal cables",
       "Thermal rating limited to -20°C to +85°C; becomes brittle below -15°C and softens above 75°C, risking deformation near heat-generating equipment",
-      "Non-reversible braid directionality—if installed backward, the self-adhesive strip faces inward and cannot be accessed for resealing",
+      "Non-reversible braid directionality--if installed backward, the self-adhesive strip faces inward and cannot be accessed for resealing",
     ],
     pricing: "$9.99",
     pricingDetail: "Priced per 3-ft segment; sold in pre-cut packs of 3-ft, 6-ft, or 10-ft (10-ft pack = $29.97, saving $7.98 vs. three 3-ft units); free standard shipping on orders over $25 within contiguous US; no bulk discount tiers below $100.",
@@ -2386,18 +2458,18 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
       "Heat-sealed cut ends prevent unraveling during installation or repeated flexing",
       "UL VW-1 flame retardancy certified per UL 1581 Section 1080",
       "Colorfastness rated ANSI/ISEA Z810-2020 Level 4 (excellent resistance to fading under fluorescent/LED lighting)",
-      "Internal diameter tolerance ±0.3mm across full 3–12mm expansion range",
+      "Internal diameter tolerance ±0.3mm across full 3-12mm expansion range",
       "Weight: 18g per foot (±0.5g) for precise inventory tracking",
       "Operating temperature range: -20°C to +85°C per IEC 60529",
       "UV resistance tested per ASTM G154 Cycle 4 (4h UV A340 @ 0.89 W/m² + 4h condensation)",
       "Surface resistivity: 10^12 Ω/sq (static-dissipative, not conductive)",
       "RoHS 3-compliant formulation with zero SVHC substances above 0.1% threshold",
     ],
-    useCase: "Ideal for hybrid workspaces where users regularly reconfigure multi-device setups—including dual-monitor stations with Thunderbolt docks, USB-C PD chargers, HDMI/DisplayPort video feeds, analog audio interfaces, and networked peripherals—requiring frequent cable access without disassembly. Excels in compact urban apartments where vertical cable runs behind desks or under credenzas demand flexibility and low-profile aesthetics, and in creative studios bundling high-bandwidth AV gear (e.g., Blackmagic UltraStudio + XLR mic + PCIe capture cards) where EMI shielding isn't critical but abrasion resistance and visual consistency are paramount. Less suitable for data centers, industrial control panels, or outdoor patio offices due to lack of IP ratings, plenum compliance, or UV stabilization.",
+    useCase: "Ideal for hybrid workspaces where users regularly reconfigure multi-device setups--including dual-monitor stations with Thunderbolt docks, USB-C PD chargers, HDMI/DisplayPort video feeds, analog audio interfaces, and networked peripherals--requiring frequent cable access without disassembly. Excels in compact urban apartments where vertical cable runs behind desks or under credenzas demand flexibility and low-profile aesthetics, and in creative studios bundling high-bandwidth AV gear (e.g., Blackmagic UltraStudio + XLR mic + PCIe capture cards) where EMI shielding isn't critical but abrasion resistance and visual consistency are paramount. Less suitable for data centers, industrial control panels, or outdoor patio offices due to lack of IP ratings, plenum compliance, or UV stabilization.",
     alternatives: ["joto-cable-clips", "cablemod-cable-kit", "nomad-base-station-pro"],
     scoreBreakdown: { features: 79, reviews: 85, momentum: 81, popularity: 92 },
     userQuotes: [
-      { role: "AV Integration Specialist", company: "Lumina Tech Solutions", quote: "We spec these for hybrid meeting rooms—bundles HDMI 2.1, DisplayPort 1.4a, and PoE++ Ethernet into single 6-ft sleeves routed through grommet plates; the matte finish hides micro-scratches from daily cable swaps." },
+      { role: "AV Integration Specialist", company: "Lumina Tech Solutions", quote: "We spec these for hybrid meeting rooms--bundles HDMI 2.1, DisplayPort 1.4a, and PoE++ Ethernet into single 6-ft sleeves routed through grommet plates; the matte finish hides micro-scratches from daily cable swaps." },
       { role: "Remote Engineering Lead", company: "NexusFlow Systems", quote: "Deployed across 127 developer home offices: the stretch range handles everything from 16AWG server PSUs to 30AWG optical audio cables, and the hook-and-loop stays secure even after weekly desk reconfigurations." },
     ],
   },
@@ -2411,7 +2483,7 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
     reviewCount: 3180,
     icon: Cable,
     description: "Premium leather-and-aluminum wireless charging station with MagSafe, Apple Watch, and AirPods charging plus integrated cable management.",
-    longDescription: `Crafted from Horween leather and aerospace-grade aluminum, the Base Station Pro delivers 15W MagSafe charging, 5W Apple Watch charging, and 5W AirPods charging—all powered by a single 30W USB-C input. Its integrated cable management system includes a recessed channel for hiding the power cord and a magnetic leather strap to secure excess length. The low-profile, weighted base prevents tipping, and the leather ages gracefully for a personalized patina over time. Designed for discerning professionals, it includes Nomad’s 2-year warranty and is certified MFi, Qi, and UL listed for safety.`,
+    longDescription: `Crafted from Horween leather and aerospace-grade aluminum, the Base Station Pro delivers 15W MagSafe charging, 5W Apple Watch charging, and 5W AirPods charging--all powered by a single 30W USB-C input. Its integrated cable management system includes a recessed channel for hiding the power cord and a magnetic leather strap to secure excess length. The low-profile, weighted base prevents tipping, and the leather ages gracefully for a personalized patina over time. Designed for discerning professionals, it includes Nomad's 2-year warranty and is certified MFi, Qi, and UL listed for safety.`,
     pros: [
       "Luxury materials (Horween leather + aluminum) age beautifully",
       "Integrated cord channel and magnetic strap eliminate visible clutter",
@@ -2421,7 +2493,7 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
     cons: [
       "Leather requires occasional conditioning to maintain finish",
       "No voice assistant or smart features",
-      "Higher cost reflects craftsmanship—not raw tech specs",
+      "Higher cost reflects craftsmanship--not raw tech specs",
     ],
     pricing: "$199.00",
     pricingDetail: "Hand-assembled in California; includes 2-year warranty and complimentary leather care kit.",
@@ -2433,12 +2505,12 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
       "Magnetic leather cable strap",
       "MFi/Qi/UL certified",
     ],
-    useCase: "Best for design-conscious professionals and executives who value enduring craftsmanship, tactile quality, and quiet elegance in their workspace—while less ideal for budget buyers, Android users, or those prioritizing smart features over material excellence.",
+    useCase: "Best for design-conscious professionals and executives who value enduring craftsmanship, tactile quality, and quiet elegance in their workspace--while less ideal for budget buyers, Android users, or those prioritizing smart features over material excellence.",
     alternatives: ["belkin-boostcharge-pro", "iottie-aivo-wireless", "joto-cable-clips"],
     scoreBreakdown: { features: 90, reviews: 89, momentum: 86, popularity: 78 },
     userQuotes: [
-      { role: "Creative Director", company: "Studio Lumina", quote: "It’s the first thing clients notice on my desk—not a gadget, but an object. The leather gets richer with time, and the cord channel means zero visible wires, ever." },
-      { role: "Venture Capital Partner", company: "Summit Peak Ventures", quote: "I’ve owned 7 chargers in 12 years. This is the only one I’ve kept past year two. It feels like part of the desk—not an accessory." },
+      { role: "Creative Director", company: "Studio Lumina", quote: "It's the first thing clients notice on my desk--not a gadget, but an object. The leather gets richer with time, and the cord channel means zero visible wires, ever." },
+      { role: "Venture Capital Partner", company: "Summit Peak Ventures", quote: "I've owned 7 chargers in 12 years. This is the only one I've kept past year two. It feels like part of the desk--not an accessory." },
     ],
   },
   ];
