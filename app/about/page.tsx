@@ -151,10 +151,10 @@ export default function AboutPage() {
               Contact Us
             </Link>
             <a
-              href="mailto:hello@jadeinteractive.fr"
-              className="px-6 py-3 border border-beige-300 hover:border-beige-400 text-beige-600 hover:text-beige-900 font-medium rounded-lg transition-all"
+              href="mailto:info@officepicks.net"
+              className="px-6 py-3 border-2 border-black/[0.08] hover:border-black/20 text-black/70 hover:text-black font-medium rounded-lg transition-all text-sm"
             >
-              hello@jadeinteractive.fr
+              info@officepicks.net
             </a>
           </div>
         </div>

@@ -80,7 +80,7 @@ export default function RootLayout({
               <div>
                 <h3 className="text-sm font-semibold text-beige-900 mb-4">Contact</h3>
                 <ul className="space-y-3">
-                  <li><a href="mailto:hello@officepicks.fr" className="text-sm text-beige-600 hover:text-beige-700 transition-colors">hello@officepicks.fr</a></li>
+                  <li><a href="mailto:info@officepicks.net" className="text-sm text-beige-600 hover:text-beige-700 transition-colors">info@officepicks.net</a></li>
                   <li><span className="text-sm text-beige-500">Bordeaux, France</span></li>
                   <li><Link href="/contact" className="text-sm text-beige-600 hover:text-beige-700 transition-colors">Contact Us</Link></li>
                   <li><Link href="/privacy" className="text-sm text-beige-600 hover:text-beige-700 transition-colors">Privacy Policy</Link></li>

@@ -124,20 +124,20 @@ export default function ContactPage() {
                   <strong className="text-beige-900">General Inquiries:</strong>
                   <br />
                   <a
-                    href="mailto:hello@jadeinteractive.fr"
+                    href="mailto:info@officepicks.net"
                     className="text-beige-500 hover:underline break-all"
                   >
-                    hello@jadeinteractive.fr
+                    info@officepicks.net
                   </a>
                 </p>
                 <p className="text-sm text-beige-600">
                   <strong className="text-beige-900">Product Suggestions:</strong>
                   <br />
                   <a
-                    href="mailto:hello@jadeinteractive.fr"
+                    href="mailto:info@officepicks.net"
                     className="text-beige-500 hover:underline break-all"
                   >
-                    hello@jadeinteractive.fr
+                    info@officepicks.net
                   </a>
                 </p>
               </div>

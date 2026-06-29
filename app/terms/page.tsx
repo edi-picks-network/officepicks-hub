@@ -95,7 +95,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-xl font-bold text-beige-900 mb-3">7. Contact Information</h2>
             <div className="mt-4 p-5 bg-beige-100 border border-beige-200 rounded-xl">
-              <p className="mb-2"><strong className="text-beige-900">Email:</strong> hello@officepicks.fr</p>
+              <p className="mb-2"><strong className="text-beige-900">Email:</strong> info@officepicks.net</p>
               <p className="mb-2"><strong className="text-beige-900">Studio:</strong> OfficePicks, 42 Quai des Chartrons, 33000 Bordeaux, France</p>
               <p><strong className="text-beige-900">Website:</strong> officepicks.net</p>
             </div>
