@@ -1,7 +1,34 @@
 import { MetadataRoute } from "next";
 
 const BLOG_SLUGS = [
-  "best-home-office-desk-chairs-2026",  "complete-home-office-setup-guide", "10-essential-home-office-upgrades-2026", "top-office-productivity-tools-2026", "standing-desk-ergonomics-2026", "state-of-remote-collaboration-tools-2026", "microsoft-365-vs-google-workspace-2026", "ai-office-assistants-compared-2026", "hybrid-home-office-guide-2026", "best-pm-tools-small-business-2026", "ai-productivity-tools-remote-teams-2026",  "time-blocking-tools-2026-sunsama-vs-motion-vs-reclaim", "dual-monitor-home-office-setup-2026", "office-collab-tools-20240620", "home-office-lighting-optimization-2026", "remote-team-collaboration-tools-2026", "async-first-productivity-tools-remote-teams-2026", "ergonomic-accessories-productivity-2026", "cable-management-home-office-2026", "height-adjustable-standing-desk-comparison-2026", "dual-monitor-vs-ultrawide-2026", "how-i-fixed-productivity-routine-5-tools-2026", "best-ergonomic-office-chair-2026-herman-miller-steelcase-branch", "best-office-monitor-arms-2026-ergotron-vs-humanscale", "top-home-office-essentials-2026", "best-noise-cancelling-headsets-remote-work-2026",
+  "best-home-office-desk-chairs-2026",
+  "complete-home-office-setup-guide",
+  "10-essential-home-office-upgrades-2026",
+  "top-office-productivity-tools-2026",
+  "standing-desk-ergonomics-2026",
+  "microsoft-365-vs-google-workspace-2026",
+  "state-of-remote-collaboration-tools-2026",
+  "ai-office-assistants-compared-2026",
+  "hybrid-home-office-guide-2026",
+  "best-pm-tools-small-business-2026",
+  "ai-productivity-tools-remote-teams-2026",
+  "time-blocking-tools-2026-sunsama-vs-motion-vs-reclaim",
+  "dual-monitor-home-office-setup-2026",
+  "office-collab-tools-20240620",
+  "home-office-lighting-optimization-2026",
+  "remote-team-collaboration-tools-2026",
+  "async-first-productivity-tools-remote-teams-2026",
+  "ergonomic-accessories-productivity-2026",
+  "cable-management-home-office-2026",
+  "height-adjustable-standing-desk-comparison-2026",
+  "dual-monitor-vs-ultrawide-2026",
+  "how-i-fixed-productivity-routine-5-tools-2026",
+  "best-ergonomic-office-chair-2026-herman-miller-steelcase-branch",
+  "best-office-monitor-arms-2026-ergotron-vs-humanscale",
+  "top-home-office-essentials-2026",
+  "best-noise-cancelling-headsets-remote-work-2026",
+  "best-ergonomic-keyboards-home-office-2026",
+  "best-ai-writing-assistants-remote-work-2026",
 ] as const;
 
 const TOOL_SLUGS = [
