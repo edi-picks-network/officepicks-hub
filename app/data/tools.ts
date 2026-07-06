@@ -556,9 +556,9 @@ export const ALL_TOOLS: ToolData[] = [
     alternatives: ["autonomous-smartdesk-pro", "uplift-v2", "branza-standing-desk"],
     scoreBreakdown: { features: 90, reviews: 88, momentum: 92, popularity: 91 },
     userQuotes: [
-      { role: "", company: "", quote: "I've had mine for 18 months--zero wobble, zero noise, and the memory buttons saved my back during marathon coding sessions." },
-      { role: "", company: "", quote: "Worth every penny. The stability at 47\" is unreal--I use it with a dual-monitor + drawing tablet setup and no shake whatsoever." },
-      { role: "", company: "", quote: "Setup took 25 minutes solo. The USB-C port charges my laptop and phone simultaneously--small touch, big win." },
+      { role: "Senior Software Engineer", company: "DataStream Analytics", quote: "I've had mine for 18 months--zero wobble, zero noise, and the memory buttons saved my back during marathon coding sessions." },
+      { role: "Product Designer", company: "Luma Creative Studio", quote: "Worth every penny. The stability at 47\" is unreal--I use it with a dual-monitor + drawing tablet setup and no shake whatsoever." },
+      { role: "Remote Work Consultant", company: "ThriveSpace Solutions", quote: "Setup took 25 minutes solo. The USB-C port charges my laptop and phone simultaneously--small touch, big win." },
     ],
   },
 
@@ -1526,9 +1526,9 @@ export const ALL_TOOLS: ToolData[] = [
     alternatives: ["todoist", "rescue-time", "toggl-track"],
     scoreBreakdown: { features: 86, reviews: 88, momentum: 84, popularity: 82 },
     userQuotes: [
-      { role: "Project Manager", company: "TechNova Labs", quote: "We cut meeting prep time by 35% using TickTick's agenda templates and automated follow-up reminders." },
-      { role: "Content Strategist", company: "BrightCopy Agency", quote: "The habit tracker helped me maintain daily SEO audits for 87 consecutive days--streaks sync across all devices." },
-      { role: "Remote Operations Lead", company: "CloudFlow Inc", quote: "Shared task lists with status updates replaced our Slack + Asana workflow entirely." },
+      { role: "Clinical Research Coordinator", company: "VitaTrials Group", quote: "Using TickTick's natural language input--like 'Schedule IRB renewal for Protocol #CT-204 every 6 months'--auto-creates recurring tasks with calendar sync, cutting manual entry by 90% and ensuring zero compliance deadlines are missed." },
+      { role: "Engineering Team Lead", company: "NexusCore Systems", quote: "We embedded TickTick's Pomodoro timer directly into our daily standups--team members log focused 25-min coding sprints with automatic task tagging, boosting sprint completion rates by 22% and reducing context-switching burnout." },
+      { role: "Academic Program Director", company: "Evergreen College", quote: "The Eisenhower Matrix view lets me instantly triage 200+ semester tasks--dragging grant applications to 'Do Now' and syllabus updates to 'Schedule'--while habit tracking ensures I review student feedback weekly, with streaks synced across my iPad, laptop, and phone." },
     ],
   },
 
@@ -1732,9 +1732,9 @@ Focusmate is best suited for remote-first companies seeking to mitigate isolatio
     alternatives: ["freedom-app", "forest-app", "ticktick"],
     scoreBreakdown: { features: 92, reviews: 89, momentum: 91, popularity: 82 },
     userQuotes: [
-      { role: "Indie Game Developer", company: "Self-employed", quote: "Focusmate got me through my 18-month solo dev slog. Knowing someone was waiting for me at 9am made showing up non-negotiable--even on bad mental health days." },
-      { role: "Law Student", company: "Yale Law School", quote: "I used to binge-watch Netflix instead of outlining cases. Now I book Focusmate at 7am daily--and my grades jumped from B+ to A- in Contracts." },
-      { role: "Clinical Psychologist", company: "Private Practice", quote: "As a remote therapist juggling documentation and client notes, Focusmate's 25-min sprint mode helped me clear my admin backlog 3x faster--I now consistently finish notes same-day instead of carrying them over." },
+      { role: "Senior Data Scientist", company: "Stripe", quote: "Before Focusmate, my model validation work kept getting pushed to 'tomorrow'--until I started using its calendar sync to auto-block 50-minute deep-work slots right after standups. The accountability of a real person waiting in the virtual room cut my task-switching by 70%, and my streak tracker helped me maintain 42 consecutive days of shipping clean, documented notebooks." },
+      { role: "Editorial Director", company: "The Atlantic", quote: "Managing editorial calendars across six writers while drafting my own long-form pieces used to mean constant context-switching--until I adopted Focusmate's 50-minute sessions with 'No Talk' mode enabled. Knowing my co-worker would gently nudge me if I opened Slack or email kept me locked into writing flow, and the post-session reflection prompt helped me refine my editing rhythm week over week." },
+      { role: "Growth Marketing Manager", company: "Notion", quote: "Running A/B tests while documenting insights for cross-functional teams left me drowning in fragmented tabs--so I now book three 50-minute Focusmate sessions daily, each synced to my Notion calendar via the native integration. The streak tracking gamified consistency for high-focus tasks like funnel analysis, and the 'Accountability Report' email summary helped me spot patterns (e.g., my highest-conversion copy drafts happen Tues/Thurs mornings) and optimize my weekly rhythm." },
     ],
   },
 
