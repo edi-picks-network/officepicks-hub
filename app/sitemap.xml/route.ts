@@ -29,6 +29,10 @@ const BLOG_SLUGS = [
   "best-noise-cancelling-headsets-remote-work-2026",
   "best-ergonomic-keyboards-home-office-2026",
   "best-ai-writing-assistants-remote-work-2026",
+  "best-standing-desk-mats-anti-fatigue-2026",
+  "must-have-ai-productivity-tools-remote-workers-2026",
+  "ultimate-guide-task-management-software-2026",
+  "best-webcams-remote-work-2026",
 ] as const;
 
 const TOOL_SLUGS = [
