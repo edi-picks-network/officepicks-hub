@@ -33,6 +33,7 @@ const BLOG_SLUGS = [
   "must-have-ai-productivity-tools-remote-workers-2026",
   "ultimate-guide-task-management-software-2026",
   "best-webcams-remote-work-2026",
+  "ultimate-home-office-ergonomics-guide-2026",
 ] as const;
 
 const TOOL_SLUGS = [
