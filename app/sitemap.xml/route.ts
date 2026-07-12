@@ -34,6 +34,9 @@ const BLOG_SLUGS = [
   "ultimate-guide-task-management-software-2026",
   "best-webcams-remote-work-2026",
   "ultimate-home-office-ergonomics-guide-2026",
+  "coworking-space-management-software-2026",
+  "standing-desk-buyers-guide-2026",
+  "collaborative-document-tools-comparison-2026",
 ] as const;
 
 const TOOL_SLUGS = [
