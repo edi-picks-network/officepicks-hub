@@ -37,6 +37,7 @@ const BLOG_SLUGS = [
   "coworking-space-management-software-2026",
   "standing-desk-buyers-guide-2026",
   "collaborative-document-tools-comparison-2026",
+  "best-ergonomic-mice-home-office-2026",
 ] as const;
 
 const TOOL_SLUGS = [
