@@ -39,6 +39,7 @@ const BLOG_SLUGS = [
   "collaborative-document-tools-comparison-2026",
   "best-ergonomic-mice-home-office-2026",
   "best-time-tracking-software-remote-workers-2026",
+  "ai-meeting-assistants-2026",
 ] as const;
 
 const TOOL_SLUGS = [
