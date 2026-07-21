@@ -45,6 +45,7 @@ const BLOG_SLUGS = [
   "smart-home-office-lighting-ambiance-productivity-2026",
   "standing-desk-monitor-setup-ergonomics-2026",
   "digital-minimalism-home-office-2026",
+  "2026-home-office-essential-equipment-guide",
 ] as const;
 
 const TOOL_SLUGS = [
