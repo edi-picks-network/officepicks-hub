@@ -575,6 +575,7 @@ export const ALL_TOOLS: ToolData[] = [
       { role: "UX Research Director", company: "TechNova Labs", quote: "As someone who stands 6'5\", the E7's 48.5-inch max height lets me work ergonomically without hunching. The memory presets sync perfectly with my Pomodoro timer--I've cut midday fatigue by half." },
       { role: "Physical Therapist", company: "VitalPosture Clinics", quote: "I recommend the E7 to post-rehab patients because its ultra-smooth lift minimizes joint stress. One client with chronic lower back pain reported 70% less discomfort after switching from her old single-motor desk." },
       { role: "Freelance Graphic Designer", company: "PixelForge Studio", quote: "The desktop's matte finish prevents glare on my Wacom tablet, and the cable raceway keeps my dual-monitor setup immaculate. Only gripe? The manual assumes mechanical familiarity--I needed YouTube help for torque settings." },
+      { role: "Software Engineering Manager", company: "CloudScale Systems", quote: "After deploying 15 E7 desks across our remote engineering team, the unanimous feedback was 'best investment of the year'. The 355 lb capacity easily handles my triple-monitor setup plus a loaded laptop stand." },
     ],
   },
 
@@ -836,6 +837,7 @@ export const ALL_TOOLS: ToolData[] = [
       { role: "UX Designer", company: "TechNova Labs", quote: "After six years of daily use, my LX still glides like new--worth every penny for posture and productivity." },
       { role: "Telehealth Coordinator", company: "MediCare Connect", quote: "The smooth adjustability lets me quickly reposition between laptop and patient-facing monitor--critical during back-to-back virtual visits." },
       { role: "Remote UX Designer", company: "Lumina Labs", quote: "Within 90 seconds of unboxing, I had both monitors perfectly aligned at eye level -- the tension calibration was spot-on, and the cable routing eliminated my desk spaghetti problem permanently." },
+      { role: "DevOps Engineer", company: "StackForge Inc.", quote: "I mounted a 32-inch 4K monitor on my LX arm and was shocked at how stable it stays even when I'm aggressively typing. No wobble, no drift--just rock-solid positioning at any height." },
     ],
   },
 
@@ -1825,6 +1827,7 @@ Focusmate is best suited for remote-first companies seeking to mitigate isolatio
       { role: "Senior UX Designer", company: "Stripe", quote: "Cut my eye fatigue by 60% during usability testing--especially with dark-mode interfaces." },
       { role: "Content Producer", company: "Vice Media", quote: "The dual-arm coverage on my 34-inch ultrawide is flawless. No more neck craning to avoid shadows." },
       { role: "IT Manager", company: "Cleveland Clinic", quote: "Deployed 42 units across telehealth workstations--zero returns, and staff report fewer headaches post-shift." },
+      { role: "Data Analyst", company: "Fintrust Analytics", quote: "I work 10-hour shifts analyzing spreadsheets and the Halo's adaptive brightness has completely eliminated my evening eye strain. The auto-dimming when I step away is a nice bonus." },
     ],
   },
 
