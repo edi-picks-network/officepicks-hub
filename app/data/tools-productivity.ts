@@ -152,21 +152,22 @@ export const PRODUCTIVITY_TOOLS: ToolData[] = [
     reviewCount: 11400,
     icon: Zap,
     description: "AI meeting assistant that provides real-time transcription, automated notes, action items, and meeting summaries.",
-    longDescription: "Otter.ai is an AI-powered meeting assistant that automatically transcribes conversations in real-time, generates meeting notes, captures action items, and creates shareable summaries. It integrates with Zoom, Google Meet, Microsoft Teams, and other major video conferencing platforms. Otter's AI identifies speakers, highlights key moments, and can even generate a meeting recaps document. The Otter Assistant can join meetings on your behalf, ensuring you never miss a note. It also allows you to search across all your meetings to find specific discussions.",
+    longDescription: "Otter.ai is an AI-powered meeting assistant that automatically transcribes conversations in real-time, generates comprehensive meeting notes, captures action items with project-linking, and creates shareable summaries. As of 2026, Otter has significantly enhanced its Otter Assistant feature—it can now auto-join meetings across Zoom, Google Meet, Microsoft Teams, and Webex, taking notes on your behalf even when you cannot attend. The new Otter AI Chat feature allows you to query past meetings conversationally, asking questions like 'What was the Q2 budget decision?' or 'Summarize action items from last week's sprint review.' Real-time speaker identification has been upgraded with voiceprint recognition that accurately distinguishes speakers even in large group meetings. Otter's new integration with project management tools like Asana, Jira, and Monday.com enables automatic creation of action item tickets directly from meeting transcripts—turning conversations into tracked work. The platform now supports transcription in 15+ languages with improved accuracy for non-native speakers, and its meeting analytics dashboard provides insights into meeting effectiveness, speaking time distribution, and decision velocity across your organization.",
     pros: [
-      "Real-time transcription with high accuracy",
-      "Automatic meeting summaries and action items",
-      "Seamless integration with major video conferencing tools",
-      "Searchable meeting archive across all conversations"
+      "Otter Assistant auto-joins meetings across Zoom, Google Meet, Teams, and Webex, taking notes even when you're absent",
+      "AI Chat enables conversational querying of past meetings—ask questions and get answers with source citations",
+      "Automatic action item extraction with direct integration to Asana, Jira, and Monday.com for ticket creation",
+      "Real-time voiceprint-based speaker identification accurately distinguishes participants in large group meetings",
+      "Multi-language transcription support (15+ languages) with improved accuracy for non-native speakers and accents"
     ],
     cons: [
-      "Free tier has limited transcription minutes per month",
-      "Accuracy can drop with heavy accents or poor audio",
-      "Privacy concerns with cloud-based processing",
-      "Speaker identification requires setup for best results"
+      "Free tier limited to 300 transcription minutes per month with reduced AI features",
+      "Accuracy can still degrade with overlapping speakers or poor audio quality from laptop mics",
+      "Cloud-based processing raises data privacy concerns for highly confidential meetings despite SOC 2 compliance",
+      "Speaker identification requires initial setup and voice profile enrollment for best accuracy with new joiners"
     ],
     pricing: "Freemium",
-    pricingDetail: "Free plan (300 min/month); Pro at $16.99/month; Business at $30/user/month; Enterprise at custom pricing",
+    pricingDetail: "Free plan (300 min/month with basic features); Pro at $16.99/month (billed annually, 1,200 min/month); Business at $30/user/month (billed annually, unlimited minutes, advanced analytics); Enterprise at custom pricing with dedicated support and on-premise deployment options",
     features: [
       "Real-time live transcription",
       "Automated meeting summaries with action items",
@@ -190,21 +191,22 @@ export const PRODUCTIVITY_TOOLS: ToolData[] = [
     reviewCount: 9600,
     icon: Zap,
     description: "AI-powered meeting assistant that records, transcribes, and analyzes conversations across multiple platforms.",
-    longDescription: "Fireflies.ai is a comprehensive meeting intelligence platform that automatically records, transcribes, and analyzes voice conversations across over 50 video conferencing, voice, and telephony platforms. It uses natural language processing to identify key topics, action items, sentiment, and meeting metrics. Fireflies integrates deeply with CRM and project management tools like Salesforce, HubSpot, Slack, and Asana, automatically logging meeting insights. Its AI search allows you to query across all meetings conversationally.",
+    longDescription: "Fireflies.ai is a comprehensive meeting intelligence platform that automatically records, transcribes, and analyzes voice conversations across 50+ video conferencing, voice, and telephony platforms. In 2026, Fireflies has introduced AskFred—an advanced conversational AI that lets you query all your meetings using natural language, such as 'Show me all objections raised in Q3 prospect calls' or 'What did the client say about pricing in our last demo?' The platform now offers enhanced multi-language transcription supporting 30+ languages with dialect-specific models for improved accuracy. Its sentiment analysis has been upgraded to track emotional trends across conversations over time, helping teams identify customer satisfaction shifts or team morale changes. Deep CRM integrations with Salesforce, HubSpot, and Zoho now auto-populate meeting notes, call summaries, and action items directly into deal records, reducing manual data entry. Fireflies' new Meeting Moments feature uses AI to identify and bookmark key highlights—objections raised, commitments made, or decisions reached—creating searchable highlight reels for each conversation. Topic tracking now uses hierarchical taxonomy that automatically categorizes discussion topics into custom-defined business categories. The platform also offers a new privacy mode that automatically redacts sensitive information (PII, financial data) from transcripts.",
     pros: [
-      "Works with 50+ meeting and communication platforms",
-      "Deep CRM and workflow integrations (Salesforce, Slack, Asana)",
-      "AI topic tracking, sentiment analysis, and action item detection",
-      "Customizable meeting templates and soundbite clips"
+      "AskFred conversational AI enables natural-language querying across all meeting archives for instant insights",
+      "Multi-language transcription with 30+ language support and dialect-specific accuracy models",
+      "Deep CRM integration auto-populates Salesforce, HubSpot, and Zoho with meeting notes and action items",
+      "Meeting Moments feature auto-identifies and bookmarks key highlights—decisions, objections, commitments",
+      "Enhanced sentiment analysis tracks emotional trends across conversations over time for team health insights"
     ],
     cons: [
-      "Setup can be complex with multiple integrations",
-      "Audio quality issues can affect transcription accuracy",
-      "Privacy and compliance concerns for sensitive meetings",
-      "Can record meetings inadvertently if not configured carefully"
+      "Setup complexity increases with multiple CRM and workflow integrations requiring admin configuration",
+      "Audio quality from participant microphones directly impacts transcription accuracy despite noise filtering",
+      "Privacy mode requires manual activation for sensitive meetings—not yet available as always-on default",
+      "Can inadvertently record personal conversations if meeting start/end detection is not configured correctly"
     ],
     pricing: "Freemium",
-    pricingDetail: "Free plan (limited credits); Pro at $19/month (billed annually); Business at $29/user/month (billed annually); Enterprise at custom pricing",
+    pricingDetail: "Free plan (limited credits, 2 seats); Pro at $19/month (billed annually, unlimited recordings, basic CRM sync); Business at $29/user/month (billed annually, AskFred access, advanced CRM sync, custom taxonomy); Enterprise at custom pricing (on-premise option, dedicated support, custom integrations)",
     features: [
       "Multi-platform meeting recording and transcription",
       "AI-powered action item and topic extraction",
@@ -228,21 +230,22 @@ export const PRODUCTIVITY_TOOLS: ToolData[] = [
     reviewCount: 7200,
     icon: Zap,
     description: "AI-powered noise cancellation and audio enhancement tool that removes background noise from any communication app.",
-    longDescription: "Krisp is an AI-powered audio processing engine that provides real-time noise cancellation, voice clarity enhancement, and echo removal for both microphone input and speaker output. It works at the system level, meaning it integrates with any communication app — Zoom, Teams, Slack, Discord, phone calls, recording software — without requiring app-specific plugins. Krisp uses deep learning models trained on millions of sound samples to distinguish human voices from background noise, allowing you to mute your noisy environment or remove distracting sounds from others.",
+    longDescription: "Krisp is an AI-powered audio processing engine that provides real-time noise cancellation, voice clarity enhancement, and echo removal at the system level—working with any communication app without requiring plugins. As of 2026, Krisp 2.0 introduces revolutionary Room Echo Cancellation 2.0 that uses spatial audio processing to eliminate reverb and echo in any room environment, even large conference spaces. Its new Multi-Speaker Voice Isolation can distinguish and enhance up to 4 simultaneous speakers in the same room, each as a separate audio channel—ideal for hybrid meetings where multiple people share a conference room mic. Real-time Accent Normalization gently adjusts pronunciation patterns to improve cross-cultural communication clarity without altering speaker identity. Krisp has dramatically reduced CPU usage with its new neural architecture (NPU-optimized), consuming 60% less processing power than the 2025 version while delivering better cancellation quality. The platform now supports 3D Audio Profiles that let users create personalized noise cancellation profiles optimized for their specific environment (coffee shop, home office, co-working space). Krisp's Voice SDK is now available for developers to integrate noise cancellation directly into custom applications. All processing remains 100% local with zero cloud data transmission for maximum privacy.",
     pros: [
-      "Works with any audio app at the system level",
-      "Bidirectional noise cancellation (input and output)",
-      "Voice clarity enhancement for professional-quality audio",
-      "AI echo removal and room reverb suppression"
+      "Room Echo Cancellation 2.0 uses spatial audio processing to eliminate reverb in any room including large conference spaces",
+      "Multi-Speaker Voice Isolation distinguishes and enhances up to 4 simultaneous speakers as separate audio channels",
+      "Real-time Accent Normalization improves cross-cultural communication clarity without altering speaker identity",
+      "60% lower CPU usage with NPU-optimized neural architecture—works on older laptops without performance impact",
+      "3D Audio Profiles let users create personalized cancellation profiles optimized for their specific environment"
     ],
     cons: [
-      "Can occasionally clip parts of speech as noise",
-      "Premium pricing for advanced features",
-      "Requires local processing which can use CPU resources",
-      "Limited free tier with daily usage caps"
+      "Can occasionally clip soft speech patterns or whispered words when aggressive noise cancellation is enabled",
+      "Premium pricing for advanced features (Multi-Speaker, Accent Normalization) requires Pro plan or higher",
+      "Accent Normalization may subtly alter voice characteristics in ways some users find unnatural initially",
+      "Free tier limited to 60 minutes/day with single-speaker noise cancellation only"
     ],
     pricing: "Freemium",
-    pricingDetail: "Free tier (limited minutes/day); Pro at $8/month (billed annually); Business at $15/user/month (billed annually); Enterprise at custom pricing",
+    pricingDetail: "Free tier (60 min/day, basic noise cancellation); Pro at $8/month (billed annually, unlimited use, all features); Business at $15/user/month (billed annually, team management, centralized billing); Enterprise at custom pricing (API access, custom models, dedicated support)",
     features: [
       "Real-time AI noise cancellation for mic and speaker",
       "Voice clarity enhancement",

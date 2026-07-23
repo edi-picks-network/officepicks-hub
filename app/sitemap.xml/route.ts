@@ -47,6 +47,7 @@ const BLOG_SLUGS = [
   "digital-minimalism-home-office-2026",
   "2026-home-office-essential-equipment-guide",
   "office-productivity-tool-stack-2026",
+  "best-noise-cancelling-headphones-remote-work-2026",
 ] as const;
 
 const TOOL_SLUGS = [
