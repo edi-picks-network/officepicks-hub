@@ -48,6 +48,7 @@ const BLOG_SLUGS = [
   "2026-home-office-essential-equipment-guide",
   "office-productivity-tool-stack-2026",
   "best-noise-cancelling-headphones-remote-work-2026",
+  "best-standing-desks-2026-ergonomic-test-uplift-flexispot-jarvis",
 ] as const;
 
 const TOOL_SLUGS = [
