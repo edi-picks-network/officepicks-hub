@@ -50,6 +50,7 @@ const BLOG_SLUGS = [
   "best-noise-cancelling-headphones-remote-work-2026",
   "best-standing-desks-2026-ergonomic-test-uplift-flexispot-jarvis",
   "best-desk-lamps-eye-strain-2026",
+  "home-office-acoustic-treatment-sound-optimization-2026",
 ] as const;
 
 const TOOL_SLUGS = [
