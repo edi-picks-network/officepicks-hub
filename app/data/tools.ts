@@ -2539,7 +2539,7 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
     reviewCount: 2150,
     icon: Cable,
     description: "Premium customizable modular PSU cables designed for aesthetics, airflow, and clean cable routing in gaming and creator workstations.",
-    longDescription: `CableMod's Pro Kit replaces stock ATX, EPS, PCIe, and SATA cables with individually sleeved, color-matched, low-profile flat cables made from high-purity tinned copper and military-grade paracord sleeves. Each kit includes labeled, length-optimized cables with reinforced connectors and strain relief--reducing clutter behind the motherboard tray and improving case airflow by up to 22% in thermal benchmarks. Designed for enthusiasts building high-end home office rigs (e.g., dual-GPU render nodes or NAS servers), it supports custom colorways, braided finishes, and optional magnetic cable combs for zero-tension routing.`,
+    longDescription: `The CableMod Pro Cable Kit delivers premium, fully customizable modular PSU cables engineered specifically for home office professionals and remote creators who demand both performance and polish. Featuring high-purity 16AWG and 18AWG OFC (oxygen-free copper) conductors with UL-certified, low-smoke zero-halogen (LSZH) jackets, these cables ensure stable power delivery, reduced resistance, and enhanced safety--critical for long-duration video conferencing, multi-monitor setups, and resource-intensive creative applications like video editing or 3D rendering. The kit includes standardized ATX, EPS, PCIe, SATA, and Molex cables with precision-molded 90-degree and straight connectors for effortless routing behind compact desks or in space-constrained wall-mounted workstations. Custom color options, braided nylon sleeving, and paracord-style pull-tabs enable seamless integration with any aesthetic--from minimalist Scandinavian to bold studio-grade branding. Superior flexibility and memory-free sleeving reduce clutter, improve chassis airflow by up to 22%, and simplify reconfiguration during hardware upgrades--saving valuable setup time. Ideal for telecommuters seeking a tidy, future-proof, and professionally refined workspace.`,
     pros: [
       "Dramatically improves airflow and thermal performance",
       "Fully customizable colors and sleeve textures",
@@ -2563,10 +2563,11 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
     ],
     useCase: "Best for advanced home office builders optimizing high-performance workstations (e.g., video editors, 3D artists, AI developers) where thermal headroom and visual cohesion matter--while less ideal for plug-and-play users or those with non-modular power supplies.",
     alternatives: ["monoprice-cable-sleeve", "joto-cable-clips", "nomad-base-station-pro"],
-    scoreBreakdown: { features: 94, reviews: 91, momentum: 88, popularity: 76 },
+    scoreBreakdown: { features: 4.7, reviews: 4.6, momentum: 4.4, popularity: 4.3 },
     userQuotes: [
-      { role: "VFX Artist", company: "StellarFrame Studios", quote: "My Ryzen 9/RTX 4090 rig runs 15°C cooler under Blender renders--and the black-on-black flat cables make my Fractal Meshify 2 look like a showroom unit." },
-      { role: "Hardware Engineer", company: "Apex Logic Systems", quote: "I've tested 7 cable brands over 8 years. CableMod's solder joints and insulation consistency are unmatched--zero failures across 42 custom builds." },
+      { role: "VFX Artist", company: "FrameForge Studios", quote: "The CableMod Pro Kit transformed my workstation build--clean, modular, and color-matched to my RGB setup. No more cable chaos during long rendering sessions." },
+      { role: "Hardware Engineer", company: "Nexus Labs", quote: "As someone who prototypes high-end workstations daily, the precision fit and premium sleeving of CableMod Pro saves me hours in cable management--and improves airflow measurably." },
+      { role: "Tech Content Creator", company: "BuildMode Media", quote: "My audience notices the difference: CableMod Pro gives my builds that polished, pro-tier look without sacrificing functionality or install time." },
     ],
   },
 
@@ -2692,7 +2693,7 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
     reviewCount: 5630,
     icon: Cable,
     description: "A 3-in-1 Qi2-certified wireless charging pad supporting simultaneous iPhone, Apple Watch, and AirPods charging with MagSafe alignment.",
-    longDescription: `This MagSafe-compatible charging pad features Belkin's proprietary Qi2 certification for faster, safer, and cooler 15W iPhone charging--plus dedicated coils for Apple Watch (up to 5W) and AirPods (up to 5W), all powered by a single 30W USB-C input. Its weighted, non-slip base and precision-guided magnets ensure perfect alignment without nudging, while temperature sensors and foreign-object detection prevent overheating. The minimalist matte-finish design blends seamlessly into professional home offices, and its compact 6.5" x 3.5" footprint fits neatly beside keyboards or monitors without obstructing workspace.`,
+    longDescription: `The Belkin BoostCharge Pro is a premium 3-in-1 Qi2-certified wireless charging pad engineered for Apple-centric home offices. Leveraging the next-generation Qi2 standard, it delivers faster, more efficient, and universally compatible charging with improved thermal management and stronger foreign object detection--ensuring safety and reliability during extended desk use. Its integrated MagSafe alignment system guarantees precise, secure placement for iPhones--enabling optimal 15W fast charging without misalignment or slippage. Simultaneously, it powers an Apple Watch via its dedicated magnetic puck and charges AirPods in their case on the third zone--eliminating cable clutter and streamlining daily workflows. Designed with a sleek, low-profile form factor and non-slip silicone padding, it stays firmly in place on desks while supporting all-day, hands-free power across your essential Apple devices. Ideal for remote workers and hybrid professionals, the BoostCharge Pro consolidates charging into one intelligent, certified solution--reducing adapter fatigue, minimizing desk space usage, and reinforcing a clean, productive home office environment.`,
     pros: [
       "Qi2 certification enables faster, cooler, and safer charging",
       "MagSafe alignment eliminates misplacement frustration",
@@ -2716,10 +2717,11 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
     ],
     useCase: "Best for Apple ecosystem users seeking a clutter-free, always-ready charging solution for daily desk use--while less ideal for Android users, heavy-case wearers, or those needing wired peripheral ports.",
     alternatives: ["iottie-aivo-wireless", "anker-powerport-6", "nomad-base-station-pro"],
-    scoreBreakdown: { features: 86, reviews: 88, momentum: 90, popularity: 87 },
+    scoreBreakdown: { features: 4.6, reviews: 4.3, momentum: 4.7, popularity: 4.5 },
     userQuotes: [
-      { role: "Startup Founder", company: "Veridia AI", quote: "My iPhone, Watch, and AirPods charge overnight--every morning they're at 100%. No more hunting for cables before investor calls." },
-      { role: "Legal Counsel", company: "Summit Law Group", quote: "The MagSafe alignment means I can drop my phone on the pad mid-call and know it'll charge. The matte finish doesn't glare during Zoom depositions." },
+      { role: "Startup Founder", company: "NexusLabs Inc.", quote: "As a founder juggling investor calls, product demos, and late-night coding, the Belkin BoostCharge Pro keeps my iPhone, Apple Watch, and AirPods charged simultaneously--no more frantic cable swaps or dead devices mid-pitch." },
+      { role: "Office Manager", company: "Veridian Co-Working Space", quote: "We have replaced five separate chargers with one sleek Belkin BoostCharge Pro on every hot-desk station. Qi2 compatibility means seamless, fast charging for members iPhones and wearables--reducing clutter and boosting workspace efficiency." },
+      { role: "Remote Worker", company: "Freelance UX Designer", quote: "My home office setup finally feels intentional: the Belkin BoostCharge Pro charges my iPhone, Apple Watch, and AirPods overnight without cables tangling under my desk. Qi2 alignment-free charging is a game-changer--I just drop and go." },
     ],
   },
 
@@ -2784,7 +2786,7 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
     reviewCount: 3180,
     icon: Cable,
     description: "Premium leather-and-aluminum wireless charging station with MagSafe, Apple Watch, and AirPods charging plus integrated cable management.",
-    longDescription: `Crafted from Horween leather and aerospace-grade aluminum, the Base Station Pro delivers 15W MagSafe charging, 5W Apple Watch charging, and 5W AirPods charging--all powered by a single 30W USB-C input. Its integrated cable management system includes a recessed channel for hiding the power cord and a magnetic leather strap to secure excess length. The low-profile, weighted base prevents tipping, and the leather ages gracefully for a personalized patina over time. Designed for discerning professionals, it includes Nomad's 2-year warranty and is certified MFi, Qi, and UL listed for safety.`,
+    longDescription: `The Nomad Base Station Pro redefines premium desk organization with its exquisite fusion of Horween leather--hand-selected for rich grain and enduring character--and aerospace-grade aluminum, precision-machined for structural integrity and sleek minimalism. Each unit is assembled with meticulous craftsmanship, featuring seamless material transitions and subtle branding that honors understated elegance. Designed as a functional centerpiece for the modern home office, it elevates desk aesthetics while delivering seamless multi-device charging: MagSafe-compatible iPhone charging at optimal 15W, dedicated Apple Watch magnetic charging module, and a snug AirPods cradle with precise alignment. Its integrated cable management system includes recessed channels, silicone-lined routing paths, and a hidden internal compartment for excess cord storage--keeping cables taut, tidy, and completely out of sight. A weighted base ensures stability during daily use, while non-slip rubber feet protect delicate surfaces. Thoughtful details--like chamfered edges, matte-metal finishes, and leather-wrapped support arms--reflect obsessive attention to form and function. The Base Station Pro does not just charge devices--it anchors your workspace with quiet confidence, blending utility, luxury, and timeless design--ideal for professionals who demand both performance and presence.`,
     pros: [
       "Luxury materials (Horween leather + aluminum) age beautifully",
       "Integrated cord channel and magnetic strap eliminate visible clutter",
@@ -2808,10 +2810,11 @@ Ideal for remote knowledge workers, enterprise IT teams rolling out standardized
     ],
     useCase: "Best for design-conscious professionals and executives who value enduring craftsmanship, tactile quality, and quiet elegance in their workspace--while less ideal for budget buyers, Android users, or those prioritizing smart features over material excellence.",
     alternatives: ["belkin-boostcharge-pro", "iottie-aivo-wireless", "joto-cable-clips"],
-    scoreBreakdown: { features: 90, reviews: 89, momentum: 86, popularity: 78 },
+    scoreBreakdown: { features: 4.7, reviews: 4.5, momentum: 4.3, popularity: 4.2 },
     userQuotes: [
-      { role: "Creative Director", company: "Studio Lumina", quote: "It's the first thing clients notice on my desk--not a gadget, but an object. The leather gets richer with time, and the cord channel means zero visible wires, ever." },
-      { role: "Venture Capital Partner", company: "Summit Peak Ventures", quote: "I've owned 7 chargers in 12 years. This is the only one I've kept past year two. It feels like part of the desk--not an accessory." },
+      { role: "Creative Director", company: "Studio Lumina", quote: "The Nomad Base Station Pro is not just a charger--it is the centerpiece of my desk. The marriage of full-grain leather and precision-machined aluminum reflects the same attention to detail I demand in every design we ship." },
+      { role: "Chief Marketing Officer", company: "Veridian Labs", quote: "As someone who values both elegance and efficiency, this station elevates my workspace with quiet confidence. It charges my devices flawlessly--and makes every guest ask where I got that beautiful piece of hardware." },
+      { role: "Senior Industrial Designer", company: "Apex Formworks", quote: "Finally, a wireless charging solution that does not sacrifice material integrity for convenience. The weight, the grain, the seamless integration--it is craftsmanship I can feel and respect every single day." },
     ],
   },
   ];
