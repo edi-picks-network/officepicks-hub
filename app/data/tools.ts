@@ -961,7 +961,7 @@ export const ALL_TOOLS: ToolData[] = [
       "UL-certified 17.6 lb total capacity with BIFMA x5.1-compliant stability testing",
       "Dual-mount system (C-clamp + grommet) compatible with desks 0.8\"–3.15\" thick"
       ],
-    useCase: "最佳适用于预算有限的中小型企业、远程办公人员及呼叫中心团队，需要稳定可靠的双屏升降与灵活角度调节；而不太适合频繁更换显示器型号的IT部署场景、超宽曲面屏（34英寸以上）用户，或对USB-C供电集成有硬性需求的专业设计工作室。",
+    useCase: "Best for budget-conscious small to mid-size businesses, remote workers, and call-center teams that need stable dual-screen height adjustment with flexible angle control. Less suited to IT deployments that frequently swap monitor models, ultrawide curved-screen (34-inch plus) users, or professional design studios with strict USB-C power-integration requirements.",
     alternatives: ["wali-dual-arm", "ergotron-hx", "atdec-freestanding"],
     scoreBreakdown: { features: 4.4, reviews: 4.2, momentum: 4.6, popularity: 4.8 },
     userQuotes: [
@@ -1092,7 +1092,7 @@ export const ALL_TOOLS: ToolData[] = [
       "VESA 75/100mm compatible with pre-installed mounting plates and tool-free adjustment",
       "Modular cable management system featuring dual silicone sleeves, dual Velcro straps, and recessed routing channels"
       ],
-    useCase: "最佳适用于开发人员、财务分析师和远程办公者在深度不足24英寸的窄型办公桌上构建稳定双屏工作环境，而不太适合需要单臂延伸超过20英寸的超宽49英寸显示器用户或对旋转角度锁定精度要求达到±0.5度的专业图像校准工作者",
+    useCase: "Best for developers, financial analysts, and remote workers building a stable dual-screen setup on narrow desks shallower than 24 inches. Less suited to users with ultrawide 49-inch monitors that need a single arm reaching beyond 20 inches, or to professional image-calibration work that demands rotation-lock precision of plus-or-minus 0.5 degrees.",
     alternatives: ["vivo-dual-monitor-arm", "loctek-d7d", "ergotron-hx"],
     scoreBreakdown: { features: 84, reviews: 87, momentum: 86, popularity: 89 },
     userQuotes: [
@@ -1128,7 +1128,7 @@ export const ALL_TOOLS: ToolData[] = [
       "FSC-certified hardwood base with food-grade mineral oil finish applied over 3 hand-rubbed coats for moisture resistance",
       "Silicone-lined cable management tray with 4 routed channels and Velcro-secured retention strap"
       ],
-    useCase: "最佳适用追求长期人体工学品质、注重桌面美学统一性的创意总监、建筑师与远程办公高管，而不太适合预算有限的学生、需要频繁搬运的合租住户或使用超薄笔记本的极简设备用户",
+    useCase: "Best for creative directors, architects, and remote-working executives who value long-term ergonomic quality and a unified desk aesthetic. Less suited to budget-conscious students, shared-household residents who move frequently, or minimalist setup users with ultra-thin laptops.",
     alternatives: ["rain-design-i-level", "roost-laptop-stand", "twelve-south-bookshelf"],
     scoreBreakdown: { features: 92, reviews: 90, momentum: 78, popularity: 74 },
     userQuotes: [
