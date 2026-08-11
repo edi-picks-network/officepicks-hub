@@ -64,6 +64,7 @@ const BLOG_SLUGS = [
   "desk-height-ergonomics-calculator-guide-2026",
   "sit-stand-desk-vs-fixed-desk-2026",
   "under-desk-active-workstation-guide-2026",
+  "best-ergonomic-mouse-home-office-2026",
 ] as const;
 
 const TOOL_SLUGS = [
