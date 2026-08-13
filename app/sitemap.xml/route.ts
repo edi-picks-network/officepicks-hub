@@ -66,6 +66,7 @@ const BLOG_SLUGS = [
   "under-desk-active-workstation-guide-2026",
   "best-ergonomic-mouse-home-office-2026",
   "monitor-light-bar-vs-desk-lamp-2026",
+  "monitor-arm-vs-monitor-stand-2026",
 ] as const;
 
 const TOOL_SLUGS = [
